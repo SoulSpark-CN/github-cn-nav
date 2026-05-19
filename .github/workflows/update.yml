@@ -37,6 +37,7 @@ jobs:
       - name: 运行更新
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
         run: |
           if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then

@@ -19,9 +19,12 @@ STATE_PATH = os.path.join(BASE, ".update_state.json")
 
 # Load tokens: env vars (CI) > .env file (local)
 GH_TOKEN = os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN")
-DS_KEY = os.environ.get("DEEPSEEK_API_KEY") or os.environ.get("DS_KEY")
+# LLM: 支持任意OpenAI兼容API → 默认DeepSeek
+LLM_KEY = os.environ.get("LLM_API_KEY") or os.environ.get("DEEPSEEK_API_KEY") or os.environ.get("DS_KEY")
+LLM_API = os.environ.get("LLM_BASE_URL") or os.environ.get("DS_API") or "https://api.deepseek.com/chat/completions"
+LLM_MODEL = os.environ.get("LLM_MODEL") or "deepseek-chat"
 
-if not GH_TOKEN or not DS_KEY:
+if not GH_TOKEN or not LLM_KEY:
     # Fallback: read from .env file
     env_file = os.path.expanduser("~/.hermes/.env")
     if os.path.exists(env_file):
@@ -29,20 +32,19 @@ if not GH_TOKEN or not DS_KEY:
         if not GH_TOKEN:
             m = re.search(r'GITHUB_TOKEN=(.+)', env_text) or re.search(r'GH_TOKEN=(.+)', env_text)
             GH_TOKEN = m.group(1).strip().strip('"').strip("'") if m else None
-        if not DS_KEY:
+        if not LLM_KEY:
             m = re.search(r'DEEPSEEK_API_KEY=(.+)', env_text) or re.search(r'DS_KEY=(.+)', env_text)
             DS_KEY = m.group(1).strip().strip('"').strip("'") if m else None
 
 if not GH_TOKEN:
     print("❌ GITHUB_TOKEN not set (env or ~/.hermes/.env)", flush=True)
     sys.exit(1)
-if not DS_KEY:
-    print("❌ DEEPSEEK_API_KEY not set (env or ~/.hermes/.env)", flush=True)
+if not LLM_KEY:
+    print("❌ LLM_API_KEY not set. 设环境变量: LLM_API_KEY=sk-xxx (兼容 DEEPSEEK_API_KEY)", flush=True)
     sys.exit(1)
 
 GH_HDR = {"Accept": "application/vnd.github.v3+json", "User-Agent": "hermes-updater/2.0", "Authorization": f"token {GH_TOKEN}"}
-DS_HDR = {"Authorization": f"Bearer {DS_KEY}", "Content-Type": "application/json"}
-DS_API = "https://api.deepseek.com/chat/completions"
+LLM_HDR = {"Authorization": f"Bearer {LLM_KEY}", "Content-Type": "application/json"}
 
 # ============ State ============
 def load_state():
@@ -183,8 +185,8 @@ def translate_and_explain(repos):
         
         for retry in range(5):
             try:
-                r = requests.post(DS_API, headers=DS_HDR,
-                    json={"model": "deepseek-chat", "messages": [{"role": "user", "content": prompt}],
+                r = requests.post(LLM_API, headers=LLM_HDR,
+                    json={"model": LLM_MODEL, "messages": [{"role": "user", "content": prompt}],
                           "max_tokens": 10000, "temperature": 0.3},
                     timeout=180, verify=False)
                 if r.status_code == 200:
