@@ -133,6 +133,10 @@ async function loadData() {
     catMap['_new_month'] = allProjects.filter(p => p.first_seen >= monthAgo && p.first_seen < weekAgo).sort((a,b) => b.first_seen.localeCompare(a.first_seen));
     catMap['_new_half'] = allProjects.filter(p => p.first_seen >= halfAgo && p.first_seen < monthAgo).sort((a,b) => b.first_seen.localeCompare(a.first_seen));
     
+    // 近5日升星最快 top 100
+    const fiveDaysAgo = new Date(now - 5*86400000).toISOString().slice(0,10);
+    catMap['_trending'] = allProjects.filter(p => p.first_seen >= fiveDaysAgo).sort((a,b) => b.stars - a.stars).slice(0, 100);
+    
     // Render category grid
         renderCatGrid();
     area.innerHTML = '<div class="loading-state">点击上方分类开始浏览</div>';
@@ -145,8 +149,8 @@ async function loadData() {
 }
 
 // ============ CATEGORY GRID ============
-const CAT_COLORS = {"_new_week": "#f59e0b", "_new_month": "#f97316", "_new_half": "#ef4444", "API-工具-命令行": "#3b82f6", "前端-UI框架": "#8b5cf6", "后端-框架-API": "#06b6d4", "操作系统-底层-内核": "#ef4444", "开发工具-编辑器-IDE": "#f59e0b", "学习资源-教程-书籍": "#10b981", "大语言模型-LLM": "#6366f1", "AI应用-Agent": "#8b5cf6", "移动开发-Android-iOS": "#22c55e", "数据科学-数据库": "#14b8a6", "AI-机器学习": "#a855f7", "自动化-DevOps-部署": "#0ea5e9", "媒体-音视频-直播": "#ec4899", "安全-网络-代理": "#dc2626", "游戏-娱乐": "#eab308", "其他": "#6b7280", "内容创作-AIGC-设计": "#f97316", "编程语言-编译器": "#84cc16", "建站-电商-CMS": "#06b6d4", "区块链-Web3": "#f59e0b", "爬虫-数据采集": "#14b8a6", "量化交易-金融": "#10b981"};
-const NEW_LABELS = {"_new_week": "🆕 一周新上", "_new_month": "🆕 一月新上", "_new_half": "🆕 半年新上"};
+const CAT_COLORS = {"_trending": "#22c55e", "_new_week": "#f59e0b", "_new_month": "#f97316", "_new_half": "#ef4444", "API-工具-命令行": "#3b82f6", "前端-UI框架": "#8b5cf6", "后端-框架-API": "#06b6d4", "操作系统-底层-内核": "#ef4444", "开发工具-编辑器-IDE": "#f59e0b", "学习资源-教程-书籍": "#10b981", "大语言模型-LLM": "#6366f1", "AI应用-Agent": "#8b5cf6", "移动开发-Android-iOS": "#22c55e", "数据科学-数据库": "#14b8a6", "AI-机器学习": "#a855f7", "自动化-DevOps-部署": "#0ea5e9", "媒体-音视频-直播": "#ec4899", "安全-网络-代理": "#dc2626", "游戏-娱乐": "#eab308", "其他": "#6b7280", "内容创作-AIGC-设计": "#f97316", "编程语言-编译器": "#84cc16", "建站-电商-CMS": "#06b6d4", "区块链-Web3": "#f59e0b", "爬虫-数据采集": "#14b8a6", "量化交易-金融": "#10b981"};
+const NEW_LABELS = {"_trending": "🔥 近5日飙升", "_new_week": "🆕 一周新上", "_new_month": "🆕 一月新上", "_new_half": "🆕 半年新上"};
 const EMOJI_MAP = {"大语言": "🤖", "AI应用": "⚡", "AI-机": "🧠", "内容创作": "🎨", "前端": "🖥️", "后端": "⚙️", "编程语言": "📜", "操作系统": "💻", "开发工具": "🛠️", "API": "🔧", "数据科学": "🗄️", "安全": "🔒", "区块链": "⛓️", "量化": "💰", "移动": "📱", "自动化": "🔄", "学习资源": "📚", "建站": "🌐", "游戏": "🎮", "爬虫": "🕷️", "媒体": "🎬", "其他": "📌"};
 
 function emojiFor(cat) {
@@ -166,7 +170,7 @@ function renderCatGrid() {
     if (aNew && !bNew) return 1;
     if (!aNew && bNew) return -1;
     if (aNew && bNew) {
-      const order = {'_new_week':0,'_new_month':1,'_new_half':2};
+      const order = {'_trending':0,'_new_week':1,'_new_month':2,'_new_half':3};
       return (order[a[0]]||9) - (order[b[0]]||9);
     }
     return b[1].length - a[1].length;
