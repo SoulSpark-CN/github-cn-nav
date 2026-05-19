@@ -294,8 +294,16 @@ def rebuild_projects_json(repos):
         with open(rh_path, encoding="utf-8") as f:
             raw = json.load(f)
         for k, v in raw.items():
-            if isinstance(v, dict) or ("/" in str(k)):
-                renhua[k] = v
+            if isinstance(v, dict):
+                kstr = str(k)
+                if kstr.isdigit():
+                    # 数字key → 按位对应repos中的项目名
+                    idx = int(kstr)
+                    if 0 <= idx < len(repos):
+                        renhua[repos[idx]["name"]] = v
+                elif "/" in kstr:
+                    # 项目名key → 直接用
+                    renhua[kstr] = v
     
     # Load classifier
     with open(os.path.join(BASE, "phase3_enhanced.py"), encoding="utf-8") as f:

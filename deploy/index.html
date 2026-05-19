@@ -4,44 +4,44 @@
 <title>GitHub 5000+ Star 项目中文导航</title>
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
-body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:#0f172a;color:#e2e8f0;padding:24px;max-width:1600px;margin:0 auto;font-size:19px}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:#0f172a;color:#e2e8f0;padding:24px;max-width:1600px;margin:0 auto;font-size:17px}
 .header{text-align:center;padding:32px 0 20px;border-bottom:1px solid #1e293b;margin-bottom:24px}
-.header h1{font-size:38px;background:linear-gradient(135deg,#60a5fa,#a78bfa);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
-.header p{color:#64748b;margin-top:8px;font-size:18px}
+.header h1{font-size:34px;background:linear-gradient(135deg,#60a5fa,#a78bfa);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.header p{color:#64748b;margin-top:8px;font-size:16px}
 .stats{display:flex;gap:16px;justify-content:center;flex-wrap:wrap;margin:16px 0}
 .stat-item{background:#1e293b;border-radius:10px;padding:12px 24px;text-align:center;min-width:100px}
-.stat-item .num{font-size:34px;font-weight:700;color:#60a5fa}
+.stat-item .num{font-size:30px;font-weight:700;color:#60a5fa}
 .stat-item .label{color:#94a3b8;font-size:17px;margin-top:2px}
 .search-bar{margin:20px 0;display:flex;gap:10px}
-.search-bar input{flex:1;min-width:200px;padding:12px 18px;border-radius:8px;border:1px solid #334155;background:#1e293b;color:#e2e8f0;font-size:18px;outline:none;transition:.2s}
+.search-bar input{flex:1;min-width:200px;padding:11px 16px;border-radius:8px;border:1px solid #334155;background:#1e293b;color:#e2e8f0;font-size:16px;outline:none;transition:.2s}
 .search-bar input:focus{border-color:#60a5fa;box-shadow:0 0 0 3px rgba(96,165,250,.2)}
-.cat-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:8px;margin-bottom:28px}
-.cat-card{background:#1e293b;border-radius:10px;padding:20px 24px;cursor:pointer;transition:.15s;border:1px solid transparent;user-select:none}
+.cat-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:8px;margin-bottom:28px}
+.cat-card{background:#1e293b;border-radius:10px;padding:18px 22px;cursor:pointer;transition:.15s;border:1px solid transparent;user-select:none}
 .cat-card:hover,.cat-card.active{border-color:#60a5fa;background:#1e3a5f}
 .new-cat{border:1px solid rgba(245,158,11,.3);background:linear-gradient(135deg,#1e293b,#2d1a0a)}
-.cat-card .cat-name{font-size:20px;font-weight:600}
-.cat-card .cat-count{font-size:17px;color:#64748b;margin-top:2px}
+.cat-card .cat-name{font-size:18px;font-weight:600}
+.cat-card .cat-count{font-size:15px;color:#64748b;margin-top:2px}
 .cat-card .cat-bar{height:3px;border-radius:2px;margin-top:6px;transition:.3s}
 .project-area{margin-bottom:24px}
-.project-area h2{font-size:22px;padding:12px 0;display:flex;align-items:center;gap:8px;border-bottom:1px solid #1e293b;margin-bottom:10px;position:sticky;top:0;background:#0f172a;z-index:10}
-.project-item{padding:16px 20px;border-radius:6px;transition:.12s;border-bottom:1px solid #1e293b;cursor:pointer}
+.project-area h2{font-size:20px;padding:12px 0;display:flex;align-items:center;gap:8px;border-bottom:1px solid #1e293b;margin-bottom:10px;position:sticky;top:0;background:#0f172a;z-index:10}
+.project-item{padding:14px 18px;border-radius:6px;transition:.12s;border-bottom:1px solid #1e293b;cursor:pointer}
 .project-item:hover{background:#1e293b}
 .project-top{display:flex;align-items:center;gap:10px}
-.project-top .rank{color:#64748b;font-size:18px;min-width:28px;text-align:right}
+.project-top .rank{color:#64748b;font-size:16px;min-width:28px;text-align:right}
 .rh-badge{background:#8b5cf6;color:#fff;border-radius:4px;padding:2px 9px;font-size:15px;cursor:pointer;white-space:nowrap;flex-shrink:0;font-weight:600}
 .rh-badge:hover{background:#7c3aed}
-.project-top .name{font-weight:600;color:#60a5fa;text-decoration:none;font-size:20px;min-width:200px;max-width:420px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.project-top .name{font-weight:600;color:#60a5fa;text-decoration:none;font-size:18px;min-width:200px;max-width:380px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .project-top .name:hover{text-decoration:underline}
-.project-top .desc{flex:1;color:#94a3b8;font-size:18px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.project-top .stars{color:#f59e0b;font-size:18px;min-width:70px;text-align:right;font-variant-numeric:tabular-nums}
-.project-top .lang{font-size:17px;color:#64748b;min-width:80px;text-align:right}
-.rh-panel{display:none;background:linear-gradient(135deg,#1a2332 0%,#162032 100%);border-radius:8px;padding:24px 28px;margin:12px 0 8px 48px;border-left:4px solid #8b5cf6;font-size:18px;line-height:1.8;max-width:120ch;box-shadow:0 2px 12px rgba(0,0,0,.3)}
+.project-top .desc{flex:1;color:#94a3b8;font-size:16px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.project-top .stars{color:#f59e0b;font-size:16px;min-width:70px;text-align:right;font-variant-numeric:tabular-nums}
+.project-top .lang{font-size:15px;color:#64748b;min-width:80px;text-align:right}
+.rh-panel{display:none;background:linear-gradient(135deg,#1a2332 0%,#162032 100%);border-radius:8px;padding:22px 26px;margin:12px 0 8px 48px;border-left:4px solid #8b5cf6;font-size:17px;line-height:1.8;max-width:110ch;box-shadow:0 2px 12px rgba(0,0,0,.3)}
 .rh-panel.open{display:block}
 .rh-panel .rh-section{display:flex;gap:10px;align-items:flex-start;margin-bottom:10px}
 .rh-panel .rh-section:last-child{margin-bottom:0}
-.rh-panel .rh-icon{flex-shrink:0;width:24px;text-align:center;font-size:18px;margin-top:1px}
-.rh-panel .rh-label{color:#8b5cf6;font-size:14px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;margin-bottom:2px}
-.rh-panel .rh-one{color:#fbbf24;font-weight:700;font-size:22px;line-height:1.5;padding-bottom:8px;border-bottom:1px solid rgba(139,92,246,.2);margin-bottom:10px}
+.rh-panel .rh-icon{flex-shrink:0;width:22px;text-align:center;font-size:17px;margin-top:1px}
+.rh-panel .rh-label{color:#8b5cf6;font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;margin-bottom:2px}
+.rh-panel .rh-one{color:#fbbf24;font-weight:700;font-size:20px;line-height:1.5;padding-bottom:8px;border-bottom:1px solid rgba(139,92,246,.2);margin-bottom:10px}
 .rh-panel .rh-plain{color:#cbd5e1;line-height:1.7}
 .rh-panel .rh-ana{color:#94a3b8;line-height:1.6;font-style:italic}
 .rh-panel .rh-aud{color:#94a3b8;line-height:1.6}
@@ -49,7 +49,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
 @keyframes shimmer{0%{background-position:200% 0}100%{background-position:-200% 0}}
 .item-enter{animation:fadeIn .2s ease}
 @keyframes fadeIn{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}
-.footer{text-align:center;padding:24px;color:#475569;font-size:17px}
+.footer{text-align:center;padding:24px;color:#475569;font-size:15px}
 .loading{text-align:center;padding:40px;color:#64748b}
 .loading::after{content:'...';animation:dots 1.5s steps(4,end) infinite}
 @keyframes dots{0%{content:'.'}33%{content:'..'}66%{content:'...'}}
