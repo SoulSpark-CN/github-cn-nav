@@ -97,6 +97,16 @@ with open(HTML_SRC, encoding="utf-8") as f:
 with open(JSON_SRC, encoding="utf-8") as f:
     data_json = f.read()
 
+# Inline surge data (may not exist yet — skip if missing)
+SURGE_SRC = os.path.join(BASE, "surge_top100.json")
+if os.path.exists(SURGE_SRC):
+    with open(SURGE_SRC, encoding="utf-8") as f:
+        surge_json = f.read()
+    surge_safe = json.dumps(surge_json).replace('</', '<\\/')
+    old_surge_fetch = "const surgeResp = await fetch('surge_top100.json');"
+    new_surge_fetch = f"const surgeResp = new Response({surge_safe});"
+    html = html.replace(old_surge_fetch, new_surge_fetch)
+
 # Replace fetch('projects.json') with inline data
 # CRITICAL: escape </script> to prevent HTML parser from closing <script> tag
 js_safe = json.dumps(data_json).replace('</', '<\\/')

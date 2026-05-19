@@ -19,7 +19,7 @@ permissions:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 45
     env:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     
@@ -36,6 +36,9 @@ jobs:
       - name: 安装依赖
         run: pip install -r requirements.txt
       
+      - name: 计算近5日飙升（GH Archive 真实 star 增量）
+        run: python3 compute_surge.py --days 5 --top 100 --workers 20
+
       - name: 运行更新
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -47,13 +50,18 @@ jobs:
           else
             python3 auto_update.py
           fi
-      
+
+      - name: 重新生成部署包（含最新数据+飙升）
+        run: |
+          cp surge_top100.json deploy/
+          python3 deploy.py
+
       - name: 提交变更
         if: ${{ github.event.inputs.dry_run != 'true' }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add manifest.json 人话解读.json projects.json translate_batch_*_done.json deploy/ 分类统计.json
+          git add manifest.json 人话解读.json projects.json translate_batch_*_done.json deploy/ surge_top100.json 分类统计.json
           git diff --staged --quiet || (
             git commit -m "🤖 auto-update: $(date +%Y-%m-%d)" &&
             git push

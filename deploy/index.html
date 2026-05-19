@@ -133,9 +133,31 @@ async function loadData() {
     catMap['_new_month'] = allProjects.filter(p => p.first_seen >= monthAgo && p.first_seen < weekAgo).sort((a,b) => b.first_seen.localeCompare(a.first_seen));
     catMap['_new_half'] = allProjects.filter(p => p.first_seen >= halfAgo && p.first_seen < monthAgo).sort((a,b) => b.first_seen.localeCompare(a.first_seen));
     
-    // 近5日升星最快 top 100
-    const fiveDaysAgo = new Date(now - 5*86400000).toISOString().slice(0,10);
-    catMap['_trending'] = allProjects.filter(p => p.first_seen >= fiveDaysAgo).sort((a,b) => b.stars - a.stars).slice(0, 100);
+    // 近5日飙升: 基于 GH Archive 真实 star 增量数据
+    try {
+      const surgeResp = await fetch('surge_top100.json');
+      if (surgeResp.ok) {
+        const surgeData = await surgeResp.json();
+        // Build lookup: repo name → surge count
+        const surgeMap = {};
+        surgeData.forEach(s => { surgeMap[s.repo.toLowerCase()] = s.surge_5d; });
+        // Find matching projects and add surge field
+        catMap['_trending'] = [];
+        allProjects.forEach(p => {
+          const repo = (p.url || '').replace(/^https?:\/\/github\.com\//i, '').toLowerCase();
+          const delta = surgeMap[repo];
+          if (delta) {
+            p.surge_5d = delta;
+            catMap['_trending'].push(p);
+          }
+        });
+        // Sort by surge delta descending
+        catMap['_trending'].sort((a,b) => b.surge_5d - a.surge_5d);
+      }
+    } catch(e) {
+      console.warn('surge_top100.json load failed, trending disabled:', e.message);
+      catMap['_trending'] = [];
+    }
     
     // Render category grid
         renderCatGrid();
@@ -165,8 +187,8 @@ function renderCatGrid() {
   const entries = Object.entries(catMap);
   // Sort: new categories first, then by count
   const cats = entries.sort((a,b) => {
-    const aNew = a[0].startsWith('_new_');
-    const bNew = b[0].startsWith('_new_');
+    const aNew = a[0].startsWith('_');
+    const bNew = b[0].startsWith('_');
     if (aNew && !bNew) return 1;
     if (!aNew && bNew) return -1;
     if (aNew && bNew) {
@@ -180,7 +202,7 @@ function renderCatGrid() {
     const label = NEW_LABELS[cat] || (emojiFor(cat) + ' ' + escHtml(cat));
     const color = CAT_COLORS[cat] || '#6b7280';
     const pct = Math.round(items.length / maxCnt * 100);
-    const isNew = cat.startsWith('_new_');
+    const isNew = cat.startsWith('_');
     return `<div class="cat-card${isNew ? ' new-cat' : ''}" data-cat="${escHtml(cat)}">
       <div class="cat-name">${label}</div>
       <div class="cat-count">${items.length} 个项目</div>
@@ -262,13 +284,14 @@ function createProjectItem(p) {
   div.dataset.rh = p.rh || '';
   
   const starsStr = p.stars >= 1000 ? '⭐ ' + (p.stars/1000).toFixed(1) + 'k' : '⭐ ' + p.stars.toLocaleString();
+  const surgeBadge = p.surge_5d ? ' <span style="color:#22c55e;font-weight:700;font-size:15px">+' + p.surge_5d + '</span>' : '';
   
   div.innerHTML = `<div class="project-top">
     <span class="rank">${p.id}</span>
     ${p.rh ? '<span class="rh-badge">人话</span>' : ''}
     <a class="name" href="${escHtml(p.url)}" target="_blank">${escHtml(p.name)}</a>
     <span class="desc">${escHtml(p.desc)}</span>
-    <span class="stars">${starsStr}</span>
+    <span class="stars">${starsStr}${surgeBadge}</span>
     <span class="lang">${escHtml(p.lang)}</span>
   </div>`;
   
