@@ -43,24 +43,11 @@ python3 -m http.server 8080
 # 浏览器打开 http://localhost:8080
 ```
 
-## 数据怎么来的
-
-```
-GitHub API (搜索5000+星项目)
-    → 去重
-    → AI 分类（22个类别）
-    → AI 翻译中文 + 生成人话解读
-    → 合并为 projects.json
-    → 生成轻量导航页（15KB HTML + 5MB JSON）
-```
-
-全自动流水线，**每 2 天跑一次**，自动发现新项目、自动翻译、自动更新站点。
-
 ## 自动更新机制
 
 通过 GitHub Actions 定时运行（每 2 天 UTC 8:00）：
 1. 搜索 GitHub 上新增的 5000+ 星项目
-2. AI 分类 + 翻译 + 人话解读（一次 API 调用搞定）
+2. 分类 + 翻译 + 人话解读（一次 API 调用搞定）
 3. 合并数据，重建导航页
 4. 自动部署到 GitHub Pages
 
@@ -73,7 +60,7 @@ GitHub API (搜索5000+星项目)
 ├── 人话解读.json              # 人话解读数据（4.2MB）
 ├── projects.json              # 导航页用的合并数据（5.4MB）
 ├── translate_batch_*_done.json # 翻译批次结果
-├── phase3_enhanced.py         # AI 分类器
+├── phase3_enhanced.py         # 分类器
 ├── auto_update.py             # 自动更新主脚本
 ├── deploy.py                  # 部署打包脚本
 ├── 导航.html                  # 轻量导航页模板（15KB）
