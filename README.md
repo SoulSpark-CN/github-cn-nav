@@ -1,10 +1,12 @@
 # ⭐ GitHub 5000+ Star 项目中文导航
 
-**把 GitHub 上最火的 6788 个开源项目，配上中文描述和大白话解读，做成一个能搜、能筛、能看的导航站。**
+**你缺的不是技术，是一个用人话告诉你 GitHub 上什么东西能用的导航站。**
+
+🔍 7000 个项目 × 🌐 中文翻译 × 💬 大白话解读 × 🤖 每两天自动更新 × 📖 开源免费
+
+⏱️ 三分钟扫一眼，比你刷三年 Trending 有用。
 
 👉 [在线浏览](https://SoulSpark-CN.github.io/github-cn-nav) | [下载离线版](https://github.com/SoulSpark-CN/github-cn-nav/releases/latest/download/standalone.html)
-
-就比如你看到 `codecrafters-io/build-your-own-x` 这个 50 万星的项目，英文描述就一句"Master programming by recreating your favorite technologies from scratch"——看完还是不知道这玩意儿干嘛的。我们告诉你：**这就是"手把手教你从零造轮子"，像学做饭不从外卖开始而是从洗菜切菜开始，适合想深入理解技术原理的中级开发者。**
 
 ⚠️ 本仓库不是 GitHub 官方项目，是一个社区维护的中文开源导航站。
 
