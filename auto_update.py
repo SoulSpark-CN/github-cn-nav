@@ -34,7 +34,7 @@ if not GH_TOKEN or not LLM_KEY:
             GH_TOKEN = m.group(1).strip().strip('"').strip("'") if m else None
         if not LLM_KEY:
             m = re.search(r'DEEPSEEK_API_KEY=(.+)', env_text) or re.search(r'DS_KEY=(.+)', env_text)
-            DS_KEY = m.group(1).strip().strip('"').strip("'") if m else None
+            LLM_KEY = m.group(1).strip().strip('"').strip("'") if m else None
 
 if not GH_TOKEN:
     print("❌ GITHUB_TOKEN not set (env or ~/.hermes/.env)", flush=True)

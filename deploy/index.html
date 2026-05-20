@@ -194,7 +194,7 @@ function renderCatGrid() {
     if (!aNew && bNew) return -1;
     if (aNew && bNew) {
       const order = {'_new_half':0,'_new_month':1,'_new_week':2,'_trending':3};
-      return (order[a[0]]||9) - (order[b[0]]||9);
+      return (order[a[0]] ?? 9) - (order[b[0]] ?? 9);
     }
     return b[1].length - a[1].length;
   });
