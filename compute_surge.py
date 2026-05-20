@@ -13,6 +13,7 @@ from urllib.request import urlopen, Request
 BASE = os.path.dirname(os.path.abspath(__file__))
 PROJECTS_FILE = os.path.join(BASE, "projects.json")
 OUTPUT_FILE = os.path.join(BASE, "surge_top100.json")
+DISCOVERY_FILE = os.path.join(BASE, "discovery_candidates.json")
 GH_ARCHIVE_BASE = "https://data.gharchive.org"
 
 def extract_repo_names():
@@ -121,11 +122,90 @@ def compute_surge(days=5, top_n=100, workers=20):
     
     return result
 
+def discover_rising_stars(target_repos, sample_hours=6, min_velocity=3, workers=10):
+    """雷达扫描：最近N小时 GH Archive 中，star 增速快但不在数据库的仓库"""
+    now = datetime.now(timezone.utc)
+    end = now - timedelta(hours=2)
+    start = end - timedelta(hours=sample_hours)
+    
+    urls = []
+    current = start.replace(minute=0, second=0, microsecond=0)
+    while current <= end:
+        urls.append(f"{GH_ARCHIVE_BASE}/{current.strftime('%Y-%m-%d-%H')}.json.gz")
+        current += timedelta(hours=1)
+    
+    print(f"\n🔭 雷达扫描 {len(urls)} 小时 ({start.strftime('%m-%d %H:00')} → {end.strftime('%m-%d %H:00')})...")
+    
+    all_watch = Counter()
+    with ThreadPoolExecutor(max_workers=workers) as pool:
+        futures = {pool.submit(_count_all_watch, u): u for u in urls}
+        for f in as_completed(futures):
+            all_watch.update(f.result())
+    
+    # 过滤：不在 target_repos + 增速 > min_velocity
+    candidates = []
+    for repo, count in all_watch.most_common(200):
+        if repo not in target_repos and count >= min_velocity:
+            candidates.append({"repo": repo, "stars_in_window": count, "window_hours": sample_hours})
+    
+    if candidates:
+        print(f"  发现 {len(candidates)} 个候选仓库（不在数据库，{sample_hours}h 内 ≥{min_velocity} ⭐）:")
+        for c in candidates[:10]:
+            print(f"    {c['repo']:50s} +{c['stars_in_window']:3d}⭐")
+        if len(candidates) > 10:
+            print(f"    ... 还有 {len(candidates)-10} 个")
+        
+        # 原子写入
+        tmp_fd, tmp_path = tempfile.mkstemp(suffix='.json', dir=BASE)
+        try:
+            with os.fdopen(tmp_fd, 'w', encoding='utf-8') as f:
+                json.dump(candidates, f, ensure_ascii=False, indent=2)
+            os.replace(tmp_path, DISCOVERY_FILE)
+        except:
+            os.unlink(tmp_path)
+            raise
+        print(f"  保存到: {DISCOVERY_FILE}")
+    else:
+        print(f"  无候选（{sample_hours}h 内所有活跃仓库已在数据库中）")
+        # 清空旧文件
+        if os.path.exists(DISCOVERY_FILE):
+            os.remove(DISCOVERY_FILE)
+    
+    return candidates
+
+def _count_all_watch(url, max_retries=2):
+    """下载一个 GH Archive 文件，统计所有 WatchEvent（不过滤仓库）"""
+    for attempt in range(1, max_retries + 1):
+        try:
+            req = Request(url, headers={"User-Agent": "surge-radar/1.0"})
+            with urlopen(req, timeout=60) as resp:
+                data = resp.read()
+            count = Counter()
+            with gzip.GzipFile(fileobj=io.BytesIO(data)) as f:
+                for line in f:
+                    try:
+                        event = json.loads(line)
+                        if event.get("type") == "WatchEvent":
+                            repo = event.get("repo", {}).get("name", "").lower()
+                            if repo:
+                                count[repo] += 1
+                    except (json.JSONDecodeError, KeyError):
+                        pass
+            return count
+        except Exception:
+            if attempt < max_retries:
+                time_mod.sleep(2)
+    return Counter()
+
 if __name__ == "__main__":
     import argparse
     ap = argparse.ArgumentParser()
     ap.add_argument("--days", type=int, default=5)
     ap.add_argument("--top", type=int, default=100)
     ap.add_argument("--workers", type=int, default=20)
+    ap.add_argument("--discover", action="store_true", default=True, help="雷达扫描不在数据库的高增速仓库")
     args = ap.parse_args()
     compute_surge(args.days, args.top, args.workers)
+    if args.discover:
+        target_repos = extract_repo_names()
+        discover_rising_stars(target_repos)

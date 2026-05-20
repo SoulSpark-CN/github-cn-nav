@@ -110,6 +110,66 @@ def discover_new_repos():
     print(f"  发现 {len(new_repos)} 个新项目", flush=True)
     return new_repos
 
+# ============ Discovery Radar Integration ============
+def check_discovery_candidates(existing_names):
+    """从 compute_surge.py 雷达结果中，验证候选仓库是否达到 5000+ star"""
+    disc_path = os.path.join(BASE, "discovery_candidates.json")
+    if not os.path.exists(disc_path):
+        return []
+    
+    with open(disc_path) as f:
+        candidates = json.load(f)
+    
+    if not candidates:
+        return []
+    
+    print(f"\n🔭 检查 {len(candidates)} 个雷达候选...", flush=True)
+    new_from_radar = []
+    
+    for c in candidates[:30]:  # 最多查 30 个，避免 API 滥用
+        repo_full = c["repo"]
+        if repo_full.lower() in existing_names:
+            continue
+        
+        try:
+            url = f"https://api.github.com/repos/{repo_full}"
+            resp = requests.get(url, headers=GH_HDR, timeout=15, verify=False)
+            if resp.status_code == 404:
+                continue
+            if resp.status_code != 200:
+                print(f"  ⚠ {repo_full}: HTTP {resp.status_code}", flush=True)
+                continue
+            
+            info = resp.json()
+            stars = info.get("stargazers_count", 0)
+            if stars >= 5000:
+                print(f"  ✅ {repo_full}: ⭐{stars} → 收录!", flush=True)
+                new_from_radar.append({
+                    "id": info["id"],
+                    "name": info["full_name"],
+                    "desc": info.get("description") or "",
+                    "stars": stars,
+                    "url": info["html_url"],
+                    "lang": info.get("language") or "-",
+                    "topics": info.get("topics", []),
+                    "created": info["created_at"],
+                    "updated": info["updated_at"],
+                    "first_seen": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
+                    "_source": "radar",  # 标记来源
+                })
+            else:
+                print(f"  · {repo_full}: ⭐{stars} (未达 5000)", flush=True)
+            time.sleep(0.3)  # 礼貌节流
+        except Exception as e:
+            print(f"  ✗ {repo_full}: {e}", flush=True)
+    
+    # 清理候选文件（已处理）
+    os.remove(disc_path)
+    
+    if new_from_radar:
+        print(f"  雷达贡献: {len(new_from_radar)} 个新项目", flush=True)
+    return new_from_radar
+
 # ============ Classification ============
 def classify_repos(repos):
     print("[2/4] 分类...", flush=True)
@@ -359,6 +419,16 @@ def deploy_site():
 def main():
     dry_run = "--dry-run" in sys.argv
     new_repos = discover_new_repos()
+    
+    # 雷达候选：GH Archive 发现的高增速仓库，验证后并入
+    existing_names = set()
+    if os.path.exists(MANIFEST_PATH):
+        with open(MANIFEST_PATH) as f:
+            for r in json.load(f):
+                existing_names.add(r["name"].lower())
+    radar_repos = check_discovery_candidates(existing_names)
+    if radar_repos:
+        new_repos.extend(radar_repos)
     
     if not new_repos:
         print("✅ 没有新项目", flush=True)
