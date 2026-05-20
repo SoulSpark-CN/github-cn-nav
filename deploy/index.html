@@ -28,9 +28,9 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
 .project-item:hover{background:#1e293b}
 .project-top{display:flex;align-items:center;gap:10px}
 .project-top .rank{color:#64748b;font-size:16px;min-width:28px;text-align:right}
-.rh-badge{background:#8b5cf6;color:#fff;border-radius:4px;padding:2px 9px;font-size:15px;cursor:pointer;white-space:nowrap;flex-shrink:0;font-weight:600;animation:rh-pulse 3s ease-in-out infinite}
-.rh-badge:hover{background:#7c3aed;animation:none}
-@keyframes rh-pulse{0%,100%{box-shadow:0 0 0 0 rgba(139,92,246,.4)}50%{box-shadow:0 0 6px 2px rgba(139,92,246,.25)}}
+.rh-badge{background:#8b5cf6;color:#fff;border-radius:4px;padding:2px 9px;font-size:15px;cursor:pointer;white-space:nowrap;flex-shrink:0;font-weight:600;animation:rh-pulse 2.5s ease-in-out infinite}
+.rh-badge:hover{background:#7c3aed;animation:none;transform:scale(1.05)}
+@keyframes rh-pulse{0%,100%{box-shadow:0 0 0 0 rgba(139,92,246,.6)}50%{box-shadow:0 0 12px 4px rgba(139,92,246,.35)}}
 .project-top .name{font-weight:600;color:#60a5fa;text-decoration:none;font-size:18px;min-width:200px;max-width:380px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .project-top .name:hover{text-decoration:underline}
 .project-top .desc{flex:1;color:#94a3b8;font-size:16px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
@@ -289,7 +289,7 @@ function createProjectItem(p) {
   
   div.innerHTML = `<div class="project-top">
     <span class="rank">${p.id}</span>
-    ${p.rh ? '<span class="rh-badge" title="点击看大白话解读">人话</span>' : ''}
+    ${p.rh ? '<span class="rh-badge">人话</span>' : ''}
     <a class="name" href="${escHtml(p.url)}" target="_blank">${escHtml(p.name)}</a>
     <span class="desc">${escHtml(p.desc)}</span>
     <span class="stars">${starsStr}${surgeBadge}</span>
