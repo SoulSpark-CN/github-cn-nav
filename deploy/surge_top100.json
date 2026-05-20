@@ -283,19 +283,19 @@
   },
   {
     "rank": 48,
-    "repo": "opencut-app/opencut",
+    "repo": "santifer/career-ops",
     "surge_5d": 57,
     "star_increment": 57
   },
   {
     "rank": 49,
-    "repo": "heygen-com/hyperframes",
+    "repo": "opencut-app/opencut",
     "surge_5d": 57,
     "star_increment": 57
   },
   {
     "rank": 50,
-    "repo": "santifer/career-ops",
+    "repo": "heygen-com/hyperframes",
     "surge_5d": 57,
     "star_increment": 57
   },
@@ -313,13 +313,13 @@
   },
   {
     "rank": 53,
-    "repo": "hugohe3/ppt-master",
+    "repo": "vinta/awesome-python",
     "surge_5d": 53,
     "star_increment": 53
   },
   {
     "rank": 54,
-    "repo": "vinta/awesome-python",
+    "repo": "hugohe3/ppt-master",
     "surge_5d": 53,
     "star_increment": 53
   },
@@ -355,13 +355,13 @@
   },
   {
     "rank": 60,
-    "repo": "paperclipai/paperclip",
+    "repo": "karpathy/autoresearch",
     "surge_5d": 47,
     "star_increment": 47
   },
   {
     "rank": 61,
-    "repo": "karpathy/autoresearch",
+    "repo": "paperclipai/paperclip",
     "surge_5d": 47,
     "star_increment": 47
   },
@@ -373,13 +373,13 @@
   },
   {
     "rank": 63,
-    "repo": "danielmiessler/personal_ai_infrastructure",
+    "repo": "bytedance/deer-flow",
     "surge_5d": 46,
     "star_increment": 46
   },
   {
     "rank": 64,
-    "repo": "bytedance/deer-flow",
+    "repo": "danielmiessler/personal_ai_infrastructure",
     "surge_5d": 46,
     "star_increment": 46
   },
@@ -517,25 +517,25 @@
   },
   {
     "rank": 87,
-    "repo": "yt-dlp/yt-dlp",
-    "surge_5d": 32,
-    "star_increment": 32
-  },
-  {
-    "rank": 88,
     "repo": "clash-verge-rev/clash-verge-rev",
     "surge_5d": 32,
     "star_increment": 32
   },
   {
+    "rank": 88,
+    "repo": "yt-dlp/yt-dlp",
+    "surge_5d": 32,
+    "star_increment": 32
+  },
+  {
     "rank": 89,
-    "repo": "coollabsio/coolify",
+    "repo": "leonxlnx/taste-skill",
     "surge_5d": 32,
     "star_increment": 32
   },
   {
     "rank": 90,
-    "repo": "leonxlnx/taste-skill",
+    "repo": "coollabsio/coolify",
     "surge_5d": 32,
     "star_increment": 32
   },
