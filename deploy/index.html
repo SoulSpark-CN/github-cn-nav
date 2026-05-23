@@ -84,198 +84,23 @@ let totalProjects = 0;
 let totalCats = 0;
 let activeCat = '';
 let currentFilter = '';
-let observer = null;
-let renderBatch = 0;
-const BATCH_SIZE = 30;
+let dataState = 'loading';
 
-let dataState = 'loading'; // loading | ready | error
+// ============ VIRTUAL SCROLL STATE ============
+const BATCH_SIZE = 40;                 // 每批渲染数，从30改为40
+let currentItems = [];                 // 当前要显示的项目列表（全量/过滤后）
+let renderedCount = 0;                 // 已渲染的项目数量
+let paginationObserver = null;         // IntersectionObserver 实例
 
-async function loadData() {
-  const grid = document.getElementById('catGrid');
-  const area = document.getElementById('projectArea');
-  
-  try {
-    const resp = await fetch('projects.json');
-    if (!resp.ok) throw new Error('HTTP ' + resp.status);
-    allProjects = await resp.json();
-    // Normalize rh: convert structured object to flat string (supports both long & short keys)
-    allProjects.forEach(p => {
-      if (p.rh && typeof p.rh === 'object') {
-        const parts = [];
-        const o = p.rh.one_liner || p.rh.o || '';
-        const pl = p.rh.plain || p.rh.p || '';
-        const an = p.rh.analogy || p.rh.a || '';
-        const au = p.rh.audience || p.rh.u || '';
-        if (o) parts.push(o);
-        if (pl) parts.push(pl);
-        if (an) parts.push('类比：' + an);
-        if (au) parts.push('适合：' + au);
-        p.rh = parts.join(' ');
-      }
-    });
-    dataState = 'ready';
-    totalProjects = allProjects.length;
-    
-    // Build category map
-    catMap = {};
-    allProjects.forEach(p => {
-      if (!catMap[p.cat]) catMap[p.cat] = [];
-      catMap[p.cat].push(p);
-    });
-    totalCats = Object.keys(catMap).length;
-    
-    // Build "新上" virtual categories based on first_seen date
-    const now = new Date();
-    const weekAgo = new Date(now - 7*86400000).toISOString().slice(0,10);
-    const monthAgo = new Date(now - 30*86400000).toISOString().slice(0,10);
-    const halfAgo = new Date(now - 180*86400000).toISOString().slice(0,10);
-    
-    catMap['_new_week'] = allProjects.filter(p => p.first_seen >= weekAgo).sort((a,b) => b.first_seen.localeCompare(a.first_seen));
-    catMap['_new_month'] = allProjects.filter(p => p.first_seen >= monthAgo && p.first_seen < weekAgo).sort((a,b) => b.first_seen.localeCompare(a.first_seen));
-    catMap['_new_half'] = allProjects.filter(p => p.first_seen >= halfAgo && p.first_seen < monthAgo).sort((a,b) => b.first_seen.localeCompare(a.first_seen));
-    
-    // 近5日飙升: 基于 GH Archive 真实 star 增量数据
-    try {
-      const surgeResp = await fetch('surge_top100.json');
-      if (surgeResp.ok) {
-        const surgeData = await surgeResp.json();
-        // Build lookup: repo name → surge count
-        const surgeMap = {};
-        surgeData.forEach(s => { surgeMap[s.repo.toLowerCase()] = s.surge_5d; });
-        // Find matching projects and add surge field
-        catMap['_trending'] = [];
-        allProjects.forEach(p => {
-          const repo = (p.url || '').replace(/^https?:\/\/github\.com\//i, '').toLowerCase();
-          const delta = surgeMap[repo];
-          if (delta) {
-            p.surge_5d = delta;
-            catMap['_trending'].push(p);
-          }
-        });
-        // Sort by surge delta descending
-        catMap['_trending'].sort((a,b) => b.surge_5d - a.surge_5d);
-      }
-    } catch(e) {
-      console.warn('surge_top100.json load failed, trending disabled:', e.message);
-      catMap['_trending'] = [];
-    }
-    
-    // Render category grid
-        renderCatGrid();
-    area.innerHTML = '<div class="loading-state">点击上方分类开始浏览</div>';
-  } catch(e) {
-    dataState = 'error';
-    grid.innerHTML = '<div class="error-state" onclick="location.reload()">⚠️ 数据加载失败（' + e.message + '）<br><small>点击重试</small></div>';
-    area.innerHTML = '';
-    console.error(e);
-  }
+// ============ EXISTING HELPERS ============
+function escHtml(s) {
+  if (!s) return '';
+  const d = document.createElement('div');
+  d.textContent = s;
+  return d.innerHTML;
 }
 
-// ============ CATEGORY GRID ============
-const CAT_COLORS = {"_trending": "#22c55e", "_new_week": "#f59e0b", "_new_month": "#f97316", "_new_half": "#ef4444", "API-工具-命令行": "#3b82f6", "前端-UI框架": "#8b5cf6", "后端-框架-API": "#06b6d4", "操作系统-底层-内核": "#ef4444", "开发工具-编辑器-IDE": "#f59e0b", "学习资源-教程-书籍": "#10b981", "大语言模型-LLM": "#6366f1", "AI应用-Agent": "#8b5cf6", "移动开发-Android-iOS": "#22c55e", "数据科学-数据库": "#14b8a6", "AI-机器学习": "#a855f7", "自动化-DevOps-部署": "#0ea5e9", "媒体-音视频-直播": "#ec4899", "安全-网络-代理": "#dc2626", "游戏-娱乐": "#eab308", "其他": "#6b7280", "内容创作-AIGC-设计": "#f97316", "编程语言-编译器": "#84cc16", "建站-电商-CMS": "#06b6d4", "区块链-Web3": "#f59e0b", "爬虫-数据采集": "#14b8a6", "量化交易-金融": "#10b981"};
-const NEW_LABELS = {"_trending": "🔥 近5日飙升", "_new_week": "🆕 一周新上", "_new_month": "🆕 一月新上", "_new_half": "🆕 半年新上"};
-const EMOJI_MAP = {"大语言": "🤖", "AI应用": "⚡", "AI-机": "🧠", "内容创作": "🎨", "前端": "🖥️", "后端": "⚙️", "编程语言": "📜", "操作系统": "💻", "开发工具": "🛠️", "API": "🔧", "数据科学": "🗄️", "安全": "🔒", "区块链": "⛓️", "量化": "💰", "移动": "📱", "自动化": "🔄", "学习资源": "📚", "建站": "🌐", "游戏": "🎮", "爬虫": "🕷️", "媒体": "🎬", "其他": "📌"};
-
-function emojiFor(cat) {
-  for (let [k,v] of Object.entries(EMOJI_MAP)) {
-    if (cat.startsWith(k)) return v;
-  }
-  return '📌';
-}
-
-function renderCatGrid() {
-  const grid = document.getElementById('catGrid');
-  const entries = Object.entries(catMap);
-  // Sort: new categories first, then by count
-  const cats = entries.sort((a,b) => {
-    const aNew = a[0].startsWith('_');
-    const bNew = b[0].startsWith('_');
-    if (aNew && !bNew) return 1;
-    if (!aNew && bNew) return -1;
-    if (aNew && bNew) {
-      const order = {'_new_half':0,'_new_month':1,'_new_week':2,'_trending':3};
-      return (order[a[0]] ?? 9) - (order[b[0]] ?? 9);
-    }
-    return b[1].length - a[1].length;
-  });
-  const maxCnt = Math.max(...cats.map(([,items]) => items.length), 1);
-  grid.innerHTML = cats.map(([cat, items]) => {
-    const label = NEW_LABELS[cat] || (emojiFor(cat) + ' ' + escHtml(cat));
-    const color = CAT_COLORS[cat] || '#6b7280';
-    const pct = Math.round(items.length / maxCnt * 100);
-    const isNew = cat.startsWith('_');
-    return `<div class="cat-card${isNew ? ' new-cat' : ''}" data-cat="${escHtml(cat)}">
-      <div class="cat-name">${label}</div>
-      <div class="cat-count">${items.length} 个项目</div>
-      <div class="cat-bar" style="width:${pct}%;background:${color}"></div>
-    </div>`;
-  }).join('');
-  
-  // Attach click handlers via event delegation (safer than inline onclick)
-  grid.addEventListener('click', function(e) {
-    const card = e.target.closest('.cat-card');
-    if (card && card.dataset.cat) {
-      openCat(card.dataset.cat);
-    }
-  });
-  
-  // Update header stats
-  document.querySelector('.header p').textContent = totalProjects + ' 个开源项目 · ' + totalCats + ' 个分类 · 含人话解读';
-}
-
-// ============ OPEN CATEGORY ============
-function openCat(cat) {
-  if (dataState !== 'ready') return;
-  activeCat = cat;
-  currentFilter = '';
-  document.getElementById('search').value = '';
-  
-  // Highlight active category card
-  document.querySelectorAll('.cat-card').forEach(c => c.classList.toggle('active', c.dataset.cat === cat));
-  
-  const items = catMap[cat] || [];
-  const area = document.getElementById('projectArea');
-  area.innerHTML = `<h2>${emojiFor(cat)} ${escHtml(cat)} <span style="font-size:15px;color:#64748b">(${items.length}个)</span></h2>
-    <div id="itemContainer"></div>`;
-  
-  renderBatch = 0;
-  renderNextBatch(items);
-}
-
-// ============ RENDER BATCH ============
-function renderNextBatch(items) {
-  const container = document.getElementById('itemContainer');
-  if (!container) return;
-  
-  const start = renderBatch * BATCH_SIZE;
-  const end = Math.min(start + BATCH_SIZE, items.length);
-  
-  for (let i = start; i < end; i++) {
-    container.appendChild(createProjectItem(items[i]));
-  }
-  renderBatch++;
-  
-  if (end < items.length) {
-    // Set up sentinel for next batch
-    const sentinel = document.createElement('div');
-    sentinel.id = 'sentinel-' + renderBatch;
-    sentinel.style.height = '1px';
-    container.appendChild(sentinel);
-    
-    const io = new IntersectionObserver((entries) => {
-      entries.forEach(e => {
-        if (e.isIntersecting) {
-          io.unobserve(e.target);
-          e.target.remove();
-          setTimeout(() => renderNextBatch(items), 50);
-        }
-      });
-    }, { rootMargin: '400px' });
-    io.observe(sentinel);
-  }
-}
-
-// ============ CREATE PROJECT ITEM ============
+// ============ PROJECT ITEM CREATOR (完全保留原结构) ============
 function createProjectItem(p) {
   const div = document.createElement('div');
   div.className = 'project-item item-enter';
@@ -283,10 +108,14 @@ function createProjectItem(p) {
   div.dataset.cat = p.cat;
   div.dataset.desc = p.desc;
   div.dataset.rh = p.rh || '';
-  
-  const starsStr = p.stars >= 1000 ? '⭐ ' + (p.stars/1000).toFixed(1) + 'k' : '⭐ ' + p.stars.toLocaleString();
-  const surgeBadge = p.surge_5d ? ' <span style="color:#22c55e;font-weight:700;font-size:15px" title="近5日新增' + p.surge_5d + ' ⭐">↑' + p.surge_5d + '</span>' : '';
-  
+
+  const starsStr = p.stars >= 1000
+    ? '⭐ ' + (p.stars / 1000).toFixed(1) + 'k'
+    : '⭐ ' + p.stars.toLocaleString();
+  const surgeBadge = p.surge_5d
+    ? ' <span style="color:#22c55e;font-weight:700;font-size:15px" title="近5日新增' + p.surge_5d + ' ⭐">↑' + p.surge_5d + '</span>'
+    : '';
+
   div.innerHTML = `<div class="project-top">
     <span class="rank">${p.id}</span>
     ${p.rh ? '<span class="rh-badge">人话</span>' : ''}
@@ -295,19 +124,17 @@ function createProjectItem(p) {
     <span class="stars">${starsStr}${surgeBadge}</span>
     <span class="lang">${escHtml(p.lang)}</span>
   </div>`;
-  
-  // Click handler for rh-panel
+
   if (p.rh) {
     div.addEventListener('click', function(e) {
       if (e.target.tagName === 'A') return;
       toggleRhPanel(this, p.rh);
     });
   }
-  
   return div;
 }
 
-// ============ RENHUA PANEL ============
+// ============ RENHUA PANEL (完全保留) ============
 function toggleRhPanel(itemEl, rhText) {
   let panel = itemEl.querySelector('.rh-panel');
   if (panel) {
@@ -323,19 +150,18 @@ function toggleRhPanel(itemEl, rhText) {
 function parseRhText(text) {
   if (!text) return '';
   let html = text.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
-  
   const parts = html.split(/(类比：|适合：|解决)/);
   let result = '';
   let firstLine = true;
   let label = '';
-  
+
   for (let i = 0; i < parts.length; i++) {
     const p = parts[i].trim();
     if (!p) continue;
     if (p === '类比：') { label = 'ana'; continue; }
     if (p === '适合：') { label = 'aud'; continue; }
     if (p === '解决') { label = 'solve'; continue; }
-    
+
     if (firstLine) {
       result += '<div class="rh-one">💡 ' + p + '</div>';
       firstLine = false;
@@ -355,55 +181,280 @@ function parseRhText(text) {
   return result;
 }
 
-// ============ SEARCH ============
+// ============ CATEGORY GRID (结构保留，事件改为委托) ============
+const CAT_COLORS = {"_trending": "#22c55e", "_new_week": "#f59e0b", "_new_month": "#f97316", "_new_half": "#ef4444", "API-工具-命令行": "#3b82f6", "前端-UI框架": "#8b5cf6", "后端-框架-API": "#06b6d4", "操作系统-底层-内核": "#ef4444", "开发工具-编辑器-IDE": "#f59e0b", "学习资源-教程-书籍": "#10b981", "大语言模型-LLM": "#6366f1", "AI应用-Agent": "#8b5cf6", "移动开发-Android-iOS": "#22c55e", "数据科学-数据库": "#14b8a6", "AI-机器学习": "#a855f7", "自动化-DevOps-部署": "#0ea5e9", "媒体-音视频-直播": "#ec4899", "安全-网络-代理": "#dc2626", "游戏-娱乐": "#eab308", "其他": "#6b7280", "内容创作-AIGC-设计": "#f97316", "编程语言-编译器": "#84cc16", "建站-电商-CMS": "#06b6d4", "区块链-Web3": "#f59e0b", "爬虫-数据采集": "#14b8a6", "量化交易-金融": "#10b981"};
+const NEW_LABELS = {"_trending": "🔥 近5日飙升", "_new_week": "🆕 一周新上", "_new_month": "🆕 一月新上", "_new_half": "🆕 半年新上"};
+const EMOJI_MAP = {"大语言": "🤖", "AI应用": "⚡", "AI-机": "🧠", "内容创作": "🎨", "前端": "🖥️", "后端": "⚙️", "编程语言": "📜", "操作系统": "💻", "开发工具": "🛠️", "API": "🔧", "数据科学": "🗄️", "安全": "🔒", "区块链": "⛓️", "量化": "💰", "移动": "📱", "自动化": "🔄", "学习资源": "📚", "建站": "🌐", "游戏": "🎮", "爬虫": "🕷️", "媒体": "🎬", "其他": "📌"};
+
+function emojiFor(cat) {
+  for (let [k, v] of Object.entries(EMOJI_MAP)) {
+    if (cat.startsWith(k)) return v;
+  }
+  return '📌';
+}
+
+function renderCatGrid() {
+  const grid = document.getElementById('catGrid');
+  const entries = Object.entries(catMap);
+  const cats = entries.sort((a, b) => {
+    const aNew = a[0].startsWith('_');
+    const bNew = b[0].startsWith('_');
+    if (aNew && !bNew) return 1;
+    if (!aNew && bNew) return -1;
+    if (aNew && bNew) {
+      const order = { '_new_half': 0, '_new_month': 1, '_new_week': 2, '_trending': 3 };
+      return (order[a[0]] ?? 9) - (order[b[0]] ?? 9);
+    }
+    return b[1].length - a[1].length;
+  });
+  const maxCnt = Math.max(...cats.map(([, items]) => items.length), 1);
+  grid.innerHTML = cats.map(([cat, items]) => {
+    const label = NEW_LABELS[cat] || (emojiFor(cat) + ' ' + escHtml(cat));
+    const color = CAT_COLORS[cat] || '#6b7280';
+    const pct = Math.round(items.length / maxCnt * 100);
+    const isNew = cat.startsWith('_');
+    return `<div class="cat-card${isNew ? ' new-cat' : ''}" data-cat="${escHtml(cat)}">
+      <div class="cat-name">${label}</div>
+      <div class="cat-count">${items.length} 个项目</div>
+      <div class="cat-bar" style="width:${pct}%;background:${color}"></div>
+    </div>`;
+  }).join('');
+
+  // 事件委托
+  grid.addEventListener('click', function(e) {
+    const card = e.target.closest('.cat-card');
+    if (card && card.dataset.cat) {
+      openCat(card.dataset.cat);
+    }
+  });
+
+  // 更新头部统计（仅一次）
+  document.querySelector('.header p').textContent =
+    totalProjects + ' 个开源项目 · ' + totalCats + ' 个分类 · 含人话解读';
+}
+
+// ============ VIRTUAL SCROLL CORE ============
+function renderNextBatch() {
+  const container = document.getElementById('itemContainer');
+  if (!container) return;
+  const sentinel = document.getElementById('scroll-sentinel');
+  if (!sentinel) return;
+  if (renderedCount >= currentItems.length) {
+    // 全部已渲染，断开观察
+    if (paginationObserver) {
+      paginationObserver.disconnect();
+      paginationObserver = null;
+    }
+    return;
+  }
+
+  const end = Math.min(renderedCount + BATCH_SIZE, currentItems.length);
+  const fragment = document.createDocumentFragment();
+  for (let i = renderedCount; i < end; i++) {
+    fragment.appendChild(createProjectItem(currentItems[i]));
+  }
+
+  // 使用 requestAnimationFrame + DocumentFragment 插入
+  requestAnimationFrame(() => {
+    container.insertBefore(fragment, sentinel);
+  });
+
+  renderedCount = end;
+
+  // 如果还有更多项目，建立/复用 observer
+  if (renderedCount < currentItems.length) {
+    if (!paginationObserver) {
+      paginationObserver = new IntersectionObserver(
+        (entries) => {
+          if (entries[0].isIntersecting) {
+            renderNextBatch();
+          }
+        },
+        { rootMargin: '200px' }   // 提前 200px 加载
+      );
+      paginationObserver.observe(sentinel);
+    }
+  } else {
+    if (paginationObserver) {
+      paginationObserver.disconnect();
+      paginationObserver = null;
+    }
+  }
+}
+
+function renderPaginated(items, startIndex = 0) {
+  const container = document.getElementById('itemContainer');
+  if (!container) return;
+
+  // 清理旧状态
+  if (paginationObserver) {
+    paginationObserver.disconnect();
+    paginationObserver = null;
+  }
+  container.innerHTML = '';
+
+  // 添加 sentinel（位于末尾）
+  const sentinel = document.createElement('div');
+  sentinel.id = 'scroll-sentinel';
+  sentinel.style.height = '1px';
+  container.appendChild(sentinel);
+
+  currentItems = items;
+  renderedCount = startIndex;
+  renderNextBatch(); // 渲染第一批，内部会按需建立 observer
+}
+
+// ============ CATEGORY OPEN (重置搜索 + 虚拟滚动) ============
+function openCat(cat) {
+  if (dataState !== 'ready') return;
+  activeCat = cat;
+  currentFilter = '';
+  document.getElementById('search').value = '';
+
+  // 高亮分类卡片
+  document.querySelectorAll('.cat-card').forEach(c =>
+    c.classList.toggle('active', c.dataset.cat === cat)
+  );
+
+  const items = catMap[cat] || [];
+  const area = document.getElementById('projectArea');
+  area.innerHTML = `<h2>${emojiFor(cat)} ${escHtml(cat)} <span style="font-size:15px;color:#64748b">(${items.length}个)</span></h2>
+    <div id="itemContainer"></div>`;
+  renderPaginated(items, 0);
+}
+
+// ============ SEARCH (200ms 去抖 + 虚拟滚动) ============
 let searchTimer = null;
 document.getElementById('search').addEventListener('input', function() {
   clearTimeout(searchTimer);
-  searchTimer = setTimeout(() => doSearch(this.value.trim().toLowerCase()), 150);
+  searchTimer = setTimeout(() => doSearch(this.value.trim().toLowerCase()), 200);
 });
 
 function doSearch(q) {
   if (dataState !== 'ready') return;
   currentFilter = q;
-  
-  if (!q) {
-    // Empty search - show all categories
-    document.querySelectorAll('.cat-card').forEach(c => c.classList.remove('active'));
-    document.getElementById('projectArea').innerHTML = '<div style="text-align:center;padding:40px;color:#64748b">点击上方分类开始浏览</div>';
-    activeCat = '';
-    return;
-  }
-  
-  // Search across all projects
-  const results = allProjects.filter(p => {
-    return p.name.toLowerCase().includes(q) ||
-           p.desc.toLowerCase().includes(q) ||
-           (p.rh && p.rh.toLowerCase().includes(q));
-  });
-  
   const area = document.getElementById('projectArea');
-  if (results.length === 0) {
-    area.innerHTML = `<div style="text-align:center;padding:40px;color:#64748b">未找到匹配 "${escHtml(q)}" 的项目</div>`;
+
+  // 清理旧 observer
+  if (paginationObserver) {
+    paginationObserver.disconnect();
+    paginationObserver = null;
+  }
+
+  if (!q) {
+    // 搜索为空 → 显示全部项目
+    activeCat = '';
+    document.querySelectorAll('.cat-card').forEach(c => c.classList.remove('active'));
+    area.innerHTML = `<h2>📦 全部项目 <span style="font-size:15px;color:#64748b">(${totalProjects}个)</span></h2>
+      <div id="itemContainer"></div>`;
+    renderPaginated(allProjects, 0);
     return;
   }
-  
+
+  // 过滤 + 限制200条
+  const results = allProjects.filter(p =>
+    p.name.toLowerCase().includes(q) ||
+    p.desc.toLowerCase().includes(q) ||
+    (p.rh && p.rh.toLowerCase().includes(q))
+  ).slice(0, 200);
+
   area.innerHTML = `<h2>🔍 搜索: "${escHtml(q)}" <span style="font-size:15px;color:#64748b">(${results.length}个结果)</span></h2>
     <div id="itemContainer"></div>`;
-  
-  renderBatch = 0;
-  // Show all search results in batches
-  renderNextBatch(results.slice(0, 200));  // Cap at 200 for search
+  renderPaginated(results, 0);
 }
 
-// ============ HELPERS ============
-function escHtml(s) {
-  if (!s) return '';
-  const d = document.createElement('div');
-  d.textContent = s;
-  return d.innerHTML;
+// ============ MAIN DATA LOADER ============
+async function loadData() {
+  const grid = document.getElementById('catGrid');
+  const area = document.getElementById('projectArea');
+
+  try {
+    const resp = await fetch('projects.json');
+    if (!resp.ok) throw new Error('HTTP ' + resp.status);
+    allProjects = await resp.json();
+
+    // 标准化 rh（保留原逻辑）
+    allProjects.forEach(p => {
+      if (p.rh && typeof p.rh === 'object') {
+        const parts = [];
+        const o = p.rh.one_liner || p.rh.o || '';
+        const pl = p.rh.plain || p.rh.p || '';
+        const an = p.rh.analogy || p.rh.a || '';
+        const au = p.rh.audience || p.rh.u || '';
+        if (o) parts.push(o);
+        if (pl) parts.push(pl);
+        if (an) parts.push('类比：' + an);
+        if (au) parts.push('适合：' + au);
+        p.rh = parts.join(' ');
+      }
+    });
+
+    dataState = 'ready';
+    totalProjects = allProjects.length;
+
+    // 构建分类字典
+    catMap = {};
+    allProjects.forEach(p => {
+      if (!catMap[p.cat]) catMap[p.cat] = [];
+      catMap[p.cat].push(p);
+    });
+    totalCats = Object.keys(catMap).length;
+
+    // 新上虚拟分类
+    const now = new Date();
+    const weekAgo = new Date(now - 7 * 86400000).toISOString().slice(0, 10);
+    const monthAgo = new Date(now - 30 * 86400000).toISOString().slice(0, 10);
+    const halfAgo = new Date(now - 180 * 86400000).toISOString().slice(0, 10);
+
+    catMap['_new_week'] = allProjects.filter(p => p.first_seen >= weekAgo)
+      .sort((a, b) => b.first_seen.localeCompare(a.first_seen));
+    catMap['_new_month'] = allProjects.filter(p =>
+      p.first_seen >= monthAgo && p.first_seen < weekAgo
+    ).sort((a, b) => b.first_seen.localeCompare(a.first_seen));
+    catMap['_new_half'] = allProjects.filter(p =>
+      p.first_seen >= halfAgo && p.first_seen < monthAgo
+    ).sort((a, b) => b.first_seen.localeCompare(a.first_seen));
+
+    // 近5日飙升（可选的 surge_top100.json）
+    try {
+      const surgeResp = await fetch('surge_top100.json');
+      if (surgeResp.ok) {
+        const surgeData = await surgeResp.json();
+        const surgeMap = {};
+        surgeData.forEach(s => { surgeMap[s.repo.toLowerCase()] = s.surge_5d; });
+        catMap['_trending'] = [];
+        allProjects.forEach(p => {
+          const repo = (p.url || '').replace(/^https?:\/\/github\.com\//i, '').toLowerCase();
+          const delta = surgeMap[repo];
+          if (delta) {
+            p.surge_5d = delta;
+            catMap['_trending'].push(p);
+          }
+        });
+        catMap['_trending'].sort((a, b) => b.surge_5d - a.surge_5d);
+      }
+    } catch (e) {
+      console.warn('surge_top100.json load failed, trending disabled:', e.message);
+      catMap['_trending'] = [];
+    }
+
+    // 渲染分类网格 + 首次虚拟滚动（显示全部项目的第一批）
+    renderCatGrid();
+    area.innerHTML = `<h2>📦 全部项目 <span style="font-size:15px;color:#64748b">(${totalProjects}个)</span></h2>
+      <div id="itemContainer"></div>`;
+    renderPaginated(allProjects, 0);
+
+  } catch (e) {
+    dataState = 'error';
+    grid.innerHTML =
+      '<div class="error-state" onclick="location.reload()">⚠️ 数据加载失败（' +
+      e.message + '）<br><small>点击重试</small></div>';
+    area.innerHTML = '';
+    console.error(e);
+  }
 }
 
-// ============ INIT ============
+// ============ START ============
 loadData();
 </script>
 </body></html>
