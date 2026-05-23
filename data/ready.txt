@@ -1,1 +1,0 @@
-All required batch files (translate_batch_0..3_done.json) are present. No additional files need to be added.
