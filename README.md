@@ -53,25 +53,43 @@ python3 -m http.server 8080
 
 成本：DeepSeek API 每次几分钱，GitHub Actions 免费额度完全够用。
 
-## 文件结构
+## 文件结构（v3.0 — 2026-05-24 重构）
 
 ```
-├── manifest.json              # 原始项目数据（3.3MB）
-├── 人话解读.json              # 人话解读数据（4.2MB）
-├── projects.json              # 导航页用的合并数据（5.4MB）
-├── translate_batch_*_done.json # 翻译批次结果
-├── phase3_enhanced.py         # 分类器
-├── auto_update.py             # 自动更新主脚本
-├── deploy.py                  # 部署打包脚本
-├── 导航.html                  # 轻量导航页模板（15KB）
-├── browse.sh                  # 一键本地浏览
-└── deploy/                    # 可部署的静态站点
-    ├── index.html             # 在线版（fetch JSON）
-    ├── standalone.html        # 离线版（JSON 内嵌，双击即用）
-    ├── projects.json          # 数据文件
-    ├── serve.sh               # 一键启动脚本
-    └── README.txt
+项目根/
+├── src/                          # Python 源码
+│   ├── auto_update.py            # 自动更新主脚本（GitHub API → 翻译 → 合并）
+│   ├── classify_module.py        # 分类规则引擎
+│   ├── compute_surge.py          # 近5日飙升计算器（GH Archive 数据）
+│   ├── deploy.py                 # 静态站点生成器
+│   ├── phase3_enhanced.py        # 增强分类引擎（22个分类规则）
+│   ├── utils.py                  # 工具模块（Token/日志/原子写入）
+│   ├── browse.sh                 # 一键本地浏览
+│   └── __init__.py
+├── data/                         # 数据文件
+│   ├── projects.json             # 导航用合并数据（5.7MB，6788个项目）
+│   ├── manifest.json             # 原始项目元数据（3.8MB）
+│   ├── 人话解读.json             # 大白话解读（4.4MB，6752条）
+│   ├── surge_top100.json         # 近5日飙升榜Top100
+│   ├── discovery_candidates.json # 候选新项目
+│   ├── translate_batch_*.json    # 翻译批次中间产物（gitignored）
+│   └── .update_state.json        # 更新状态（gitignored）
+├── deploy/                       # 可部署的静态站点
+│   ├── index.html                # 在线版（虚拟滚动 + 防抖搜索，性能优化）
+│   ├── standalone.html           # 离线版（JSON 内嵌，双击即用）
+│   ├── projects.json             # 数据副本
+│   └── README.txt
+├── pyproject.toml                # 项目定义
+├── .github/workflows/update.yml  # GitHub Actions 自动更新
+└── LICENSE                       # MIT
 ```
+
+### 2026-05-24 重构要点
+
+- **目录分离**：源码全部移入 `src/`，数据全部移入 `data/`，根目录清爽
+- **路径统一**：所有 Python 文件改用 `Path` 对象，不再硬编码 `os.path.join`
+- **前端性能提升**：`deploy/index.html` 改用虚拟滚动（IntersectionObserver + BATCH_SIZE=40）+ 200ms 防抖搜索 + requestAnimationFrame 批量 DOM 更新
+- **部署自动化**：`python3 src/deploy.py` 一键生成完整 `deploy/` 目录
 
 ## 参与贡献
 
