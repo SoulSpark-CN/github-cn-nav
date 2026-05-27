@@ -36,7 +36,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: 计算近5日飙升
-        run: python3 compute_surge.py --days 5 --top 100 --workers 20
+        run: python3 src/compute_surge.py --days 5 --top 100 --workers 20
 
       - name: 运行更新
         env:
@@ -45,15 +45,15 @@ jobs:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
         run: |
           if [ "${{ github.event.inputs.dry_run }}" = "true" ] || [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
-            python3 auto_update.py --dry-run
+            python3 src/auto_update.py --dry-run
           else
-            python3 auto_update.py
+            python3 src/auto_update.py
           fi
 
       - name: 重新生成部署包
         run: |
-          cp surge_top100.json deploy/
-          python3 deploy.py
+          cp data/surge_top100.json deploy/
+          python3 src/deploy.py
 
       - name: 提交变更
         # 仅当非 dry_run 时执行
@@ -61,7 +61,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add manifest.json 人话解读.json projects.json translate_batch_*_done.json deploy/ surge_top100.json 分类统计.json classify_module.py
+          git add data/manifest.json data/人话解读.json data/projects.json data/surge_top100.json data/分类统计.json src/classify_module.py deploy/
           git diff --staged --quiet || (
             git commit -m "🤖 auto-update: $(date +%Y-%m-%d)" &&
             git push

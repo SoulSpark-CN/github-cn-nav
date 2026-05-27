@@ -120,7 +120,7 @@ function createProjectItem(p) {
     <span class="rank">${p.id}</span>
     ${p.rh ? '<span class="rh-badge">人话</span>' : ''}
     <a class="name" href="${escHtml(p.url)}" target="_blank">${escHtml(p.name)}</a>
-    <span class="desc">${escHtml(p.desc)}</span>
+    <span class="desc">${escHtml(p.rh?.audience || p.rh?.u || p.desc)}</span>
     <span class="stars">${starsStr}${surgeBadge}</span>
     <span class="lang">${escHtml(p.lang)}</span>
   </div>`;
