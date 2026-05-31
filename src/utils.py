@@ -83,7 +83,7 @@ def atomic_write_json(data: Any, path: str, **json_kwargs) -> None:
     tmp_fd, tmp_path = tempfile.mkstemp(suffix=".json", dir=os.path.dirname(path) or ".")
     try:
         with os.fdopen(tmp_fd, "w", encoding="utf-8") as f:
-            json.dump(data, f, ensure_ascii=False, **json_kwargs)
+            json.dump(data, f, **json_kwargs)
         os.replace(tmp_path, path)
     except Exception:
         os.unlink(tmp_path)
