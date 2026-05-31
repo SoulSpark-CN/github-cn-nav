@@ -22,6 +22,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
 .cat-card .cat-name{font-size:18px;font-weight:600}
 .cat-card .cat-count{font-size:15px;color:#64748b;margin-top:2px}
 .cat-card .cat-bar{height:3px;border-radius:2px;margin-top:6px;transition:.3s}
+.cat-warn{font-size:13px;color:#fbbf24;background:rgba(251,191,36,.1);padding:4px 10px;border-radius:6px;margin-bottom:8px;line-height:1.4}
 .project-area{margin-bottom:24px}
 .project-area h2{font-size:20px;padding:12px 0;display:flex;align-items:center;gap:8px;border-bottom:1px solid #1e293b;margin-bottom:10px;position:sticky;top:0;background:#0f172a;z-index:10}
 .project-item{padding:14px 18px;border-radius:6px;transition:.12s;border-bottom:1px solid #1e293b;cursor:pointer}
@@ -213,8 +214,10 @@ function renderCatGrid() {
     const color = CAT_COLORS[cat] || '#6b7280';
     const pct = Math.round(items.length / maxCnt * 100);
     const isNew = cat.startsWith('_');
-    return `<div class="cat-card${isNew ? ' new-cat' : ''}" data-cat="${escHtml(cat)}">
-      <div class="cat-name">${label}</div>
+    const warnBanner = (cat === '_trending' && window.__surgeWarning)
+      ? `<div class="cat-warn">⚠️ ${escHtml(window.__surgeWarning)}</div>`
+      : '';
+    return `<div class="cat-card${isNew ? ' new-cat' : ''}" data-cat="${escHtml(cat)}">\n      ${warnBanner}<div class="cat-name">${label}</div>
       <div class="cat-count">${items.length} 个项目</div>
       <div class="cat-bar" style="width:${pct}%;background:${color}"></div>
     </div>`;
@@ -417,11 +420,18 @@ async function loadData() {
       p.first_seen >= halfAgo && p.first_seen < monthAgo
     ).sort((a, b) => b.first_seen.localeCompare(a.first_seen));
 
-    // 近5日飙升（可选的 surge_top100.json）
+    // 近5日飙升（可选的 surge_top100.json）— v2 format: {data:[...], _warning?}
     try {
       const surgeResp = await fetch('surge_top100.json');
       if (surgeResp.ok) {
-        const surgeData = await surgeResp.json();
+        const raw = await surgeResp.json();
+        const surgeData = Array.isArray(raw) ? raw : (raw.data || []);
+        if (raw._warning) {
+          console.warn('⚠️ Surge:', raw._warning);
+          window.__surgeWarning = raw._warning;
+        } else {
+          window.__surgeWarning = null;
+        }
         const surgeMap = {};
         surgeData.forEach(s => { surgeMap[s.repo.toLowerCase()] = s.surge_5d; });
         catMap['_trending'] = [];

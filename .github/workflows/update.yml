@@ -1,8 +1,8 @@
-name: Auto Update (Every 2 Days)
+name: Auto Update (Daily)
 
 on:
   schedule:
-    - cron: '0 8 */2 * *'
+    - cron: '0 8 * * *'
   workflow_dispatch:
     inputs:
       dry_run:
@@ -36,7 +36,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: 计算近5日飙升
-        run: python3 src/compute_surge.py --days 5 --top 100 --workers 20
+        run: python3 src/compute_surge.py --days 5 --top 100 --workers 10
 
       - name: 运行更新
         env:
