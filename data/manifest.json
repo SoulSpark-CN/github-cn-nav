@@ -68249,6 +68249,25 @@
     "first_seen": "2026-01-01"
   },
   {
+    "id": 833051953,
+    "name": "dongyubin/DockerHub",
+    "desc": "2026年6月更新，目前国内可用Docker镜像源汇总，DockerHub国内镜像加速列表，🚀DockerHub镜像加速器",
+    "stars": 8862,
+    "url": "https://github.com/dongyubin/DockerHub",
+    "lang": "-",
+    "topics": [
+      "cloudflare",
+      "docker",
+      "docker-image",
+      "docker-registry",
+      "dockerhub",
+      "proxy"
+    ],
+    "created": "2024-07-24T09:00:29Z",
+    "updated": "2026-06-14T10:57:14Z",
+    "first_seen": "2026-06-14"
+  },
+  {
     "id": 81226206,
     "name": "karatelabs/karate",
     "desc": "Test Automation Made Simple",
@@ -90439,6 +90458,22 @@
     "first_seen": "2026-06-03"
   },
   {
+    "id": 29439879,
+    "name": "hellerve/programming-talks",
+    "desc": "Awesome & interesting talks about programming",
+    "stars": 7354,
+    "url": "https://github.com/hellerve/programming-talks",
+    "lang": "Python",
+    "topics": [
+      "list",
+      "programming-talks",
+      "talks"
+    ],
+    "created": "2015-01-18T20:29:42Z",
+    "updated": "2026-06-14T06:02:40Z",
+    "first_seen": "2026-06-14"
+  },
+  {
     "id": 31333618,
     "name": "shopspring/decimal",
     "desc": "Arbitrary-precision fixed-point decimal numbers in Go",
@@ -106454,6 +106489,27 @@
     "first_seen": "2026-05-31"
   },
   {
+    "id": 58478671,
+    "name": "shuaibiyy/awesome-tf",
+    "desc": "Curated list of resources on HashiCorp's Terraform and OpenTofu",
+    "stars": 6530,
+    "url": "https://github.com/shuaibiyy/awesome-tf",
+    "lang": "-",
+    "topics": [
+      "awesome",
+      "awesome-list",
+      "devops",
+      "hashicorp-terraform",
+      "infrastructure-as-code",
+      "opentofu",
+      "terraform",
+      "terraform-modules"
+    ],
+    "created": "2016-05-10T16:56:17Z",
+    "updated": "2026-06-14T08:25:36Z",
+    "first_seen": "2026-06-14"
+  },
+  {
     "id": 138615634,
     "name": "iorate/ublacklist",
     "desc": "Blocks specific sites from appearing in Google search results",
@@ -106937,6 +106993,29 @@
     "created": "2012-11-19T14:12:46Z",
     "updated": "2026-05-11T12:21:38Z",
     "first_seen": "2026-01-01"
+  },
+  {
+    "id": 351298555,
+    "name": "thedevdojo/wave",
+    "desc": "Wave - The Software as a Service Starter Kit, designed to help you build the SAAS of your dreams 🚀 💰 ",
+    "stars": 6509,
+    "url": "https://github.com/thedevdojo/wave",
+    "lang": "CSS",
+    "topics": [
+      "devdojo",
+      "hacktoberfest",
+      "laravel",
+      "php",
+      "saas",
+      "saas-boilerplate",
+      "subscription",
+      "tailwindcss",
+      "voyager",
+      "wave"
+    ],
+    "created": "2021-03-25T03:34:48Z",
+    "updated": "2026-06-14T07:32:26Z",
+    "first_seen": "2026-06-14"
   },
   {
     "id": 5462508,
@@ -112167,6 +112246,27 @@
     "first_seen": "2026-01-01"
   },
   {
+    "id": 321973805,
+    "name": "zotero-chinese/styles",
+    "desc": "中文 CSL 样式 - Zotero 中文社区",
+    "stars": 6265,
+    "url": "https://github.com/zotero-chinese/styles",
+    "lang": "XML",
+    "topics": [
+      "bibliography",
+      "bibliography-style",
+      "chinese",
+      "citation-style-language",
+      "citation-styles",
+      "csl",
+      "gbt-7714",
+      "gbt-7714-2015"
+    ],
+    "created": "2020-12-16T12:21:04Z",
+    "updated": "2026-06-14T08:28:06Z",
+    "first_seen": "2026-06-14"
+  },
+  {
     "id": 13344397,
     "name": "lervag/vimtex",
     "desc": "VimTeX: A modern Vim and neovim filetype plugin for LaTeX files.",
@@ -113367,6 +113467,31 @@
     "created": "2022-07-12T09:23:14Z",
     "updated": "2026-05-18T12:12:13Z",
     "first_seen": "2026-01-01"
+  },
+  {
+    "id": 1136974076,
+    "name": "masterking32/MasterDnsVPN",
+    "desc": "Advanced DNS tunneling VPN for censorship bypass, optimized beyond DNSTT and SlipStream with low-overhead ARQ, resolver load balancing, high packet-loss stability and speed.",
+    "stars": 6205,
+    "url": "https://github.com/masterking32/MasterDnsVPN",
+    "lang": "Go",
+    "topics": [
+      "dns",
+      "dns-client",
+      "dns-proxy",
+      "dns-server",
+      "dns-tunnel",
+      "dns-tunneling",
+      "dnstt",
+      "masterdns",
+      "masterdnsvpn",
+      "slipstream",
+      "tunnel",
+      "vpn"
+    ],
+    "created": "2026-01-18T17:34:54Z",
+    "updated": "2026-06-14T10:57:14Z",
+    "first_seen": "2026-06-14"
   },
   {
     "id": 5746658,
@@ -133604,6 +133729,24 @@
     "first_seen": "2026-01-01"
   },
   {
+    "id": 574278577,
+    "name": "father-bot/chatgpt_telegram_bot",
+    "desc": "💬 Telegram bot with ChatGPT & Claude Python-based, using OpenAI's API.",
+    "stars": 5497,
+    "url": "https://github.com/father-bot/chatgpt_telegram_bot",
+    "lang": "Python",
+    "topics": [
+      "chat-gpt",
+      "chatbot",
+      "openai",
+      "python",
+      "telegram"
+    ],
+    "created": "2022-12-05T00:12:32Z",
+    "updated": "2026-06-14T10:45:50Z",
+    "first_seen": "2026-06-14"
+  },
+  {
     "id": 51420370,
     "name": "reactjs/react-router-tutorial",
     "desc": "",
@@ -149868,6 +150011,26 @@
     "first_seen": "2026-01-01"
   },
   {
+    "id": 847243220,
+    "name": "Sle2p/AniCh",
+    "desc": "一个支持超分辨率的在线动漫弹幕APP。多平台，多番剧源，多弹幕，高清无广告。追番看番必备软件。",
+    "stars": 5061,
+    "url": "https://github.com/Sle2p/AniCh",
+    "lang": "Dart",
+    "topics": [
+      "acg",
+      "anime",
+      "anime-chan",
+      "anime-channel",
+      "anime4k",
+      "bangumi",
+      "danmaku"
+    ],
+    "created": "2024-08-25T09:00:31Z",
+    "updated": "2026-06-14T10:26:02Z",
+    "first_seen": "2026-06-14"
+  },
+  {
     "id": 156819424,
     "name": "javastacks/spring-boot-best-practice",
     "desc": "Spring Boot 最佳实践，已适配 Spring Boot 4.x，包括自动配置、核心原理、源码分析、国际化支持、调试、日志集成、热部署等。",
@@ -151893,6 +152056,18 @@
     "first_seen": "2026-06-05"
   },
   {
+    "id": 996360053,
+    "name": "anomalyco/models.dev",
+    "desc": "An open-source database of AI models.",
+    "stars": 5013,
+    "url": "https://github.com/anomalyco/models.dev",
+    "lang": "TypeScript",
+    "topics": [],
+    "created": "2025-06-04T20:51:31Z",
+    "updated": "2026-06-14T10:29:48Z",
+    "first_seen": "2026-06-14"
+  },
+  {
     "id": 382378702,
     "name": "web-infra-dev/modern.js",
     "desc": "A progressive web framework based on React and Rsbuild.",
@@ -152278,6 +152453,38 @@
     "first_seen": "2026-06-12"
   },
   {
+    "id": 85242321,
+    "name": "dotnet/MQTTnet",
+    "desc": "MQTTnet is a high performance .NET library for MQTT based communication. It provides a MQTT client and a MQTT server (broker). The implementation is based on the documentation from http://mqtt.org/.",
+    "stars": 5009,
+    "url": "https://github.com/dotnet/MQTTnet",
+    "lang": "C#",
+    "topics": [
+      "anycpu",
+      "broker",
+      "communication",
+      "csharp",
+      "iot",
+      "iot-framework",
+      "iot-platform",
+      "mqtt",
+      "mqtt-broker",
+      "mqtt-client",
+      "mqtt-protocol",
+      "mqtt-server",
+      "net",
+      "netcore",
+      "netframework",
+      "nuget",
+      "tcp",
+      "tls",
+      "uwp"
+    ],
+    "created": "2017-03-16T21:15:54Z",
+    "updated": "2026-06-13T16:08:05Z",
+    "first_seen": "2026-06-14"
+  },
+  {
     "id": 582432706,
     "name": "brianpetro/obsidian-smart-connections",
     "desc": "Chat with your notes & see links to related content with AI embeddings. Use local models or 100+ via APIs like Claude, Gemini, ChatGPT & Llama 3",
@@ -152402,6 +152609,18 @@
     "created": "2013-09-17T17:07:58Z",
     "updated": "2026-05-18T16:42:00Z",
     "first_seen": "2026-01-01"
+  },
+  {
+    "id": 827603038,
+    "name": "Lakr233/Asspp",
+    "desc": "The App Store for your multi-account eco system.",
+    "stars": 5005,
+    "url": "https://github.com/Lakr233/Asspp",
+    "lang": "Swift",
+    "topics": [],
+    "created": "2024-07-12T01:58:29Z",
+    "updated": "2026-06-14T08:27:47Z",
+    "first_seen": "2026-06-14"
   },
   {
     "id": 121553439,
@@ -152789,6 +153008,60 @@
     "created": "2020-05-24T14:44:59Z",
     "updated": "2026-06-03T08:55:20Z",
     "first_seen": "2026-06-03"
+  },
+  {
+    "id": 94652781,
+    "name": "tixl3d/tixl",
+    "desc": "TiXL is an open source software to create realtime motion graphics.",
+    "stars": 5001,
+    "url": "https://github.com/tixl3d/tixl",
+    "lang": "C#",
+    "topics": [
+      "animation",
+      "design",
+      "directx",
+      "directx-11",
+      "imgui",
+      "motion-design",
+      "realtime",
+      "realtime-rendering"
+    ],
+    "created": "2017-06-17T22:37:11Z",
+    "updated": "2026-06-14T09:46:35Z",
+    "first_seen": "2026-06-14"
+  },
+  {
+    "id": 306484159,
+    "name": "extension-js/extension.js",
+    "desc": "The cross-browser extension framework.",
+    "stars": 5001,
+    "url": "https://github.com/extension-js/extension.js",
+    "lang": "TypeScript",
+    "topics": [
+      "browser-extension",
+      "chrome-extension",
+      "cli",
+      "content-script",
+      "cross-browser",
+      "edge-extension",
+      "extension-js",
+      "firefox-extension",
+      "manifest-v3",
+      "playwright",
+      "preact",
+      "react",
+      "safari-web-extension",
+      "scaffold",
+      "starter-template",
+      "svelte",
+      "typescript",
+      "vue",
+      "webextension",
+      "zero-config"
+    ],
+    "created": "2020-10-22T23:48:23Z",
+    "updated": "2026-06-14T06:20:20Z",
+    "first_seen": "2026-06-14"
   },
   {
     "id": 2830198,
