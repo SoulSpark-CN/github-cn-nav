@@ -14143,6 +14143,39 @@
     "first_seen": "2026-05-19"
   },
   {
+    "id": 942867788,
+    "name": "elder-plinius/CL4R1T4S",
+    "desc": "LEAKED SYSTEM PROMPTS FOR CHATGPT, CLAUDE, GEMINI, GROK, PERPLEXITY, CURSOR, LOVABLE, REPLIT, AND MORE! - AI SYSTEMS TRANSPARENCY FOR ALL! 👐",
+    "stars": 39200,
+    "url": "https://github.com/elder-plinius/CL4R1T4S",
+    "lang": "-",
+    "topics": [
+      "agents",
+      "ai",
+      "chatgpt",
+      "gemini",
+      "google",
+      "grok",
+      "hacking",
+      "leak",
+      "leaked",
+      "openai",
+      "prompt",
+      "prompt-engineering",
+      "prompts",
+      "red-team",
+      "red-teaming",
+      "system",
+      "system-info",
+      "system-prompts",
+      "tools",
+      "transparency"
+    ],
+    "created": "2025-03-04T20:03:16Z",
+    "updated": "2026-06-15T14:38:28Z",
+    "first_seen": "2026-06-15"
+  },
+  {
     "id": 143328315,
     "name": "mindsdb/minds-platform",
     "desc": "构建生产级AI应用的开源平台",
@@ -15816,6 +15849,24 @@
     "created": "2026-01-28T19:02:30Z",
     "updated": "2026-05-31T18:22:25Z",
     "first_seen": "2026-05-31"
+  },
+  {
+    "id": 1197990888,
+    "name": "Gitlawb/openclaude",
+    "desc": "runs anywhere. uses anything",
+    "stars": 28917,
+    "url": "https://github.com/Gitlawb/openclaude",
+    "lang": "TypeScript",
+    "topics": [
+      "ai",
+      "ai-agent",
+      "ai-tools",
+      "cli",
+      "coding"
+    ],
+    "created": "2026-04-01T03:15:49Z",
+    "updated": "2026-06-15T14:38:22Z",
+    "first_seen": "2026-06-15"
   },
   {
     "id": 740303686,
@@ -39147,6 +39198,29 @@
     "first_seen": "2026-01-01"
   },
   {
+    "id": 1266797999,
+    "name": "DietrichGebert/ponytail",
+    "desc": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+    "stars": 12729,
+    "url": "https://github.com/DietrichGebert/ponytail",
+    "lang": "JavaScript",
+    "topics": [
+      "agent-skills",
+      "ai-agents",
+      "claude",
+      "claude-code",
+      "claude-code-plugin",
+      "cursor-rules",
+      "developer-tools",
+      "llm",
+      "prompt-engineering",
+      "yagni"
+    ],
+    "created": "2026-06-12T00:52:37Z",
+    "updated": "2026-06-15T14:38:24Z",
+    "first_seen": "2026-06-15"
+  },
+  {
     "id": 5198041,
     "name": "Netflix/eureka",
     "desc": "AWS Service registry for resilient mid-tier load balancing and failover.",
@@ -60448,6 +60522,24 @@
     "first_seen": "2026-01-01"
   },
   {
+    "id": 22117770,
+    "name": "ashishb/android-security-awesome",
+    "desc": "A collection of android security related resources",
+    "stars": 9472,
+    "url": "https://github.com/ashishb/android-security-awesome",
+    "lang": "Makefile",
+    "topics": [
+      "android",
+      "awesome",
+      "awesome-list",
+      "list",
+      "security"
+    ],
+    "created": "2014-07-22T19:30:51Z",
+    "updated": "2026-06-15T12:32:17Z",
+    "first_seen": "2026-06-15"
+  },
+  {
     "id": 946178371,
     "name": "OpenPipe/ART",
     "desc": "Agent Reinforcement Trainer: train multi-step agents for real-world tasks using GRPO. Give your agents on-the-job training. Reinforcement learning for Qwen3.6, GPT-OSS, Llama, and more!",
@@ -71429,6 +71521,26 @@
     "created": "2025-08-12T13:59:33Z",
     "updated": "2026-05-18T22:49:11Z",
     "first_seen": "2026-01-01"
+  },
+  {
+    "id": 136670364,
+    "name": "LOLBAS-Project/LOLBAS",
+    "desc": "Living Off The Land Binaries And Scripts - (LOLBins and LOLScripts)",
+    "stars": 8615,
+    "url": "https://github.com/LOLBAS-Project/LOLBAS",
+    "lang": "XSLT",
+    "topics": [
+      "blueteam",
+      "dfir",
+      "living-off-the-land",
+      "lolbins",
+      "lolscripts",
+      "purpleteam",
+      "redteam"
+    ],
+    "created": "2018-06-08T22:11:05Z",
+    "updated": "2026-06-15T11:46:36Z",
+    "first_seen": "2026-06-15"
   },
   {
     "id": 845337192,
@@ -86959,6 +87071,21 @@
     "created": "2014-05-15T10:58:50Z",
     "updated": "2026-05-18T21:33:16Z",
     "first_seen": "2026-01-01"
+  },
+  {
+    "id": 807920060,
+    "name": "jianchang512/ChatTTS-ui",
+    "desc": "一个简单的本地网页界面，使用ChatTTS将文字合成为语音，同时支持对外提供API接口。A simple native web interface that uses ChatTTS to synthesize text into speech, along with support for external API interfaces.",
+    "stars": 7599,
+    "url": "https://github.com/jianchang512/ChatTTS-ui",
+    "lang": "Python",
+    "topics": [
+      "chattts",
+      "tts"
+    ],
+    "created": "2024-05-30T03:11:05Z",
+    "updated": "2026-06-15T12:34:37Z",
+    "first_seen": "2026-06-15"
   },
   {
     "id": 834966974,
@@ -103409,6 +103536,20 @@
     "first_seen": "2026-06-09"
   },
   {
+    "id": 191097072,
+    "name": "wzdnzd/aggregator",
+    "desc": "One-stop Proxies Crawling and Aggregation Platform",
+    "stars": 6683,
+    "url": "https://github.com/wzdnzd/aggregator",
+    "lang": "Python",
+    "topics": [
+      "proxypool"
+    ],
+    "created": "2019-06-10T04:34:24Z",
+    "updated": "2026-06-15T14:29:04Z",
+    "first_seen": "2026-06-15"
+  },
+  {
     "id": 3802828,
     "name": "elazarl/goproxy",
     "desc": "An HTTP proxy library for Go",
@@ -107123,6 +107264,28 @@
     "created": "2017-05-02T03:15:32Z",
     "updated": "2026-05-18T23:21:37Z",
     "first_seen": "2026-01-01"
+  },
+  {
+    "id": 900577388,
+    "name": "crestalnetwork/intentkit",
+    "desc": "IntentKit is an open-source, self-hosted cloud agent cluster that manages a collaborative team of AI agents for you.",
+    "stars": 6502,
+    "url": "https://github.com/crestalnetwork/intentkit",
+    "lang": "Python",
+    "topics": [
+      "agent-framework",
+      "agentic",
+      "ai",
+      "ai-agent",
+      "ai-agent-framework",
+      "blockchain",
+      "intents",
+      "python",
+      "web3"
+    ],
+    "created": "2024-12-09T04:32:22Z",
+    "updated": "2026-06-14T12:16:36Z",
+    "first_seen": "2026-06-15"
   },
   {
     "id": 452327893,
@@ -113945,6 +114108,25 @@
     "first_seen": "2026-01-01"
   },
   {
+    "id": 915520679,
+    "name": "FareedKhan-dev/train-llm-from-scratch",
+    "desc": "A straightforward method for training your LLM, from downloading data to generating text.",
+    "stars": 6184,
+    "url": "https://github.com/FareedKhan-dev/train-llm-from-scratch",
+    "lang": "Python",
+    "topics": [
+      "gemini",
+      "large-language-models",
+      "llm",
+      "openai",
+      "training",
+      "transformers"
+    ],
+    "created": "2025-01-12T04:03:05Z",
+    "updated": "2026-06-15T14:37:17Z",
+    "first_seen": "2026-06-15"
+  },
+  {
     "id": 18981255,
     "name": "slap-editor/slap",
     "desc": "Sublime-like terminal-based text editor",
@@ -114122,6 +114304,18 @@
     "created": "2023-07-21T14:52:04Z",
     "updated": "2026-05-18T22:15:03Z",
     "first_seen": "2026-01-01"
+  },
+  {
+    "id": 745998704,
+    "name": "gpu-mode/lectures",
+    "desc": "Material for gpu-mode lectures",
+    "stars": 6179,
+    "url": "https://github.com/gpu-mode/lectures",
+    "lang": "Jupyter Notebook",
+    "topics": [],
+    "created": "2024-01-20T19:28:02Z",
+    "updated": "2026-06-15T12:28:47Z",
+    "first_seen": "2026-06-15"
   },
   {
     "id": 141745943,
@@ -116473,6 +116667,20 @@
     "first_seen": "2026-01-01"
   },
   {
+    "id": 951794942,
+    "name": "bytedance/MegaTTS3",
+    "desc": "",
+    "stars": 6086,
+    "url": "https://github.com/bytedance/MegaTTS3",
+    "lang": "Python",
+    "topics": [
+      "research"
+    ],
+    "created": "2025-03-20T08:57:52Z",
+    "updated": "2026-06-15T11:26:53Z",
+    "first_seen": "2026-06-15"
+  },
+  {
     "id": 344026346,
     "name": "thx/gogocode",
     "desc": "GoGoCode is a transformer for JavaScript/Typescript/HTML based on AST but providing a more intuitive API.",
@@ -116737,6 +116945,18 @@
     "created": "2016-01-28T18:54:58Z",
     "updated": "2026-05-16T18:24:49Z",
     "first_seen": "2026-01-01"
+  },
+  {
+    "id": 3758878,
+    "name": "pallets-eco/flask-admin",
+    "desc": "Simple and extensible administrative interface framework for Flask",
+    "stars": 6071,
+    "url": "https://github.com/pallets-eco/flask-admin",
+    "lang": "Python",
+    "topics": [],
+    "created": "2012-03-18T23:21:57Z",
+    "updated": "2026-06-15T06:50:34Z",
+    "first_seen": "2026-06-15"
   },
   {
     "id": 1166129534,
@@ -118029,6 +118249,32 @@
     "created": "2012-02-12T10:41:55Z",
     "updated": "2026-05-17T06:06:31Z",
     "first_seen": "2026-01-01"
+  },
+  {
+    "id": 609013171,
+    "name": "TG-Twilight/AWAvenue-Ads-Rule",
+    "desc": "众多优秀广告规则的上游、开源社区中最棒的广告过滤器之一。适配AdGuard/Home/DNS、AdAway、hosts、Mosdns、ClashMeta、QuantumultX等主流广告拦截工具/代理工具。",
+    "stars": 6030,
+    "url": "https://github.com/TG-Twilight/AWAvenue-Ads-Rule",
+    "lang": "Adblock Filter List",
+    "topics": [
+      "adblock",
+      "adblock-list",
+      "adguard",
+      "adguard-blocklist",
+      "adguardhome",
+      "clash",
+      "dns",
+      "dnsmasq",
+      "filterlist",
+      "filters",
+      "mihomo",
+      "python",
+      "smartdns"
+    ],
+    "created": "2023-03-03T07:32:42Z",
+    "updated": "2026-06-15T13:32:32Z",
+    "first_seen": "2026-06-15"
   },
   {
     "id": 153810819,
@@ -129785,6 +130031,18 @@
     "first_seen": "2026-01-01"
   },
   {
+    "id": 1196181411,
+    "name": "drona23/claude-token-efficient",
+    "desc": "One CLAUDE.md file. Keeps Claude responses terse. Reduces output verbosity on heavy workflows. Drop-in, no code changes.",
+    "stars": 5621,
+    "url": "https://github.com/drona23/claude-token-efficient",
+    "lang": "Python",
+    "topics": [],
+    "created": "2026-03-30T12:59:07Z",
+    "updated": "2026-06-15T14:30:06Z",
+    "first_seen": "2026-06-15"
+  },
+  {
     "id": 19647328,
     "name": "jindrapetrik/jpexs-decompiler",
     "desc": "JPEXS Free Flash Decompiler",
@@ -130265,6 +130523,21 @@
     "created": "2015-02-24T22:46:55Z",
     "updated": "2026-06-08T09:34:04Z",
     "first_seen": "2026-06-08"
+  },
+  {
+    "id": 168772474,
+    "name": "aws-samples/aws-cdk-examples",
+    "desc": "Example projects using the AWS CDK",
+    "stars": 5600,
+    "url": "https://github.com/aws-samples/aws-cdk-examples",
+    "lang": "Python",
+    "topics": [
+      "cdk",
+      "cdk-examples"
+    ],
+    "created": "2019-02-01T23:16:42Z",
+    "updated": "2026-06-14T21:51:51Z",
+    "first_seen": "2026-06-15"
   },
   {
     "id": 20394581,
@@ -140563,6 +140836,21 @@
     "first_seen": "2026-01-01"
   },
   {
+    "id": 638806609,
+    "name": "lyuwenyu/RT-DETR",
+    "desc": "[CVPR 2024] Official RT-DETR (RTDETR paddle pytorch), Real-Time DEtection TRansformer, DETRs Beat YOLOs on Real-time Object Detection. 🔥 🔥 🔥 ",
+    "stars": 5290,
+    "url": "https://github.com/lyuwenyu/RT-DETR",
+    "lang": "Python",
+    "topics": [
+      "rtdetr",
+      "rtdetrv2"
+    ],
+    "created": "2023-05-10T06:35:56Z",
+    "updated": "2026-06-15T07:41:59Z",
+    "first_seen": "2026-06-15"
+  },
+  {
     "id": 1203558071,
     "name": "TencentCloud/TencentDB-Agent-Memory",
     "desc": "TencentDB Agent Memory delivers fully local long-term memory for AI Agents via a 4-tier progressive pipeline, with zero external API dependencies.",
@@ -142618,6 +142906,28 @@
     "first_seen": "2026-05-31"
   },
   {
+    "id": 8411137,
+    "name": "Tribler/tribler",
+    "desc": "Privacy enhanced BitTorrent client with P2P content discovery",
+    "stars": 5238,
+    "url": "https://github.com/Tribler/tribler",
+    "lang": "Python",
+    "topics": [
+      "bittorrent",
+      "decentralized",
+      "p2p",
+      "privacy",
+      "python",
+      "search",
+      "streaming",
+      "tor",
+      "torrent-client"
+    ],
+    "created": "2013-02-25T14:51:58Z",
+    "updated": "2026-06-15T10:46:30Z",
+    "first_seen": "2026-06-15"
+  },
+  {
     "id": 76991633,
     "name": "laravel-mix/laravel-mix",
     "desc": "The power of webpack, distilled for the rest of us.",
@@ -143140,6 +143450,24 @@
     "created": "2017-07-06T13:08:46Z",
     "updated": "2026-05-18T05:09:24Z",
     "first_seen": "2026-01-01"
+  },
+  {
+    "id": 439743567,
+    "name": "rasbt/machine-learning-book",
+    "desc": "Code Repository for Machine Learning with PyTorch and Scikit-Learn",
+    "stars": 5225,
+    "url": "https://github.com/rasbt/machine-learning-book",
+    "lang": "Jupyter Notebook",
+    "topics": [
+      "deep-learning",
+      "machine-learning",
+      "neural-networks",
+      "pytorch",
+      "scikit-learn"
+    ],
+    "created": "2021-12-19T00:32:59Z",
+    "updated": "2026-06-15T14:34:32Z",
+    "first_seen": "2026-06-15"
   },
   {
     "id": 601185172,
@@ -146508,6 +146836,28 @@
     "first_seen": "2026-01-01"
   },
   {
+    "id": 313501668,
+    "name": "wenet-e2e/wenet",
+    "desc": "Production First and Production Ready End-to-End Speech Recognition Toolkit",
+    "stars": 5138,
+    "url": "https://github.com/wenet-e2e/wenet",
+    "lang": "Python",
+    "topics": [
+      "asr",
+      "automatic-speech-recognition",
+      "conformer",
+      "e2e-models",
+      "production-ready",
+      "pytorch",
+      "speech-recognition",
+      "transformer",
+      "whisper"
+    ],
+    "created": "2020-11-17T03:57:23Z",
+    "updated": "2026-06-15T12:21:49Z",
+    "first_seen": "2026-06-15"
+  },
+  {
     "id": 107134451,
     "name": "dbrizov/NaughtyAttributes",
     "desc": "Attribute Extensions for Unity",
@@ -146525,6 +146875,35 @@
     "created": "2017-10-16T13:54:46Z",
     "updated": "2026-05-18T21:55:23Z",
     "first_seen": "2026-01-01"
+  },
+  {
+    "id": 1125007401,
+    "name": "telemt/telemt",
+    "desc": "MTProxy for Telegram on Rust + Tokio",
+    "stars": 5137,
+    "url": "https://github.com/telemt/telemt",
+    "lang": "Rust",
+    "topics": [
+      "aes-ctr",
+      "async",
+      "ja4",
+      "mtproto",
+      "mtproto-proxy",
+      "mtproxy",
+      "network",
+      "obfuscation",
+      "privacy",
+      "proxy",
+      "rust",
+      "rustls",
+      "socks5",
+      "telegram",
+      "tls",
+      "tokio"
+    ],
+    "created": "2025-12-30T02:00:23Z",
+    "updated": "2026-06-15T14:35:37Z",
+    "first_seen": "2026-06-15"
   },
   {
     "id": 670732143,
@@ -146777,6 +147156,26 @@
     "created": "2023-11-25T09:22:41Z",
     "updated": "2026-05-18T20:05:33Z",
     "first_seen": "2026-01-01"
+  },
+  {
+    "id": 1033268244,
+    "name": "agent-infra/sandbox",
+    "desc": "All-in-One Sandbox for AI Agents that combines Browser, Shell, File, MCP and VSCode Server in a single Docker container.",
+    "stars": 5133,
+    "url": "https://github.com/agent-infra/sandbox",
+    "lang": "Python",
+    "topics": [
+      "agent",
+      "all-in-one",
+      "browser",
+      "filesystem",
+      "mcp",
+      "sandbox",
+      "shell"
+    ],
+    "created": "2025-08-06T14:51:05Z",
+    "updated": "2026-06-15T10:44:13Z",
+    "first_seen": "2026-06-15"
   },
   {
     "id": 13212165,
@@ -150870,6 +151269,39 @@
     "first_seen": "2026-01-01"
   },
   {
+    "id": 1131107802,
+    "name": "FlorianBruniaux/claude-code-ultimate-guide",
+    "desc": "A tremendous feat of documentation, this guide covers Claude Code from beginner to power user, with production-ready templates for Claude Code features, guides on agentic workflows, and a lot of great learning materials, including quizzes and a handy \"cheatsheet\". Whether it's the \"ultimate\" guide to Claude Code will be up to the reader :)",
+    "stars": 5039,
+    "url": "https://github.com/FlorianBruniaux/claude-code-ultimate-guide",
+    "lang": "Python",
+    "topics": [
+      "agentic-coding",
+      "ai-assistant",
+      "ai-coding",
+      "ai-pair-programming",
+      "ai-security",
+      "anthropic",
+      "best-practices",
+      "claude",
+      "claude-code",
+      "claude-code-guide",
+      "claude-code-tutorial",
+      "cli-tool",
+      "coding-assistant",
+      "cursor-alternative",
+      "developer-tools",
+      "llm",
+      "mcp-servers",
+      "prompt-engineering",
+      "tutorial",
+      "vibe-coding"
+    ],
+    "created": "2026-01-09T13:42:10Z",
+    "updated": "2026-06-15T14:35:02Z",
+    "first_seen": "2026-06-15"
+  },
+  {
     "id": 636922549,
     "name": "OpenBMB/AgentVerse",
     "desc": "🤖 AgentVerse 🪐 is designed to facilitate the deployment of multiple LLM-based agents in various applications, which primarily provides two frameworks: task-solving and simulation",
@@ -152169,6 +152601,26 @@
     "first_seen": "2026-06-07"
   },
   {
+    "id": 211540698,
+    "name": "kmonad/kmonad",
+    "desc": "An advanced keyboard manager",
+    "stars": 5012,
+    "url": "https://github.com/kmonad/kmonad",
+    "lang": "Haskell",
+    "topics": [
+      "cross-platform",
+      "haskell",
+      "keyboard",
+      "keyboard-layout",
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "created": "2019-09-28T17:54:41Z",
+    "updated": "2026-06-15T12:11:40Z",
+    "first_seen": "2026-06-15"
+  },
+  {
     "id": 310659501,
     "name": "qjfoidnh/BaiduPCS-Go",
     "desc": "iikira/BaiduPCS-Go原版基础上集成了分享链接/秒传链接转存功能",
@@ -153062,6 +153514,36 @@
     "created": "2020-10-22T23:48:23Z",
     "updated": "2026-06-14T06:20:20Z",
     "first_seen": "2026-06-14"
+  },
+  {
+    "id": 350426188,
+    "name": "Sophia-Community/SophiApp",
+    "desc": ":zap: The most powerful open source tweaker on GitHub for fine-tuning Windows 10 & Windows 11",
+    "stars": 5001,
+    "url": "https://github.com/Sophia-Community/SophiApp",
+    "lang": "C#",
+    "topics": [
+      "22h2",
+      "23h2",
+      "debloat",
+      "debloater",
+      "debloating",
+      "gui",
+      "insider",
+      "insiders",
+      "optimization",
+      "sophia",
+      "sophiapp",
+      "tweaker",
+      "tweaking",
+      "windows",
+      "windows-10",
+      "windows-debloat",
+      "windows11"
+    ],
+    "created": "2021-03-22T17:10:30Z",
+    "updated": "2026-06-15T12:29:31Z",
+    "first_seen": "2026-06-15"
   },
   {
     "id": 2830198,
