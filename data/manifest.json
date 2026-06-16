@@ -69765,6 +69765,21 @@
     "first_seen": "2026-01-01"
   },
   {
+    "id": 37680686,
+    "name": "igorbarinov/awesome-data-engineering",
+    "desc": "A curated list of data engineering tools for software developers",
+    "stars": 8736,
+    "url": "https://github.com/igorbarinov/awesome-data-engineering",
+    "lang": "-",
+    "topics": [
+      "awesome",
+      "awesome-list"
+    ],
+    "created": "2015-06-18T19:39:42Z",
+    "updated": "2026-06-16T12:16:53Z",
+    "first_seen": "2026-06-16"
+  },
+  {
     "id": 1092277,
     "name": "douglascrockford/JSON-js",
     "desc": "JSON in JavaScript",
@@ -88842,6 +88857,25 @@
     "first_seen": "2026-05-31"
   },
   {
+    "id": 2897853,
+    "name": "burnash/gspread",
+    "desc": "Google Sheets Python API",
+    "stars": 7479,
+    "url": "https://github.com/burnash/gspread",
+    "lang": "Python",
+    "topics": [
+      "google-sheets",
+      "google-sheets-api",
+      "google-sheets-api-v4",
+      "gspread",
+      "spreadsheet",
+      "spreadsheets"
+    ],
+    "created": "2011-12-02T10:46:20Z",
+    "updated": "2026-06-16T08:40:57Z",
+    "first_seen": "2026-06-16"
+  },
+  {
     "id": 44820350,
     "name": "42wim/matterbridge",
     "desc": "bridge between mattermost, IRC, gitter, xmpp, slack, discord, telegram, rocketchat, twitch, ssh-chat, zulip, whatsapp, keybase, matrix, microsoft teams, nextcloud, mumble, vk and more with REST API (mattermost not required!)",
@@ -96187,6 +96221,18 @@
     "first_seen": "2026-01-01"
   },
   {
+    "id": 260891768,
+    "name": "alsyundawy/Microsoft-Office-For-MacOS",
+    "desc": "Installer Microsoft Office For MacOS",
+    "stars": 7048,
+    "url": "https://github.com/alsyundawy/Microsoft-Office-For-MacOS",
+    "lang": "Shell",
+    "topics": [],
+    "created": "2020-05-03T11:11:44Z",
+    "updated": "2026-06-16T11:27:17Z",
+    "first_seen": "2026-06-16"
+  },
+  {
     "id": 67361566,
     "name": "mobxjs/mobx-state-tree",
     "desc": "Full-featured reactive state management without the boilerplate",
@@ -100713,6 +100759,18 @@
     "created": "2025-03-16T22:37:03Z",
     "updated": "2026-06-02T10:27:48Z",
     "first_seen": "2026-06-02"
+  },
+  {
+    "id": 1187630119,
+    "name": "NVIDIA/SkillSpector",
+    "desc": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, and security risks.",
+    "stars": 6799,
+    "url": "https://github.com/NVIDIA/SkillSpector",
+    "lang": "Python",
+    "topics": [],
+    "created": "2026-03-21T00:28:43Z",
+    "updated": "2026-06-16T13:09:48Z",
+    "first_seen": "2026-06-16"
   },
   {
     "id": 8227684,
@@ -109991,6 +110049,22 @@
     "created": "2024-12-24T10:00:06Z",
     "updated": "2026-06-01T21:32:33Z",
     "first_seen": "2026-06-02"
+  },
+  {
+    "id": 631501316,
+    "name": "weekend-project-space/top-rss-list",
+    "desc": "订阅人数最多的rss源，中文优质rss源",
+    "stars": 6380,
+    "url": "https://github.com/weekend-project-space/top-rss-list",
+    "lang": "-",
+    "topics": [
+      "rss",
+      "rss-feed",
+      "rss-reader"
+    ],
+    "created": "2023-04-23T08:05:57Z",
+    "updated": "2026-06-16T09:22:45Z",
+    "first_seen": "2026-06-16"
   },
   {
     "id": 812208048,
@@ -123709,6 +123783,22 @@
     "first_seen": "2026-01-01"
   },
   {
+    "id": 56346088,
+    "name": "grassmunk/Chicago95",
+    "desc": "A rendition of everyone's favorite 1995 Microsoft operating system for Linux. ",
+    "stars": 5832,
+    "url": "https://github.com/grassmunk/Chicago95",
+    "lang": "HTML",
+    "topics": [
+      "gtk3-theme",
+      "theme",
+      "xfce-theme"
+    ],
+    "created": "2016-04-15T19:53:03Z",
+    "updated": "2026-06-16T12:44:03Z",
+    "first_seen": "2026-06-16"
+  },
+  {
     "id": 539727112,
     "name": "lidangzzz/How-to-run",
     "desc": "立党零基础转码笔记",
@@ -124154,6 +124244,33 @@
     "created": "2017-02-16T17:49:57Z",
     "updated": "2026-05-18T22:14:38Z",
     "first_seen": "2026-01-01"
+  },
+  {
+    "id": 251201169,
+    "name": "PaddlePaddle/PaddleClas",
+    "desc": "A treasure chest for visual classification and recognition powered by PaddlePaddle",
+    "stars": 5815,
+    "url": "https://github.com/PaddlePaddle/PaddleClas",
+    "lang": "Python",
+    "topics": [
+      "autoaugment",
+      "cutmix",
+      "deit",
+      "fastdeploy",
+      "gridmask",
+      "image-classification",
+      "image-recognition",
+      "image-retrieval-system",
+      "knowledge-distillation",
+      "pretrained-models",
+      "product-recognition",
+      "randaugment",
+      "repvgg",
+      "swin-transformer"
+    ],
+    "created": "2020-03-30T04:27:42Z",
+    "updated": "2026-06-16T12:22:54Z",
+    "first_seen": "2026-06-16"
   },
   {
     "id": 59243976,
@@ -124857,6 +124974,28 @@
     "created": "2021-11-02T09:11:38Z",
     "updated": "2026-05-31T06:21:08Z",
     "first_seen": "2026-05-31"
+  },
+  {
+    "id": 612519947,
+    "name": "xhongc/music-tag-web",
+    "desc": "音乐标签编辑器，可编辑本地音乐文件的元数据, 音乐刮削。（Editable local music file metadata.）",
+    "stars": 5788,
+    "url": "https://github.com/xhongc/music-tag-web",
+    "lang": "Python",
+    "topics": [
+      "docker",
+      "mp3tag",
+      "music",
+      "music-scaper",
+      "music-tag",
+      "musictag",
+      "nas",
+      "navidrome",
+      "tag"
+    ],
+    "created": "2023-03-11T07:24:17Z",
+    "updated": "2026-06-16T08:59:34Z",
+    "first_seen": "2026-06-16"
   },
   {
     "id": 9646845,
@@ -126339,6 +126478,18 @@
     "created": "2016-08-14T18:46:29Z",
     "updated": "2026-05-18T22:21:59Z",
     "first_seen": "2026-01-01"
+  },
+  {
+    "id": 4053456,
+    "name": "martinblech/xmltodict",
+    "desc": "Python module that makes working with XML feel like you are working with JSON",
+    "stars": 5741,
+    "url": "https://github.com/martinblech/xmltodict",
+    "lang": "Python",
+    "topics": [],
+    "created": "2012-04-17T14:38:21Z",
+    "updated": "2026-06-15T17:40:02Z",
+    "first_seen": "2026-06-16"
   },
   {
     "id": 19641638,
@@ -127951,6 +128102,25 @@
     "created": "2018-11-13T17:39:38Z",
     "updated": "2026-05-15T21:13:30Z",
     "first_seen": "2026-01-01"
+  },
+  {
+    "id": 628959446,
+    "name": "showlab/Awesome-Video-Diffusion",
+    "desc": "A curated list of recent diffusion models for video generation, editing, and various other applications.",
+    "stars": 5692,
+    "url": "https://github.com/showlab/Awesome-Video-Diffusion",
+    "lang": "-",
+    "topics": [
+      "awesome",
+      "diffusion-models",
+      "motion-customization",
+      "video-editing",
+      "video-generation",
+      "video-generation-evaluation"
+    ],
+    "created": "2023-04-17T10:34:17Z",
+    "updated": "2026-06-16T12:43:01Z",
+    "first_seen": "2026-06-16"
   },
   {
     "id": 46233451,
@@ -140236,6 +140406,18 @@
     "first_seen": "2026-01-01"
   },
   {
+    "id": 5857387,
+    "name": "davidhalter/jedi-vim",
+    "desc": "Using the jedi autocompletion library for VIM.",
+    "stars": 5310,
+    "url": "https://github.com/davidhalter/jedi-vim",
+    "lang": "Python",
+    "topics": [],
+    "created": "2012-09-18T14:14:29Z",
+    "updated": "2026-06-16T07:06:13Z",
+    "first_seen": "2026-06-16"
+  },
+  {
     "id": 1207639951,
     "name": "EKKOLearnAI/hermes-web-ui",
     "desc": "Web dashboard for Hermes Agent — multi-platform AI chat, session management, scheduled jobs, usage analytics ",
@@ -148564,6 +148746,32 @@
     "first_seen": "2026-06-03"
   },
   {
+    "id": 1188180267,
+    "name": "mnfst/awesome-free-llm-apis",
+    "desc": "List of Permanent Free LLM API  (API Keys)",
+    "stars": 5100,
+    "url": "https://github.com/mnfst/awesome-free-llm-apis",
+    "lang": "JavaScript",
+    "topics": [
+      "ai-agents",
+      "anthropic",
+      "awesome",
+      "awesome-list",
+      "gemini",
+      "llm",
+      "llm-router",
+      "llm-routing",
+      "ollama",
+      "openai",
+      "openclaw",
+      "openclaw-plugin",
+      "router"
+    ],
+    "created": "2026-03-21T18:14:07Z",
+    "updated": "2026-06-16T12:58:50Z",
+    "first_seen": "2026-06-16"
+  },
+  {
     "id": 32981784,
     "name": "react-ga/react-ga",
     "desc": "React Google Analytics Module",
@@ -150510,6 +150718,28 @@
     "created": "2019-04-23T08:23:13Z",
     "updated": "2026-05-16T08:12:58Z",
     "first_seen": "2026-01-01"
+  },
+  {
+    "id": 1180917769,
+    "name": "uditgoenka/autoresearch",
+    "desc": "Claude Autoresearch Skill — Autonomous goal-directed iteration for Claude Code. Inspired by Karpathy's autoresearch. Modify → Verify → Keep/Discard → Repeat forever.",
+    "stars": 5058,
+    "url": "https://github.com/uditgoenka/autoresearch",
+    "lang": "JavaScript",
+    "topics": [
+      "ai",
+      "autonomous-agent",
+      "autoresearch",
+      "claude",
+      "claude-code",
+      "iteration",
+      "karpathy",
+      "productivity",
+      "skill"
+    ],
+    "created": "2026-03-13T14:51:54Z",
+    "updated": "2026-06-16T12:36:59Z",
+    "first_seen": "2026-06-16"
   },
   {
     "id": 966386486,
@@ -152724,6 +152954,30 @@
     "first_seen": "2026-01-01"
   },
   {
+    "id": 151064439,
+    "name": "ExpressLRS/ExpressLRS",
+    "desc": "High Performance Open Source Radio Control Link",
+    "stars": 5010,
+    "url": "https://github.com/ExpressLRS/ExpressLRS",
+    "lang": "C",
+    "topics": [
+      "drone",
+      "esp32",
+      "esp8266",
+      "fpv",
+      "lora",
+      "lr1121",
+      "quadcopter",
+      "rc",
+      "remote-control",
+      "sx1276",
+      "sx1280"
+    ],
+    "created": "2018-10-01T09:27:55Z",
+    "updated": "2026-06-16T11:27:57Z",
+    "first_seen": "2026-06-16"
+  },
+  {
     "id": 15787723,
     "name": "mycolorway/simditor",
     "desc": "An Easy and Fast WYSIWYG Editor",
@@ -153075,6 +153329,18 @@
     "first_seen": "2026-06-14"
   },
   {
+    "id": 281765424,
+    "name": "microsoft/azurelinux",
+    "desc": "General purpose Linux OS for Azure",
+    "stars": 5005,
+    "url": "https://github.com/microsoft/azurelinux",
+    "lang": "Python",
+    "topics": [],
+    "created": "2020-07-22T19:27:14Z",
+    "updated": "2026-06-16T12:29:35Z",
+    "first_seen": "2026-06-16"
+  },
+  {
     "id": 121553439,
     "name": "hundredrabbits/Orca",
     "desc": "Esoteric Programming Language",
@@ -153162,6 +153428,36 @@
     "created": "2011-06-28T20:58:48Z",
     "updated": "2026-06-12T10:10:48Z",
     "first_seen": "2026-06-12"
+  },
+  {
+    "id": 362500938,
+    "name": "argilla-io/argilla",
+    "desc": "Argilla is a collaboration tool for AI engineers and domain experts to build high-quality datasets",
+    "stars": 5004,
+    "url": "https://github.com/argilla-io/argilla",
+    "lang": "Python",
+    "topics": [
+      "active-learning",
+      "ai",
+      "annotation-tool",
+      "developer-tools",
+      "gpt-4",
+      "human-in-the-loop",
+      "langchain",
+      "llm",
+      "machine-learning",
+      "mlops",
+      "natural-language-processing",
+      "nlp",
+      "rlhf",
+      "text-annotation",
+      "text-labeling",
+      "weak-supervision",
+      "weakly-supervised-learning"
+    ],
+    "created": "2021-04-28T14:37:42Z",
+    "updated": "2026-06-16T07:01:40Z",
+    "first_seen": "2026-06-16"
   },
   {
     "id": 213055485,
@@ -153544,6 +153840,18 @@
     "created": "2021-03-22T17:10:30Z",
     "updated": "2026-06-15T12:29:31Z",
     "first_seen": "2026-06-15"
+  },
+  {
+    "id": 1152451571,
+    "name": "withastro/flue",
+    "desc": "The sandbox agent framework.",
+    "stars": 5001,
+    "url": "https://github.com/withastro/flue",
+    "lang": "TypeScript",
+    "topics": [],
+    "created": "2026-02-07T22:27:04Z",
+    "updated": "2026-06-16T12:42:37Z",
+    "first_seen": "2026-06-16"
   },
   {
     "id": 2830198,
