@@ -74621,6 +74621,32 @@
     "first_seen": "2026-01-01"
   },
   {
+    "id": 334567245,
+    "name": "alirezadir/Machine-Learning-Interviews",
+    "desc": "This repo is meant to serve as a guide for Machine Learning/AI technical interviews. ",
+    "stars": 8410,
+    "url": "https://github.com/alirezadir/Machine-Learning-Interviews",
+    "lang": "Jupyter Notebook",
+    "topics": [
+      "agentic",
+      "ai",
+      "ai-agents",
+      "ai-engineering",
+      "deep-learning",
+      "interview",
+      "interview-practice",
+      "interview-preparation",
+      "interviews",
+      "machine-learning",
+      "machine-learning-algorithms",
+      "scalable-applications",
+      "system-design"
+    ],
+    "created": "2021-01-31T03:52:09Z",
+    "updated": "2026-06-17T11:25:13Z",
+    "first_seen": "2026-06-17"
+  },
+  {
     "id": 304981340,
     "name": "idurar/idurar-erp-crm",
     "desc": "Free Open Source ERP CRM Software Accounting Invoicing | Node Js React",
@@ -76595,6 +76621,21 @@
     "created": "2010-12-29T15:02:37Z",
     "updated": "2026-05-15T15:42:51Z",
     "first_seen": "2026-01-01"
+  },
+  {
+    "id": 141200054,
+    "name": "tensorflow/examples",
+    "desc": "TensorFlow examples",
+    "stars": 8269,
+    "url": "https://github.com/tensorflow/examples",
+    "lang": "Jupyter Notebook",
+    "topics": [
+      "tensorflow",
+      "tensorflow-examples"
+    ],
+    "created": "2018-07-16T22:11:56Z",
+    "updated": "2026-06-17T12:07:34Z",
+    "first_seen": "2026-06-17"
   },
   {
     "id": 87012358,
@@ -95252,6 +95293,23 @@
     "first_seen": "2026-01-01"
   },
   {
+    "id": 4065790,
+    "name": "railsgirls/guides.railsgirls.com",
+    "desc": "Rails Girls Guides",
+    "stars": 7102,
+    "url": "https://github.com/railsgirls/guides.railsgirls.com",
+    "lang": "HTML",
+    "topics": [
+      "hacktoberfest",
+      "rails",
+      "ruby",
+      "tutorial"
+    ],
+    "created": "2012-04-18T16:28:59Z",
+    "updated": "2026-06-17T06:05:02Z",
+    "first_seen": "2026-06-17"
+  },
+  {
     "id": 35833177,
     "name": "jaywcjlove/hotkeys-js",
     "desc": "➷ A robust Javascript library for capturing keyboard input. It has no dependencies. ",
@@ -102686,6 +102744,27 @@
     "created": "2016-05-03T10:35:34Z",
     "updated": "2026-05-18T20:39:50Z",
     "first_seen": "2026-01-01"
+  },
+  {
+    "id": 834074806,
+    "name": "lzhoang2801/OpCore-Simplify",
+    "desc": "A tool designed to simplify the creation of OpenCore EFI",
+    "stars": 6727,
+    "url": "https://github.com/lzhoang2801/OpCore-Simplify",
+    "lang": "Python",
+    "topics": [
+      "hackintosh",
+      "hackintosh-efi",
+      "lzhoang2601",
+      "lzhoang2801",
+      "macos",
+      "opencore",
+      "opencore-efi",
+      "opencoresimplify"
+    ],
+    "created": "2024-07-26T11:10:31Z",
+    "updated": "2026-06-17T06:50:08Z",
+    "first_seen": "2026-06-17"
   },
   {
     "id": 72087685,
@@ -123487,6 +123566,24 @@
     "first_seen": "2026-01-01"
   },
   {
+    "id": 1085876386,
+    "name": "microsoft/fara",
+    "desc": "Fara-7B: An Efficient Agentic Model for Computer Use",
+    "stars": 5841,
+    "url": "https://github.com/microsoft/fara",
+    "lang": "Python",
+    "topics": [
+      "agent",
+      "browser-use",
+      "computer-use",
+      "computer-use-agent",
+      "cua"
+    ],
+    "created": "2025-10-29T16:23:22Z",
+    "updated": "2026-06-17T11:54:30Z",
+    "first_seen": "2026-06-17"
+  },
+  {
     "id": 6965529,
     "name": "mikaelbr/node-notifier",
     "desc": "A Node.js module for sending notifications on native Mac, Windows and Linux (or Growl as fallback)",
@@ -137653,6 +137750,25 @@
     "first_seen": "2026-01-01"
   },
   {
+    "id": 90568316,
+    "name": "LyleMi/Learn-Web-Hacking",
+    "desc": "Study Notes For Web Hacking / Web安全学习笔记",
+    "stars": 5396,
+    "url": "https://github.com/LyleMi/Learn-Web-Hacking",
+    "lang": "Python",
+    "topics": [
+      "hacking",
+      "penetration-testing",
+      "pentesting",
+      "security",
+      "study-notes",
+      "web-hacking"
+    ],
+    "created": "2017-05-07T23:28:42Z",
+    "updated": "2026-06-17T11:59:14Z",
+    "first_seen": "2026-06-17"
+  },
+  {
     "id": 900487856,
     "name": "unslothai/notebooks",
     "desc": "250+ Fine-tuning & RL Notebooks for text, vision, audio, embedding, TTS models.",
@@ -144735,6 +144851,34 @@
     "first_seen": "2026-06-02"
   },
   {
+    "id": 186872119,
+    "name": "awslabs/gluonts",
+    "desc": "Probabilistic time series modeling in Python",
+    "stars": 5200,
+    "url": "https://github.com/awslabs/gluonts",
+    "lang": "Python",
+    "topics": [
+      "artificial-intelligence",
+      "aws",
+      "data-science",
+      "deep-learning",
+      "forecasting",
+      "machine-learning",
+      "mxnet",
+      "neural-networks",
+      "pytorch",
+      "sagemaker",
+      "time-series",
+      "time-series-forecasting",
+      "time-series-prediction",
+      "timeseries",
+      "torch"
+    ],
+    "created": "2019-05-15T17:17:29Z",
+    "updated": "2026-06-17T06:28:53Z",
+    "first_seen": "2026-06-17"
+  },
+  {
     "id": 1541275,
     "name": "killme2008/aviatorscript",
     "desc": "A high performance scripting language hosted on the JVM.",
@@ -148073,6 +148217,37 @@
     "first_seen": "2026-06-02"
   },
   {
+    "id": 1183888342,
+    "name": "stablyai/orca",
+    "desc": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop and mobile.",
+    "stars": 5118,
+    "url": "https://github.com/stablyai/orca",
+    "lang": "TypeScript",
+    "topics": [
+      "ade",
+      "agent-ide",
+      "ai-agents",
+      "claude-code",
+      "cli",
+      "codex",
+      "cursor-agent",
+      "devtools",
+      "ghostty",
+      "ide",
+      "mobile-app",
+      "opencode",
+      "orchestration",
+      "parallel-agents",
+      "pi",
+      "terminal",
+      "worktrees",
+      "yc-backed"
+    ],
+    "created": "2026-03-17T03:28:57Z",
+    "updated": "2026-06-17T12:28:39Z",
+    "first_seen": "2026-06-17"
+  },
+  {
     "id": 107555654,
     "name": "vmware-tanzu/kubeapps",
     "desc": "A web-based UI for deploying and managing applications in Kubernetes clusters",
@@ -150232,6 +150407,18 @@
     "created": "2016-05-06T18:05:42Z",
     "updated": "2026-06-04T11:24:06Z",
     "first_seen": "2026-06-04"
+  },
+  {
+    "id": 446033510,
+    "name": "niXman/mingw-builds-binaries",
+    "desc": "MinGW-W64 compiler binaries",
+    "stars": 5070,
+    "url": "https://github.com/niXman/mingw-builds-binaries",
+    "lang": "-",
+    "topics": [],
+    "created": "2022-01-09T08:30:11Z",
+    "updated": "2026-06-17T09:06:24Z",
+    "first_seen": "2026-06-17"
   },
   {
     "id": 22700054,
@@ -152933,6 +153120,18 @@
     "first_seen": "2026-06-12"
   },
   {
+    "id": 943901988,
+    "name": "voidzero-dev/vite-plus",
+    "desc": "Vite+ is the unified toolchain and entry point for web development. It manages your runtime, package manager, and frontend toolchain in one place.",
+    "stars": 5011,
+    "url": "https://github.com/voidzero-dev/vite-plus",
+    "lang": "Rust",
+    "topics": [],
+    "created": "2025-03-06T13:04:32Z",
+    "updated": "2026-06-17T12:05:44Z",
+    "first_seen": "2026-06-17"
+  },
+  {
     "id": 568797613,
     "name": "MuiseDestiny/zotero-style",
     "desc": "Ethereal Style for Zotero",
@@ -153679,6 +153878,22 @@
     "created": "2025-04-28T10:44:33Z",
     "updated": "2026-06-11T11:52:27Z",
     "first_seen": "2026-06-11"
+  },
+  {
+    "id": 969211164,
+    "name": "komari-monitor/komari",
+    "desc": "A simple server monitor tool.",
+    "stars": 5002,
+    "url": "https://github.com/komari-monitor/komari",
+    "lang": "Go",
+    "topics": [
+      "monitoring",
+      "monitoring-tool",
+      "remote-control"
+    ],
+    "created": "2025-04-19T16:34:16Z",
+    "updated": "2026-06-17T11:54:05Z",
+    "first_seen": "2026-06-17"
   },
   {
     "id": 4710876,
