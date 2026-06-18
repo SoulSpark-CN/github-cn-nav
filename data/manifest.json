@@ -83335,6 +83335,24 @@
     "first_seen": "2026-01-01"
   },
   {
+    "id": 127094946,
+    "name": "dyweb/awesome-resume-for-chinese",
+    "desc": ":page_facing_up: 适合中文的简历模板收集（LaTeX，HTML/JS and so on）由 @hoochanlon 维护",
+    "stars": 7823,
+    "url": "https://github.com/dyweb/awesome-resume-for-chinese",
+    "lang": "-",
+    "topics": [
+      "engineer",
+      "html",
+      "json",
+      "latex",
+      "resume"
+    ],
+    "created": "2018-03-28T06:34:24Z",
+    "updated": "2026-06-18T10:02:49Z",
+    "first_seen": "2026-06-18"
+  },
+  {
     "id": 261392630,
     "name": "google/accompanist",
     "desc": "A collection of extension libraries for Jetpack Compose",
@@ -94478,6 +94496,18 @@
     "first_seen": "2026-01-01"
   },
   {
+    "id": 150367689,
+    "name": "corpnewt/gibMacOS",
+    "desc": "Py2/py3 script that can download macOS components direct from Apple",
+    "stars": 7137,
+    "url": "https://github.com/corpnewt/gibMacOS",
+    "lang": "Python",
+    "topics": [],
+    "created": "2018-09-26T04:16:01Z",
+    "updated": "2026-06-18T11:38:58Z",
+    "first_seen": "2026-06-18"
+  },
+  {
     "id": 620174542,
     "name": "MuiseDestiny/zotero-gpt",
     "desc": "GPT Meet Zotero.",
@@ -95907,6 +95937,18 @@
     "created": "2018-04-02T17:27:37Z",
     "updated": "2026-05-17T19:42:07Z",
     "first_seen": "2026-01-01"
+  },
+  {
+    "id": 82282,
+    "name": "purcell/emacs.d",
+    "desc": "An Emacs configuration bundle with batteries included",
+    "stars": 7068,
+    "url": "https://github.com/purcell/emacs.d",
+    "lang": "Emacs Lisp",
+    "topics": [],
+    "created": "2008-11-29T08:32:19Z",
+    "updated": "2026-06-18T07:54:31Z",
+    "first_seen": "2026-06-18"
   },
   {
     "id": 25131304,
@@ -99161,6 +99203,30 @@
     "first_seen": "2026-01-01"
   },
   {
+    "id": 8307391,
+    "name": "mahmoud/boltons",
+    "desc": "🔩 Like builtins, but boltons. 250+ constructs, recipes, and snippets which extend (and rely on nothing but) the Python standard library.  Nothing like Michael Bolton.",
+    "stars": 6897,
+    "url": "https://github.com/mahmoud/boltons",
+    "lang": "Python",
+    "topics": [
+      "cache",
+      "data-science",
+      "data-structures",
+      "file",
+      "json",
+      "python",
+      "queue",
+      "recursive",
+      "standard-library",
+      "statistics",
+      "utilities"
+    ],
+    "created": "2013-02-20T06:17:12Z",
+    "updated": "2026-06-17T21:03:56Z",
+    "first_seen": "2026-06-18"
+  },
+  {
     "id": 262255533,
     "name": "TanStack/virtual",
     "desc": "🤖 Headless UI for Virtualizing Large Element Lists in JS/TS, React, Solid, Vue and Svelte",
@@ -99331,6 +99397,18 @@
     "created": "2009-05-21T02:03:38Z",
     "updated": "2026-05-31T13:58:55Z",
     "first_seen": "2026-05-31"
+  },
+  {
+    "id": 390549311,
+    "name": "Moriafly/SaltPlayerSource",
+    "desc": "Salt Player (A local music player trusted and chosen by hundreds of thousands of users) for Android Release, Feedback.",
+    "stars": 6888,
+    "url": "https://github.com/Moriafly/SaltPlayerSource",
+    "lang": "-",
+    "topics": [],
+    "created": "2021-07-29T00:32:09Z",
+    "updated": "2026-06-18T11:00:50Z",
+    "first_seen": "2026-06-18"
   },
   {
     "id": 18224920,
@@ -104234,6 +104312,18 @@
     "first_seen": "2026-01-01"
   },
   {
+    "id": 1171949255,
+    "name": "elder-plinius/OBLITERATUS",
+    "desc": "OBLITERATE THE CHAINS THAT BIND YOU",
+    "stars": 6646,
+    "url": "https://github.com/elder-plinius/OBLITERATUS",
+    "lang": "Python",
+    "topics": [],
+    "created": "2026-03-03T19:37:51Z",
+    "updated": "2026-06-18T11:53:28Z",
+    "first_seen": "2026-06-18"
+  },
+  {
     "id": 20633857,
     "name": "dylang/npm-check",
     "desc": "Check for outdated, incorrect, and unused dependencies.",
@@ -107296,6 +107386,18 @@
     "first_seen": "2026-06-14"
   },
   {
+    "id": 740905008,
+    "name": "microsoft/call-center-ai",
+    "desc": "Send a phone call from AI agent, in an API call. Or, directly call the bot from the configured phone number!",
+    "stars": 6507,
+    "url": "https://github.com/microsoft/call-center-ai",
+    "lang": "Python",
+    "topics": [],
+    "created": "2024-01-09T10:03:55Z",
+    "updated": "2026-06-17T13:02:40Z",
+    "first_seen": "2026-06-18"
+  },
+  {
     "id": 5462508,
     "name": "auduno/clmtrackr",
     "desc": "Javascript library for precise tracking of facial features via Constrained Local Models",
@@ -109749,6 +109851,29 @@
     "created": "2020-08-26T02:21:53Z",
     "updated": "2026-05-18T14:08:25Z",
     "first_seen": "2026-01-01"
+  },
+  {
+    "id": 986349490,
+    "name": "EdoStra/Marketing-for-Founders",
+    "desc": "Practical marketing resources to get the first 10 / 100 / 1000 users for your SaaS / App / Startup",
+    "stars": 6393,
+    "url": "https://github.com/EdoStra/Marketing-for-Founders",
+    "lang": "-",
+    "topics": [
+      "awesome",
+      "awesome-list",
+      "collection",
+      "educational",
+      "growth",
+      "list",
+      "marketing",
+      "resources",
+      "saas",
+      "startup"
+    ],
+    "created": "2025-05-19T13:29:04Z",
+    "updated": "2026-06-18T07:29:25Z",
+    "first_seen": "2026-06-18"
   },
   {
     "id": 1450115,
@@ -120839,6 +120964,23 @@
     "first_seen": "2026-01-01"
   },
   {
+    "id": 4719523,
+    "name": "astrada/google-drive-ocamlfuse",
+    "desc": "FUSE filesystem over Google Drive",
+    "stars": 5943,
+    "url": "https://github.com/astrada/google-drive-ocamlfuse",
+    "lang": "OCaml",
+    "topics": [
+      "filesystem",
+      "fuse",
+      "google-drive",
+      "ocaml"
+    ],
+    "created": "2012-06-19T21:37:09Z",
+    "updated": "2026-06-17T20:57:42Z",
+    "first_seen": "2026-06-18"
+  },
+  {
     "id": 149746920,
     "name": "flutterchina/flukit",
     "desc": " A Flutter UI Kit（一个 Flutter UI组件库），包含 ScaleView, Swiper, PullRefresh, WaterMark, GradientCircularProgressIndicator...",
@@ -130041,6 +130183,29 @@
     "first_seen": "2026-01-01"
   },
   {
+    "id": 138831170,
+    "name": "facebookresearch/mmf",
+    "desc": "A modular framework for vision & language multimodal research from Facebook AI Research (FAIR)",
+    "stars": 5635,
+    "url": "https://github.com/facebookresearch/mmf",
+    "lang": "Python",
+    "topics": [
+      "captioning",
+      "deep-learning",
+      "dialog",
+      "hateful-memes",
+      "multi-tasking",
+      "multimodal",
+      "pretrained-models",
+      "pytorch",
+      "textvqa",
+      "vqa"
+    ],
+    "created": "2018-06-27T04:52:40Z",
+    "updated": "2026-06-17T19:39:13Z",
+    "first_seen": "2026-06-18"
+  },
+  {
     "id": 14393731,
     "name": "JakeWharton/u2020",
     "desc": "A sample Android app which showcases advanced usage of Dagger among other open source libraries.",
@@ -136940,6 +137105,23 @@
     "first_seen": "2026-06-03"
   },
   {
+    "id": 897809208,
+    "name": "sooperset/mcp-atlassian",
+    "desc": "MCP server for Atlassian tools (Confluence, Jira)",
+    "stars": 5417,
+    "url": "https://github.com/sooperset/mcp-atlassian",
+    "lang": "Python",
+    "topics": [
+      "atlassian",
+      "confluence",
+      "jira",
+      "mcp"
+    ],
+    "created": "2024-12-03T09:25:20Z",
+    "updated": "2026-06-18T10:53:00Z",
+    "first_seen": "2026-06-18"
+  },
+  {
     "id": 1149403151,
     "name": "memovai/mimiclaw",
     "desc": "MimiClaw: Run OpenClaw on a $5 chip. No OS(Linux). No Node.js. No Mac mini. No Raspberry Pi. No VPS. Hardware agents OS.",
@@ -139338,6 +139520,32 @@
     "created": "2016-02-24T17:00:05Z",
     "updated": "2026-06-07T10:12:29Z",
     "first_seen": "2026-06-07"
+  },
+  {
+    "id": 108510280,
+    "name": "authlib/authlib",
+    "desc": "The ultimate Python library in building OAuth, OpenID Connect clients and servers. JWS, JWE, JWK, JWA, JWT included.",
+    "stars": 5346,
+    "url": "https://github.com/authlib/authlib",
+    "lang": "Python",
+    "topics": [
+      "django",
+      "flask",
+      "jose",
+      "jwe",
+      "jwk",
+      "jws",
+      "jwt",
+      "oauth",
+      "oauth2",
+      "oauth2-provider",
+      "oauth2-server",
+      "oidc",
+      "openid-connect"
+    ],
+    "created": "2017-10-27T06:52:26Z",
+    "updated": "2026-06-18T12:00:43Z",
+    "first_seen": "2026-06-18"
   },
   {
     "id": 198788945,
@@ -148964,6 +149172,32 @@
     "first_seen": "2026-01-01"
   },
   {
+    "id": 1248194723,
+    "name": "AprilNEA/OpenLogi",
+    "desc": "⚡️A native, local-first alternative to Logitech Options+, written in Rust 🦀 — remap buttons, DPI, and SmartShift over HID++. No account, no telemetry.",
+    "stars": 5098,
+    "url": "https://github.com/AprilNEA/OpenLogi",
+    "lang": "Rust",
+    "topics": [
+      "dpi",
+      "gpui",
+      "hid",
+      "hidpp",
+      "local-first",
+      "logitech",
+      "logitech-mouse",
+      "logitech-options",
+      "mouse-remapping",
+      "mx-master",
+      "privacy",
+      "rust",
+      "smartshift"
+    ],
+    "created": "2026-05-24T10:10:36Z",
+    "updated": "2026-06-18T11:59:31Z",
+    "first_seen": "2026-06-18"
+  },
+  {
     "id": 122036532,
     "name": "walkccc/CLRS",
     "desc": "📚 Solutions to Introduction to Algorithms Third Edition",
@@ -151084,6 +151318,18 @@
     "first_seen": "2026-01-01"
   },
   {
+    "id": 987110251,
+    "name": "PixelPlayerHQ/PixelPlayer",
+    "desc": "privacy-first Android music player built with Material 3 Expressive. Play offline, sync lyrics, fine-tune with equalizer presets, and cast to your devices.",
+    "stars": 5054,
+    "url": "https://github.com/PixelPlayerHQ/PixelPlayer",
+    "lang": "Kotlin",
+    "topics": [],
+    "created": "2025-05-20T15:33:18Z",
+    "updated": "2026-06-18T08:03:56Z",
+    "first_seen": "2026-06-18"
+  },
+  {
     "id": 228192593,
     "name": "hakluke/hakrawler",
     "desc": "Simple, fast web crawler designed for easy, quick discovery of endpoints and assets within a web application",
@@ -151835,6 +152081,31 @@
     "created": "2011-03-06T14:33:27Z",
     "updated": "2026-05-31T17:00:13Z",
     "first_seen": "2026-05-31"
+  },
+  {
+    "id": 910061041,
+    "name": "remsky/Kokoro-FastAPI",
+    "desc": "Dockerized FastAPI wrapper for Kokoro-82M text-to-speech model w/multiplatform CPU, AMD, NVIDIA GPU PyTorch support, handling, and auto-stitching",
+    "stars": 5036,
+    "url": "https://github.com/remsky/Kokoro-FastAPI",
+    "lang": "Python",
+    "topics": [
+      "fastapi",
+      "huggingface-spaces",
+      "kokoro",
+      "kokoro-tts",
+      "openai-compatible-api",
+      "openwebui",
+      "pytorch",
+      "sillytavern",
+      "text-to-speech",
+      "tts",
+      "tts-api",
+      "uv"
+    ],
+    "created": "2024-12-30T11:53:42Z",
+    "updated": "2026-06-18T07:16:14Z",
+    "first_seen": "2026-06-18"
   },
   {
     "id": 1046584285,
@@ -152614,6 +152885,23 @@
     "created": "2026-04-08T01:48:09Z",
     "updated": "2026-06-04T10:31:21Z",
     "first_seen": "2026-06-04"
+  },
+  {
+    "id": 520096046,
+    "name": "marqo-ai/marqo",
+    "desc": "Ecommerce Search and Discovery - marqo.ai",
+    "stars": 5021,
+    "url": "https://github.com/marqo-ai/marqo",
+    "lang": "Python",
+    "topics": [
+      "ecommerce",
+      "machine-learning",
+      "multi-modal",
+      "search-engine"
+    ],
+    "created": "2022-08-01T12:12:51Z",
+    "updated": "2026-06-18T07:17:51Z",
+    "first_seen": "2026-06-18"
   },
   {
     "id": 392526151,
@@ -153894,6 +154182,35 @@
     "created": "2025-04-19T16:34:16Z",
     "updated": "2026-06-17T11:54:05Z",
     "first_seen": "2026-06-17"
+  },
+  {
+    "id": 270683546,
+    "name": "celzero/rethink-app",
+    "desc": "DNS over HTTPS / DNS over Tor / DNSCrypt client, WireGuard proxifier, firewall, and connection tracker for Android.",
+    "stars": 5002,
+    "url": "https://github.com/celzero/rethink-app",
+    "lang": "Kotlin",
+    "topics": [
+      "android",
+      "android-app",
+      "android-application",
+      "android-firewall",
+      "anti-censorship",
+      "anti-surveillance",
+      "censorship-circumvention",
+      "censorship-resistance",
+      "dns",
+      "dns-over-https",
+      "dnscrypt",
+      "firewall",
+      "internet-freedom",
+      "open-source",
+      "privacy-enhancing-technologies",
+      "wireguard"
+    ],
+    "created": "2020-06-08T13:41:18Z",
+    "updated": "2026-06-18T11:25:15Z",
+    "first_seen": "2026-06-18"
   },
   {
     "id": 4710876,
