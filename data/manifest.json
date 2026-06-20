@@ -62054,6 +62054,31 @@
     "first_seen": "2026-01-01"
   },
   {
+    "id": 315270108,
+    "name": "snakers4/silero-vad",
+    "desc": "Silero VAD: pre-trained enterprise-grade Voice Activity Detector",
+    "stars": 9369,
+    "url": "https://github.com/snakers4/silero-vad",
+    "lang": "Python",
+    "topics": [
+      "onnx",
+      "onnx-runtime",
+      "onnxruntime",
+      "pytorch",
+      "speech",
+      "speech-processing",
+      "vad",
+      "voice-activity-detection",
+      "voice-commands",
+      "voice-control",
+      "voice-detection",
+      "voice-recognition"
+    ],
+    "created": "2020-11-23T09:54:16Z",
+    "updated": "2026-06-20T09:36:55Z",
+    "first_seen": "2026-06-20"
+  },
+  {
     "id": 268237230,
     "name": "yang991178/fluent-reader",
     "desc": "Modern desktop RSS reader built with Electron, React, and Fluent UI",
@@ -91723,6 +91748,30 @@
     "first_seen": "2026-06-19"
   },
   {
+    "id": 184420323,
+    "name": "ranaroussi/quantstats",
+    "desc": "Portfolio analytics for quants, written in Python",
+    "stars": 7305,
+    "url": "https://github.com/ranaroussi/quantstats",
+    "lang": "Python",
+    "topics": [
+      "algo-trading",
+      "algorithmic-trading",
+      "algotrading",
+      "finance",
+      "plotting",
+      "python",
+      "quant",
+      "quantitative-analysis",
+      "quantitative-finance",
+      "quantitative-trading",
+      "visualization"
+    ],
+    "created": "2019-05-01T13:29:29Z",
+    "updated": "2026-06-20T08:29:35Z",
+    "first_seen": "2026-06-20"
+  },
+  {
     "id": 610217037,
     "name": "di-sukharev/opencommit",
     "desc": "top #1 and most feature rich GPT wrapper for git — generate commit messages with an LLM in 1 sec — works with Claude, GPT and every other provider, supports local Ollama models too",
@@ -112632,6 +112681,24 @@
     "first_seen": "2026-01-01"
   },
   {
+    "id": 95381248,
+    "name": "qbittorrent/search-plugins",
+    "desc": "Search plugins for qBittorrent search feature",
+    "stars": 6280,
+    "url": "https://github.com/qbittorrent/search-plugins",
+    "lang": "Python",
+    "topics": [
+      "plugin",
+      "python",
+      "qbittorrent",
+      "search",
+      "search-engine"
+    ],
+    "created": "2017-06-25T19:29:53Z",
+    "updated": "2026-06-20T07:30:45Z",
+    "first_seen": "2026-06-20"
+  },
+  {
     "id": 176379662,
     "name": "derailed/popeye",
     "desc": "👀 A Kubernetes cluster resource sanitizer",
@@ -125061,6 +125128,29 @@
     "first_seen": "2026-01-01"
   },
   {
+    "id": 384330997,
+    "name": "rcmaehl/MSEdgeRedirect",
+    "desc": "A Tool to Redirect News, Search, Widgets, Weather and More to Your Default Browser",
+    "stars": 5806,
+    "url": "https://github.com/rcmaehl/MSEdgeRedirect",
+    "lang": "AutoIt",
+    "topics": [
+      "edge",
+      "image-file-execution-options",
+      "msedge",
+      "uri",
+      "uri-manipulations",
+      "uri-parser",
+      "uri-solutions",
+      "windows",
+      "windows10",
+      "windows11"
+    ],
+    "created": "2021-07-09T05:27:40Z",
+    "updated": "2026-06-19T20:54:49Z",
+    "first_seen": "2026-06-20"
+  },
+  {
     "id": 38992233,
     "name": "DotNetNext/SqlSugar",
     "desc": ".Net aot ORM   SqlServer ORM Mongodb ORM MySql  瀚高 Postgresql ORM  DB2 Hana 高斯 Duckdb C# VB.NET Sqlite  ORM Oracle ORM Mysql Orm 虚谷数据库 达梦 ORM 人大金仓 ORM 神通ORM  C# ORM , C# ORM .NET ORM NET9 ORM .NET8 ORM ClickHouse ORM QuestDb ,TDengine ORM,OceanBase ORM,GaussDB ORM,Tidb ORM Object/Relational Mapping",
@@ -125218,6 +125308,31 @@
     "created": "2015-03-10T03:34:09Z",
     "updated": "2026-05-11T18:43:30Z",
     "first_seen": "2026-01-01"
+  },
+  {
+    "id": 135300551,
+    "name": "PyPortfolio/PyPortfolioOpt",
+    "desc": "Financial portfolio optimisation in python, including classical efficient frontier, Black-Litterman, Hierarchical Risk Parity",
+    "stars": 5798,
+    "url": "https://github.com/PyPortfolio/PyPortfolioOpt",
+    "lang": "Jupyter Notebook",
+    "topics": [
+      "algorithmic-trading",
+      "covariance",
+      "efficient-frontier",
+      "finance",
+      "financial-analysis",
+      "investing",
+      "investment",
+      "investment-analysis",
+      "portfolio-management",
+      "portfolio-optimization",
+      "python",
+      "quantitative-finance"
+    ],
+    "created": "2018-05-29T13:30:30Z",
+    "updated": "2026-06-20T07:42:32Z",
+    "first_seen": "2026-06-20"
   },
   {
     "id": 5676886,
@@ -139256,6 +139371,18 @@
     "first_seen": "2026-01-01"
   },
   {
+    "id": 676833692,
+    "name": "happycola233/tchMaterial-parser",
+    "desc": "国家中小学智慧教育平台 电子课本下载工具，帮助您从智慧教育平台中获取电子课本的 PDF 文件网址并进行下载，让您更方便地获取课本内容。",
+    "stars": 5364,
+    "url": "https://github.com/happycola233/tchMaterial-parser",
+    "lang": "Python",
+    "topics": [],
+    "created": "2023-08-10T05:52:15Z",
+    "updated": "2026-06-20T09:28:04Z",
+    "first_seen": "2026-06-20"
+  },
+  {
     "id": 146325535,
     "name": "blinkfox/hexo-theme-matery",
     "desc": "A beautiful hexo blog theme with material design and responsive design.一个基于材料设计和响应式设计而成的全面、美观的Hexo主题。国内访问：http://blinkfox.com",
@@ -146891,6 +147018,18 @@
     "first_seen": "2026-06-08"
   },
   {
+    "id": 2687166,
+    "name": "django-crispy-forms/django-crispy-forms",
+    "desc": "The best way to have DRY Django forms. The app provides a tag and filter that lets you quickly render forms in a div format while providing an enormous amount of capability to configure and control the rendered HTML.",
+    "stars": 5163,
+    "url": "https://github.com/django-crispy-forms/django-crispy-forms",
+    "lang": "Python",
+    "topics": [],
+    "created": "2011-11-01T11:48:03Z",
+    "updated": "2026-06-19T12:24:15Z",
+    "first_seen": "2026-06-20"
+  },
+  {
     "id": 10655461,
     "name": "googleworkspace/apps-script-samples",
     "desc": "Apps Script samples for Google Workspace products.",
@@ -148949,6 +149088,24 @@
     "created": "2025-10-17T22:13:14Z",
     "updated": "2026-05-18T20:25:10Z",
     "first_seen": "2026-01-01"
+  },
+  {
+    "id": 1184626912,
+    "name": "modem-dev/hunk",
+    "desc": "Review-first terminal diff viewer for agentic coders",
+    "stars": 5116,
+    "url": "https://github.com/modem-dev/hunk",
+    "lang": "TypeScript",
+    "topics": [
+      "cli",
+      "code-review",
+      "diff",
+      "git",
+      "tui"
+    ],
+    "created": "2026-03-17T19:16:15Z",
+    "updated": "2026-06-20T10:39:10Z",
+    "first_seen": "2026-06-20"
   },
   {
     "id": 683223775,
@@ -151943,6 +152100,30 @@
     "first_seen": "2026-01-01"
   },
   {
+    "id": 466390618,
+    "name": "ScottSloan/Bili23-Downloader",
+    "desc": "开源、免费、跨平台的 B 站视频下载工具，支持多线程加速、音视频分离、弹幕元数据获取、自定义命名与分类等功能。Open Source, Free, Cross-Platform Bilibili Video Downloader.",
+    "stars": 5049,
+    "url": "https://github.com/ScottSloan/Bili23-Downloader",
+    "lang": "Python",
+    "topics": [
+      "bili23",
+      "bilibili",
+      "bilibili-downloader",
+      "downloader",
+      "gui",
+      "linux",
+      "macos",
+      "pyside6",
+      "python",
+      "windows",
+      "wxpython"
+    ],
+    "created": "2022-03-05T08:07:36Z",
+    "updated": "2026-06-20T10:35:02Z",
+    "first_seen": "2026-06-20"
+  },
+  {
     "id": 504220,
     "name": "kangax/html-minifier",
     "desc": "Javascript-based HTML compressor/minifier (with Node.js support)",
@@ -152548,6 +152729,26 @@
     "created": "2024-12-30T11:53:42Z",
     "updated": "2026-06-18T07:16:14Z",
     "first_seen": "2026-06-18"
+  },
+  {
+    "id": 1117828152,
+    "name": "stackryze/FreeDomains",
+    "desc": "Stackryze Domains: Free Domain for Everyone, Claim yours today.",
+    "stars": 5036,
+    "url": "https://github.com/stackryze/FreeDomains",
+    "lang": "JavaScript",
+    "topics": [
+      "developer-tools",
+      "dns",
+      "domain",
+      "freedomain",
+      "homelab",
+      "hosting",
+      "opensource"
+    ],
+    "created": "2025-12-16T21:53:43Z",
+    "updated": "2026-06-20T10:04:16Z",
+    "first_seen": "2026-06-20"
   },
   {
     "id": 1046584285,
@@ -153676,6 +153877,33 @@
     "first_seen": "2026-06-14"
   },
   {
+    "id": 1172574522,
+    "name": "Andyyyy64/whichllm",
+    "desc": "Find the local LLM that actually runs and performs best on your hardware. Ranked by real, recency-aware benchmarks, not parameter count. One command, run it instantly.",
+    "stars": 5013,
+    "url": "https://github.com/Andyyyy64/whichllm",
+    "lang": "Python",
+    "topics": [
+      "ai",
+      "apple-silicon",
+      "benchmarks",
+      "cli",
+      "command-line-tool",
+      "gguf",
+      "gpu",
+      "huggingface",
+      "inference",
+      "llm",
+      "local-llm",
+      "ollama",
+      "python",
+      "vram"
+    ],
+    "created": "2026-03-04T13:16:00Z",
+    "updated": "2026-06-20T10:28:06Z",
+    "first_seen": "2026-06-20"
+  },
+  {
     "id": 382378702,
     "name": "web-infra-dev/modern.js",
     "desc": "A progressive web framework based on React and Rsbuild.",
@@ -154149,6 +154377,18 @@
     "first_seen": "2026-06-14"
   },
   {
+    "id": 472575717,
+    "name": "HarbourMasters/Shipwright",
+    "desc": "",
+    "stars": 5009,
+    "url": "https://github.com/HarbourMasters/Shipwright",
+    "lang": "C",
+    "topics": [],
+    "created": "2022-03-22T01:42:52Z",
+    "updated": "2026-06-20T07:53:35Z",
+    "first_seen": "2026-06-20"
+  },
+  {
     "id": 582432706,
     "name": "brianpetro/obsidian-smart-connections",
     "desc": "Chat with your notes & see links to related content with AI embeddings. Use local models or 100+ via APIs like Claude, Gemini, ChatGPT & Llama 3",
@@ -154230,6 +154470,28 @@
     "created": "2022-01-04T08:58:46Z",
     "updated": "2026-06-05T10:29:05Z",
     "first_seen": "2026-06-05"
+  },
+  {
+    "id": 597609111,
+    "name": "MarkEdit-app/MarkEdit",
+    "desc": "Just like TextEdit on Mac but dedicated to Markdown.",
+    "stars": 5007,
+    "url": "https://github.com/MarkEdit-app/MarkEdit",
+    "lang": "Swift",
+    "topics": [
+      "codemirror",
+      "codemirror6",
+      "editor",
+      "mac",
+      "macos",
+      "markdown",
+      "markdown-editor",
+      "swift",
+      "typescript"
+    ],
+    "created": "2023-02-05T03:51:15Z",
+    "updated": "2026-06-20T08:54:48Z",
+    "first_seen": "2026-06-20"
   },
   {
     "id": 102447494,
@@ -154416,6 +154678,22 @@
     "created": "2021-04-28T14:37:42Z",
     "updated": "2026-06-16T07:01:40Z",
     "first_seen": "2026-06-16"
+  },
+  {
+    "id": 572248260,
+    "name": "opennextjs/opennextjs-aws",
+    "desc": "Open-source Next.js adapter for AWS",
+    "stars": 5004,
+    "url": "https://github.com/opennextjs/opennextjs-aws",
+    "lang": "TypeScript",
+    "topics": [
+      "aws",
+      "nextjs",
+      "sst"
+    ],
+    "created": "2022-11-29T21:34:22Z",
+    "updated": "2026-06-19T16:01:48Z",
+    "first_seen": "2026-06-20"
   },
   {
     "id": 213055485,
@@ -154855,6 +155133,24 @@
     "created": "2026-02-07T22:27:04Z",
     "updated": "2026-06-16T12:42:37Z",
     "first_seen": "2026-06-16"
+  },
+  {
+    "id": 909145061,
+    "name": "pgdogdev/pgdog",
+    "desc": "PostgreSQL connection pooler, load balancer and database sharder.",
+    "stars": 5001,
+    "url": "https://github.com/pgdogdev/pgdog",
+    "lang": "Rust",
+    "topics": [
+      "load-balancer",
+      "pooler",
+      "postgresql",
+      "rust",
+      "sharding"
+    ],
+    "created": "2024-12-27T21:10:04Z",
+    "updated": "2026-06-20T06:26:33Z",
+    "first_seen": "2026-06-20"
   },
   {
     "id": 2830198,
