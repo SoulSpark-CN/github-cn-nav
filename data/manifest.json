@@ -77637,6 +77637,22 @@
     "first_seen": "2026-01-01"
   },
   {
+    "id": 673881338,
+    "name": "qiye45/wechatDownload",
+    "desc": "微信公众号文章批量下载工具，支持评论、合集下载，支持保存html/mhtml/md/pdf/docx/csv文件，保存文章内图片、视频、音频文件，支持MCP/Skill调用",
+    "stars": 8205,
+    "url": "https://github.com/qiye45/wechatDownload",
+    "lang": "HTML",
+    "topics": [
+      "download",
+      "downloader",
+      "wechat"
+    ],
+    "created": "2023-08-02T16:27:09Z",
+    "updated": "2026-06-21T10:38:54Z",
+    "first_seen": "2026-06-21"
+  },
+  {
     "id": 111455867,
     "name": "smartcontractkit/chainlink",
     "desc": "node of the decentralized oracle network, bridging on and off-chain computation",
@@ -81446,6 +81462,26 @@
     "created": "2016-09-22T04:47:19Z",
     "updated": "2026-05-18T11:27:53Z",
     "first_seen": "2026-01-01"
+  },
+  {
+    "id": 544208,
+    "name": "ajenti/ajenti",
+    "desc": "Ajenti Core and stock plugins",
+    "stars": 7942,
+    "url": "https://github.com/ajenti/ajenti",
+    "lang": "Python",
+    "topics": [
+      "administration",
+      "ajenti",
+      "angular",
+      "javascript",
+      "linux",
+      "panel",
+      "python"
+    ],
+    "created": "2010-03-03T08:04:15Z",
+    "updated": "2026-06-20T19:57:36Z",
+    "first_seen": "2026-06-21"
   },
   {
     "id": 66801791,
@@ -86353,6 +86389,18 @@
     "created": "2026-02-07T08:17:38Z",
     "updated": "2026-05-31T18:22:06Z",
     "first_seen": "2026-05-31"
+  },
+  {
+    "id": 682344457,
+    "name": "DevCaress/guia-entrevistas-de-programacion",
+    "desc": "",
+    "stars": 7657,
+    "url": "https://github.com/DevCaress/guia-entrevistas-de-programacion",
+    "lang": "-",
+    "topics": [],
+    "created": "2023-08-24T01:16:03Z",
+    "updated": "2026-06-21T07:16:25Z",
+    "first_seen": "2026-06-21"
   },
   {
     "id": 4930716,
@@ -118692,6 +118740,22 @@
     "first_seen": "2026-06-02"
   },
   {
+    "id": 1101452882,
+    "name": "IAmTomShaw/f1-race-replay",
+    "desc": "An interactive Formula 1 race visualisation and data analysis tool built with Python! 🏎️",
+    "stars": 6035,
+    "url": "https://github.com/IAmTomShaw/f1-race-replay",
+    "lang": "Python",
+    "topics": [
+      "f1",
+      "formula1",
+      "formula1-data-analysis"
+    ],
+    "created": "2025-11-21T17:37:05Z",
+    "updated": "2026-06-21T09:08:50Z",
+    "first_seen": "2026-06-21"
+  },
+  {
     "id": 178815516,
     "name": "AutoPiano/AutoPiano",
     "desc": "🎹 自由钢琴 AutoPiano - Simple & Elegant Piano Online",
@@ -142712,6 +142776,20 @@
     "first_seen": "2026-06-13"
   },
   {
+    "id": 1246010662,
+    "name": "EpicGames/lore",
+    "desc": "Lore is a next-generation, open source version control system",
+    "stars": 5268,
+    "url": "https://github.com/EpicGames/lore",
+    "lang": "Rust",
+    "topics": [
+      "open-source"
+    ],
+    "created": "2026-05-21T19:32:07Z",
+    "updated": "2026-06-21T11:27:07Z",
+    "first_seen": "2026-06-21"
+  },
+  {
     "id": 1175285052,
     "name": "ParthJadhav/app-store-screenshots",
     "desc": "end to end app store screenshot creation using AI",
@@ -144125,6 +144203,38 @@
     "created": "2023-05-17T19:23:15Z",
     "updated": "2026-05-18T16:18:21Z",
     "first_seen": "2026-01-01"
+  },
+  {
+    "id": 307782839,
+    "name": "ombharatiya/FAANG-Coding-Interview-Questions",
+    "desc": "A curated List of Coding Questions Asked in FAANG Interviews",
+    "stars": 5233,
+    "url": "https://github.com/ombharatiya/FAANG-Coding-Interview-Questions",
+    "lang": "-",
+    "topics": [
+      "algorithms",
+      "algorithms-and-data-structures",
+      "artificial-intelligence",
+      "codechef",
+      "coding",
+      "coding-interviews",
+      "cpp",
+      "data-structures",
+      "dsa",
+      "faang-interview",
+      "faang-preparation",
+      "faang-questions",
+      "hacktoberfest",
+      "interview",
+      "interview-questions",
+      "interviewbit",
+      "java",
+      "leetcode",
+      "python"
+    ],
+    "created": "2020-10-27T17:48:27Z",
+    "updated": "2026-06-21T11:23:02Z",
+    "first_seen": "2026-06-21"
   },
   {
     "id": 495863734,
@@ -151929,6 +152039,30 @@
     "first_seen": "2026-06-18"
   },
   {
+    "id": 336246681,
+    "name": "tonquer/picacg-qt",
+    "desc": "哔咔漫画, PicACG comic PC client(Windows, Linux, MacOS) ",
+    "stars": 5054,
+    "url": "https://github.com/tonquer/picacg-qt",
+    "lang": "Python",
+    "topics": [
+      "bika",
+      "comic",
+      "doujinshi",
+      "picacg",
+      "picacomic",
+      "pyside6",
+      "qt6",
+      "r18",
+      "realcugan",
+      "realesrgan",
+      "waifu2x"
+    ],
+    "created": "2021-02-05T11:03:53Z",
+    "updated": "2026-06-21T09:55:33Z",
+    "first_seen": "2026-06-21"
+  },
+  {
     "id": 228192593,
     "name": "hakluke/hakrawler",
     "desc": "Simple, fast web crawler designed for easy, quick discovery of endpoints and assets within a web application",
@@ -152330,6 +152464,18 @@
     "created": "2024-11-23T11:02:14Z",
     "updated": "2026-06-13T10:41:47Z",
     "first_seen": "2026-06-13"
+  },
+  {
+    "id": 1235056479,
+    "name": "simonlin1212/a-stock-data",
+    "desc": "A股全栈数据工具包 · 7层架构 · 28端点 · 13数据源 · 行情/研报(个股+行业)/资金面/筹码/公告全覆盖 | China A-Share full-stack data toolkit (28 endpoints)",
+    "stars": 5045,
+    "url": "https://github.com/simonlin1212/a-stock-data",
+    "lang": "-",
+    "topics": [],
+    "created": "2026-05-11T01:08:15Z",
+    "updated": "2026-06-21T11:19:35Z",
+    "first_seen": "2026-06-21"
   },
   {
     "id": 197599333,
@@ -153449,6 +153595,39 @@
     "created": "2023-09-10T21:29:54Z",
     "updated": "2026-06-10T10:14:29Z",
     "first_seen": "2026-06-10"
+  },
+  {
+    "id": 145153231,
+    "name": "devspace-sh/devspace",
+    "desc": "DevSpace - The Fastest Developer Tool for Kubernetes ⚡ Automate your deployment workflow with DevSpace and develop software directly inside Kubernetes.",
+    "stars": 5023,
+    "url": "https://github.com/devspace-sh/devspace",
+    "lang": "Go",
+    "topics": [
+      "cli",
+      "cloud-native",
+      "container",
+      "containerization",
+      "dev",
+      "developer-tool",
+      "developer-tools",
+      "development",
+      "development-tools",
+      "devops",
+      "devops-tools",
+      "devspace",
+      "devtool",
+      "docker",
+      "golang",
+      "helm",
+      "kaniko",
+      "kubernetes",
+      "microservice",
+      "minikube"
+    ],
+    "created": "2018-08-17T18:18:43Z",
+    "updated": "2026-06-21T07:55:15Z",
+    "first_seen": "2026-06-21"
   },
   {
     "id": 8757552,
