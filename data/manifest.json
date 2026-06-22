@@ -49169,6 +49169,38 @@
     "first_seen": "2026-01-01"
   },
   {
+    "id": 1195360525,
+    "name": "calesthio/OpenMontage",
+    "desc": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
+    "stars": 10730,
+    "url": "https://github.com/calesthio/OpenMontage",
+    "lang": "Python",
+    "topics": [
+      "agent",
+      "agentic-ai",
+      "ai",
+      "claude",
+      "copilot",
+      "cursor",
+      "elevenlabs",
+      "ffmpeg",
+      "flux",
+      "image-generation",
+      "open-source",
+      "openai",
+      "python",
+      "remotion",
+      "stable-diffusion",
+      "text-to-speech",
+      "text-to-video",
+      "video-generation",
+      "video-production"
+    ],
+    "created": "2026-03-29T15:23:22Z",
+    "updated": "2026-06-22T13:51:26Z",
+    "first_seen": "2026-06-22"
+  },
+  {
     "id": 724635656,
     "name": "cumulo-autumn/StreamDiffusion",
     "desc": "StreamDiffusion: A Pipeline-Level Solution for Real-Time Interactive Generation",
@@ -56882,6 +56914,22 @@
     "created": "2013-08-16T19:48:39Z",
     "updated": "2026-05-18T14:48:28Z",
     "first_seen": "2026-01-01"
+  },
+  {
+    "id": 594330628,
+    "name": "Dr-TSNG/ZygiskNext",
+    "desc": "Standalone implementation of Zygisk",
+    "stars": 9784,
+    "url": "https://github.com/Dr-TSNG/ZygiskNext",
+    "lang": "-",
+    "topics": [
+      "android",
+      "kernelsu",
+      "magisk"
+    ],
+    "created": "2023-01-28T07:45:16Z",
+    "updated": "2026-06-22T13:19:49Z",
+    "first_seen": "2026-06-22"
   },
   {
     "id": 63278843,
@@ -67120,6 +67168,29 @@
     "created": "2019-01-20T12:29:52Z",
     "updated": "2026-06-13T00:23:26Z",
     "first_seen": "2026-06-13"
+  },
+  {
+    "id": 154943413,
+    "name": "crmeb/CRMEB",
+    "desc": "🔥CRMEB开源商城免费开源多语言商城系统，Tp6框架商城，系统可商用；包含小程序商城、H5商城、公众号商城、PC商城、App，支持分销、拼团、砍价、秒杀、优惠券、积分、会员等级、小程序直播、页面DIY，前后端分离，方便二开，更有详细使用文档、接口文档、数据字典、二开文档/视频教程，欢迎大家提出宝贵意见和建议",
+    "stars": 8953,
+    "url": "https://github.com/crmeb/CRMEB",
+    "lang": "Vue",
+    "topics": [
+      "b2c",
+      "form-create",
+      "ivewui",
+      "o2o",
+      "php",
+      "shop",
+      "thinkphp",
+      "vue",
+      "wechat",
+      "wechat-mini-program"
+    ],
+    "created": "2018-10-27T08:39:45Z",
+    "updated": "2026-06-22T13:42:15Z",
+    "first_seen": "2026-06-22"
   },
   {
     "id": 5351666,
@@ -81190,6 +81261,27 @@
     "first_seen": "2026-01-01"
   },
   {
+    "id": 89785877,
+    "name": "robinmoisson/staticrypt",
+    "desc": "Password protect a static HTML page, decrypted in-browser in JS with no dependency. No server logic needed.",
+    "stars": 7961,
+    "url": "https://github.com/robinmoisson/staticrypt",
+    "lang": "HTML",
+    "topics": [
+      "cli",
+      "encryption",
+      "html",
+      "javascript",
+      "password",
+      "static",
+      "static-html",
+      "webcrypto"
+    ],
+    "created": "2017-04-29T13:06:39Z",
+    "updated": "2026-06-22T04:20:22Z",
+    "first_seen": "2026-06-22"
+  },
+  {
     "id": 19951534,
     "name": "Flipboard/FLAnimatedImage",
     "desc": "Performant animated GIF engine for iOS",
@@ -85598,6 +85690,22 @@
     "first_seen": "2026-01-01"
   },
   {
+    "id": 261515636,
+    "name": "matplotlib/cheatsheets",
+    "desc": "Official Matplotlib cheat sheets",
+    "stars": 7705,
+    "url": "https://github.com/matplotlib/cheatsheets",
+    "lang": "Python",
+    "topics": [
+      "cheatsheet",
+      "matplotlib",
+      "python"
+    ],
+    "created": "2020-05-05T15:50:03Z",
+    "updated": "2026-06-22T09:36:46Z",
+    "first_seen": "2026-06-22"
+  },
+  {
     "id": 48857632,
     "name": "nginx-proxy/acme-companion",
     "desc": "Automated ACME SSL certificate generation for nginx-proxy",
@@ -88126,6 +88234,23 @@
     "first_seen": "2026-05-31"
   },
   {
+    "id": 54828252,
+    "name": "agronholm/apscheduler",
+    "desc": "Task scheduling library for Python",
+    "stars": 7545,
+    "url": "https://github.com/agronholm/apscheduler",
+    "lang": "Python",
+    "topics": [
+      "automation",
+      "cron",
+      "python",
+      "scheduling"
+    ],
+    "created": "2016-03-27T12:51:50Z",
+    "updated": "2026-06-22T07:35:28Z",
+    "first_seen": "2026-06-22"
+  },
+  {
     "id": 1166102148,
     "name": "DeusData/codebase-memory-mcp",
     "desc": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
@@ -90358,6 +90483,18 @@
     "created": "2019-05-26T11:24:22Z",
     "updated": "2026-05-31T14:02:00Z",
     "first_seen": "2026-05-31"
+  },
+  {
+    "id": 667346345,
+    "name": "datawhalechina/so-large-lm",
+    "desc": "大模型基础: 一文了解大模型基础知识",
+    "stars": 7394,
+    "url": "https://github.com/datawhalechina/so-large-lm",
+    "lang": "-",
+    "topics": [],
+    "created": "2023-07-17T09:48:56Z",
+    "updated": "2026-06-22T12:57:38Z",
+    "first_seen": "2026-06-22"
   },
   {
     "id": 15155534,
@@ -98242,6 +98379,38 @@
     "first_seen": "2026-01-01"
   },
   {
+    "id": 332736941,
+    "name": "XuehaiPan/nvitop",
+    "desc": "An interactive NVIDIA-GPU process viewer and beyond, the one-stop solution for GPU process management.",
+    "stars": 6968,
+    "url": "https://github.com/XuehaiPan/nvitop",
+    "lang": "Python",
+    "topics": [
+      "command-line-tool",
+      "console",
+      "cuda",
+      "curses",
+      "gpu",
+      "gpu-monitoring",
+      "grafana",
+      "grafana-dashboard",
+      "htop",
+      "monitoring",
+      "monitoring-tool",
+      "nvidia",
+      "nvidia-smi",
+      "nvml",
+      "process-monitoring",
+      "prometheus",
+      "prometheus-exporter",
+      "resource-monitor",
+      "top"
+    ],
+    "created": "2021-01-25T12:17:02Z",
+    "updated": "2026-06-22T05:17:09Z",
+    "first_seen": "2026-06-22"
+  },
+  {
     "id": 20884782,
     "name": "Ultimaker/Cura",
     "desc": "3D printer / slicing GUI built on top of the Uranium framework",
@@ -103791,6 +103960,26 @@
     "created": "2021-11-22T02:42:21Z",
     "updated": "2026-05-18T23:56:31Z",
     "first_seen": "2026-01-01"
+  },
+  {
+    "id": 1203468533,
+    "name": "palmier-io/palmier-pro",
+    "desc": "macOS video editor built for AI",
+    "stars": 6700,
+    "url": "https://github.com/palmier-io/palmier-pro",
+    "lang": "Swift",
+    "topics": [
+      "ai-video",
+      "claude",
+      "macos",
+      "mcp",
+      "seedance2",
+      "swift",
+      "video-editor"
+    ],
+    "created": "2026-04-07T04:15:51Z",
+    "updated": "2026-06-22T13:51:18Z",
+    "first_seen": "2026-06-22"
   },
   {
     "id": 87454905,
@@ -115189,6 +115378,26 @@
     "created": "2021-06-10T10:09:21Z",
     "updated": "2026-05-18T20:55:46Z",
     "first_seen": "2026-01-01"
+  },
+  {
+    "id": 213025388,
+    "name": "fastapi-users/fastapi-users",
+    "desc": "Ready-to-use and customizable users management for FastAPI",
+    "stars": 6171,
+    "url": "https://github.com/fastapi-users/fastapi-users",
+    "lang": "Python",
+    "topics": [
+      "async",
+      "asyncio",
+      "fastapi",
+      "fastapi-users",
+      "python",
+      "starlette",
+      "users"
+    ],
+    "created": "2019-10-05T15:40:31Z",
+    "updated": "2026-06-22T12:36:47Z",
+    "first_seen": "2026-06-22"
   },
   {
     "id": 28131918,
@@ -127760,6 +127969,28 @@
     "first_seen": "2026-01-01"
   },
   {
+    "id": 270304593,
+    "name": "dialogic-godot/dialogic",
+    "desc": "💬 Create Dialogs, Visual Novels, RPGs, and manage Characters with Godot to create your Game!",
+    "stars": 5726,
+    "url": "https://github.com/dialogic-godot/dialogic",
+    "lang": "GDScript",
+    "topics": [
+      "addon",
+      "dialogic",
+      "dialogue",
+      "game",
+      "gdscript",
+      "godot",
+      "plugin",
+      "visual-novel",
+      "visualnovel"
+    ],
+    "created": "2020-06-07T12:49:43Z",
+    "updated": "2026-06-22T02:55:03Z",
+    "first_seen": "2026-06-22"
+  },
+  {
     "id": 861892731,
     "name": "PySpur-Dev/pyspur",
     "desc": "A visual playground for agentic workflows: Iterate over your agents 10x faster",
@@ -128847,6 +129078,24 @@
     "created": "2015-11-15T19:59:56Z",
     "updated": "2026-05-18T23:56:00Z",
     "first_seen": "2026-01-01"
+  },
+  {
+    "id": 48780523,
+    "name": "gnunn1/tilix",
+    "desc": "A tiling terminal emulator for Linux using GTK+ 3",
+    "stars": 5690,
+    "url": "https://github.com/gnunn1/tilix",
+    "lang": "D",
+    "topics": [
+      "dlang",
+      "gtk3",
+      "terminal",
+      "terminal-emulators",
+      "vte"
+    ],
+    "created": "2015-12-30T03:48:32Z",
+    "updated": "2026-06-22T09:25:20Z",
+    "first_seen": "2026-06-22"
   },
   {
     "id": 41964498,
@@ -137410,6 +137659,25 @@
     "created": "2018-05-24T12:16:24Z",
     "updated": "2026-05-14T03:39:14Z",
     "first_seen": "2026-01-01"
+  },
+  {
+    "id": 7184072,
+    "name": "hylang/hy",
+    "desc": "A dialect of Lisp that's embedded in Python",
+    "stars": 5424,
+    "url": "https://github.com/hylang/hy",
+    "lang": "Python",
+    "topics": [
+      "compiler",
+      "hy",
+      "lisps",
+      "macros",
+      "metaprogramming",
+      "python"
+    ],
+    "created": "2012-12-15T21:20:51Z",
+    "updated": "2026-06-21T14:48:57Z",
+    "first_seen": "2026-06-22"
   },
   {
     "id": 60692320,
@@ -152478,6 +152746,18 @@
     "first_seen": "2026-06-21"
   },
   {
+    "id": 908658171,
+    "name": "aaddrick/claude-desktop-debian",
+    "desc": "Claude Desktop for Linux",
+    "stars": 5045,
+    "url": "https://github.com/aaddrick/claude-desktop-debian",
+    "lang": "Shell",
+    "topics": [],
+    "created": "2024-12-26T16:09:43Z",
+    "updated": "2026-06-22T13:45:26Z",
+    "first_seen": "2026-06-22"
+  },
+  {
     "id": 197599333,
     "name": "2227324689/gpmall",
     "desc": "【咕泡学院实战项目】-基于SpringBoot+Dubbo构建的电商平台-微服务架构、商城、电商、微服务、高并发、kafka、Elasticsearch",
@@ -154568,6 +154848,21 @@
     "first_seen": "2026-06-20"
   },
   {
+    "id": 985664957,
+    "name": "zensical/zensical",
+    "desc": "A modern static site generator by the Material for MkDocs team",
+    "stars": 5009,
+    "url": "https://github.com/zensical/zensical",
+    "lang": "Rust",
+    "topics": [
+      "documentation",
+      "static-site-generator"
+    ],
+    "created": "2025-05-18T09:07:43Z",
+    "updated": "2026-06-22T12:01:51Z",
+    "first_seen": "2026-06-22"
+  },
+  {
     "id": 582432706,
     "name": "brianpetro/obsidian-smart-connections",
     "desc": "Chat with your notes & see links to related content with AI embeddings. Use local models or 100+ via APIs like Claude, Gemini, ChatGPT & Llama 3",
@@ -154671,6 +154966,18 @@
     "created": "2023-02-05T03:51:15Z",
     "updated": "2026-06-20T08:54:48Z",
     "first_seen": "2026-06-20"
+  },
+  {
+    "id": 1164494894,
+    "name": "linuxhsj/openclaw-zero-token",
+    "desc": "OpenClaw: Use All Major AI Models NO API Token! Claude/ChatGPT/Gemini/DeepSeek/Doubao/Grok/Qwen/Manus/Kimi",
+    "stars": 5007,
+    "url": "https://github.com/linuxhsj/openclaw-zero-token",
+    "lang": "TypeScript",
+    "topics": [],
+    "created": "2026-02-23T06:27:57Z",
+    "updated": "2026-06-22T13:01:16Z",
+    "first_seen": "2026-06-22"
   },
   {
     "id": 102447494,
@@ -154955,6 +155262,39 @@
     "created": "2018-09-12T10:42:51Z",
     "updated": "2026-06-05T03:27:37Z",
     "first_seen": "2026-06-05"
+  },
+  {
+    "id": 180137089,
+    "name": "JerBouma/FinanceToolkit",
+    "desc": "Transparent and Efficient Financial Analysis",
+    "stars": 5003,
+    "url": "https://github.com/JerBouma/FinanceToolkit",
+    "lang": "Python",
+    "topics": [
+      "economics",
+      "equities",
+      "factor-analysis",
+      "finance",
+      "financial-analysis",
+      "financial-data",
+      "financial-statements",
+      "fundamental-analysis",
+      "fundamentals",
+      "investing",
+      "investments",
+      "market-data",
+      "mcp",
+      "mcp-server",
+      "options",
+      "performance-analysis",
+      "risk-management",
+      "sector-analysis",
+      "stock-data",
+      "technical-analysis"
+    ],
+    "created": "2019-04-08T11:44:25Z",
+    "updated": "2026-06-22T09:13:50Z",
+    "first_seen": "2026-06-22"
   },
   {
     "id": 7744300,
@@ -155426,5 +155766,27 @@
     "created": "2026-05-15T16:55:16Z",
     "updated": "2026-06-12T11:00:06Z",
     "first_seen": "2026-06-12"
+  },
+  {
+    "id": 726128134,
+    "name": "rajnandan1/kener",
+    "desc": "Stunning status pages, batteries included!",
+    "stars": 5000,
+    "url": "https://github.com/rajnandan1/kener",
+    "lang": "Svelte",
+    "topics": [
+      "awesome-list",
+      "docker",
+      "monitoring",
+      "monitoring-tool",
+      "nodejs",
+      "observability",
+      "status-page",
+      "statuspage",
+      "sveltekit"
+    ],
+    "created": "2023-12-01T15:39:00Z",
+    "updated": "2026-06-22T10:36:09Z",
+    "first_seen": "2026-06-22"
   }
 ]
