@@ -1,302 +1,302 @@
 [
   {
     "repo": "dietrichgebert/ponytail",
-    "surge_5d": 19718,
-    "star_increment": 19718,
+    "surge_5d": 16794,
+    "star_increment": 16794,
     "rank": 1
   },
   {
     "repo": "chopratejas/headroom",
-    "surge_5d": 15666,
-    "star_increment": 15666,
+    "surge_5d": 15179,
+    "star_increment": 15179,
     "rank": 2
   },
   {
-    "repo": "deusdata/codebase-memory-mcp",
-    "surge_5d": 11052,
-    "star_increment": 11052,
+    "repo": "calesthio/openmontage",
+    "surge_5d": 13947,
+    "star_increment": 13947,
     "rank": 3
   },
   {
-    "repo": "thewhiteh4t/seeker",
-    "surge_5d": 9614,
-    "star_increment": 9614,
+    "repo": "deusdata/codebase-memory-mcp",
+    "surge_5d": 12239,
+    "star_increment": 12239,
     "rank": 4
   },
   {
-    "repo": "snakers4/silero-vad",
-    "surge_5d": 9381,
-    "star_increment": 9381,
+    "repo": "dr-tsng/zygisknext",
+    "surge_5d": 9789,
+    "star_increment": 9789,
     "rank": 5
   },
   {
-    "repo": "googleapis/google-api-python-client",
-    "surge_5d": 8858,
-    "star_increment": 8858,
+    "repo": "thewhiteh4t/seeker",
+    "surge_5d": 9618,
+    "star_increment": 9618,
     "rank": 6
   },
   {
-    "repo": "kellyjonbrazil/jc",
-    "surge_5d": 8625,
-    "star_increment": 8625,
+    "repo": "snakers4/silero-vad",
+    "surge_5d": 9394,
+    "star_increment": 9394,
     "rank": 7
   },
   {
-    "repo": "presenton/presenton",
-    "surge_5d": 8461,
-    "star_increment": 8461,
+    "repo": "crmeb/crmeb",
+    "surge_5d": 8958,
+    "star_increment": 8958,
     "rank": 8
   },
   {
-    "repo": "alirezadir/machine-learning-interviews",
-    "surge_5d": 8444,
-    "star_increment": 8444,
+    "repo": "googleapis/google-api-python-client",
+    "surge_5d": 8860,
+    "star_increment": 8860,
     "rank": 9
   },
   {
-    "repo": "mattpocock/skills",
-    "surge_5d": 8298,
-    "star_increment": 8298,
+    "repo": "kellyjonbrazil/jc",
+    "surge_5d": 8626,
+    "star_increment": 8626,
     "rank": 10
   },
   {
-    "repo": "tensorflow/examples",
-    "surge_5d": 8271,
-    "star_increment": 8271,
+    "repo": "presenton/presenton",
+    "surge_5d": 8479,
+    "star_increment": 8479,
     "rank": 11
   },
   {
     "repo": "ekkolearnai/hermes-web-ui",
-    "surge_5d": 8224,
-    "star_increment": 8224,
+    "surge_5d": 8284,
+    "star_increment": 8284,
     "rank": 12
   },
   {
     "repo": "qiye45/wechatdownload",
-    "surge_5d": 8215,
-    "star_increment": 8215,
+    "surge_5d": 8228,
+    "star_increment": 8228,
     "rank": 13
   },
   {
-    "repo": "tubearchivist/tubearchivist",
-    "surge_5d": 8143,
-    "star_increment": 8143,
+    "repo": "palmier-io/palmier-pro",
+    "surge_5d": 8157,
+    "star_increment": 8157,
     "rank": 14
   },
   {
-    "repo": "ajenti/ajenti",
-    "surge_5d": 7944,
-    "star_increment": 7944,
+    "repo": "tubearchivist/tubearchivist",
+    "surge_5d": 8147,
+    "star_increment": 8147,
     "rank": 15
   },
   {
-    "repo": "dyweb/awesome-resume-for-chinese",
-    "surge_5d": 7841,
-    "star_increment": 7841,
+    "repo": "mattpocock/skills",
+    "surge_5d": 8037,
+    "star_increment": 8037,
     "rank": 16
+  },
+  {
+    "repo": "robinmoisson/staticrypt",
+    "surge_5d": 7962,
+    "star_increment": 7962,
+    "rank": 17
+  },
+  {
+    "repo": "ajenti/ajenti",
+    "surge_5d": 7945,
+    "star_increment": 7945,
+    "rank": 18
+  },
+  {
+    "repo": "dyweb/awesome-resume-for-chinese",
+    "surge_5d": 7842,
+    "star_increment": 7842,
+    "rank": 19
   },
   {
     "repo": "itcharge/algonote",
     "surge_5d": 7729,
     "star_increment": 7729,
-    "rank": 17
+    "rank": 20
+  },
+  {
+    "repo": "matplotlib/cheatsheets",
+    "surge_5d": 7706,
+    "star_increment": 7706,
+    "rank": 21
   },
   {
     "repo": "devcaress/guia-entrevistas-de-programacion",
-    "surge_5d": 7660,
-    "star_increment": 7660,
-    "rank": 18
+    "surge_5d": 7664,
+    "star_increment": 7664,
+    "rank": 22
+  },
+  {
+    "repo": "agronholm/apscheduler",
+    "surge_5d": 7546,
+    "star_increment": 7546,
+    "rank": 23
+  },
+  {
+    "repo": "datawhalechina/so-large-lm",
+    "surge_5d": 7401,
+    "star_increment": 7401,
+    "rank": 24
   },
   {
     "repo": "gorakhargosh/watchdog",
     "surge_5d": 7372,
     "star_increment": 7372,
-    "rank": 19
-  },
-  {
-    "repo": "ranaroussi/quantstats",
-    "surge_5d": 7313,
-    "star_increment": 7313,
-    "rank": 20
-  },
-  {
-    "repo": "pyenv-win/pyenv-win",
-    "surge_5d": 7306,
-    "star_increment": 7306,
-    "rank": 21
-  },
-  {
-    "repo": "corpnewt/gibmacos",
-    "surge_5d": 7143,
-    "star_increment": 7143,
-    "rank": 22
-  },
-  {
-    "repo": "railsgirls/guides.railsgirls.com",
-    "surge_5d": 7105,
-    "star_increment": 7105,
-    "rank": 23
-  },
-  {
-    "repo": "purcell/emacs.d",
-    "surge_5d": 7070,
-    "star_increment": 7070,
-    "rank": 24
-  },
-  {
-    "repo": "jo-inc/camofox-browser",
-    "surge_5d": 7069,
-    "star_increment": 7069,
     "rank": 25
   },
   {
-    "repo": "sobolevn/awesome-cryptography",
-    "surge_5d": 7000,
-    "star_increment": 7000,
+    "repo": "ranaroussi/quantstats",
+    "surge_5d": 7317,
+    "star_increment": 7317,
     "rank": 26
   },
   {
-    "repo": "thysrael/horizon",
-    "surge_5d": 6952,
-    "star_increment": 6952,
+    "repo": "pyenv-win/pyenv-win",
+    "surge_5d": 7308,
+    "star_increment": 7308,
     "rank": 27
   },
   {
     "repo": "tw93/pake",
-    "surge_5d": 6922,
-    "star_increment": 6922,
+    "surge_5d": 7233,
+    "star_increment": 7233,
     "rank": 28
   },
   {
-    "repo": "moriafly/saltplayersource",
-    "surge_5d": 6921,
-    "star_increment": 6921,
+    "repo": "corpnewt/gibmacos",
+    "surge_5d": 7146,
+    "star_increment": 7146,
     "rank": 29
   },
   {
-    "repo": "mahmoud/boltons",
-    "surge_5d": 6898,
-    "star_increment": 6898,
+    "repo": "jo-inc/camofox-browser",
+    "surge_5d": 7108,
+    "star_increment": 7108,
     "rank": 30
   },
   {
-    "repo": "lzhoang2801/opcore-simplify",
-    "surge_5d": 6812,
-    "star_increment": 6812,
+    "repo": "purcell/emacs.d",
+    "surge_5d": 7069,
+    "star_increment": 7069,
     "rank": 31
   },
   {
-    "repo": "elder-plinius/obliteratus",
-    "surge_5d": 6710,
-    "star_increment": 6710,
+    "repo": "thysrael/horizon",
+    "surge_5d": 7035,
+    "star_increment": 7035,
     "rank": 32
   },
   {
-    "repo": "t8y2/dbx",
-    "surge_5d": 6573,
-    "star_increment": 6573,
+    "repo": "sobolevn/awesome-cryptography",
+    "surge_5d": 7001,
+    "star_increment": 7001,
     "rank": 33
   },
   {
-    "repo": "microsoft/call-center-ai",
-    "surge_5d": 6513,
-    "star_increment": 6513,
+    "repo": "xuehaipan/nvitop",
+    "surge_5d": 6972,
+    "star_increment": 6972,
     "rank": 34
   },
   {
-    "repo": "lintsinghua/deepaudit",
-    "surge_5d": 6462,
-    "star_increment": 6462,
+    "repo": "moriafly/saltplayersource",
+    "surge_5d": 6928,
+    "star_increment": 6928,
     "rank": 35
   },
   {
-    "repo": "dimitri/pgloader",
-    "surge_5d": 6443,
-    "star_increment": 6443,
+    "repo": "mahmoud/boltons",
+    "surge_5d": 6899,
+    "star_increment": 6899,
     "rank": 36
   },
   {
-    "repo": "edostra/marketing-for-founders",
-    "surge_5d": 6410,
-    "star_increment": 6410,
+    "repo": "elder-plinius/obliteratus",
+    "surge_5d": 6729,
+    "star_increment": 6729,
     "rank": 37
   },
   {
-    "repo": "withastro/flue",
-    "surge_5d": 6379,
-    "star_increment": 6379,
+    "repo": "t8y2/dbx",
+    "surge_5d": 6709,
+    "star_increment": 6709,
     "rank": 38
   },
   {
-    "repo": "qbittorrent/search-plugins",
-    "surge_5d": 6287,
-    "star_increment": 6287,
+    "repo": "microsoft/call-center-ai",
+    "surge_5d": 6515,
+    "star_increment": 6515,
     "rank": 39
   },
   {
-    "repo": "open-pencil/open-pencil",
-    "surge_5d": 6066,
-    "star_increment": 6066,
+    "repo": "lintsinghua/deepaudit",
+    "surge_5d": 6469,
+    "star_increment": 6469,
     "rank": 40
   },
   {
-    "repo": "iamtomshaw/f1-race-replay",
-    "surge_5d": 6037,
-    "star_increment": 6037,
+    "repo": "withastro/flue",
+    "surge_5d": 6468,
+    "star_increment": 6468,
     "rank": 41
   },
   {
-    "repo": "tencentcloud/tencentdb-agent-memory",
-    "surge_5d": 5976,
-    "star_increment": 5976,
+    "repo": "dimitri/pgloader",
+    "surge_5d": 6444,
+    "star_increment": 6444,
     "rank": 42
   },
   {
-    "repo": "simplifaisoul/osiris",
-    "surge_5d": 5963,
-    "star_increment": 5963,
+    "repo": "edostra/marketing-for-founders",
+    "surge_5d": 6413,
+    "star_increment": 6413,
     "rank": 43
   },
   {
-    "repo": "maximhq/bifrost",
-    "surge_5d": 5958,
-    "star_increment": 5958,
+    "repo": "qbittorrent/search-plugins",
+    "surge_5d": 6288,
+    "star_increment": 6288,
     "rank": 44
   },
   {
-    "repo": "agiresearch/aios",
-    "surge_5d": 5947,
-    "star_increment": 5947,
+    "repo": "fastapi-users/fastapi-users",
+    "surge_5d": 6171,
+    "star_increment": 6171,
     "rank": 45
   },
   {
-    "repo": "stablyai/orca",
-    "surge_5d": 5944,
-    "star_increment": 5944,
+    "repo": "open-pencil/open-pencil",
+    "surge_5d": 6153,
+    "star_increment": 6153,
     "rank": 46
   },
   {
-    "repo": "astrada/google-drive-ocamlfuse",
-    "surge_5d": 5942,
-    "star_increment": 5942,
+    "repo": "stablyai/orca",
+    "surge_5d": 6131,
+    "star_increment": 6131,
     "rank": 47
   },
   {
-    "repo": "alvinunreal/oh-my-opencode-slim",
-    "surge_5d": 5897,
-    "star_increment": 5897,
+    "repo": "iamtomshaw/f1-race-replay",
+    "surge_5d": 6042,
+    "star_increment": 6042,
     "rank": 48
   },
   {
-    "repo": "microsoft/fara",
-    "surge_5d": 5891,
-    "star_increment": 5891,
+    "repo": "simplifaisoul/osiris",
+    "surge_5d": 6005,
+    "star_increment": 6005,
     "rank": 49
   },
   {
-    "repo": "morpheapp/morphe-manager",
-    "surge_5d": 5878,
-    "star_increment": 5878,
+    "repo": "tencentcloud/tencentdb-agent-memory",
+    "surge_5d": 5992,
+    "star_increment": 5992,
     "rank": 50
   }
 ]
