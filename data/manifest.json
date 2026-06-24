@@ -12767,6 +12767,18 @@
     "first_seen": "2026-05-19"
   },
   {
+    "id": 993475914,
+    "name": "apple/container",
+    "desc": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon. ",
+    "stars": 41898,
+    "url": "https://github.com/apple/container",
+    "lang": "Swift",
+    "topics": [],
+    "created": "2025-05-30T21:26:05Z",
+    "updated": "2026-06-24T18:42:57Z",
+    "first_seen": "2026-06-24"
+  },
+  {
     "id": 3721224,
     "name": "nolimits4web/swiper",
     "desc": "移动端触摸滑动组件",
@@ -68787,6 +68799,18 @@
     "first_seen": "2026-01-01"
   },
   {
+    "id": 1159484260,
+    "name": "nicobailon/visual-explainer",
+    "desc": "Agent skill that generates rich HTML pages or slide decks for diagrams, diff reviews, plan audits, data tables, and project recaps",
+    "stars": 8842,
+    "url": "https://github.com/nicobailon/visual-explainer",
+    "lang": "HTML",
+    "topics": [],
+    "created": "2026-02-16T19:33:52Z",
+    "updated": "2026-06-24T17:02:51Z",
+    "first_seen": "2026-06-24"
+  },
+  {
     "id": 782539945,
     "name": "miurla/morphic",
     "desc": "An AI-powered search engine with a generative UI",
@@ -108416,6 +108440,18 @@
     "first_seen": "2026-01-01"
   },
   {
+    "id": 21585830,
+    "name": "bmrf/tron",
+    "desc": "Tron",
+    "stars": 6483,
+    "url": "https://github.com/bmrf/tron",
+    "lang": "Batchfile",
+    "topics": [],
+    "created": "2014-07-07T20:37:08Z",
+    "updated": "2026-06-24T16:41:56Z",
+    "first_seen": "2026-06-24"
+  },
+  {
     "id": 67286820,
     "name": "ondrajz/go-callvis",
     "desc": "Visualize call graph of a Go program using Graphviz",
@@ -114312,6 +114348,25 @@
     "first_seen": "2026-01-01"
   },
   {
+    "id": 24470090,
+    "name": "OpenDroneMap/ODM",
+    "desc": "A command line toolkit to generate maps, point clouds, 3D models and DEMs from drone, balloon or kite images. 📷",
+    "stars": 6216,
+    "url": "https://github.com/OpenDroneMap/ODM",
+    "lang": "Python",
+    "topics": [
+      "aerial-imagery",
+      "drone",
+      "photogrammetry",
+      "point-cloud",
+      "structure-from-motion",
+      "uas"
+    ],
+    "created": "2014-09-25T18:29:10Z",
+    "updated": "2026-06-24T14:20:39Z",
+    "first_seen": "2026-06-24"
+  },
+  {
     "id": 375388,
     "name": "ryanb/cancan",
     "desc": "Authorization Gem for Ruby on Rails.",
@@ -114885,6 +114940,18 @@
     "created": "2013-01-23T01:30:09Z",
     "updated": "2026-05-18T13:59:19Z",
     "first_seen": "2026-01-01"
+  },
+  {
+    "id": 677296170,
+    "name": "FongMi/Release",
+    "desc": "",
+    "stars": 6193,
+    "url": "https://github.com/FongMi/Release",
+    "lang": "Batchfile",
+    "topics": [],
+    "created": "2023-08-11T08:06:25Z",
+    "updated": "2026-06-24T18:07:53Z",
+    "first_seen": "2026-06-24"
   },
   {
     "id": 997490512,
@@ -117457,6 +117524,18 @@
     "first_seen": "2026-01-01"
   },
   {
+    "id": 1273138090,
+    "name": "baidu/Unlimited-OCR",
+    "desc": "Unlimited OCR Works: Welcome the Era of One-shot Long-horizon Parsing.",
+    "stars": 6093,
+    "url": "https://github.com/baidu/Unlimited-OCR",
+    "lang": "Python",
+    "topics": [],
+    "created": "2026-06-18T08:40:15Z",
+    "updated": "2026-06-24T18:45:23Z",
+    "first_seen": "2026-06-24"
+  },
+  {
     "id": 518004533,
     "name": "LokerL/tts-vue",
     "desc": "🎤 微软语音合成工具，使用 Electron + Vue + ElementPlus + Vite 构建。",
@@ -117512,6 +117591,18 @@
     "created": "2023-11-09T18:17:33Z",
     "updated": "2026-05-18T23:24:30Z",
     "first_seen": "2026-01-01"
+  },
+  {
+    "id": 1273138090,
+    "name": "baidu/Unlimited-OCR",
+    "desc": "Unlimited OCR Works: Welcome the Era of One-shot Long-horizon Parsing.",
+    "stars": 6092,
+    "url": "https://github.com/baidu/Unlimited-OCR",
+    "lang": "Python",
+    "topics": [],
+    "created": "2026-06-18T08:40:15Z",
+    "updated": "2026-06-24T18:44:15Z",
+    "first_seen": "2026-06-24"
   },
   {
     "id": 19340009,
@@ -149883,6 +149974,28 @@
     "created": "2026-03-27T17:54:33Z",
     "updated": "2026-06-09T11:32:29Z",
     "first_seen": "2026-06-09"
+  },
+  {
+    "id": 1253138201,
+    "name": "StarTrail-org/PixelRAG",
+    "desc": "The end of web parsing. The beginning of scalable pixel-native search.",
+    "stars": 5111,
+    "url": "https://github.com/StarTrail-org/PixelRAG",
+    "lang": "Python",
+    "topics": [
+      "agent",
+      "ai",
+      "memory",
+      "multimodal",
+      "rag",
+      "search",
+      "searchengine",
+      "vision",
+      "vlm"
+    ],
+    "created": "2026-05-29T07:25:40Z",
+    "updated": "2026-06-24T18:13:03Z",
+    "first_seen": "2026-06-24"
   },
   {
     "id": 971447302,
