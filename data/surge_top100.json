@@ -1,302 +1,302 @@
 [
   {
-    "repo": "dietrichgebert/ponytail",
-    "surge_5d": 16794,
-    "star_increment": 16794,
+    "repo": "calesthio/openmontage",
+    "surge_5d": 17499,
+    "star_increment": 17499,
     "rank": 1
   },
   {
-    "repo": "chopratejas/headroom",
-    "surge_5d": 15179,
-    "star_increment": 15179,
+    "repo": "dietrichgebert/ponytail",
+    "surge_5d": 14886,
+    "star_increment": 14886,
     "rank": 2
   },
   {
-    "repo": "calesthio/openmontage",
-    "surge_5d": 13947,
-    "star_increment": 13947,
+    "repo": "deusdata/codebase-memory-mcp",
+    "surge_5d": 13707,
+    "star_increment": 13707,
     "rank": 3
   },
   {
-    "repo": "deusdata/codebase-memory-mcp",
-    "surge_5d": 12239,
-    "star_increment": 12239,
+    "repo": "chopratejas/headroom",
+    "surge_5d": 12580,
+    "star_increment": 12580,
     "rank": 4
   },
   {
     "repo": "dr-tsng/zygisknext",
-    "surge_5d": 9789,
-    "star_increment": 9789,
+    "surge_5d": 9794,
+    "star_increment": 9794,
     "rank": 5
   },
   {
     "repo": "thewhiteh4t/seeker",
-    "surge_5d": 9618,
-    "star_increment": 9618,
+    "surge_5d": 9628,
+    "star_increment": 9628,
     "rank": 6
   },
   {
     "repo": "snakers4/silero-vad",
-    "surge_5d": 9394,
-    "star_increment": 9394,
+    "surge_5d": 9403,
+    "star_increment": 9403,
     "rank": 7
   },
   {
-    "repo": "crmeb/crmeb",
-    "surge_5d": 8958,
-    "star_increment": 8958,
+    "repo": "garrettj403/scienceplots",
+    "surge_5d": 9003,
+    "star_increment": 9003,
     "rank": 8
   },
   {
-    "repo": "googleapis/google-api-python-client",
-    "surge_5d": 8860,
-    "star_increment": 8860,
+    "repo": "crmeb/crmeb",
+    "surge_5d": 8965,
+    "star_increment": 8965,
     "rank": 9
   },
   {
-    "repo": "kellyjonbrazil/jc",
-    "surge_5d": 8626,
-    "star_increment": 8626,
+    "repo": "googleapis/google-api-python-client",
+    "surge_5d": 8861,
+    "star_increment": 8861,
     "rank": 10
   },
   {
-    "repo": "presenton/presenton",
-    "surge_5d": 8479,
-    "star_increment": 8479,
+    "repo": "palmier-io/palmier-pro",
+    "surge_5d": 8686,
+    "star_increment": 8686,
     "rank": 11
   },
   {
-    "repo": "ekkolearnai/hermes-web-ui",
-    "surge_5d": 8284,
-    "star_increment": 8284,
+    "repo": "kellyjonbrazil/jc",
+    "surge_5d": 8628,
+    "star_increment": 8628,
     "rank": 12
   },
   {
-    "repo": "qiye45/wechatdownload",
-    "surge_5d": 8228,
-    "star_increment": 8228,
+    "repo": "presenton/presenton",
+    "surge_5d": 8512,
+    "star_increment": 8512,
     "rank": 13
   },
   {
-    "repo": "palmier-io/palmier-pro",
-    "surge_5d": 8157,
-    "star_increment": 8157,
+    "repo": "ekkolearnai/hermes-web-ui",
+    "surge_5d": 8357,
+    "star_increment": 8357,
     "rank": 14
   },
   {
-    "repo": "tubearchivist/tubearchivist",
-    "surge_5d": 8147,
-    "star_increment": 8147,
+    "repo": "qiye45/wechatdownload",
+    "surge_5d": 8242,
+    "star_increment": 8242,
     "rank": 15
   },
   {
-    "repo": "mattpocock/skills",
-    "surge_5d": 8037,
-    "star_increment": 8037,
+    "repo": "tubearchivist/tubearchivist",
+    "surge_5d": 8149,
+    "star_increment": 8149,
     "rank": 16
   },
   {
-    "repo": "robinmoisson/staticrypt",
-    "surge_5d": 7962,
-    "star_increment": 7962,
+    "repo": "pycqa/bandit",
+    "surge_5d": 8107,
+    "star_increment": 8107,
     "rank": 17
   },
   {
-    "repo": "ajenti/ajenti",
-    "surge_5d": 7945,
-    "star_increment": 7945,
+    "repo": "mattpocock/skills",
+    "surge_5d": 8034,
+    "star_increment": 8034,
     "rank": 18
   },
   {
-    "repo": "dyweb/awesome-resume-for-chinese",
-    "surge_5d": 7842,
-    "star_increment": 7842,
+    "repo": "robinmoisson/staticrypt",
+    "surge_5d": 7964,
+    "star_increment": 7964,
     "rank": 19
+  },
+  {
+    "repo": "ajenti/ajenti",
+    "surge_5d": 7944,
+    "star_increment": 7944,
+    "rank": 20
   },
   {
     "repo": "itcharge/algonote",
     "surge_5d": 7729,
     "star_increment": 7729,
-    "rank": 20
+    "rank": 21
   },
   {
     "repo": "matplotlib/cheatsheets",
     "surge_5d": 7706,
     "star_increment": 7706,
-    "rank": 21
-  },
-  {
-    "repo": "devcaress/guia-entrevistas-de-programacion",
-    "surge_5d": 7664,
-    "star_increment": 7664,
     "rank": 22
   },
   {
-    "repo": "agronholm/apscheduler",
-    "surge_5d": 7546,
-    "star_increment": 7546,
+    "repo": "devcaress/guia-entrevistas-de-programacion",
+    "surge_5d": 7668,
+    "star_increment": 7668,
     "rank": 23
   },
   {
-    "repo": "datawhalechina/so-large-lm",
-    "surge_5d": 7401,
-    "star_increment": 7401,
+    "repo": "agronholm/apscheduler",
+    "surge_5d": 7548,
+    "star_increment": 7548,
     "rank": 24
   },
   {
-    "repo": "gorakhargosh/watchdog",
-    "surge_5d": 7372,
-    "star_increment": 7372,
+    "repo": "tw93/pake",
+    "surge_5d": 7500,
+    "star_increment": 7500,
     "rank": 25
+  },
+  {
+    "repo": "datawhalechina/so-large-lm",
+    "surge_5d": 7407,
+    "star_increment": 7407,
+    "rank": 26
+  },
+  {
+    "repo": "gorakhargosh/watchdog",
+    "surge_5d": 7371,
+    "star_increment": 7371,
+    "rank": 27
   },
   {
     "repo": "ranaroussi/quantstats",
     "surge_5d": 7317,
     "star_increment": 7317,
-    "rank": 26
-  },
-  {
-    "repo": "pyenv-win/pyenv-win",
-    "surge_5d": 7308,
-    "star_increment": 7308,
-    "rank": 27
-  },
-  {
-    "repo": "tw93/pake",
-    "surge_5d": 7233,
-    "star_increment": 7233,
     "rank": 28
   },
   {
-    "repo": "corpnewt/gibmacos",
-    "surge_5d": 7146,
-    "star_increment": 7146,
+    "repo": "pyenv-win/pyenv-win",
+    "surge_5d": 7310,
+    "star_increment": 7310,
     "rank": 29
   },
   {
-    "repo": "jo-inc/camofox-browser",
-    "surge_5d": 7108,
-    "star_increment": 7108,
+    "repo": "thysrael/horizon",
+    "surge_5d": 7258,
+    "star_increment": 7258,
     "rank": 30
   },
   {
-    "repo": "purcell/emacs.d",
-    "surge_5d": 7069,
-    "star_increment": 7069,
+    "repo": "jo-inc/camofox-browser",
+    "surge_5d": 7135,
+    "star_increment": 7135,
     "rank": 31
-  },
-  {
-    "repo": "thysrael/horizon",
-    "surge_5d": 7035,
-    "star_increment": 7035,
-    "rank": 32
   },
   {
     "repo": "sobolevn/awesome-cryptography",
     "surge_5d": 7001,
     "star_increment": 7001,
-    "rank": 33
+    "rank": 32
   },
   {
     "repo": "xuehaipan/nvitop",
-    "surge_5d": 6972,
-    "star_increment": 6972,
-    "rank": 34
-  },
-  {
-    "repo": "moriafly/saltplayersource",
-    "surge_5d": 6928,
-    "star_increment": 6928,
-    "rank": 35
-  },
-  {
-    "repo": "mahmoud/boltons",
-    "surge_5d": 6899,
-    "star_increment": 6899,
-    "rank": 36
-  },
-  {
-    "repo": "elder-plinius/obliteratus",
-    "surge_5d": 6729,
-    "star_increment": 6729,
-    "rank": 37
+    "surge_5d": 6974,
+    "star_increment": 6974,
+    "rank": 33
   },
   {
     "repo": "t8y2/dbx",
-    "surge_5d": 6709,
-    "star_increment": 6709,
-    "rank": 38
-  },
-  {
-    "repo": "microsoft/call-center-ai",
-    "surge_5d": 6515,
-    "star_increment": 6515,
-    "rank": 39
-  },
-  {
-    "repo": "lintsinghua/deepaudit",
-    "surge_5d": 6469,
-    "star_increment": 6469,
-    "rank": 40
+    "surge_5d": 6916,
+    "star_increment": 6916,
+    "rank": 34
   },
   {
     "repo": "withastro/flue",
-    "surge_5d": 6468,
-    "star_increment": 6468,
-    "rank": 41
+    "surge_5d": 6570,
+    "star_increment": 6570,
+    "rank": 35
   },
   {
-    "repo": "dimitri/pgloader",
-    "surge_5d": 6444,
-    "star_increment": 6444,
-    "rank": 42
-  },
-  {
-    "repo": "edostra/marketing-for-founders",
-    "surge_5d": 6413,
-    "star_increment": 6413,
-    "rank": 43
-  },
-  {
-    "repo": "qbittorrent/search-plugins",
-    "surge_5d": 6288,
-    "star_increment": 6288,
-    "rank": 44
-  },
-  {
-    "repo": "fastapi-users/fastapi-users",
-    "surge_5d": 6171,
-    "star_increment": 6171,
-    "rank": 45
-  },
-  {
-    "repo": "open-pencil/open-pencil",
-    "surge_5d": 6153,
-    "star_increment": 6153,
-    "rank": 46
+    "repo": "lintsinghua/deepaudit",
+    "surge_5d": 6473,
+    "star_increment": 6473,
+    "rank": 36
   },
   {
     "repo": "stablyai/orca",
-    "surge_5d": 6131,
-    "star_increment": 6131,
-    "rank": 47
+    "surge_5d": 6458,
+    "star_increment": 6458,
+    "rank": 37
   },
   {
-    "repo": "iamtomshaw/f1-race-replay",
-    "surge_5d": 6042,
-    "star_increment": 6042,
-    "rank": 48
+    "repo": "dimitri/pgloader",
+    "surge_5d": 6446,
+    "star_increment": 6446,
+    "rank": 38
   },
   {
-    "repo": "simplifaisoul/osiris",
-    "surge_5d": 6005,
-    "star_increment": 6005,
-    "rank": 49
+    "repo": "qbittorrent/search-plugins",
+    "surge_5d": 6290,
+    "star_increment": 6290,
+    "rank": 39
+  },
+  {
+    "repo": "open-pencil/open-pencil",
+    "surge_5d": 6225,
+    "star_increment": 6225,
+    "rank": 40
+  },
+  {
+    "repo": "fastapi-users/fastapi-users",
+    "surge_5d": 6175,
+    "star_increment": 6175,
+    "rank": 41
   },
   {
     "repo": "tencentcloud/tencentdb-agent-memory",
-    "surge_5d": 5992,
-    "star_increment": 5992,
+    "surge_5d": 6083,
+    "star_increment": 6083,
+    "rank": 42
+  },
+  {
+    "repo": "iamtomshaw/f1-race-replay",
+    "surge_5d": 6049,
+    "star_increment": 6049,
+    "rank": 43
+  },
+  {
+    "repo": "simplifaisoul/osiris",
+    "surge_5d": 6049,
+    "star_increment": 6049,
+    "rank": 44
+  },
+  {
+    "repo": "maximhq/bifrost",
+    "surge_5d": 5994,
+    "star_increment": 5994,
+    "rank": 45
+  },
+  {
+    "repo": "mauriceboe/trek",
+    "surge_5d": 5990,
+    "star_increment": 5990,
+    "rank": 46
+  },
+  {
+    "repo": "alvinunreal/oh-my-opencode-slim",
+    "surge_5d": 5982,
+    "star_increment": 5982,
+    "rank": 47
+  },
+  {
+    "repo": "epicgames/lore",
+    "surge_5d": 5971,
+    "star_increment": 5971,
+    "rank": 48
+  },
+  {
+    "repo": "agiresearch/aios",
+    "surge_5d": 5958,
+    "star_increment": 5958,
+    "rank": 49
+  },
+  {
+    "repo": "morpheapp/morphe-manager",
+    "surge_5d": 5928,
+    "star_increment": 5928,
     "rank": 50
   }
 ]

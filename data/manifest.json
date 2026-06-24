@@ -60099,6 +60099,39 @@
     "first_seen": "2026-01-01"
   },
   {
+    "id": 57165232,
+    "name": "HugoBlox/kit",
+    "desc": "🧱 Describe your site, AI builds it, you own it as Markdown. Snap together Tailwind blocks like Lego — landing pages, blogs, portfolios, docs & more. No AI slop. Free to deploy anywhere 👇",
+    "stars": 9531,
+    "url": "https://github.com/HugoBlox/kit",
+    "lang": "HTML",
+    "topics": [
+      "academic",
+      "blog",
+      "documentation-tool",
+      "github-pages",
+      "hugo",
+      "hugo-theme",
+      "hugoblox",
+      "jupyter",
+      "landing-page",
+      "netlify",
+      "page-builder",
+      "personal-website",
+      "portfolio",
+      "r",
+      "rmarkdown",
+      "rstudio",
+      "static-site-generator",
+      "vercel",
+      "website-builder",
+      "website-template"
+    ],
+    "created": "2016-04-26T22:09:15Z",
+    "updated": "2026-06-24T10:45:47Z",
+    "first_seen": "2026-06-24"
+  },
+  {
     "id": 11075275,
     "name": "sloria/TextBlob",
     "desc": "Simple, Pythonic, text processing--Sentiment analysis, part-of-speech tagging, noun phrase extraction, translation, and more.",
@@ -100920,6 +100953,18 @@
     "first_seen": "2026-01-01"
   },
   {
+    "id": 237085793,
+    "name": "deepspeedai/DeepSpeedExamples",
+    "desc": "Example models using DeepSpeed",
+    "stars": 6824,
+    "url": "https://github.com/deepspeedai/DeepSpeedExamples",
+    "lang": "Python",
+    "topics": [],
+    "created": "2020-01-29T21:27:22Z",
+    "updated": "2026-06-24T10:40:18Z",
+    "first_seen": "2026-06-24"
+  },
+  {
     "id": 496055858,
     "name": "I-Am-Jakoby/Flipper-Zero-BadUSB",
     "desc": "Repository for my flipper zero badUSB payloads. Now almost entirely plug and play.",
@@ -108503,6 +108548,28 @@
     "first_seen": "2026-01-01"
   },
   {
+    "id": 134102057,
+    "name": "sirredbeard/awesome-wsl",
+    "desc": "Awesome list dedicated to Windows Subsystem for Linux",
+    "stars": 6471,
+    "url": "https://github.com/sirredbeard/awesome-wsl",
+    "lang": "-",
+    "topics": [
+      "awesome",
+      "awesome-list",
+      "hacktoberfest-accepted",
+      "microsoft",
+      "windows-10",
+      "windows-subsystem",
+      "windows-subsystem-for-linux",
+      "windows-subsystem-linux",
+      "wsl"
+    ],
+    "created": "2018-05-19T22:21:02Z",
+    "updated": "2026-06-24T04:41:52Z",
+    "first_seen": "2026-06-24"
+  },
+  {
     "id": 673277958,
     "name": "datajuicer/data-juicer",
     "desc": "Data processing for and with foundation models!  🍎 🍋 🌽 ➡️ ➡️🍸 🍹 🍷",
@@ -108967,6 +109034,36 @@
     "created": "2020-08-23T10:18:19Z",
     "updated": "2026-05-17T04:55:14Z",
     "first_seen": "2026-01-01"
+  },
+  {
+    "id": 188710490,
+    "name": "davidteather/TikTok-Api",
+    "desc": "The Unofficial TikTok API Wrapper In Python",
+    "stars": 6455,
+    "url": "https://github.com/davidteather/TikTok-Api",
+    "lang": "Python",
+    "topics": [
+      "api",
+      "download-tiktoks",
+      "hacktoberfest",
+      "python",
+      "tik",
+      "tiktok",
+      "tiktok-api",
+      "tiktok-automation",
+      "tiktok-compilations",
+      "tiktok-downloader",
+      "tiktok-python",
+      "tiktok-scraper",
+      "tiktok-signature",
+      "tiktok-trending-page",
+      "tiktokapi",
+      "tok",
+      "trending"
+    ],
+    "created": "2019-05-26T17:06:09Z",
+    "updated": "2026-06-24T08:24:30Z",
+    "first_seen": "2026-06-24"
   },
   {
     "id": 28796010,
@@ -114878,6 +114975,18 @@
     "created": "2020-12-23T23:56:25Z",
     "updated": "2026-05-18T23:06:53Z",
     "first_seen": "2026-01-01"
+  },
+  {
+    "id": 16010964,
+    "name": "JanVanRyswyck/awesome-talks",
+    "desc": "Awesome online talks and screencasts",
+    "stars": 6189,
+    "url": "https://github.com/JanVanRyswyck/awesome-talks",
+    "lang": "-",
+    "topics": [],
+    "created": "2014-01-17T20:32:22Z",
+    "updated": "2026-06-24T08:02:12Z",
+    "first_seen": "2026-06-24"
   },
   {
     "id": 193393505,
@@ -139976,6 +140085,32 @@
     "first_seen": "2026-01-01"
   },
   {
+    "id": 872005985,
+    "name": "OpenDCAI/DataFlow",
+    "desc": "Easy Data Preparation with latest LLMs-based Operators and Pipelines.",
+    "stars": 5357,
+    "url": "https://github.com/OpenDCAI/DataFlow",
+    "lang": "Python",
+    "topics": [
+      "data",
+      "data-agent",
+      "data-cleaning",
+      "data-pipelines",
+      "data-processing",
+      "data-science",
+      "data-synthesis",
+      "gradio-interface",
+      "llms",
+      "operators",
+      "quick-data-processing",
+      "sglang-bankend",
+      "vllm-backend"
+    ],
+    "created": "2024-10-13T14:45:45Z",
+    "updated": "2026-06-24T10:51:47Z",
+    "first_seen": "2026-06-24"
+  },
+  {
     "id": 1113152049,
     "name": "cporter202/API-mega-list",
     "desc": "This GitHub repo is a powerhouse collection of APIs you can start using immediately to build everything from simple automations to full-scale applications. One of the most valuable API lists on GitHub—period. 💪",
@@ -141794,6 +141929,26 @@
     "created": "2015-11-18T08:14:22Z",
     "updated": "2026-05-13T18:14:04Z",
     "first_seen": "2026-01-01"
+  },
+  {
+    "id": 1184268220,
+    "name": "VoltAgent/awesome-codex-subagents",
+    "desc": "A collection of 130+ specialized Codex subagents covering a wide range of development use cases.",
+    "stars": 5304,
+    "url": "https://github.com/VoltAgent/awesome-codex-subagents",
+    "lang": "-",
+    "topics": [
+      "ai-agents",
+      "awesome-list",
+      "chatgpt",
+      "codex",
+      "codex-skills",
+      "codex-subagents",
+      "subagents"
+    ],
+    "created": "2026-03-17T12:26:20Z",
+    "updated": "2026-06-24T09:38:58Z",
+    "first_seen": "2026-06-24"
   },
   {
     "id": 38957562,
@@ -155418,6 +155573,29 @@
     "first_seen": "2026-06-22"
   },
   {
+    "id": 741524414,
+    "name": "hey-api/hey-api",
+    "desc": "👨‍🚀 Turn API specifications into production-ready SDKs, validators, mocks, and more. 20+ plugins. Millions of weekly npm downloads. Used by Vercel, OpenCode, PayPal, AWS, Autodesk, and many more.",
+    "stars": 5003,
+    "url": "https://github.com/hey-api/hey-api",
+    "lang": "TypeScript",
+    "topics": [
+      "api-client",
+      "code-generation",
+      "codegen",
+      "developer-tools",
+      "openapi",
+      "python",
+      "sdk",
+      "sdk-generator",
+      "swagger",
+      "typescript"
+    ],
+    "created": "2024-01-10T15:19:25Z",
+    "updated": "2026-06-24T09:54:06Z",
+    "first_seen": "2026-06-24"
+  },
+  {
     "id": 7744300,
     "name": "alexwolfe/Buttons",
     "desc": "A CSS button library built using Sass and Compass",
@@ -155600,6 +155778,25 @@
     "created": "2020-06-08T13:41:18Z",
     "updated": "2026-06-18T11:25:15Z",
     "first_seen": "2026-06-18"
+  },
+  {
+    "id": 304892612,
+    "name": "ilya-zlobintsev/LACT",
+    "desc": "Linux GPU Configuration And Monitoring Tool",
+    "stars": 5002,
+    "url": "https://github.com/ilya-zlobintsev/LACT",
+    "lang": "Rust",
+    "topics": [
+      "amdgpu",
+      "gpu",
+      "hactoberfest",
+      "linux",
+      "nvidia",
+      "rust"
+    ],
+    "created": "2020-10-17T14:11:55Z",
+    "updated": "2026-06-24T09:19:38Z",
+    "first_seen": "2026-06-24"
   },
   {
     "id": 4710876,
