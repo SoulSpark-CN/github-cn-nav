@@ -18,6 +18,11 @@ os.makedirs(DEPLOY, exist_ok=True)
 # 注意: index.html 是手动维护的轻量版(15KB), deploy.py 不会覆盖它
 shutil.copy2(JSON_SRC, os.path.join(DEPLOY, "projects.json"))
 
+# Copy surge data for runtime fetch (index.html)
+SURGE_SRC = str(BASE / "data" / "surge_top100.json")
+if os.path.exists(SURGE_SRC):
+    shutil.copy2(SURGE_SRC, os.path.join(DEPLOY, "surge_top100.json"))
+
 # 2. Create serve.sh (一键启动)
 serve_sh = r'''#!/bin/bash
 # 一键启动 GitHub 导航站

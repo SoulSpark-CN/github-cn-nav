@@ -277,15 +277,37 @@ def compute_surge(days: int = 5, top_n: int = TOP_N, max_api_calls: int = 900):
                            (datetime.now(timezone.utc) - datetime.strptime(target_date, "%Y-%m-%d").replace(tzinfo=timezone.utc)).days)
 
     deltas = []
+    no_history = []
     for repo_full, current_stars in current.items():
         old_stars = old_snapshot.get(repo_full, 0)
         delta = current_stars - old_stars
         if delta > 0:
-            deltas.append({
+            entry = {
                 "repo": repo_full,
                 "surge_5d": delta,
                 "star_increment": delta,
-            })
+            }
+            # 标记是否有真实历史数据（防止新入库仓库的虚高增量）
+            if repo_full in old_snapshot:
+                entry["_has_history"] = True
+                deltas.append(entry)
+            else:
+                no_history.append(entry)  # 无历史数据，单独记录
+
+    # 无历史数据的仓库：仅保留 delta >= 500 的，并标记警告
+    if no_history:
+        warning_repos = [e for e in no_history if e["surge_5d"] >= 500]
+        if warning_repos:
+            logger.warning(
+                "⚠️ %d 个仓库无 %d 天前快照（新入库），增量可能虚高：%s",
+                len(warning_repos), days,
+                ", ".join(f"{e['repo']}(+{e['surge_5d']}⭐)" for e in warning_repos[:5])
+            )
+            # 新入库且增量大的仓库仍进主榜单，但页面会展示警告
+            deltas.extend(warning_repos)
+        tiny = [e for e in no_history if e["surge_5d"] < 500]
+        if tiny:
+            deltas.extend(tiny)  # 少量增量也放行，影响不大
 
     deltas.sort(key=lambda x: -x["surge_5d"])
     for i, d in enumerate(deltas[:top_n]):
@@ -293,7 +315,21 @@ def compute_surge(days: int = 5, top_n: int = TOP_N, max_api_calls: int = 900):
 
     result = deltas[:top_n]
 
-    # ── 输出 ──
+    # ── 输出（带警告标记）──
+    # 检查是否有新入库仓库在结果中，添加警告
+    no_history_in_result = [e for e in result if not e.get("_has_history")]
+    _warning = None
+    if no_history_in_result:
+        _warning = (
+            f"{len(no_history_in_result)}/{len(result)} 个仓库无5天前历史数据，"
+            f"增量可能包含了积累多月的star数，仅供参考。"
+        )
+        logger.warning("⚠️ %s", _warning)
+
+    output = {"data": result}
+    if _warning:
+        output["_warning"] = _warning
+
     logger.info("=== 近%d日 star 增量 Top %d ===", days, top_n)
     for item in result[:10]:
         logger.info("  #%3d %-45s +%5d⭐", item["rank"], item["repo"], item["surge_5d"])
@@ -305,7 +341,7 @@ def compute_surge(days: int = 5, top_n: int = TOP_N, max_api_calls: int = 900):
     tmp_fd, tmp_path = tempfile.mkstemp(suffix=".json", dir=str(BASE / "data"))
     try:
         with os.fdopen(tmp_fd, "w", encoding="utf-8") as f:
-            json.dump(result, f, ensure_ascii=False, indent=2)
+            json.dump(output, f, ensure_ascii=False, indent=2)
         os.replace(tmp_path, OUTPUT_FILE)
     except Exception:
         os.unlink(tmp_path)

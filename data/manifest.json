@@ -56649,24 +56649,6 @@
     "first_seen": "2026-05-31"
   },
   {
-    "id": 1196617276,
-    "name": "nesquena/hermes-webui",
-    "desc": "Hermes WebUI: The best way to use Hermes Agent from the web or from your phone!",
-    "stars": 9799,
-    "url": "https://github.com/nesquena/hermes-webui",
-    "lang": "Python",
-    "topics": [
-      "agent",
-      "ai-agents",
-      "hermes",
-      "hermes-agent",
-      "nous-research"
-    ],
-    "created": "2026-03-30T21:50:12Z",
-    "updated": "2026-05-31T18:19:54Z",
-    "first_seen": "2026-05-31"
-  },
-  {
     "id": 867337374,
     "name": "modelcontextprotocol/inspector",
     "desc": "Visual testing tool for MCP servers",
@@ -61409,18 +61391,6 @@
     "created": "2015-08-10T20:27:27Z",
     "updated": "2026-05-18T14:10:53Z",
     "first_seen": "2026-01-01"
-  },
-  {
-    "id": 1230751102,
-    "name": "BigPizzaV3/CodexPlusPlus",
-    "desc": "An enhanced tool for CodexApp, striving to make Codex better to use and more comfortable 一个CodexApp的增强工具，努力让Codex变得更好用更舒服",
-    "stars": 9415,
-    "url": "https://github.com/BigPizzaV3/CodexPlusPlus",
-    "lang": "Rust",
-    "topics": [],
-    "created": "2026-05-06T09:32:49Z",
-    "updated": "2026-05-31T18:12:14Z",
-    "first_seen": "2026-05-31"
   },
   {
     "id": 1230751102,
@@ -102876,18 +102846,6 @@
     "first_seen": "2026-05-31"
   },
   {
-    "id": 1217040185,
-    "name": "tashfeenahmed/freellmapi",
-    "desc": "OpenAI-compatible proxy that stacks the free tiers of 16 LLM providers (~1.7B tokens/month) behind one /v1 endpoint — plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
-    "stars": 6751,
-    "url": "https://github.com/tashfeenahmed/freellmapi",
-    "lang": "TypeScript",
-    "topics": [],
-    "created": "2026-04-21T13:38:59Z",
-    "updated": "2026-05-31T18:19:58Z",
-    "first_seen": "2026-05-31"
-  },
-  {
     "id": 58821882,
     "name": "grpc-ecosystem/go-grpc-middleware",
     "desc": "Golang gRPC Middlewares: interceptor chaining, auth, logging, retries and more.",
@@ -122399,30 +122357,6 @@
     "created": "2016-06-18T17:58:56Z",
     "updated": "2026-05-14T19:54:43Z",
     "first_seen": "2026-01-01"
-  },
-  {
-    "id": 1217291538,
-    "name": "crynta/terax-ai",
-    "desc": "Lightweight (7MB) Terminal-first AI-native dev workspace",
-    "stars": 5928,
-    "url": "https://github.com/crynta/terax-ai",
-    "lang": "TypeScript",
-    "topics": [
-      "agents",
-      "ai",
-      "code-editor",
-      "linux",
-      "macos",
-      "reactjs",
-      "rust",
-      "tauri",
-      "terminal",
-      "windows",
-      "xterm-js"
-    ],
-    "created": "2026-04-21T18:33:12Z",
-    "updated": "2026-05-31T18:21:25Z",
-    "first_seen": "2026-05-31"
   },
   {
     "id": 1217291538,
