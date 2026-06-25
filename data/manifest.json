@@ -69648,6 +69648,18 @@
     "first_seen": "2026-01-01"
   },
   {
+    "id": 50881110,
+    "name": "aimacode/aima-python",
+    "desc": "Python implementation of algorithms from Russell And Norvig's \"Artificial Intelligence - A Modern Approach\"",
+    "stars": 8759,
+    "url": "https://github.com/aimacode/aima-python",
+    "lang": "Jupyter Notebook",
+    "topics": [],
+    "created": "2016-02-02T00:11:19Z",
+    "updated": "2026-06-24T21:48:28Z",
+    "first_seen": "2026-06-25"
+  },
+  {
     "id": 49766020,
     "name": "mvdan/sh",
     "desc": "A shell parser, formatter, and interpreter with bash and zsh support; includes shfmt",
@@ -81504,6 +81516,18 @@
     "created": "2010-08-01T17:01:00Z",
     "updated": "2026-05-15T01:02:59Z",
     "first_seen": "2026-01-01"
+  },
+  {
+    "id": 17959555,
+    "name": "anishathalye/dotbot",
+    "desc": "A tool that bootstraps your dotfiles ⚡️",
+    "stars": 7952,
+    "url": "https://github.com/anishathalye/dotbot",
+    "lang": "Python",
+    "topics": [],
+    "created": "2014-03-20T21:43:58Z",
+    "updated": "2026-06-24T23:18:12Z",
+    "first_seen": "2026-06-25"
   },
   {
     "id": 978236277,
@@ -102331,6 +102355,18 @@
     "first_seen": "2026-06-03"
   },
   {
+    "id": 189282896,
+    "name": "wesbos/beginner-javascript",
+    "desc": "Slam Dunk JavaScript",
+    "stars": 6772,
+    "url": "https://github.com/wesbos/beginner-javascript",
+    "lang": "HTML",
+    "topics": [],
+    "created": "2019-05-29T19:03:46Z",
+    "updated": "2026-06-25T10:13:47Z",
+    "first_seen": "2026-06-25"
+  },
+  {
     "id": 6488049,
     "name": "fex-team/ueditor",
     "desc": "rich text 富文本编辑器",
@@ -108032,6 +108068,21 @@
     "created": "2018-01-30T07:13:36Z",
     "updated": "2026-05-18T17:22:33Z",
     "first_seen": "2026-01-01"
+  },
+  {
+    "id": 25253178,
+    "name": "edwardtufte/tufte-css",
+    "desc": "Style your webpage like Edward Tufte’s handouts.",
+    "stars": 6503,
+    "url": "https://github.com/edwardtufte/tufte-css",
+    "lang": "HTML",
+    "topics": [
+      "css",
+      "tufte-css"
+    ],
+    "created": "2014-10-15T12:16:44Z",
+    "updated": "2026-06-25T06:57:14Z",
+    "first_seen": "2026-06-25"
   },
   {
     "id": 89986770,
@@ -130620,6 +130671,36 @@
     "first_seen": "2026-01-01"
   },
   {
+    "id": 679017521,
+    "name": "AgentOps-AI/agentops",
+    "desc": "Python SDK for AI agent monitoring, LLM cost tracking, benchmarking, and more. Integrates with most LLMs and agent frameworks including CrewAI, Agno, OpenAI Agents SDK, Langchain, Autogen, AG2, and CamelAI",
+    "stars": 5649,
+    "url": "https://github.com/AgentOps-AI/agentops",
+    "lang": "Python",
+    "topics": [
+      "agent",
+      "agentops",
+      "agents-sdk",
+      "ai",
+      "anthropic",
+      "autogen",
+      "cost-estimation",
+      "crewai",
+      "evals",
+      "evaluation-metrics",
+      "groq",
+      "langchain",
+      "llm",
+      "mistral",
+      "ollama",
+      "openai",
+      "openai-agents"
+    ],
+    "created": "2023-08-15T23:26:23Z",
+    "updated": "2026-06-25T08:25:13Z",
+    "first_seen": "2026-06-25"
+  },
+  {
     "id": 7413451,
     "name": "timber/timber",
     "desc": "Create WordPress themes with beautiful OOP code and the Twig Template Engine",
@@ -134127,6 +134208,29 @@
     "created": "2019-09-06T12:41:23Z",
     "updated": "2026-05-18T17:42:40Z",
     "first_seen": "2026-01-01"
+  },
+  {
+    "id": 91237041,
+    "name": "feiskyer/kubernetes-handbook",
+    "desc": "Kubernetes Handbook （Kubernetes指南）   https://kubernetes.feisky.xyz",
+    "stars": 5538,
+    "url": "https://github.com/feiskyer/kubernetes-handbook",
+    "lang": "Makefile",
+    "topics": [
+      "books",
+      "cloud-native",
+      "containers",
+      "docker",
+      "gitbook",
+      "handbook",
+      "kubernetes",
+      "kubernetes-handbook",
+      "microservice",
+      "service-mesh"
+    ],
+    "created": "2017-05-14T10:50:47Z",
+    "updated": "2026-06-25T05:13:33Z",
+    "first_seen": "2026-06-25"
   },
   {
     "id": 823738767,
@@ -142007,6 +142111,23 @@
     "first_seen": "2026-01-01"
   },
   {
+    "id": 2528090,
+    "name": "bbatsov/prelude",
+    "desc": "Prelude is an enhanced Emacs 29.1+ distribution that should make your experience with Emacs both more pleasant and more powerful.",
+    "stars": 5302,
+    "url": "https://github.com/bbatsov/prelude",
+    "lang": "Emacs Lisp",
+    "topics": [
+      "emacs",
+      "emacs-distributions",
+      "emacs-lisp",
+      "emacs-prelude"
+    ],
+    "created": "2011-10-06T19:04:03Z",
+    "updated": "2026-06-25T05:16:18Z",
+    "first_seen": "2026-06-25"
+  },
+  {
     "id": 992280542,
     "name": "sohzm/cheating-daddy",
     "desc": "a free and opensource app that lets you gain an unfair advantage",
@@ -145418,6 +145539,18 @@
     "created": "2020-02-28T21:04:46Z",
     "updated": "2026-05-16T14:16:58Z",
     "first_seen": "2026-01-01"
+  },
+  {
+    "id": 1254038692,
+    "name": "zgwl/chinese-buy-us-stock-guide",
+    "desc": "美股指南",
+    "stars": 5219,
+    "url": "https://github.com/zgwl/chinese-buy-us-stock-guide",
+    "lang": "-",
+    "topics": [],
+    "created": "2026-05-30T04:27:25Z",
+    "updated": "2026-06-25T10:54:40Z",
+    "first_seen": "2026-06-25"
   },
   {
     "id": 29186327,
@@ -152541,6 +152674,23 @@
     "created": "2015-07-27T21:52:44Z",
     "updated": "2026-05-17T07:58:03Z",
     "first_seen": "2026-01-01"
+  },
+  {
+    "id": 1246625636,
+    "name": "open-gsd/gsd-core",
+    "desc": "Git. Ship. Done - Core",
+    "stars": 5055,
+    "url": "https://github.com/open-gsd/gsd-core",
+    "lang": "JavaScript",
+    "topics": [
+      "claude-code",
+      "context-engineering",
+      "meta-prompting",
+      "spec-driven-development"
+    ],
+    "created": "2026-05-22T11:36:21Z",
+    "updated": "2026-06-25T10:50:39Z",
+    "first_seen": "2026-06-25"
   },
   {
     "id": 78492853,
