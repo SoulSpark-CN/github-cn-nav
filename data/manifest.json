@@ -60372,6 +60372,39 @@
     "first_seen": "2026-01-01"
   },
   {
+    "id": 567848636,
+    "name": "roboflow/notebooks",
+    "desc": "A collection of tutorials on state-of-the-art computer vision models and techniques. Explore everything from foundational architectures like ResNet to cutting-edge models like RF-DETR, YOLO11, SAM 3, and Qwen3-VL.",
+    "stars": 9506,
+    "url": "https://github.com/roboflow/notebooks",
+    "lang": "Jupyter Notebook",
+    "topics": [
+      "automatic-labeling-system",
+      "computer-vision",
+      "deep-learning",
+      "deep-neural-networks",
+      "google-colab",
+      "image-classification",
+      "image-segmentation",
+      "machine-learning",
+      "object-detection",
+      "open-vocabulary-detection",
+      "open-vocabulary-segmentation",
+      "paligemma",
+      "pytorch",
+      "qwen",
+      "tutorial",
+      "vlm",
+      "yolov5",
+      "yolov8",
+      "zero-shot-classification",
+      "zero-shot-detection"
+    ],
+    "created": "2022-11-18T18:16:56Z",
+    "updated": "2026-06-26T10:19:35Z",
+    "first_seen": "2026-06-26"
+  },
+  {
     "id": 385037052,
     "name": "ahrm/sioyek",
     "desc": "Sioyek is a PDF viewer with a focus on textbooks and research papers",
@@ -104971,6 +105004,18 @@
     "first_seen": "2026-05-31"
   },
   {
+    "id": 1145749657,
+    "name": "dwzhu-pku/PaperBanana",
+    "desc": "PaperBanana: Automating Academic Illustration For AI Scientists",
+    "stars": 6638,
+    "url": "https://github.com/dwzhu-pku/PaperBanana",
+    "lang": "Python",
+    "topics": [],
+    "created": "2026-01-30T06:55:48Z",
+    "updated": "2026-06-26T09:32:12Z",
+    "first_seen": "2026-06-26"
+  },
+  {
     "id": 33821984,
     "name": "tholman/elevator.js",
     "desc": "Finally, a \"back to top\" button that behaves like a real elevator. ",
@@ -107936,6 +107981,23 @@
     "first_seen": "2026-01-01"
   },
   {
+    "id": 2454047,
+    "name": "rubocop/rails-style-guide",
+    "desc": "A community-driven Ruby on Rails style guide",
+    "stars": 6510,
+    "url": "https://github.com/rubocop/rails-style-guide",
+    "lang": "-",
+    "topics": [
+      "rails",
+      "rubocop",
+      "ruby",
+      "styleguide"
+    ],
+    "created": "2011-09-25T09:36:31Z",
+    "updated": "2026-06-26T05:13:56Z",
+    "first_seen": "2026-06-26"
+  },
+  {
     "id": 6761380,
     "name": "vitalets/x-editable",
     "desc": "In-place editing with Twitter Bootstrap, jQuery UI or pure jQuery",
@@ -109310,6 +109372,18 @@
     "created": "2010-08-02T16:26:44Z",
     "updated": "2026-05-08T17:51:23Z",
     "first_seen": "2026-01-01"
+  },
+  {
+    "id": 1237819660,
+    "name": "zhaoxuya520/reverse-skill",
+    "desc": "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base  Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端",
+    "stars": 6441,
+    "url": "https://github.com/zhaoxuya520/reverse-skill",
+    "lang": "PowerShell",
+    "topics": [],
+    "created": "2026-05-13T14:37:57Z",
+    "updated": "2026-06-26T11:00:45Z",
+    "first_seen": "2026-06-26"
   },
   {
     "id": 511691380,
@@ -116215,6 +116289,22 @@
     "created": "2020-06-10T10:44:09Z",
     "updated": "2026-05-18T23:36:08Z",
     "first_seen": "2026-01-01"
+  },
+  {
+    "id": 90507660,
+    "name": "enhorse/java-interview",
+    "desc": "Вопросы и ответы к интервью Java разработчика",
+    "stars": 6143,
+    "url": "https://github.com/enhorse/java-interview",
+    "lang": "Batchfile",
+    "topics": [
+      "interview",
+      "interview-questions",
+      "java"
+    ],
+    "created": "2017-05-07T04:00:38Z",
+    "updated": "2026-06-26T08:30:06Z",
+    "first_seen": "2026-06-26"
   },
   {
     "id": 440275140,
@@ -125377,6 +125467,18 @@
     "created": "2016-05-19T21:29:00Z",
     "updated": "2026-05-17T05:26:53Z",
     "first_seen": "2026-01-01"
+  },
+  {
+    "id": 633893464,
+    "name": "Cyfrin/foundry-full-course-cu",
+    "desc": "",
+    "stars": 5814,
+    "url": "https://github.com/Cyfrin/foundry-full-course-cu",
+    "lang": "-",
+    "topics": [],
+    "created": "2023-04-28T14:22:39Z",
+    "updated": "2026-06-26T07:26:18Z",
+    "first_seen": "2026-06-26"
   },
   {
     "id": 177902038,
@@ -137035,6 +137137,18 @@
     "created": "2020-01-22T23:03:46Z",
     "updated": "2026-05-17T06:59:09Z",
     "first_seen": "2026-01-01"
+  },
+  {
+    "id": 924106301,
+    "name": "YILING0013/AI_NovelGenerator",
+    "desc": "使用ai生成多章节的长篇小说，自动衔接上下文、伏笔",
+    "stars": 5445,
+    "url": "https://github.com/YILING0013/AI_NovelGenerator",
+    "lang": "Python",
+    "topics": [],
+    "created": "2025-01-29T12:33:29Z",
+    "updated": "2026-06-26T09:13:29Z",
+    "first_seen": "2026-06-26"
   },
   {
     "id": 100657321,
@@ -149622,6 +149736,18 @@
     "first_seen": "2026-06-03"
   },
   {
+    "id": 1120304511,
+    "name": "alexzhang13/rlm",
+    "desc": "General plug-and-play inference library for Recursive Language Models (RLMs), supporting various sandboxes.",
+    "stars": 5121,
+    "url": "https://github.com/alexzhang13/rlm",
+    "lang": "Python",
+    "topics": [],
+    "created": "2025-12-20T23:12:43Z",
+    "updated": "2026-06-26T10:48:41Z",
+    "first_seen": "2026-06-26"
+  },
+  {
     "id": 89290483,
     "name": "firebase/firebase-js-sdk",
     "desc": "Firebase Javascript SDK",
@@ -152093,6 +152219,28 @@
     "first_seen": "2026-01-01"
   },
   {
+    "id": 710965375,
+    "name": "kanbn/kan",
+    "desc": "The open source Trello alternative.",
+    "stars": 5069,
+    "url": "https://github.com/kanbn/kan",
+    "lang": "TypeScript",
+    "topics": [
+      "better-auth",
+      "drizzle-orm",
+      "nextjs",
+      "open-source",
+      "tailwindcss",
+      "trpc",
+      "turborepo",
+      "typescript",
+      "zod"
+    ],
+    "created": "2023-10-27T20:50:01Z",
+    "updated": "2026-06-26T09:28:25Z",
+    "first_seen": "2026-06-26"
+  },
+  {
     "id": 459025965,
     "name": "apache/opendal",
     "desc": "Apache OpenDAL: One Layer, All Storage.",
@@ -152786,6 +152934,18 @@
     "created": "2021-02-05T11:03:53Z",
     "updated": "2026-06-21T09:55:33Z",
     "first_seen": "2026-06-21"
+  },
+  {
+    "id": 1121438740,
+    "name": "jacob-bd/notebooklm-mcp-cli",
+    "desc": "Programmatic access to Google NotebookLM — via command-line interface (CLI), Model Context Protocol (MCP) server, and AI agent skills.",
+    "stars": 5054,
+    "url": "https://github.com/jacob-bd/notebooklm-mcp-cli",
+    "lang": "Python",
+    "topics": [],
+    "created": "2025-12-23T02:07:42Z",
+    "updated": "2026-06-26T10:49:29Z",
+    "first_seen": "2026-06-26"
   },
   {
     "id": 228192593,
@@ -153918,6 +154078,18 @@
     "created": "2020-10-17T08:54:02Z",
     "updated": "2026-06-08T08:25:43Z",
     "first_seen": "2026-06-08"
+  },
+  {
+    "id": 1182194959,
+    "name": "liliMozi/openhanako",
+    "desc": "A personal AI agent with memory, personality, and autonomy.",
+    "stars": 5028,
+    "url": "https://github.com/liliMozi/openhanako",
+    "lang": "TypeScript",
+    "topics": [],
+    "created": "2026-03-15T07:01:45Z",
+    "updated": "2026-06-26T10:42:44Z",
+    "first_seen": "2026-06-26"
   },
   {
     "id": 2715669,
