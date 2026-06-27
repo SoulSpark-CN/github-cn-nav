@@ -63171,6 +63171,36 @@
     "first_seen": "2026-01-01"
   },
   {
+    "id": 390399065,
+    "name": "themesberg/flowbite",
+    "desc": "Open-source UI component library and front-end development framework based on Tailwind CSS",
+    "stars": 9286,
+    "url": "https://github.com/themesberg/flowbite",
+    "lang": "HTML",
+    "topics": [
+      "components",
+      "css",
+      "design-system",
+      "eslint",
+      "figma",
+      "flowbite",
+      "html",
+      "hugo",
+      "javascript",
+      "prettier",
+      "tailwind",
+      "tailwindcss",
+      "typescript",
+      "ui-components",
+      "ui-framework",
+      "ui-library",
+      "webpack"
+    ],
+    "created": "2021-07-28T15:21:50Z",
+    "updated": "2026-06-27T08:36:18Z",
+    "first_seen": "2026-06-27"
+  },
+  {
     "id": 28061676,
     "name": "jsx-eslint/eslint-plugin-react",
     "desc": "React-specific linting rules for ESLint",
@@ -68812,6 +68842,18 @@
     "created": "2026-02-16T19:33:52Z",
     "updated": "2026-06-24T17:02:51Z",
     "first_seen": "2026-06-24"
+  },
+  {
+    "id": 41796462,
+    "name": "yanirs/established-remote",
+    "desc": "A list of established remote companies",
+    "stars": 8842,
+    "url": "https://github.com/yanirs/established-remote",
+    "lang": "-",
+    "topics": [],
+    "created": "2015-09-02T11:03:26Z",
+    "updated": "2026-06-27T04:46:40Z",
+    "first_seen": "2026-06-27"
   },
   {
     "id": 782539945,
@@ -76773,6 +76815,28 @@
     "created": "2013-12-04T17:26:57Z",
     "updated": "2026-05-17T16:59:48Z",
     "first_seen": "2026-01-01"
+  },
+  {
+    "id": 1004631442,
+    "name": "Maciek-roboblog/Claude-Code-Usage-Monitor",
+    "desc": "Real-time Claude Code usage monitor with predictions and warnings",
+    "stars": 8278,
+    "url": "https://github.com/Maciek-roboblog/Claude-Code-Usage-Monitor",
+    "lang": "Python",
+    "topics": [
+      "ai",
+      "analytics",
+      "claude",
+      "claude-code",
+      "claude-usage",
+      "limits",
+      "monitoring",
+      "terminal",
+      "usage-tracking"
+    ],
+    "created": "2025-06-19T00:00:05Z",
+    "updated": "2026-06-27T09:31:19Z",
+    "first_seen": "2026-06-27"
   },
   {
     "id": 789761983,
@@ -136581,6 +136645,18 @@
     "first_seen": "2026-06-02"
   },
   {
+    "id": 1099755141,
+    "name": "donlon/cloudflare-error-page",
+    "desc": "✅Browser ❌Cloudflare ✅Host — Error page generator that brings premium downtime experience to your website. (unofficial)",
+    "stars": 5465,
+    "url": "https://github.com/donlon/cloudflare-error-page",
+    "lang": "HTML",
+    "topics": [],
+    "created": "2025-11-19T12:00:12Z",
+    "updated": "2026-06-26T22:33:19Z",
+    "first_seen": "2026-06-27"
+  },
+  {
     "id": 889932,
     "name": "scribejava/scribejava",
     "desc": "Simple OAuth library for Java",
@@ -142192,6 +142268,18 @@
     "created": "2026-03-17T12:26:20Z",
     "updated": "2026-06-24T09:38:58Z",
     "first_seen": "2026-06-24"
+  },
+  {
+    "id": 1126784379,
+    "name": "lingfengQAQ/webnovel-writer",
+    "desc": "基于 Claude Code 的长篇网文辅助创作系统，解决 AI 写作中的「遗忘」和「幻觉」问题，支持 200 万字量级 连载创作。",
+    "stars": 5304,
+    "url": "https://github.com/lingfengQAQ/webnovel-writer",
+    "lang": "Python",
+    "topics": [],
+    "created": "2026-01-02T15:15:58Z",
+    "updated": "2026-06-27T09:39:26Z",
+    "first_seen": "2026-06-27"
   },
   {
     "id": 38957562,
@@ -153486,6 +153574,35 @@
     "first_seen": "2026-01-01"
   },
   {
+    "id": 1266212515,
+    "name": "omnigent-ai/omnigent",
+    "desc": "Omnigent is an open-source AI agent framework and meta-harness: orchestrate Claude Code, Codex, Cursor, Pi, and custom agents — swap harnesses without rewriting, enforce policies and sandboxing, and collaborate in real time from any device.",
+    "stars": 5042,
+    "url": "https://github.com/omnigent-ai/omnigent",
+    "lang": "Python",
+    "topics": [
+      "agent-framework",
+      "agent-governance",
+      "agent-orchestration",
+      "agents",
+      "ai",
+      "ai-agent",
+      "ai-agents",
+      "claude-code",
+      "codex",
+      "coding-agents",
+      "developer-tools",
+      "llm",
+      "ml",
+      "multi-agent",
+      "python",
+      "sandbox"
+    ],
+    "created": "2026-06-11T12:18:13Z",
+    "updated": "2026-06-27T09:55:07Z",
+    "first_seen": "2026-06-27"
+  },
+  {
     "id": 1190815318,
     "name": "NomaDamas/k-skill",
     "desc": "한국인을 위한 스킬 모음집 - SRT, KTX, 카카오톡, 한글과컴퓨터, 날씨, 미세먼지, 법령, 주식정보, 조선왕조실록, KBO, K-리그, LCK, 특허 검색, 토스 증권, 맞춤법 검사, 중고차 가격, 쿠팡, 네이버 블로그, 다이소, 올리브영, 택배 송장 조회 등등...",
@@ -154092,6 +154209,26 @@
     "first_seen": "2026-06-26"
   },
   {
+    "id": 469383424,
+    "name": "ggandor/leap.nvim",
+    "desc": "Neovim's answer to the mouse 🦘",
+    "stars": 5028,
+    "url": "https://github.com/ggandor/leap.nvim",
+    "lang": "Fennel",
+    "topics": [
+      "fennel",
+      "motion",
+      "neovim",
+      "neovim-plugin",
+      "nvim",
+      "nvim-plugin",
+      "vim"
+    ],
+    "created": "2022-03-13T13:43:11Z",
+    "updated": "2026-06-27T09:39:49Z",
+    "first_seen": "2026-06-27"
+  },
+  {
     "id": 2715669,
     "name": "bootboxjs/bootbox",
     "desc": "Wrappers for JavaScript alert(), confirm() and other flexible dialogs using Twitter's bootstrap framework",
@@ -154426,6 +154563,23 @@
     "created": "2021-06-03T01:51:22Z",
     "updated": "2026-05-18T16:19:11Z",
     "first_seen": "2026-01-01"
+  },
+  {
+    "id": 786925690,
+    "name": "lmstudio-ai/lms",
+    "desc": "LM Studio CLI",
+    "stars": 5024,
+    "url": "https://github.com/lmstudio-ai/lms",
+    "lang": "TypeScript",
+    "topics": [
+      "llm",
+      "lmstudio",
+      "nodejs",
+      "typescript"
+    ],
+    "created": "2024-04-15T15:04:41Z",
+    "updated": "2026-06-27T04:03:03Z",
+    "first_seen": "2026-06-27"
   },
   {
     "id": 53553027,
@@ -156475,5 +156629,38 @@
     "created": "2023-12-01T15:39:00Z",
     "updated": "2026-06-22T10:36:09Z",
     "first_seen": "2026-06-22"
+  },
+  {
+    "id": 114306758,
+    "name": "quantumlib/Cirq",
+    "desc": "Python framework for creating, editing, and running Noisy Intermediate-Scale Quantum (NISQ) circuits.",
+    "stars": 5000,
+    "url": "https://github.com/quantumlib/Cirq",
+    "lang": "Python",
+    "topics": [
+      "algorithms",
+      "api",
+      "cirq",
+      "google",
+      "google-quantum",
+      "nisq",
+      "python",
+      "quantum",
+      "quantum-algorithms",
+      "quantum-circuit",
+      "quantum-circuit-simulator",
+      "quantum-computer-simulator",
+      "quantum-computing",
+      "quantum-development-kit",
+      "quantum-information",
+      "quantum-programming",
+      "quantum-programming-language",
+      "quantum-simulation",
+      "sdk",
+      "simulation"
+    ],
+    "created": "2017-12-14T23:41:49Z",
+    "updated": "2026-06-27T03:22:52Z",
+    "first_seen": "2026-06-27"
   }
 ]
