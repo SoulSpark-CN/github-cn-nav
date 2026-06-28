@@ -77761,6 +77761,22 @@
     "first_seen": "2026-01-01"
   },
   {
+    "id": 855588588,
+    "name": "jingyaogong/minimind-v",
+    "desc": "👀「大模型」2小时从0训练65M参数的视觉多模态VLM！Train a 65M-parameter VLM from scratch in just 2h! ",
+    "stars": 8217,
+    "url": "https://github.com/jingyaogong/minimind-v",
+    "lang": "Python",
+    "topics": [
+      "artificial-intelligence",
+      "chatgpt",
+      "vision-language-model"
+    ],
+    "created": "2024-09-11T05:53:54Z",
+    "updated": "2026-06-28T10:13:21Z",
+    "first_seen": "2026-06-28"
+  },
+  {
     "id": 310226997,
     "name": "antfu-collective/ni",
     "desc": "💡 Use the right package manager",
@@ -88344,6 +88360,29 @@
     "first_seen": "2026-01-01"
   },
   {
+    "id": 1076980,
+    "name": "peazip/PeaZip",
+    "desc": "Free Zip / Unzip software and Rar file extractor. Cross-platform file and archive manager. Features volume spanning, compression, authenticated encryption. Supports 7Z, 7-Zip sfx, ACE, ARJ, Brotli, BZ2, CAB, CHM, CPIO, DEB, GZ, ISO, JAR, LHA/LZH, NSIS, OOo, PAQ/LPAQ, PEA, QUAD, RAR, RPM, split, TAR, Z, ZIP, ZIPX, Zstandard.",
+    "stars": 7549,
+    "url": "https://github.com/peazip/PeaZip",
+    "lang": "Pascal",
+    "topics": [
+      "archiver",
+      "brotli",
+      "compression",
+      "encryption",
+      "extractor",
+      "paq",
+      "peazip",
+      "rar",
+      "zip",
+      "zstandard"
+    ],
+    "created": "2010-11-13T08:47:03Z",
+    "updated": "2026-06-28T06:30:54Z",
+    "first_seen": "2026-06-28"
+  },
+  {
     "id": 106618491,
     "name": "Lona/Lona",
     "desc": "A tool for defining design systems and using them to generate cross-platform UI code, Sketch files, and other artifacts.",
@@ -94037,6 +94076,27 @@
     "created": "2014-04-02T15:25:59Z",
     "updated": "2026-05-17T09:26:44Z",
     "first_seen": "2026-01-01"
+  },
+  {
+    "id": 286167370,
+    "name": "datawhalechina/fun-rec",
+    "desc": "推荐系统入门教程，在线阅读地址：https://datawhalechina.github.io/fun-rec/",
+    "stars": 7180,
+    "url": "https://github.com/datawhalechina/fun-rec",
+    "lang": "Python",
+    "topics": [
+      "algorithm-engineering",
+      "deep-learning",
+      "interview-questions",
+      "machine-learning",
+      "recommendation-algorithms",
+      "recommender-system",
+      "tensorflow",
+      "tianchi-competition"
+    ],
+    "created": "2020-08-09T04:37:34Z",
+    "updated": "2026-06-28T01:57:27Z",
+    "first_seen": "2026-06-28"
   },
   {
     "id": 137444487,
@@ -114128,6 +114188,18 @@
     "first_seen": "2026-06-12"
   },
   {
+    "id": 1196821690,
+    "name": "averygan/reclip",
+    "desc": "Download videos from almost any website. Lightweight, self-hosted media downloader with a clean web UI.",
+    "stars": 6236,
+    "url": "https://github.com/averygan/reclip",
+    "lang": "HTML",
+    "topics": [],
+    "created": "2026-03-31T04:29:13Z",
+    "updated": "2026-06-28T08:24:47Z",
+    "first_seen": "2026-06-28"
+  },
+  {
     "id": 29449476,
     "name": "illuspas/Node-Media-Server",
     "desc": "A Node.js implementation of RTMP/HTTP-FLV Media Server",
@@ -118459,6 +118531,25 @@
     "created": "2023-02-26T16:05:11Z",
     "updated": "2026-05-18T20:40:24Z",
     "first_seen": "2026-01-01"
+  },
+  {
+    "id": 47304932,
+    "name": "prakhar1989/docker-curriculum",
+    "desc": ":dolphin: A comprehensive tutorial on getting started with Docker!",
+    "stars": 6062,
+    "url": "https://github.com/prakhar1989/docker-curriculum",
+    "lang": "SCSS",
+    "topics": [
+      "aws",
+      "cloud-computing",
+      "containers",
+      "docker",
+      "microservices",
+      "tutorials"
+    ],
+    "created": "2015-12-03T03:28:26Z",
+    "updated": "2026-06-28T06:28:23Z",
+    "first_seen": "2026-06-28"
   },
   {
     "id": 392529477,
@@ -141903,6 +141994,23 @@
     "first_seen": "2026-05-31"
   },
   {
+    "id": 110442379,
+    "name": "mbadry1/DeepLearning.ai-Summary",
+    "desc": "This repository contains my personal notes and summaries on DeepLearning.ai specialization courses. I've enjoyed every little bit of the course hope you enjoy my notes too.",
+    "stars": 5318,
+    "url": "https://github.com/mbadry1/DeepLearning.ai-Summary",
+    "lang": "Python",
+    "topics": [
+      "andrew-ng",
+      "coursera",
+      "deep-learning",
+      "neural-network"
+    ],
+    "created": "2017-11-12T15:08:34Z",
+    "updated": "2026-06-27T21:09:40Z",
+    "first_seen": "2026-06-28"
+  },
+  {
     "id": 90468352,
     "name": "Lidarr/Lidarr",
     "desc": "Looks and smells like Sonarr but made for music.",
@@ -151859,6 +151967,18 @@
     "first_seen": "2026-01-01"
   },
   {
+    "id": 751793442,
+    "name": "Adpro-Team/GKD_THS_List",
+    "desc": "GKD第三方订阅收录名单",
+    "stars": 5078,
+    "url": "https://github.com/Adpro-Team/GKD_THS_List",
+    "lang": "TypeScript",
+    "topics": [],
+    "created": "2024-02-02T10:43:20Z",
+    "updated": "2026-06-28T07:30:15Z",
+    "first_seen": "2026-06-28"
+  },
+  {
     "id": 286915138,
     "name": "XPoet/picx",
     "desc": "🏞️ PicX 是一款基于 GitHub API 开发的图床工具，提供图片上传托管、生成图片链接和常用图片工具箱服务。",
@@ -154713,6 +154833,18 @@
     "first_seen": "2026-05-31"
   },
   {
+    "id": 1229729956,
+    "name": "XBuilderLAB/cheat-on-content",
+    "desc": "You're reading this. The skill predicted it. A workflow that turns every post into a calibrated experiment—score, blind-predict, retro, evolve. The future doesn't reward effort, it rewards those who see the pattern first. 1M followers in a month — not luck, system.",
+    "stars": 5022,
+    "url": "https://github.com/XBuilderLAB/cheat-on-content",
+    "lang": "Python",
+    "topics": [],
+    "created": "2026-05-05T10:28:33Z",
+    "updated": "2026-06-28T10:14:13Z",
+    "first_seen": "2026-06-28"
+  },
+  {
     "id": 254369624,
     "name": "rcbyr/keen-slider",
     "desc": "The HTML touch slider carousel with the most native feeling you will get.",
@@ -155265,6 +155397,25 @@
     "created": "2019-09-28T17:54:41Z",
     "updated": "2026-06-15T12:11:40Z",
     "first_seen": "2026-06-15"
+  },
+  {
+    "id": 1124326845,
+    "name": "Finsys/dockhand",
+    "desc": "Dockhand - Docker management you will like.",
+    "stars": 5012,
+    "url": "https://github.com/Finsys/dockhand",
+    "lang": "Svelte",
+    "topics": [
+      "docker",
+      "docker-compose",
+      "docker-management",
+      "docker-management-tool",
+      "dockerfile",
+      "dockerfiles"
+    ],
+    "created": "2025-12-28T20:12:44Z",
+    "updated": "2026-06-28T10:07:15Z",
+    "first_seen": "2026-06-28"
   },
   {
     "id": 310659501,
@@ -156320,6 +156471,38 @@
     "created": "2020-10-17T14:11:55Z",
     "updated": "2026-06-24T09:19:38Z",
     "first_seen": "2026-06-24"
+  },
+  {
+    "id": 1046096502,
+    "name": "generalaction/emdash",
+    "desc": "Emdash is the Open-Source Agentic Development Environment (🧡 YC W26). Run multiple coding agents in parallel. Use any provider.",
+    "stars": 5002,
+    "url": "https://github.com/generalaction/emdash",
+    "lang": "TypeScript",
+    "topics": [
+      "agenticdevelopment",
+      "agenticdevelopmentenvironment",
+      "ai",
+      "claude-code",
+      "cli",
+      "coding-agents",
+      "codingagents",
+      "containerization",
+      "docker",
+      "gitworktrees",
+      "jira",
+      "linear",
+      "llm",
+      "openai",
+      "opensource",
+      "orchestration",
+      "parallel-agents",
+      "parallelexecution",
+      "terminal"
+    ],
+    "created": "2025-08-28T07:19:57Z",
+    "updated": "2026-06-28T08:34:08Z",
+    "first_seen": "2026-06-28"
   },
   {
     "id": 4710876,
