@@ -79132,6 +79132,29 @@
     "first_seen": "2026-06-19"
   },
   {
+    "id": 38441254,
+    "name": "automl/auto-sklearn",
+    "desc": "Automated Machine Learning with scikit-learn",
+    "stars": 8117,
+    "url": "https://github.com/automl/auto-sklearn",
+    "lang": "Python",
+    "topics": [
+      "automated-machine-learning",
+      "automl",
+      "bayesian-optimization",
+      "hyperparameter-optimization",
+      "hyperparameter-search",
+      "hyperparameter-tuning",
+      "meta-learning",
+      "metalearning",
+      "scikit-learn",
+      "smac"
+    ],
+    "created": "2015-07-02T15:38:10Z",
+    "updated": "2026-06-29T09:31:40Z",
+    "first_seen": "2026-06-29"
+  },
+  {
     "id": 8957264,
     "name": "TechEmpower/FrameworkBenchmarks",
     "desc": "Source for the TechEmpower Framework Benchmarks project",
@@ -81263,6 +81286,39 @@
     "first_seen": "2026-01-01"
   },
   {
+    "id": 390782193,
+    "name": "zhiyiYo/PyQt-Fluent-Widgets",
+    "desc": "A fluent design widgets library based on C++ Qt/PyQt/PySide. Make Qt Great Again.",
+    "stars": 7974,
+    "url": "https://github.com/zhiyiYo/PyQt-Fluent-Widgets",
+    "lang": "Python",
+    "topics": [
+      "custom",
+      "fluent",
+      "fluent-design",
+      "fluentui",
+      "gui",
+      "modern",
+      "pyqt5",
+      "pyqt6",
+      "pyside2",
+      "pyside6",
+      "python",
+      "qt",
+      "qt5",
+      "qt6",
+      "software",
+      "ui",
+      "widgets",
+      "win11",
+      "winui",
+      "winui3"
+    ],
+    "created": "2021-07-29T16:14:27Z",
+    "updated": "2026-06-29T11:05:26Z",
+    "first_seen": "2026-06-29"
+  },
+  {
     "id": 1051928239,
     "name": "mmulet/term.everything",
     "desc": "Run any GUI app in the terminal❗",
@@ -83245,6 +83301,39 @@
     "created": "2010-08-08T21:13:48Z",
     "updated": "2026-05-13T15:08:39Z",
     "first_seen": "2026-01-01"
+  },
+  {
+    "id": 512334495,
+    "name": "firerpa/lamda",
+    "desc": "Android Full-Stack Device Control Platform: WebRTC/H.264 remote desktop, UI/OCR/image-matching automation, one-click MITM, built-in Frida, proxy/VPN/frp/P2P networking, MCP/Agent, 160+ APIs, designed for multi-device clusters and engineered deployments.",
+    "stars": 7845,
+    "url": "https://github.com/firerpa/lamda",
+    "lang": "Python",
+    "topics": [
+      "adb",
+      "agents",
+      "ai",
+      "android",
+      "appium",
+      "automation",
+      "dynamic-analysis",
+      "frida",
+      "magisk",
+      "mcp",
+      "mcp-server",
+      "mobile-security",
+      "pentesting",
+      "remote-control",
+      "reverse-engineering",
+      "security",
+      "uiautomation",
+      "uiautomator2",
+      "workflow",
+      "xposed"
+    ],
+    "created": "2022-07-10T03:20:56Z",
+    "updated": "2026-06-29T01:58:00Z",
+    "first_seen": "2026-06-29"
   },
   {
     "id": 841141075,
@@ -112263,6 +112352,39 @@
     "first_seen": "2026-01-01"
   },
   {
+    "id": 1203777920,
+    "name": "xbtlin/ai-berkshire",
+    "desc": "AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built for Claude Code / Codex. 4 masters' methodologies + multi-agent adversarial analysis.",
+    "stars": 6327,
+    "url": "https://github.com/xbtlin/ai-berkshire",
+    "lang": "Python",
+    "topics": [
+      "ai",
+      "ai-agent",
+      "anthropic",
+      "berkshire-hathaway",
+      "charlie-munger",
+      "china-stock",
+      "claude",
+      "claude-code",
+      "financial-analysis",
+      "fintech",
+      "fundamental-analysis",
+      "investment",
+      "investment-research",
+      "llm",
+      "mcp",
+      "portfolio-management",
+      "stock-analysis",
+      "stock-market",
+      "value-investing",
+      "warren-buffett"
+    ],
+    "created": "2026-04-07T11:19:51Z",
+    "updated": "2026-06-29T12:42:09Z",
+    "first_seen": "2026-06-29"
+  },
+  {
     "id": 261871717,
     "name": "ThreeDotsLabs/wild-workouts-go-ddd-example",
     "desc": "Go DDD example application. Complete project to show how to apply DDD, Clean Architecture, and CQRS by practical refactoring.",
@@ -126116,6 +126238,30 @@
     "first_seen": "2026-05-31"
   },
   {
+    "id": 89778161,
+    "name": "FluxionNetwork/fluxion",
+    "desc": "Fluxion is a remake of linset by vk496 with enhanced functionality.",
+    "stars": 5796,
+    "url": "https://github.com/FluxionNetwork/fluxion",
+    "lang": "HTML",
+    "topics": [
+      "aircrack",
+      "attack",
+      "captive-portal",
+      "capture",
+      "evil-twin",
+      "fakeap",
+      "fluxion",
+      "handshake",
+      "kali",
+      "linset",
+      "social-engineering"
+    ],
+    "created": "2017-04-29T10:22:27Z",
+    "updated": "2026-06-29T09:40:11Z",
+    "first_seen": "2026-06-29"
+  },
+  {
     "id": 5844474,
     "name": "kurrent-io/KurrentDB",
     "desc": "KurrentDB is a database that's engineered for modern software applications and event-driven architectures. Its event-native design simplifies data modeling and preserves data integrity while the integrated streaming engine solves distributed messaging challenges and ensures data consistency.",
@@ -137095,6 +137241,18 @@
     "created": "2013-04-09T14:17:24Z",
     "updated": "2026-05-17T08:22:17Z",
     "first_seen": "2026-01-01"
+  },
+  {
+    "id": 18467027,
+    "name": "spotipy-dev/spotipy",
+    "desc": "A light weight Python library for the Spotify Web API",
+    "stars": 5452,
+    "url": "https://github.com/spotipy-dev/spotipy",
+    "lang": "Python",
+    "topics": [],
+    "created": "2014-04-05T13:11:25Z",
+    "updated": "2026-06-29T12:31:18Z",
+    "first_seen": "2026-06-29"
   },
   {
     "id": 36832736,
@@ -154349,6 +154507,29 @@
     "first_seen": "2026-06-27"
   },
   {
+    "id": 1220899692,
+    "name": "Imbad0202/academic-research-skills-codex",
+    "desc": "Codex-native Academic Research Skills suite for human-in-the-loop academic research workflows",
+    "stars": 5028,
+    "url": "https://github.com/Imbad0202/academic-research-skills-codex",
+    "lang": "Python",
+    "topics": [
+      "academic-pipeline",
+      "academic-research",
+      "academic-writing",
+      "ai-research",
+      "codex",
+      "literature-review",
+      "openai-codex",
+      "peer-review",
+      "prompt-engineering",
+      "research-assistant"
+    ],
+    "created": "2026-04-25T13:39:58Z",
+    "updated": "2026-06-29T12:35:17Z",
+    "first_seen": "2026-06-29"
+  },
+  {
     "id": 2715669,
     "name": "bootboxjs/bootbox",
     "desc": "Wrappers for JavaScript alert(), confirm() and other flexible dialogs using Twitter's bootstrap framework",
@@ -156505,6 +156686,31 @@
     "first_seen": "2026-06-28"
   },
   {
+    "id": 688141049,
+    "name": "mangiucugna/json_repair",
+    "desc": "Repair malformed JSON from LLMs, APIs, logs, and user input in Python.",
+    "stars": 5002,
+    "url": "https://github.com/mangiucugna/json_repair",
+    "lang": "Python",
+    "topics": [
+      "cli",
+      "json",
+      "json-repair",
+      "json-schema",
+      "llm",
+      "llm-output",
+      "malformed-json",
+      "parser",
+      "pydantic",
+      "python",
+      "streaming",
+      "structured-output"
+    ],
+    "created": "2023-09-06T18:28:42Z",
+    "updated": "2026-06-29T12:08:29Z",
+    "first_seen": "2026-06-29"
+  },
+  {
     "id": 4710876,
     "name": "Trinea/android-common",
     "desc": "Android common lib, include ImageCache, HttpCache, DropDownListView, DownloadManager, Utils and so on",
@@ -156696,6 +156902,30 @@
     "first_seen": "2026-06-20"
   },
   {
+    "id": 1231170332,
+    "name": "opensquilla/opensquilla",
+    "desc": "OpenSquilla — Token-Efficient AI Agent with same budget, higher intelligence density",
+    "stars": 5001,
+    "url": "https://github.com/opensquilla/opensquilla",
+    "lang": "Python",
+    "topics": [
+      "agent",
+      "ai",
+      "ai-agents",
+      "deep-learning",
+      "foundation-models",
+      "llm",
+      "mcp",
+      "memory",
+      "openclaw",
+      "python",
+      "skills"
+    ],
+    "created": "2026-05-06T17:43:05Z",
+    "updated": "2026-06-29T12:39:55Z",
+    "first_seen": "2026-06-29"
+  },
+  {
     "id": 2830198,
     "name": "aterrien/jQuery-Knob",
     "desc": "Nice, downward compatible, touchable, jQuery dial",
@@ -156845,5 +157075,32 @@
     "created": "2017-12-14T23:41:49Z",
     "updated": "2026-06-27T03:22:52Z",
     "first_seen": "2026-06-27"
+  },
+  {
+    "id": 793379298,
+    "name": "beclab/Olares",
+    "desc": "Olares: An Open-Source Personal Cloud to Reclaim Your Data",
+    "stars": 5000,
+    "url": "https://github.com/beclab/Olares",
+    "lang": "Go",
+    "topics": [
+      "ai-agents",
+      "ai-privacy",
+      "edge-ai",
+      "home-automation",
+      "home-cloud",
+      "home-server",
+      "homelab",
+      "homeserver",
+      "kubernetes",
+      "local-ai",
+      "mcp",
+      "model-serving",
+      "personal-cloud",
+      "self-hosted"
+    ],
+    "created": "2024-04-29T05:43:58Z",
+    "updated": "2026-06-29T07:36:08Z",
+    "first_seen": "2026-06-29"
   }
 ]
