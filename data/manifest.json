@@ -64491,6 +64491,21 @@
     "first_seen": "2026-01-01"
   },
   {
+    "id": 652541746,
+    "name": "KenneyNL/Adobe-Alternatives",
+    "desc": "A list of alternatives for Adobe software",
+    "stars": 9181,
+    "url": "https://github.com/KenneyNL/Adobe-Alternatives",
+    "lang": "-",
+    "topics": [
+      "alternatives",
+      "list"
+    ],
+    "created": "2023-06-12T09:29:55Z",
+    "updated": "2026-06-30T01:03:36Z",
+    "first_seen": "2026-06-30"
+  },
+  {
     "id": 619966132,
     "name": "Project-DARC/DARC",
     "desc": "Decentralized Autonomous Regulated Company (DARC), a company virtual machine that runs on any EVM-compatible blockchain, with on-chain law system, multi-level tokens and dividends mechanism.",
@@ -78711,6 +78726,23 @@
     "created": "2012-12-27T09:23:49Z",
     "updated": "2026-05-17T16:59:38Z",
     "first_seen": "2026-01-01"
+  },
+  {
+    "id": 171410703,
+    "name": "reactive-python/reactpy",
+    "desc": "It's React, but in Python",
+    "stars": 8141,
+    "url": "https://github.com/reactive-python/reactpy",
+    "lang": "Python",
+    "topics": [
+      "javascript",
+      "python",
+      "react",
+      "reactpy"
+    ],
+    "created": "2019-02-19T05:25:54Z",
+    "updated": "2026-06-29T23:30:15Z",
+    "first_seen": "2026-06-30"
   },
   {
     "id": 129571436,
@@ -98402,6 +98434,35 @@
     "first_seen": "2026-01-01"
   },
   {
+    "id": 322007027,
+    "name": "WXRIW/Lyricify-App",
+    "desc": "Lyricify (/lɪ'rɪsəfaɪ/), a fantastic app to provide scroll lyrics for Spotify and other apps. 一款为 Spotify 等各种应用提供滚动歌词的软件。",
+    "stars": 6979,
+    "url": "https://github.com/WXRIW/Lyricify-App",
+    "lang": "-",
+    "topics": [
+      "all-platforms",
+      "apple",
+      "apple-music",
+      "foobar2000",
+      "itunes",
+      "lyric",
+      "lyrics",
+      "music",
+      "music-center",
+      "netease",
+      "netease-cloud-music",
+      "netease-music",
+      "qq-music",
+      "spotify",
+      "ui-design",
+      "windows"
+    ],
+    "created": "2020-12-16T14:27:42Z",
+    "updated": "2026-06-30T09:38:27Z",
+    "first_seen": "2026-06-30"
+  },
+  {
     "id": 715524,
     "name": "aheckmann/gm",
     "desc": "GraphicsMagick for node",
@@ -104798,6 +104859,25 @@
     "first_seen": "2026-01-01"
   },
   {
+    "id": 62095504,
+    "name": "python-pendulum/pendulum",
+    "desc": "Python datetimes made easy",
+    "stars": 6666,
+    "url": "https://github.com/python-pendulum/pendulum",
+    "lang": "Python",
+    "topics": [
+      "date",
+      "datetime",
+      "python",
+      "python3",
+      "time",
+      "timezones"
+    ],
+    "created": "2016-06-27T23:37:53Z",
+    "updated": "2026-06-29T18:45:33Z",
+    "first_seen": "2026-06-30"
+  },
+  {
     "id": 74299372,
     "name": "sverweij/dependency-cruiser",
     "desc": "Validate and visualize dependencies. Your rules. JavaScript, TypeScript, CoffeeScript. ES6, CommonJS, AMD.",
@@ -109384,6 +109464,31 @@
     "created": "2019-05-26T17:06:09Z",
     "updated": "2026-06-24T08:24:30Z",
     "first_seen": "2026-06-24"
+  },
+  {
+    "id": 573284038,
+    "name": "reqable/reqable-app",
+    "desc": "Reqable issue track repo",
+    "stars": 6455,
+    "url": "https://github.com/reqable/reqable-app",
+    "lang": "-",
+    "topics": [
+      "android-app",
+      "capture",
+      "debugging-tool",
+      "desktop-app",
+      "flutter",
+      "http",
+      "http2",
+      "http3",
+      "https",
+      "ios-app",
+      "quic",
+      "rest-api"
+    ],
+    "created": "2022-12-02T05:05:35Z",
+    "updated": "2026-06-30T08:20:09Z",
+    "first_seen": "2026-06-30"
   },
   {
     "id": 28796010,
@@ -142548,6 +142653,22 @@
     "first_seen": "2026-06-27"
   },
   {
+    "id": 1184892122,
+    "name": "hasaneyldrm/exercises-dataset",
+    "desc": "A comprehensive dataset of 433 fitness exercises. Each entry includes name, category, target muscle group, equipment, instructions, thumbnail image, and animation video.",
+    "stars": 5304,
+    "url": "https://github.com/hasaneyldrm/exercises-dataset",
+    "lang": "HTML",
+    "topics": [
+      "excercises",
+      "fitness",
+      "fitness-app"
+    ],
+    "created": "2026-03-18T03:07:18Z",
+    "updated": "2026-06-30T11:16:40Z",
+    "first_seen": "2026-06-30"
+  },
+  {
     "id": 38957562,
     "name": "leokhoa/laragon",
     "desc": "Laragon is a portable, isolated, fast & powerful universal development environment for PHP, Node.js, Python. It is fast, lightweight, easy-to-use and easy-to-extend.",
@@ -148632,6 +148753,18 @@
     "created": "2022-08-27T15:27:05Z",
     "updated": "2026-06-02T08:07:55Z",
     "first_seen": "2026-06-02"
+  },
+  {
+    "id": 947023997,
+    "name": "xykt/NetQuality",
+    "desc": "网络质量检测脚本 - Network Quality Check Script",
+    "stars": 5152,
+    "url": "https://github.com/xykt/NetQuality",
+    "lang": "Shell",
+    "topics": [],
+    "created": "2025-03-12T03:16:44Z",
+    "updated": "2026-06-30T07:51:07Z",
+    "first_seen": "2026-06-30"
   },
   {
     "id": 76857458,
