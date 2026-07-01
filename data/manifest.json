@@ -98948,6 +98948,21 @@
     "first_seen": "2026-06-04"
   },
   {
+    "id": 1101874129,
+    "name": "unicity-sphere/sphere",
+    "desc": "A Web3 wallet and agent platform for the Unicity network - dual-layer crypto wallet, DMs, group chat, and marketplace.",
+    "stars": 6963,
+    "url": "https://github.com/unicity-sphere/sphere",
+    "lang": "TypeScript",
+    "topics": [
+      "ai-agents",
+      "wallet"
+    ],
+    "created": "2025-11-22T11:59:17Z",
+    "updated": "2026-07-01T11:28:55Z",
+    "first_seen": "2026-07-01"
+  },
+  {
     "id": 46072655,
     "name": "ayoubfaouzi/al-khaser",
     "desc": "Public malware techniques used in the wild: Virtual Machine, Emulation, Debuggers, Sandbox detection. ",
@@ -145406,6 +145421,25 @@
     "created": "2021-10-04T05:57:55Z",
     "updated": "2026-05-18T09:15:30Z",
     "first_seen": "2026-01-01"
+  },
+  {
+    "id": 1061327311,
+    "name": "altic-dev/FluidVoice",
+    "desc": "Fastest and only macOS Dictation app with on-device STT and custom trained AI enhancement model - Local Wispr Flow alternative. One ⭐ takes us a long way :)) Windows, iOS and Linux coming soon.",
+    "stars": 5234,
+    "url": "https://github.com/altic-dev/FluidVoice",
+    "lang": "Swift",
+    "topics": [
+      "ai",
+      "dictation",
+      "ios",
+      "llama-cpp",
+      "macos",
+      "swift"
+    ],
+    "created": "2025-09-21T17:35:02Z",
+    "updated": "2026-07-01T11:31:25Z",
+    "first_seen": "2026-07-01"
   },
   {
     "id": 865326415,
