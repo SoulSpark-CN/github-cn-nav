@@ -66021,6 +66021,25 @@
     "first_seen": "2026-01-01"
   },
   {
+    "id": 279638102,
+    "name": "vinceliuice/WhiteSur-gtk-theme",
+    "desc": "MacOS like theme for all gtk based desktops",
+    "stars": 9054,
+    "url": "https://github.com/vinceliuice/WhiteSur-gtk-theme",
+    "lang": "CSS",
+    "topics": [
+      "gnome",
+      "gtk",
+      "gtk-theme",
+      "gtk3",
+      "gtk4",
+      "macos"
+    ],
+    "created": "2020-07-14T16:30:18Z",
+    "updated": "2026-07-03T09:03:46Z",
+    "first_seen": "2026-07-03"
+  },
+  {
     "id": 42976210,
     "name": "star-history/star-history",
     "desc": "The de facto GitHub star history graph.",
@@ -78294,6 +78313,24 @@
     "created": "2022-08-16T15:41:54Z",
     "updated": "2026-05-18T15:27:48Z",
     "first_seen": "2026-01-01"
+  },
+  {
+    "id": 81514066,
+    "name": "TextureGroup/Texture",
+    "desc": "Smooth asynchronous user interfaces for iOS apps.",
+    "stars": 8172,
+    "url": "https://github.com/TextureGroup/Texture",
+    "lang": "Objective-C++",
+    "topics": [
+      "asyncdisplaykit",
+      "pinterest",
+      "rendering",
+      "texture",
+      "uikit"
+    ],
+    "created": "2017-02-10T01:44:38Z",
+    "updated": "2026-07-03T07:48:49Z",
+    "first_seen": "2026-07-03"
   },
   {
     "id": 728994,
@@ -107847,6 +107884,18 @@
     "first_seen": "2026-06-14"
   },
   {
+    "id": 215890886,
+    "name": "google-research/text-to-text-transfer-transformer",
+    "desc": "Code for the paper \"Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer\"",
+    "stars": 6530,
+    "url": "https://github.com/google-research/text-to-text-transfer-transformer",
+    "lang": "Python",
+    "topics": [],
+    "created": "2019-10-17T21:45:14Z",
+    "updated": "2026-07-03T05:47:47Z",
+    "first_seen": "2026-07-03"
+  },
+  {
     "id": 138615634,
     "name": "iorate/ublacklist",
     "desc": "Blocks specific sites from appearing in Google search results",
@@ -122364,6 +122413,23 @@
     "first_seen": "2026-06-18"
   },
   {
+    "id": 1054714122,
+    "name": "clashbk/clash",
+    "desc": "Clash官网各版本Clash下载地址及备份下载地址",
+    "stars": 5942,
+    "url": "https://github.com/clashbk/clash",
+    "lang": "-",
+    "topics": [
+      "clash",
+      "clash-core",
+      "clashmeta",
+      "mihomo"
+    ],
+    "created": "2025-09-11T08:24:59Z",
+    "updated": "2026-07-03T10:13:22Z",
+    "first_seen": "2026-07-03"
+  },
+  {
     "id": 149746920,
     "name": "flutterchina/flukit",
     "desc": " A Flutter UI Kit（一个 Flutter UI组件库），包含 ScaleView, Swiper, PullRefresh, WaterMark, GradientCircularProgressIndicator...",
@@ -135897,6 +135963,23 @@
     "first_seen": "2026-01-01"
   },
   {
+    "id": 648351143,
+    "name": "hackclub/putting-the-you-in-cpu",
+    "desc": "A technical explainer by @kognise of how your computer runs programs, from start to finish.",
+    "stars": 5503,
+    "url": "https://github.com/hackclub/putting-the-you-in-cpu",
+    "lang": "MDX",
+    "topics": [
+      "cpu",
+      "elf",
+      "linux",
+      "linux-kernel"
+    ],
+    "created": "2023-06-01T19:14:39Z",
+    "updated": "2026-07-03T07:42:46Z",
+    "first_seen": "2026-07-03"
+  },
+  {
     "id": 78566876,
     "name": "prettier/prettier-vscode",
     "desc": "Visual Studio Code extension for Prettier",
@@ -142938,6 +143021,31 @@
     "created": "2015-02-18T20:41:58Z",
     "updated": "2026-05-16T22:05:33Z",
     "first_seen": "2026-01-01"
+  },
+  {
+    "id": 222507066,
+    "name": "AnswerDotAI/nbdev",
+    "desc": "Create delightful software with Jupyter Notebooks",
+    "stars": 5298,
+    "url": "https://github.com/AnswerDotAI/nbdev",
+    "lang": "Jupyter Notebook",
+    "topics": [
+      "conda",
+      "developer-tools",
+      "documentation-generator",
+      "documentation-tool",
+      "fastai",
+      "jupyter",
+      "jupyter-notebooks",
+      "literate-programming",
+      "nbdev",
+      "pypi",
+      "python",
+      "python-modules"
+    ],
+    "created": "2019-11-18T17:37:35Z",
+    "updated": "2026-07-03T04:12:34Z",
+    "first_seen": "2026-07-03"
   },
   {
     "id": 29278707,
@@ -150011,6 +150119,36 @@
     "first_seen": "2026-05-31"
   },
   {
+    "id": 1263648864,
+    "name": "cobusgreyling/loop-engineering",
+    "desc": "Practical patterns, starters & CLI tools for loop engineering with AI coding agents. Design systems that prompt and orchestrate agents (inspired by Addy Osmani and Boris Cherny). Includes loop-audit, loop-init, loop-cost.",
+    "stars": 5127,
+    "url": "https://github.com/cobusgreyling/loop-engineering",
+    "lang": "JavaScript",
+    "topics": [
+      "agentic-ai",
+      "ai-agents",
+      "ai-coding",
+      "anthropic",
+      "automation",
+      "claude",
+      "claude-code",
+      "codex",
+      "coding-agents",
+      "devops-automation",
+      "devtools",
+      "github-actions",
+      "grok",
+      "llm",
+      "loop-engineering",
+      "mcp",
+      "prompt-engineering"
+    ],
+    "created": "2026-06-09T06:28:20Z",
+    "updated": "2026-07-03T10:41:28Z",
+    "first_seen": "2026-07-03"
+  },
+  {
     "id": 286212615,
     "name": "adrianhajdin/project_mern_memories",
     "desc": "This is a code repository for the corresponding video tutorial. Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called \"Memories\" and it is a simple social media app that allows users to post interesting events that happened in their lives.",
@@ -153253,6 +153391,18 @@
     "first_seen": "2026-06-14"
   },
   {
+    "id": 1225774688,
+    "name": "vercel-labs/deepsec",
+    "desc": "Deepsec is a security harness for finding vulnerabilities in your codebase powered by coding agents",
+    "stars": 5061,
+    "url": "https://github.com/vercel-labs/deepsec",
+    "lang": "TypeScript",
+    "topics": [],
+    "created": "2026-04-30T16:16:11Z",
+    "updated": "2026-07-03T08:54:44Z",
+    "first_seen": "2026-07-03"
+  },
+  {
     "id": 156819424,
     "name": "javastacks/spring-boot-best-practice",
     "desc": "Spring Boot 最佳实践，已适配 Spring Boot 4.x，包括自动配置、核心原理、源码分析、国际化支持、调试、日志集成、热部署等。",
@@ -154289,6 +154439,28 @@
     "first_seen": "2026-06-15"
   },
   {
+    "id": 1185122623,
+    "name": "rullerzhou-afk/clawd-on-desk",
+    "desc": "A pixel desktop pet that watches Claude Code, Codex, Cursor & other AI coding agents — so you don't have to.",
+    "stars": 5039,
+    "url": "https://github.com/rullerzhou-afk/clawd-on-desk",
+    "lang": "JavaScript",
+    "topics": [
+      "claude-code",
+      "codex",
+      "copilot",
+      "cursor",
+      "desktop-pet",
+      "electron",
+      "gemini",
+      "pixel-art",
+      "svg-animation"
+    ],
+    "created": "2026-03-18T09:04:20Z",
+    "updated": "2026-07-03T10:30:00Z",
+    "first_seen": "2026-07-03"
+  },
+  {
     "id": 636922549,
     "name": "OpenBMB/AgentVerse",
     "desc": "🤖 AgentVerse 🪐 is designed to facilitate the deployment of multiple LLM-based agents in various applications, which primarily provides two frameworks: task-solving and simulation",
@@ -155289,6 +155461,32 @@
     "first_seen": "2026-06-28"
   },
   {
+    "id": 1083188349,
+    "name": "RICHQAQ/PasteMD",
+    "desc": "一键将 Markdown 和网页 AI 对话（ChatGPT/DeepSeek等）完美粘贴到 Word、WPS 和 Excel 的效率工具 | One-click paste Markdown and AI responses (ChatGPT/DeepSeek) into Word, WPS, and Excel perfectly.",
+    "stars": 5022,
+    "url": "https://github.com/RICHQAQ/PasteMD",
+    "lang": "Python",
+    "topics": [
+      "ai",
+      "chatgpt",
+      "clipboard",
+      "converter",
+      "deepseek",
+      "excel",
+      "latex",
+      "markdown",
+      "pandoc",
+      "productivity",
+      "python",
+      "word",
+      "wps"
+    ],
+    "created": "2025-10-25T14:18:34Z",
+    "updated": "2026-07-03T10:44:32Z",
+    "first_seen": "2026-07-03"
+  },
+  {
     "id": 254369624,
     "name": "rcbyr/keen-slider",
     "desc": "The HTML touch slider carousel with the most native feeling you will get.",
@@ -155720,6 +155918,27 @@
     "created": "2026-03-04T13:16:00Z",
     "updated": "2026-06-20T10:28:06Z",
     "first_seen": "2026-06-20"
+  },
+  {
+    "id": 1125992130,
+    "name": "spotiflacapp/SpotiFLAC-Mobile",
+    "desc": "Mobile music utility built with Flutter and Go. High-quality audio management for your personal library. - open source, no ads, no subscription.",
+    "stars": 5013,
+    "url": "https://github.com/spotiflacapp/SpotiFLAC-Mobile",
+    "lang": "Dart",
+    "topics": [
+      "android",
+      "flac",
+      "flutter",
+      "golang",
+      "ios",
+      "lossless",
+      "music-downloader",
+      "music-management"
+    ],
+    "created": "2025-12-31T20:18:21Z",
+    "updated": "2026-07-03T10:04:03Z",
+    "first_seen": "2026-07-03"
   },
   {
     "id": 382378702,
@@ -156441,6 +156660,18 @@
     "first_seen": "2026-06-23"
   },
   {
+    "id": 1245699721,
+    "name": "KunAgent/Kun",
+    "desc": "AI agent workspace with Code and Write modes built into your application.",
+    "stars": 5005,
+    "url": "https://github.com/KunAgent/Kun",
+    "lang": "TypeScript",
+    "topics": [],
+    "created": "2026-05-21T13:22:06Z",
+    "updated": "2026-07-03T09:58:23Z",
+    "first_seen": "2026-07-03"
+  },
+  {
     "id": 121553439,
     "name": "hundredrabbits/Orca",
     "desc": "Esoteric Programming Language",
@@ -156574,6 +156805,34 @@
     "created": "2022-11-29T21:34:22Z",
     "updated": "2026-06-19T16:01:48Z",
     "first_seen": "2026-06-20"
+  },
+  {
+    "id": 1171833693,
+    "name": "Agents365-ai/drawio-skill",
+    "desc": "Generate draw.io diagrams from natural language — 6 presets, vision self-check + up to 5-round refinement, codebase-to-diagram, 10,000+ official shapes & 321 AI/LLM brand logos. Exports PNG/SVG/PDF/JPG.",
+    "stars": 5004,
+    "url": "https://github.com/Agents365-ai/drawio-skill",
+    "lang": "Python",
+    "topics": [
+      "agent-skill",
+      "agent-skills",
+      "architecture-diagram",
+      "claude-code",
+      "claude-code-skill",
+      "claude-skills",
+      "diagram",
+      "drawio",
+      "erd",
+      "flowchart",
+      "openclaw",
+      "openclaw-skills",
+      "skill-md",
+      "skillsmp",
+      "uml"
+    ],
+    "created": "2026-03-03T16:54:59Z",
+    "updated": "2026-07-03T10:36:42Z",
+    "first_seen": "2026-07-03"
   },
   {
     "id": 213055485,
@@ -157404,5 +157663,30 @@
     "created": "2024-04-29T05:43:58Z",
     "updated": "2026-06-29T07:36:08Z",
     "first_seen": "2026-06-29"
+  },
+  {
+    "id": 503827141,
+    "name": "capcom6/android-sms-gateway",
+    "desc": "The SMS Gateway for Android™ app enables sending and receiving SMS messages through an API that can be accessed directly on the device or via a cloud server when direct device access is not possible.",
+    "stars": 5000,
+    "url": "https://github.com/capcom6/android-sms-gateway",
+    "lang": "Kotlin",
+    "topics": [
+      "android",
+      "api",
+      "encryption",
+      "gateway",
+      "httpsms",
+      "sim",
+      "simcard",
+      "sms",
+      "sms-gateway",
+      "smsgate",
+      "textbee",
+      "ttl"
+    ],
+    "created": "2022-06-15T15:41:39Z",
+    "updated": "2026-07-03T09:36:53Z",
+    "first_seen": "2026-07-03"
   }
 ]
