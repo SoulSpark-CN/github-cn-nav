@@ -89457,6 +89457,18 @@
     "first_seen": "2026-01-01"
   },
   {
+    "id": 776985468,
+    "name": "microsoft/TinyTroupe",
+    "desc": "LLM-powered multiagent persona simulation for imagination enhancement and business insights.",
+    "stars": 7489,
+    "url": "https://github.com/microsoft/TinyTroupe",
+    "lang": "Jupyter Notebook",
+    "topics": [],
+    "created": "2024-03-25T00:44:36Z",
+    "updated": "2026-07-04T01:37:29Z",
+    "first_seen": "2026-07-04"
+  },
+  {
     "id": 1115161703,
     "name": "openclaw/gogcli",
     "desc": "Google Workspace in your terminal.",
@@ -92787,6 +92799,30 @@
     "created": "2016-07-12T15:21:08Z",
     "updated": "2026-05-18T22:21:30Z",
     "first_seen": "2026-01-01"
+  },
+  {
+    "id": 3868463,
+    "name": "jrnl-org/jrnl",
+    "desc": "Collect your thoughts and notes without leaving the command line.",
+    "stars": 7264,
+    "url": "https://github.com/jrnl-org/jrnl",
+    "lang": "Python",
+    "topics": [
+      "cli",
+      "command-line",
+      "encrypted",
+      "journal",
+      "journal-application",
+      "jrnl",
+      "note-taking",
+      "notes",
+      "productivity",
+      "python",
+      "shell"
+    ],
+    "created": "2012-03-29T17:23:58Z",
+    "updated": "2026-07-03T23:46:04Z",
+    "first_seen": "2026-07-04"
   },
   {
     "id": 95652514,
@@ -105380,6 +105416,38 @@
     "first_seen": "2026-05-31"
   },
   {
+    "id": 984096689,
+    "name": "algorithmicsuperintelligence/openevolve",
+    "desc": "Open-source implementation of AlphaEvolve",
+    "stars": 6641,
+    "url": "https://github.com/algorithmicsuperintelligence/openevolve",
+    "lang": "Python",
+    "topics": [
+      "alpha-evolve",
+      "alphacode",
+      "alphaevolve",
+      "coding-agent",
+      "deepmind",
+      "deepmind-lab",
+      "discovery",
+      "distributed-evolutionary-algorithms",
+      "evolutionary-algorithms",
+      "evolutionary-computation",
+      "genetic-algorithm",
+      "genetic-algorithms",
+      "iterative-methods",
+      "iterative-refinement",
+      "llm-engineering",
+      "llm-ensemble",
+      "llm-inference",
+      "openevolve",
+      "optimize"
+    ],
+    "created": "2025-05-15T11:46:52Z",
+    "updated": "2026-07-03T19:34:41Z",
+    "first_seen": "2026-07-04"
+  },
+  {
     "id": 1145749657,
     "name": "dwzhu-pku/PaperBanana",
     "desc": "PaperBanana: Automating Academic Illustration For AI Scientists",
@@ -114830,6 +114898,25 @@
     "created": "2022-04-12T18:36:39Z",
     "updated": "2026-06-04T08:37:00Z",
     "first_seen": "2026-06-04"
+  },
+  {
+    "id": 96698133,
+    "name": "Python3WebSpider/ProxyPool",
+    "desc": "An Efficient ProxyPool with Getter, Tester and Server",
+    "stars": 6220,
+    "url": "https://github.com/Python3WebSpider/ProxyPool",
+    "lang": "Python",
+    "topics": [
+      "flask",
+      "http",
+      "proxy",
+      "proxypool",
+      "redis",
+      "webspider"
+    ],
+    "created": "2017-07-09T16:54:47Z",
+    "updated": "2026-07-04T09:14:57Z",
+    "first_seen": "2026-07-04"
   },
   {
     "id": 1179413000,
@@ -144358,6 +144445,28 @@
     "first_seen": "2026-01-01"
   },
   {
+    "id": 839428333,
+    "name": "huggingface/speech-to-speech",
+    "desc": "Build local voice agents with open-source models",
+    "stars": 5264,
+    "url": "https://github.com/huggingface/speech-to-speech",
+    "lang": "Python",
+    "topics": [
+      "ai",
+      "assistant",
+      "language-model",
+      "machine-learning",
+      "python",
+      "speech",
+      "speech-synthesis",
+      "speech-to-text",
+      "speech-translation"
+    ],
+    "created": "2024-08-07T15:32:09Z",
+    "updated": "2026-07-04T09:44:11Z",
+    "first_seen": "2026-07-04"
+  },
+  {
     "id": 22498444,
     "name": "MoOx/postcss-cssnext",
     "desc": "`postcss-cssnext` has been deprecated in favor of `postcss-preset-env`.",
@@ -149095,6 +149204,18 @@
     "first_seen": "2026-06-06"
   },
   {
+    "id": 1201787282,
+    "name": "kunchenguid/no-mistakes",
+    "desc": "git push no-mistakes",
+    "stars": 5150,
+    "url": "https://github.com/kunchenguid/no-mistakes",
+    "lang": "Go",
+    "topics": [],
+    "created": "2026-04-05T06:43:05Z",
+    "updated": "2026-07-04T10:13:20Z",
+    "first_seen": "2026-07-04"
+  },
+  {
     "id": 2400938,
     "name": "asmuth/clip",
     "desc": "Create charts from the command line",
@@ -151609,6 +151730,39 @@
     "created": "2026-04-06T14:56:45Z",
     "updated": "2026-06-12T11:49:28Z",
     "first_seen": "2026-06-12"
+  },
+  {
+    "id": 971726597,
+    "name": "denizsafak/abogen",
+    "desc": "Generate audiobooks from EPUBs, PDFs and text with synchronized captions.",
+    "stars": 5095,
+    "url": "https://github.com/denizsafak/abogen",
+    "lang": "Python",
+    "topics": [
+      "audiobook",
+      "audiobooks",
+      "content-creation",
+      "content-creator",
+      "ebook",
+      "epub",
+      "epub-converter",
+      "kokoro",
+      "kokoro-82m",
+      "kokoro-tts",
+      "llm",
+      "media-generation",
+      "narrator",
+      "speech-synthesis",
+      "subtitles",
+      "text-to-audio",
+      "text-to-speech",
+      "tts",
+      "voice-conversion",
+      "voice-synthesis"
+    ],
+    "created": "2025-04-24T01:06:05Z",
+    "updated": "2026-07-03T18:04:53Z",
+    "first_seen": "2026-07-04"
   },
   {
     "id": 385634291,
@@ -154786,6 +154940,18 @@
     "first_seen": "2026-01-01"
   },
   {
+    "id": 1131202426,
+    "name": "facebook/astryx",
+    "desc": "An open source design system that's fully customizable and agent ready",
+    "stars": 5032,
+    "url": "https://github.com/facebook/astryx",
+    "lang": "TypeScript",
+    "topics": [],
+    "created": "2026-01-09T16:20:32Z",
+    "updated": "2026-07-04T10:17:01Z",
+    "first_seen": "2026-07-04"
+  },
+  {
     "id": 46977130,
     "name": "wequick/Small",
     "desc": "A small framework to split app into small parts",
@@ -157688,5 +157854,27 @@
     "created": "2022-06-15T15:41:39Z",
     "updated": "2026-07-03T09:36:53Z",
     "first_seen": "2026-07-03"
+  },
+  {
+    "id": 4890177,
+    "name": "sitespeedio/sitespeed.io",
+    "desc": "sitespeed.io is an open-source tool for comprehensive web performance analysis, enabling you to test, monitor, and optimize your website’s speed using real browsers in various environments.",
+    "stars": 5000,
+    "url": "https://github.com/sitespeedio/sitespeed.io",
+    "lang": "JavaScript",
+    "topics": [
+      "metrics",
+      "monitoring",
+      "perfmatters",
+      "performance-analysis",
+      "performance-dashboard",
+      "performance-metrics",
+      "sitespeed",
+      "web",
+      "webperf"
+    ],
+    "created": "2012-07-04T19:17:10Z",
+    "updated": "2026-07-04T05:56:58Z",
+    "first_seen": "2026-07-04"
   }
 ]
