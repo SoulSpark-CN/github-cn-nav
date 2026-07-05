@@ -2,314 +2,315 @@
   "data": [
     {
       "repo": "hasaneyldrm/exercises-dataset",
-      "surge_5d": 9877,
-      "star_increment": 9877,
+      "surge_5d": 9955,
+      "star_increment": 9955,
       "rank": 1
     },
     {
-      "repo": "xbtlin/ai-berkshire",
-      "surge_5d": 9395,
-      "star_increment": 9395,
-      "rank": 2
-    },
-    {
       "repo": "kenneynl/adobe-alternatives",
-      "surge_5d": 9197,
-      "star_increment": 9197,
-      "rank": 3
+      "surge_5d": 9200,
+      "star_increment": 9200,
+      "rank": 2
     },
     {
       "repo": "snapshot-labs/snapshot-v1",
       "surge_5d": 9106,
       "star_increment": 9106,
-      "rank": 4
+      "rank": 3
     },
     {
       "repo": "vinceliuice/whitesur-gtk-theme",
-      "surge_5d": 9055,
-      "star_increment": 9055,
-      "rank": 5
+      "surge_5d": 9057,
+      "star_increment": 9057,
+      "rank": 4
     },
     {
-      "repo": "msitarzewski/agency-agents",
-      "surge_5d": 8488,
-      "star_increment": 8488,
-      "_has_history": true,
-      "rank": 6
+      "repo": "unicity-sphere/sphere",
+      "surge_5d": 8296,
+      "star_increment": 8296,
+      "rank": 5
     },
     {
       "repo": "texturegroup/texture",
       "surge_5d": 8172,
       "star_increment": 8172,
-      "rank": 7
-    },
-    {
-      "repo": "unicity-sphere/sphere",
-      "surge_5d": 8158,
-      "star_increment": 8158,
-      "rank": 8
+      "rank": 6
     },
     {
       "repo": "reactive-python/reactpy",
       "surge_5d": 8143,
       "star_increment": 8143,
-      "rank": 9
+      "rank": 7
     },
     {
       "repo": "estrellaxd/auto_bangumi",
-      "surge_5d": 8125,
-      "star_increment": 8125,
+      "surge_5d": 8127,
+      "star_increment": 8127,
+      "rank": 8
+    },
+    {
+      "repo": "microsoft/tinytroupe",
+      "surge_5d": 7489,
+      "star_increment": 7489,
+      "rank": 9
+    },
+    {
+      "repo": "msitarzewski/agency-agents",
+      "surge_5d": 7337,
+      "star_increment": 7337,
+      "_has_history": true,
       "rank": 10
     },
     {
-      "repo": "automl/auto-sklearn",
-      "surge_5d": 8117,
-      "star_increment": 8117,
+      "repo": "jrnl-org/jrnl",
+      "surge_5d": 7265,
+      "star_increment": 7265,
       "rank": 11
     },
     {
-      "repo": "zhiyiyo/pyqt-fluent-widgets",
-      "surge_5d": 7981,
-      "star_increment": 7981,
-      "rank": 12
-    },
-    {
-      "repo": "firerpa/lamda",
-      "surge_5d": 7855,
-      "star_increment": 7855,
-      "rank": 13
-    },
-    {
-      "repo": "dietrichgebert/ponytail",
-      "surge_5d": 7080,
-      "star_increment": 7080,
-      "_has_history": true,
-      "rank": 14
-    },
-    {
       "repo": "wxriw/lyricify-app",
-      "surge_5d": 7006,
-      "star_increment": 7006,
-      "rank": 15
+      "surge_5d": 7016,
+      "star_increment": 7016,
+      "rank": 12
     },
     {
       "repo": "python-pendulum/pendulum",
       "surge_5d": 6668,
       "star_increment": 6668,
-      "rank": 16
+      "rank": 13
+    },
+    {
+      "repo": "algorithmicsuperintelligence/openevolve",
+      "surge_5d": 6643,
+      "star_increment": 6643,
+      "rank": 14
     },
     {
       "repo": "google-research/text-to-text-transfer-transformer",
       "surge_5d": 6530,
       "star_increment": 6530,
-      "rank": 17
+      "rank": 15
     },
     {
       "repo": "reqable/reqable-app",
-      "surge_5d": 6463,
-      "star_increment": 6463,
+      "surge_5d": 6465,
+      "star_increment": 6465,
+      "rank": 16
+    },
+    {
+      "repo": "juliusbrussee/caveman",
+      "surge_5d": 6243,
+      "star_increment": 6243,
+      "_has_history": true,
+      "rank": 17
+    },
+    {
+      "repo": "python3webspider/proxypool",
+      "surge_5d": 6221,
+      "star_increment": 6221,
       "rank": 18
     },
     {
       "repo": "altic-dev/fluidvoice",
-      "surge_5d": 5997,
-      "star_increment": 5997,
+      "surge_5d": 6140,
+      "star_increment": 6140,
       "rank": 19
     },
     {
       "repo": "qilingframework/qiling",
-      "surge_5d": 5994,
-      "star_increment": 5994,
+      "surge_5d": 5999,
+      "star_increment": 5999,
       "rank": 20
     },
     {
       "repo": "clashbk/clash",
-      "surge_5d": 5971,
-      "star_increment": 5971,
+      "surge_5d": 5999,
+      "star_increment": 5999,
       "rank": 21
     },
     {
-      "repo": "mattpocock/skills",
-      "surge_5d": 5812,
-      "star_increment": 5812,
+      "repo": "dietrichgebert/ponytail",
+      "surge_5d": 5942,
+      "star_increment": 5942,
       "_has_history": true,
       "rank": 22
     },
     {
-      "repo": "fluxionnetwork/fluxion",
-      "surge_5d": 5806,
-      "star_increment": 5806,
+      "repo": "mattpocock/skills",
+      "surge_5d": 5805,
+      "star_increment": 5805,
+      "_has_history": true,
       "rank": 23
+    },
+    {
+      "repo": "cobusgreyling/loop-engineering",
+      "surge_5d": 5744,
+      "star_increment": 5744,
+      "rank": 24
+    },
+    {
+      "repo": "facebook/astryx",
+      "surge_5d": 5559,
+      "star_increment": 5559,
+      "rank": 25
     },
     {
       "repo": "hackclub/putting-the-you-in-cpu",
       "surge_5d": 5504,
       "star_increment": 5504,
-      "rank": 24
-    },
-    {
-      "repo": "cobusgreyling/loop-engineering",
-      "surge_5d": 5489,
-      "star_increment": 5489,
-      "rank": 25
-    },
-    {
-      "repo": "juliusbrussee/caveman",
-      "surge_5d": 5484,
-      "star_increment": 5484,
-      "_has_history": true,
       "rank": 26
-    },
-    {
-      "repo": "spotipy-dev/spotipy",
-      "surge_5d": 5453,
-      "star_increment": 5453,
-      "rank": 27
     },
     {
       "repo": "kingofbugbounty/kingofbugbountytips",
       "surge_5d": 5443,
       "star_increment": 5443,
+      "rank": 27
+    },
+    {
+      "repo": "huggingface/speech-to-speech",
+      "surge_5d": 5361,
+      "star_increment": 5361,
       "rank": 28
-    },
-    {
-      "repo": "imbad0202/academic-research-skills-codex",
-      "surge_5d": 5427,
-      "star_increment": 5427,
-      "rank": 29
-    },
-    {
-      "repo": "opensquilla/opensquilla",
-      "surge_5d": 5381,
-      "star_increment": 5381,
-      "rank": 30
     },
     {
       "repo": "answerdotai/nbdev",
       "surge_5d": 5298,
       "star_increment": 5298,
+      "rank": 29
+    },
+    {
+      "repo": "kunchenguid/no-mistakes",
+      "surge_5d": 5245,
+      "star_increment": 5245,
+      "rank": 30
+    },
+    {
+      "repo": "agents365-ai/drawio-skill",
+      "surge_5d": 5238,
+      "star_increment": 5238,
       "rank": 31
     },
     {
       "repo": "xykt/netquality",
-      "surge_5d": 5180,
-      "star_increment": 5180,
+      "surge_5d": 5188,
+      "star_increment": 5188,
       "rank": 32
     },
     {
       "repo": "roboflow/sports",
-      "surge_5d": 5132,
-      "star_increment": 5132,
+      "surge_5d": 5133,
+      "star_increment": 5133,
       "rank": 33
     },
     {
       "repo": "kunagent/kun",
-      "surge_5d": 5086,
-      "star_increment": 5086,
+      "surge_5d": 5121,
+      "star_increment": 5121,
       "rank": 34
     },
     {
-      "repo": "vercel-labs/deepsec",
-      "surge_5d": 5067,
-      "star_increment": 5067,
+      "repo": "denizsafak/abogen",
+      "surge_5d": 5103,
+      "star_increment": 5103,
       "rank": 35
     },
     {
       "repo": "rullerzhou-afk/clawd-on-desk",
-      "surge_5d": 5061,
-      "star_increment": 5061,
+      "surge_5d": 5088,
+      "star_increment": 5088,
       "rank": 36
     },
     {
-      "repo": "agents365-ai/drawio-skill",
-      "surge_5d": 5057,
-      "star_increment": 5057,
+      "repo": "vercel-labs/deepsec",
+      "surge_5d": 5082,
+      "star_increment": 5082,
       "rank": 37
     },
     {
       "repo": "spotiflacapp/spotiflac-mobile",
-      "surge_5d": 5026,
-      "star_increment": 5026,
+      "surge_5d": 5043,
+      "star_increment": 5043,
       "rank": 38
     },
     {
       "repo": "richqaq/pastemd",
-      "surge_5d": 5024,
-      "star_increment": 5024,
+      "surge_5d": 5025,
+      "star_increment": 5025,
       "rank": 39
     },
     {
-      "repo": "deusdata/codebase-memory-mcp",
-      "surge_5d": 5018,
-      "star_increment": 5018,
-      "_has_history": true,
+      "repo": "capcom6/android-sms-gateway",
+      "surge_5d": 5015,
+      "star_increment": 5015,
       "rank": 40
     },
     {
-      "repo": "mangiucugna/json_repair",
+      "repo": "streamyfin/streamyfin",
       "surge_5d": 5013,
       "star_increment": 5013,
       "rank": 41
     },
     {
-      "repo": "beclab/olares",
-      "surge_5d": 5009,
-      "star_increment": 5009,
-      "rank": 42
-    },
-    {
-      "repo": "capcom6/android-sms-gateway",
-      "surge_5d": 5009,
-      "star_increment": 5009,
-      "rank": 43
-    },
-    {
-      "repo": "streamyfin/streamyfin",
-      "surge_5d": 5008,
-      "star_increment": 5008,
-      "rank": 44
-    },
-    {
       "repo": "vugu/vugu",
       "surge_5d": 5001,
       "star_increment": 5001,
+      "rank": 42
+    },
+    {
+      "repo": "sitespeedio/sitespeed.io",
+      "surge_5d": 5000,
+      "star_increment": 5000,
+      "rank": 43
+    },
+    {
+      "repo": "openai/codex-plugin-cc",
+      "surge_5d": 4534,
+      "star_increment": 4534,
+      "_has_history": true,
+      "rank": 44
+    },
+    {
+      "repo": "obra/superpowers",
+      "surge_5d": 4513,
+      "star_increment": 4513,
+      "_has_history": true,
       "rank": 45
     },
     {
       "repo": "panniantong/agent-reach",
-      "surge_5d": 4862,
-      "star_increment": 4862,
+      "surge_5d": 4412,
+      "star_increment": 4412,
       "_has_history": true,
       "rank": 46
     },
     {
-      "repo": "calesthio/openmontage",
-      "surge_5d": 4703,
-      "star_increment": 4703,
+      "repo": "deusdata/codebase-memory-mcp",
+      "surge_5d": 4252,
+      "star_increment": 4252,
       "_has_history": true,
       "rank": 47
     },
     {
-      "repo": "obra/superpowers",
-      "surge_5d": 4599,
-      "star_increment": 4599,
+      "repo": "vercel-labs/skills",
+      "surge_5d": 4062,
+      "star_increment": 4062,
       "_has_history": true,
       "rank": 48
     },
     {
-      "repo": "vercel-labs/skills",
-      "surge_5d": 3862,
-      "star_increment": 3862,
+      "repo": "calesthio/openmontage",
+      "surge_5d": 4006,
+      "star_increment": 4006,
       "_has_history": true,
       "rank": 49
     },
     {
       "repo": "decolua/9router",
-      "surge_5d": 3856,
-      "star_increment": 3856,
+      "surge_5d": 3978,
+      "star_increment": 3978,
       "_has_history": true,
       "rank": 50
     }
   ],
-  "_warning": "40/50 个仓库无5天前历史数据，增量可能包含了积累多月的star数，仅供参考。"
+  "_warning": "39/50 个仓库无5天前历史数据，增量可能包含了积累多月的star数，仅供参考。"
 }

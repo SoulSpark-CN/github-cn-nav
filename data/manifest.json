@@ -86342,6 +86342,23 @@
     "first_seen": "2026-05-31"
   },
   {
+    "id": 3073296,
+    "name": "SirVer/ultisnips",
+    "desc": "UltiSnips - The ultimate snippet solution for Vim. Send pull requests to SirVer/ultisnips!",
+    "stars": 7690,
+    "url": "https://github.com/SirVer/ultisnips",
+    "lang": "Python",
+    "topics": [
+      "plugin",
+      "snippets",
+      "ultisnips",
+      "vim"
+    ],
+    "created": "2011-12-30T07:07:24Z",
+    "updated": "2026-07-04T22:42:04Z",
+    "first_seen": "2026-07-05"
+  },
+  {
     "id": 2345629,
     "name": "zaphoyd/websocketpp",
     "desc": "C++ websocket client/server library",
@@ -88802,6 +88819,18 @@
     "created": "2021-10-09T19:54:41Z",
     "updated": "2026-05-18T22:42:08Z",
     "first_seen": "2026-01-01"
+  },
+  {
+    "id": 1260901035,
+    "name": "unicity-astrid/book",
+    "desc": "The canonical reference for Astrid OS: kernel, capsules, host ABI, the bus, and the security model.",
+    "stars": 7535,
+    "url": "https://github.com/unicity-astrid/book",
+    "lang": "Perl",
+    "topics": [],
+    "created": "2026-06-06T02:16:50Z",
+    "updated": "2026-07-05T07:14:04Z",
+    "first_seen": "2026-07-05"
   },
   {
     "id": 801763739,
@@ -106414,6 +106443,34 @@
     "created": "2013-01-24T22:43:30Z",
     "updated": "2026-05-18T13:59:19Z",
     "first_seen": "2026-01-01"
+  },
+  {
+    "id": 781914762,
+    "name": "julep-ai/julep",
+    "desc": "Julep — durable, composable AI agents. Flows that crash and resume, retry safely, and explain every step.",
+    "stars": 6601,
+    "url": "https://github.com/julep-ai/julep",
+    "lang": "Python",
+    "topics": [
+      "agents",
+      "ai",
+      "ai-agents",
+      "ai-agents-framework",
+      "ai-memory",
+      "ai-platform",
+      "aiagents",
+      "developer-tools",
+      "devfest",
+      "llm",
+      "llm-ops",
+      "node",
+      "node-js",
+      "nodejs",
+      "python"
+    ],
+    "created": "2024-04-04T09:33:02Z",
+    "updated": "2026-07-05T07:51:05Z",
+    "first_seen": "2026-07-05"
   },
   {
     "id": 12989790,
@@ -157876,5 +157933,19 @@
     "created": "2012-07-04T19:17:10Z",
     "updated": "2026-07-04T05:56:58Z",
     "first_seen": "2026-07-04"
+  },
+  {
+    "id": 670192969,
+    "name": "pgmq/pgmq",
+    "desc": "A lightweight message queue. Like AWS SQS and RSMQ but on Postgres.",
+    "stars": 5000,
+    "url": "https://github.com/pgmq/pgmq",
+    "lang": "PLpgSQL",
+    "topics": [
+      "message-queue"
+    ],
+    "created": "2023-07-24T13:49:58Z",
+    "updated": "2026-07-05T08:01:01Z",
+    "first_seen": "2026-07-05"
   }
 ]
