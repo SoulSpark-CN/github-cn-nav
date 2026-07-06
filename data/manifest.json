@@ -80525,6 +80525,18 @@
     "first_seen": "2026-05-31"
   },
   {
+    "id": 19126114,
+    "name": "rust-lang/rust-by-example",
+    "desc": "Learn Rust with examples (Live code editor included)",
+    "stars": 8031,
+    "url": "https://github.com/rust-lang/rust-by-example",
+    "lang": "Handlebars",
+    "topics": [],
+    "created": "2014-04-24T22:22:40Z",
+    "updated": "2026-07-06T10:14:48Z",
+    "first_seen": "2026-07-06"
+  },
+  {
     "id": 241534790,
     "name": "ben-rogerson/twin.macro",
     "desc": "🦹‍♂️ Twin blends the magic of Tailwind with the flexibility of css-in-js (emotion, styled-components, solid-styled-components, stitches and goober) at build time.",
@@ -105411,6 +105423,33 @@
     "first_seen": "2026-01-01"
   },
   {
+    "id": 326038947,
+    "name": "ihebski/DefaultCreds-cheat-sheet",
+    "desc": "One place for all the default credentials to assist the Blue/Red teamers identifying devices with default password 🛡️",
+    "stars": 6644,
+    "url": "https://github.com/ihebski/DefaultCreds-cheat-sheet",
+    "lang": "Python",
+    "topics": [
+      "blueteam",
+      "blueteam-tools",
+      "blueteaming",
+      "bugbounty",
+      "cheatsheet",
+      "cybersecurity",
+      "default-password",
+      "exploit",
+      "infosec",
+      "offensive-security",
+      "offensive-security-projects",
+      "pentest",
+      "pentesting",
+      "soc"
+    ],
+    "created": "2021-01-01T19:02:36Z",
+    "updated": "2026-07-06T00:02:17Z",
+    "first_seen": "2026-07-06"
+  },
+  {
     "id": 25872841,
     "name": "spf13/afero",
     "desc": "The Universal Filesystem Abstraction for Go",
@@ -109774,6 +109813,18 @@
     "first_seen": "2026-01-01"
   },
   {
+    "id": 1277477208,
+    "name": "langchain-ai/openwiki",
+    "desc": "OpenWiki is a CLI that writes and maintains agent documentation for your codebase.",
+    "stars": 6446,
+    "url": "https://github.com/langchain-ai/openwiki",
+    "lang": "TypeScript",
+    "topics": [],
+    "created": "2026-06-22T23:48:26Z",
+    "updated": "2026-07-06T12:11:32Z",
+    "first_seen": "2026-07-06"
+  },
+  {
     "id": 111442748,
     "name": "flashlight/wav2letter",
     "desc": "Facebook AI Research's Automatic Speech Recognition Toolkit ",
@@ -113954,6 +114005,18 @@
     "created": "2015-07-19T06:43:40Z",
     "updated": "2026-05-15T08:17:19Z",
     "first_seen": "2026-01-01"
+  },
+  {
+    "id": 1197057157,
+    "name": "nirholas/fresh-start",
+    "desc": "The original nirholas/claude-code before DMCA and take down. Once everything is cleared, it will return. Working with Anthropic and Github to get everything back.",
+    "stars": 6272,
+    "url": "https://github.com/nirholas/fresh-start",
+    "lang": "-",
+    "topics": [],
+    "created": "2026-03-31T09:38:18Z",
+    "updated": "2026-07-06T04:26:28Z",
+    "first_seen": "2026-07-06"
   },
   {
     "id": 43082133,
@@ -123725,6 +123788,18 @@
     "created": "2014-09-12T06:04:40Z",
     "updated": "2026-05-17T11:35:55Z",
     "first_seen": "2026-01-01"
+  },
+  {
+    "id": 1185389803,
+    "name": "MadsLorentzen/ai-job-search",
+    "desc": "AI-powered job application framework built on Claude Code. Fork it, fill in your profile, and let Claude evaluate jobs, tailor CVs, write cover letters, and prepare you for interviews.",
+    "stars": 5906,
+    "url": "https://github.com/MadsLorentzen/ai-job-search",
+    "lang": "TypeScript",
+    "topics": [],
+    "created": "2026-03-18T14:33:04Z",
+    "updated": "2026-07-06T12:11:56Z",
+    "first_seen": "2026-07-06"
   },
   {
     "id": 40337690,
@@ -135106,6 +135181,24 @@
     "first_seen": "2026-01-01"
   },
   {
+    "id": 262975445,
+    "name": "qd-today/qd",
+    "desc": "QD [v20240210] —— HTTP请求定时任务自动执行框架 base on HAR Editor and Tornado Server",
+    "stars": 5534,
+    "url": "https://github.com/qd-today/qd",
+    "lang": "Python",
+    "topics": [
+      "checkin",
+      "docker",
+      "har",
+      "qd",
+      "qiandao"
+    ],
+    "created": "2020-05-11T07:51:12Z",
+    "updated": "2026-07-06T08:07:15Z",
+    "first_seen": "2026-07-06"
+  },
+  {
     "id": 636447277,
     "name": "epicweb-dev/epic-stack",
     "desc": "This is a Full Stack app starter with the foundational things setup and configured for you to hit the ground running on your next EPIC idea.",
@@ -137864,6 +137957,28 @@
     "created": "2020-01-22T23:03:46Z",
     "updated": "2026-05-17T06:59:09Z",
     "first_seen": "2026-01-01"
+  },
+  {
+    "id": 58469357,
+    "name": "thuquant/awesome-quant",
+    "desc": "中国的Quant相关资源索引",
+    "stars": 5447,
+    "url": "https://github.com/thuquant/awesome-quant",
+    "lang": "-",
+    "topics": [
+      "china",
+      "cpp",
+      "finance",
+      "machine-learning",
+      "python",
+      "quant",
+      "r",
+      "statistics",
+      "trading"
+    ],
+    "created": "2016-05-10T14:42:34Z",
+    "updated": "2026-07-06T08:23:37Z",
+    "first_seen": "2026-07-06"
   },
   {
     "id": 924106301,
@@ -146319,6 +146434,18 @@
     "created": "2020-09-07T09:07:35Z",
     "updated": "2026-05-18T12:09:48Z",
     "first_seen": "2026-01-01"
+  },
+  {
+    "id": 432476753,
+    "name": "lizhipay/acg-faka",
+    "desc": "个人发卡源码，发卡系统，二次元发卡系统，二次元发卡源码，发卡程序，动漫发卡，PHP发卡源码，异次元发卡",
+    "stars": 5222,
+    "url": "https://github.com/lizhipay/acg-faka",
+    "lang": "PHP",
+    "topics": [],
+    "created": "2021-11-27T14:03:05Z",
+    "updated": "2026-07-06T11:42:42Z",
+    "first_seen": "2026-07-06"
   },
   {
     "id": 45903621,
@@ -155009,6 +155136,27 @@
     "first_seen": "2026-07-04"
   },
   {
+    "id": 941043461,
+    "name": "itgoyo/TelegramGroup",
+    "desc": "2026最新悄咪咪收集的10000+个Telegram群合集、tg导航，附全网最有趣好用的机器人BOT🤖【tg10000.com】",
+    "stars": 5032,
+    "url": "https://github.com/itgoyo/TelegramGroup",
+    "lang": "-",
+    "topics": [
+      "telegram",
+      "telegram-api",
+      "telegram-bot",
+      "telegram-bot-api",
+      "telegram-bots",
+      "telegram-channel",
+      "telegramchannels",
+      "telegramgroups"
+    ],
+    "created": "2025-03-01T10:51:19Z",
+    "updated": "2026-07-06T11:47:46Z",
+    "first_seen": "2026-07-06"
+  },
+  {
     "id": 46977130,
     "name": "wequick/Small",
     "desc": "A small framework to split app into small parts",
@@ -156005,6 +156153,21 @@
     "created": "2019-02-02T01:41:26Z",
     "updated": "2026-06-02T07:12:24Z",
     "first_seen": "2026-06-02"
+  },
+  {
+    "id": 710898979,
+    "name": "ReChronoRain/HyperCeiler",
+    "desc": "HyperOS enhancement module - Make HyperOS Great Again!",
+    "stars": 5017,
+    "url": "https://github.com/ReChronoRain/HyperCeiler",
+    "lang": "Java",
+    "topics": [
+      "xposed",
+      "xposed-module"
+    ],
+    "created": "2023-10-27T17:17:42Z",
+    "updated": "2026-07-06T09:38:02Z",
+    "first_seen": "2026-07-06"
   },
   {
     "id": 287874262,
@@ -157708,6 +157871,21 @@
     "created": "2019-03-20T03:19:36Z",
     "updated": "2026-07-01T19:50:34Z",
     "first_seen": "2026-07-02"
+  },
+  {
+    "id": 1163358617,
+    "name": "agentscope-ai/AgentTeams",
+    "desc": "An open-source Collaborative Multi-Agent OS for transparent, human-in-the-loop task coordination via Matrix rooms.",
+    "stars": 5001,
+    "url": "https://github.com/agentscope-ai/AgentTeams",
+    "lang": "Go",
+    "topics": [
+      "agent-teams",
+      "openclaw"
+    ],
+    "created": "2026-02-21T14:07:55Z",
+    "updated": "2026-07-06T07:22:37Z",
+    "first_seen": "2026-07-06"
   },
   {
     "id": 2830198,
