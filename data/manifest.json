@@ -68005,6 +68005,31 @@
     "first_seen": "2026-01-01"
   },
   {
+    "id": 748674684,
+    "name": "X-PLUG/MobileAgent",
+    "desc": " Mobile-Agent: The Powerful GUI Agent Family",
+    "stars": 8914,
+    "url": "https://github.com/X-PLUG/MobileAgent",
+    "lang": "Python",
+    "topics": [
+      "agent",
+      "android",
+      "app",
+      "automation",
+      "copilot",
+      "gui",
+      "mllm",
+      "mobile",
+      "mobile-agents",
+      "multimodal",
+      "multimodal-agent",
+      "multimodal-large-language-models"
+    ],
+    "created": "2024-01-26T14:17:06Z",
+    "updated": "2026-07-07T09:54:23Z",
+    "first_seen": "2026-07-07"
+  },
+  {
     "id": 705574656,
     "name": "lencx/Noi",
     "desc": "🚀 Less chaos. More flow.",
@@ -89418,6 +89443,27 @@
     "first_seen": "2026-01-01"
   },
   {
+    "id": 763842651,
+    "name": "AI4Finance-Foundation/FinRobot",
+    "desc": "FinRobot: An Open-Source AI Agent Platform for Financial Analysis using LLMs 🚀 🚀 🚀 ",
+    "stars": 7497,
+    "url": "https://github.com/AI4Finance-Foundation/FinRobot",
+    "lang": "Jupyter Notebook",
+    "topics": [
+      "aiagent",
+      "chatgpt",
+      "finance",
+      "fingpt",
+      "large-language-models",
+      "multimodal-deep-learning",
+      "prompt-engineering",
+      "robo-advisor"
+    ],
+    "created": "2024-02-27T02:30:30Z",
+    "updated": "2026-07-07T10:34:59Z",
+    "first_seen": "2026-07-07"
+  },
+  {
     "id": 27082457,
     "name": "HIPS/autograd",
     "desc": "Efficiently computes derivatives of NumPy code.",
@@ -106621,6 +106667,27 @@
     "first_seen": "2026-06-02"
   },
   {
+    "id": 54778964,
+    "name": "piku/piku",
+    "desc": "The tiniest PaaS you've ever seen. Piku allows you to do git push deployments to your own servers.",
+    "stars": 6591,
+    "url": "https://github.com/piku/piku",
+    "lang": "Python",
+    "topics": [
+      "arm",
+      "heroku",
+      "nodejs",
+      "paas",
+      "python",
+      "raspberry-pi",
+      "raspbian",
+      "ubuntu"
+    ],
+    "created": "2016-03-26T12:53:50Z",
+    "updated": "2026-07-07T09:23:42Z",
+    "first_seen": "2026-07-07"
+  },
+  {
     "id": 4012085,
     "name": "zeroclipboard/zeroclipboard",
     "desc": "The ZeroClipboard library provides an easy way to copy text to the clipboard using an invisible Adobe Flash movie and a JavaScript interface.",
@@ -108318,6 +108385,24 @@
     "created": "2011-08-27T19:00:25Z",
     "updated": "2026-05-08T15:54:24Z",
     "first_seen": "2026-01-01"
+  },
+  {
+    "id": 73646740,
+    "name": "xairy/linux-kernel-exploitation",
+    "desc": "A collection of links related to Linux kernel security and exploitation",
+    "stars": 6520,
+    "url": "https://github.com/xairy/linux-kernel-exploitation",
+    "lang": "-",
+    "topics": [
+      "exploit",
+      "kernel-exploitation",
+      "linux-kernel",
+      "privilege-escalation",
+      "security"
+    ],
+    "created": "2016-11-13T22:21:44Z",
+    "updated": "2026-07-07T09:34:49Z",
+    "first_seen": "2026-07-07"
   },
   {
     "id": 21525321,
@@ -111174,6 +111259,20 @@
     "first_seen": "2026-01-01"
   },
   {
+    "id": 1246839757,
+    "name": "anthropics/defending-code-reference-harness",
+    "desc": "Skills for threat modeling, scanning, triage, patching, plus an autonomous scanning harness you can /customize",
+    "stars": 6397,
+    "url": "https://github.com/anthropics/defending-code-reference-harness",
+    "lang": "Python",
+    "topics": [
+      "security"
+    ],
+    "created": "2026-05-22T16:00:56Z",
+    "updated": "2026-07-07T11:04:49Z",
+    "first_seen": "2026-07-07"
+  },
+  {
     "id": 481217412,
     "name": "YunYouJun/cook",
     "desc": "🍲 好的，今天我们来做菜！OK, Let's Cook!",
@@ -112249,6 +112348,18 @@
     "created": "2013-03-06T03:07:32Z",
     "updated": "2026-05-18T21:44:45Z",
     "first_seen": "2026-01-01"
+  },
+  {
+    "id": 1281315781,
+    "name": "deepseek-ai/DeepSpec",
+    "desc": "DeepSpec: a full-stack codebase for training and evaluating speculative decoding algorithms",
+    "stars": 6356,
+    "url": "https://github.com/deepseek-ai/DeepSpec",
+    "lang": "Python",
+    "topics": [],
+    "created": "2026-06-26T12:36:05Z",
+    "updated": "2026-07-07T11:11:00Z",
+    "first_seen": "2026-07-07"
   },
   {
     "id": 606913964,
@@ -113744,6 +113855,23 @@
     "created": "2018-09-05T21:56:35Z",
     "updated": "2026-06-06T01:43:28Z",
     "first_seen": "2026-06-06"
+  },
+  {
+    "id": 1153372704,
+    "name": "zai-org/GLM-5",
+    "desc": "GLM-5: From Vibe Coding to Agentic Engineering",
+    "stars": 6283,
+    "url": "https://github.com/zai-org/GLM-5",
+    "lang": "-",
+    "topics": [
+      "agentic-ai",
+      "coding",
+      "llm",
+      "long-horizon"
+    ],
+    "created": "2026-02-09T08:17:02Z",
+    "updated": "2026-07-07T10:21:34Z",
+    "first_seen": "2026-07-07"
   },
   {
     "id": 84734311,
@@ -120921,6 +121049,29 @@
     "first_seen": "2026-01-01"
   },
   {
+    "id": 928427049,
+    "name": "om-ai-lab/VLM-R1",
+    "desc": "Solve Visual Understanding with Reinforced VLMs",
+    "stars": 6002,
+    "url": "https://github.com/om-ai-lab/VLM-R1",
+    "lang": "Python",
+    "topics": [
+      "deepseek-r1",
+      "grpo",
+      "llm",
+      "multimodal",
+      "multimodal-r1",
+      "qwen",
+      "r1-zero",
+      "reinforcement-learning",
+      "vlm",
+      "vlm-r1"
+    ],
+    "created": "2025-02-06T16:12:30Z",
+    "updated": "2026-07-07T01:50:34Z",
+    "first_seen": "2026-07-07"
+  },
+  {
     "id": 104254445,
     "name": "PhilippC/keepass2android",
     "desc": "Password manager app for Android",
@@ -122708,6 +122859,29 @@
     "created": "2018-01-06T05:54:37Z",
     "updated": "2026-05-31T03:35:27Z",
     "first_seen": "2026-05-31"
+  },
+  {
+    "id": 9135204,
+    "name": "maildev/maildev",
+    "desc": ":mailbox: SMTP Server + Web Interface for viewing and testing emails during development.",
+    "stars": 5940,
+    "url": "https://github.com/maildev/maildev",
+    "lang": "TypeScript",
+    "topics": [
+      "developer-tools",
+      "development",
+      "docker",
+      "mailcatcher",
+      "maildev",
+      "nodejs",
+      "nodemailer",
+      "smtp",
+      "smtp-server",
+      "testing"
+    ],
+    "created": "2013-03-31T19:37:09Z",
+    "updated": "2026-07-07T10:04:48Z",
+    "first_seen": "2026-07-07"
   },
   {
     "id": 110776471,
@@ -126341,6 +126515,18 @@
     "created": "2018-10-04T09:55:26Z",
     "updated": "2026-05-18T08:43:35Z",
     "first_seen": "2026-01-01"
+  },
+  {
+    "id": 241504436,
+    "name": "connorferster/handcalcs",
+    "desc": "Python library for converting Python calculations into rendered latex.",
+    "stars": 5810,
+    "url": "https://github.com/connorferster/handcalcs",
+    "lang": "CSS",
+    "topics": [],
+    "created": "2020-02-19T01:18:42Z",
+    "updated": "2026-07-07T02:17:57Z",
+    "first_seen": "2026-07-07"
   },
   {
     "id": 833248329,
@@ -147540,6 +147726,33 @@
     "first_seen": "2026-01-01"
   },
   {
+    "id": 1087077125,
+    "name": "itsfatduck/optimizerDuck",
+    "desc": "Free, open-source Windows optimization tool for performance, privacy, and simplicity.",
+    "stars": 5199,
+    "url": "https://github.com/itsfatduck/optimizerDuck",
+    "lang": "C#",
+    "topics": [
+      "csharp",
+      "debloat",
+      "dotnet",
+      "gaming",
+      "open-source",
+      "optimization",
+      "optimizer",
+      "optimizerduck",
+      "performance",
+      "privacy",
+      "tweaker",
+      "tweaks",
+      "windows",
+      "winui"
+    ],
+    "created": "2025-10-31T10:44:47Z",
+    "updated": "2026-07-07T11:12:26Z",
+    "first_seen": "2026-07-07"
+  },
+  {
     "id": 387542412,
     "name": "builtbybel/ThisIsWin11",
     "desc": "The real PowerToys for Windows 11",
@@ -149492,6 +149705,18 @@
     "created": "2021-01-17T09:27:58Z",
     "updated": "2026-05-18T09:06:31Z",
     "first_seen": "2026-01-01"
+  },
+  {
+    "id": 1212241202,
+    "name": "wbh604/UZI-Skill",
+    "desc": "冰冷的钱就这样流进我温暖的口袋-游资（UZI）Skills — 让我们欢迎，股海贼王！66位投资大佬帮你看盘 · 22维数据 × 180条量化规则 × 17种机构分析方法 · A股/港股/美股 ",
+    "stars": 5147,
+    "url": "https://github.com/wbh604/UZI-Skill",
+    "lang": "Python",
+    "topics": [],
+    "created": "2026-04-16T07:36:06Z",
+    "updated": "2026-07-07T10:00:59Z",
+    "first_seen": "2026-07-07"
   },
   {
     "id": 240912639,
@@ -156170,6 +156395,21 @@
     "first_seen": "2026-07-06"
   },
   {
+    "id": 36756917,
+    "name": "greenshot/greenshot",
+    "desc": "Greenshot for Windows - for more information look here:",
+    "stars": 5017,
+    "url": "https://github.com/greenshot/greenshot",
+    "lang": "C#",
+    "topics": [
+      "hacktoberfest",
+      "hacktoberfest2021"
+    ],
+    "created": "2015-06-02T19:34:01Z",
+    "updated": "2026-07-06T20:55:13Z",
+    "first_seen": "2026-07-07"
+  },
+  {
     "id": 287874262,
     "name": "sct/overseerr",
     "desc": "Request management and media discovery tool for the Plex ecosystem",
@@ -156844,6 +157084,28 @@
     "created": "2025-05-18T09:07:43Z",
     "updated": "2026-06-22T12:01:51Z",
     "first_seen": "2026-06-22"
+  },
+  {
+    "id": 1092279475,
+    "name": "Ed1s0nZ/CyberStrikeAI",
+    "desc": "Agentic execution layer for modern cyber security, turning security intent into precise, governed, auditable action through AI agents, MCP-native tools, knowledge, approvals, and attack-chain context.",
+    "stars": 5009,
+    "url": "https://github.com/Ed1s0nZ/CyberStrikeAI",
+    "lang": "Go",
+    "topics": [
+      "ai",
+      "ai-agents",
+      "ai-cybersecurity",
+      "ai-hacking",
+      "ai-penetration-testing",
+      "ai-security-tool",
+      "ctf-tools",
+      "mcp",
+      "pentesting-tools"
+    ],
+    "created": "2025-11-08T10:41:23Z",
+    "updated": "2026-07-07T10:24:38Z",
+    "first_seen": "2026-07-07"
   },
   {
     "id": 582432706,
