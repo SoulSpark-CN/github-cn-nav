@@ -78802,6 +78802,22 @@
     "first_seen": "2026-01-01"
   },
   {
+    "id": 1127234517,
+    "name": "Lightricks/LTX-2",
+    "desc": "Official Python inference and LoRA trainer package for the LTX-2 audio–video generative model.",
+    "stars": 8143,
+    "url": "https://github.com/Lightricks/LTX-2",
+    "lang": "Python",
+    "topics": [
+      "generative-ai",
+      "ltx",
+      "ltx-2"
+    ],
+    "created": "2026-01-03T13:16:29Z",
+    "updated": "2026-07-08T10:08:27Z",
+    "first_seen": "2026-07-08"
+  },
+  {
     "id": 171410703,
     "name": "reactive-python/reactpy",
     "desc": "It's React, but in Python",
@@ -82884,6 +82900,30 @@
     "created": "2011-09-23T02:26:08Z",
     "updated": "2026-05-18T15:18:45Z",
     "first_seen": "2026-01-01"
+  },
+  {
+    "id": 794545597,
+    "name": "vanshb03/Summer2027-Internships",
+    "desc": "Collection of Summer, Fall, Spring 2027 tech internships!",
+    "stars": 7881,
+    "url": "https://github.com/vanshb03/Summer2027-Internships",
+    "lang": "-",
+    "topics": [
+      "collaborate",
+      "cvrve",
+      "fall-2025",
+      "github",
+      "internship",
+      "internships",
+      "jobs",
+      "spring-2026",
+      "summer-2025",
+      "summer-2026",
+      "university"
+    ],
+    "created": "2024-05-01T12:33:14Z",
+    "updated": "2026-07-08T09:48:31Z",
+    "first_seen": "2026-07-08"
   },
   {
     "id": 320818962,
@@ -95966,6 +96006,24 @@
     "first_seen": "2026-01-01"
   },
   {
+    "id": 165398433,
+    "name": "liuchong/awesome-roadmaps",
+    "desc": "A curated list of roadmaps.",
+    "stars": 7118,
+    "url": "https://github.com/liuchong/awesome-roadmaps",
+    "lang": "-",
+    "topics": [
+      "awesome",
+      "awesome-list",
+      "lists",
+      "resources",
+      "roadmap"
+    ],
+    "created": "2019-01-12T14:43:04Z",
+    "updated": "2026-07-08T09:45:56Z",
+    "first_seen": "2026-07-08"
+  },
+  {
     "id": 255639672,
     "name": "mfussenegger/nvim-dap",
     "desc": "Debug Adapter Protocol client implementation for Neovim",
@@ -97091,6 +97149,18 @@
     "created": "2022-05-24T18:26:12Z",
     "updated": "2026-05-18T13:14:29Z",
     "first_seen": "2026-01-01"
+  },
+  {
+    "id": 654905384,
+    "name": "princeton-vl/infinigen",
+    "desc": "Infinite Photorealistic Worlds using Procedural Generation",
+    "stars": 7059,
+    "url": "https://github.com/princeton-vl/infinigen",
+    "lang": "Python",
+    "topics": [],
+    "created": "2023-06-17T09:40:36Z",
+    "updated": "2026-07-07T17:51:59Z",
+    "first_seen": "2026-07-08"
   },
   {
     "id": 248790367,
@@ -106622,6 +106692,21 @@
     "created": "2020-10-20T08:49:48Z",
     "updated": "2026-05-18T22:34:59Z",
     "first_seen": "2026-01-01"
+  },
+  {
+    "id": 22013111,
+    "name": "pditommaso/awesome-pipeline",
+    "desc": "A curated list of awesome pipeline toolkits inspired by Awesome Sysadmin",
+    "stars": 6595,
+    "url": "https://github.com/pditommaso/awesome-pipeline",
+    "lang": "-",
+    "topics": [
+      "awesome-list",
+      "workflow"
+    ],
+    "created": "2014-07-19T15:48:56Z",
+    "updated": "2026-07-08T08:23:38Z",
+    "first_seen": "2026-07-08"
   },
   {
     "id": 538979582,
@@ -142226,6 +142311,18 @@
     "first_seen": "2026-01-01"
   },
   {
+    "id": 85799683,
+    "name": "christophM/interpretable-ml-book",
+    "desc": "Book about interpretable machine learning",
+    "stars": 5332,
+    "url": "https://github.com/christophM/interpretable-ml-book",
+    "lang": "Jupyter Notebook",
+    "topics": [],
+    "created": "2017-03-22T07:47:41Z",
+    "updated": "2026-07-07T14:15:55Z",
+    "first_seen": "2026-07-08"
+  },
+  {
     "id": 99658622,
     "name": "dunwu/db-tutorial",
     "desc": "📚 后端程序员应该掌握的主流数据库知识",
@@ -158148,6 +158245,34 @@
     "created": "2026-02-21T14:07:55Z",
     "updated": "2026-07-06T07:22:37Z",
     "first_seen": "2026-07-06"
+  },
+  {
+    "id": 1138200460,
+    "name": "rorkai/App-Store-Connect-CLI",
+    "desc": "Fast, scriptable CLI for the App Store Connect API. Automate TestFlight, builds, submissions, signing, analytics, screenshots, subscriptions, and more. JSON-first, no interactive prompts",
+    "stars": 5001,
+    "url": "https://github.com/rorkai/App-Store-Connect-CLI",
+    "lang": "Go",
+    "topics": [
+      "app-store-connect",
+      "apple",
+      "automation",
+      "cicd",
+      "cli",
+      "command-line-tool",
+      "developer-tools",
+      "devops",
+      "go",
+      "golang",
+      "ios",
+      "macos",
+      "swift",
+      "testflight",
+      "xcode"
+    ],
+    "created": "2026-01-20T11:17:23Z",
+    "updated": "2026-07-08T06:02:48Z",
+    "first_seen": "2026-07-08"
   },
   {
     "id": 2830198,
