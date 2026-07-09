@@ -71292,6 +71292,39 @@
     "first_seen": "2026-01-01"
   },
   {
+    "id": 370873536,
+    "name": "Sitoi/dailycheckin",
+    "desc": "基于「Docker」/「青龙面板」/「群晖」的每日签到脚本（支持多账号）签到列表: ｜爱奇艺｜全民K歌｜有道云笔记｜百度贴吧｜Bilibili｜V2EX｜AcFun｜什么值得买｜阿里云盘｜i茅台申购｜小米运动｜百度搜索资源平台｜恩山论坛｜奥拉星｜",
+    "stars": 8650,
+    "url": "https://github.com/Sitoi/dailycheckin",
+    "lang": "Python",
+    "topics": [
+      "acfun",
+      "aliyundrive",
+      "baidu",
+      "bilibili",
+      "chatgpt",
+      "checkin",
+      "dailycheckin",
+      "docker",
+      "imaotai",
+      "iqiyi",
+      "kgqq",
+      "mimotion",
+      "pypi",
+      "python",
+      "qinglong",
+      "signin",
+      "smzdm",
+      "tieba",
+      "v2ex",
+      "youdaonote"
+    ],
+    "created": "2021-05-26T01:35:16Z",
+    "updated": "2026-07-09T08:56:33Z",
+    "first_seen": "2026-07-09"
+  },
+  {
     "id": 54308113,
     "name": "ybq/Android-SpinKit",
     "desc": "Android  loading animations",
@@ -140517,6 +140550,18 @@
     "first_seen": "2026-01-01"
   },
   {
+    "id": 1183325896,
+    "name": "emilkowalski/skills",
+    "desc": "Skills for Design Engineers.",
+    "stars": 5388,
+    "url": "https://github.com/emilkowalski/skills",
+    "lang": "-",
+    "topics": [],
+    "created": "2026-03-16T13:52:31Z",
+    "updated": "2026-07-09T10:46:05Z",
+    "first_seen": "2026-07-09"
+  },
+  {
     "id": 67328052,
     "name": "LFDT-web3j/web3j",
     "desc": "Lightweight Java and Android library for integration with Ethereum clients",
@@ -156572,6 +156617,23 @@
     "first_seen": "2026-06-11"
   },
   {
+    "id": 124716861,
+    "name": "zapplyjobs/Research-Internships-for-Undergraduates",
+    "desc": "List of Research Internships for Undergraduate Students",
+    "stars": 5015,
+    "url": "https://github.com/zapplyjobs/Research-Internships-for-Undergraduates",
+    "lang": "-",
+    "topics": [
+      "internship",
+      "scholars",
+      "summer",
+      "undergraduate-students"
+    ],
+    "created": "2018-03-11T02:34:38Z",
+    "updated": "2026-07-09T10:47:34Z",
+    "first_seen": "2026-07-09"
+  },
+  {
     "id": 54681855,
     "name": "willianjusten/awesome-audio-visualization",
     "desc": "A curated list about Audio Visualization.",
@@ -157339,6 +157401,39 @@
     "created": "2017-09-05T07:16:21Z",
     "updated": "2026-05-11T14:00:19Z",
     "first_seen": "2026-01-01"
+  },
+  {
+    "id": 136295251,
+    "name": "me-shaon/GLWTPL",
+    "desc": "\"Good Luck With That\" Public License",
+    "stars": 5006,
+    "url": "https://github.com/me-shaon/GLWTPL",
+    "lang": "-",
+    "topics": [],
+    "created": "2018-06-06T08:10:37Z",
+    "updated": "2026-07-08T17:17:45Z",
+    "first_seen": "2026-07-09"
+  },
+  {
+    "id": 597024885,
+    "name": "nyas1/Material-You-app-list",
+    "desc": "🍦 A well organized & frequently updated collection of apps that support material you design.",
+    "stars": 5006,
+    "url": "https://github.com/nyas1/Material-You-app-list",
+    "lang": "-",
+    "topics": [
+      "android",
+      "awesome",
+      "awesome-list",
+      "list",
+      "material-design-3",
+      "material-you",
+      "materialyou",
+      "md3"
+    ],
+    "created": "2023-02-03T13:11:12Z",
+    "updated": "2026-07-09T05:59:02Z",
+    "first_seen": "2026-07-09"
   },
   {
     "id": 12901559,
@@ -158275,6 +158370,29 @@
     "first_seen": "2026-07-08"
   },
   {
+    "id": 2218679,
+    "name": "metabrainz/picard",
+    "desc": "Picard is a cross-platform music tagger powered by the MusicBrainz database",
+    "stars": 5001,
+    "url": "https://github.com/metabrainz/picard",
+    "lang": "Python",
+    "topics": [
+      "acoustid",
+      "audio",
+      "id3",
+      "music",
+      "music-tagger",
+      "musicbrainz",
+      "musicbrainz-picard",
+      "picard",
+      "python",
+      "tagger"
+    ],
+    "created": "2011-08-16T22:30:23Z",
+    "updated": "2026-07-09T10:26:41Z",
+    "first_seen": "2026-07-09"
+  },
+  {
     "id": 2830198,
     "name": "aterrien/jQuery-Knob",
     "desc": "Nice, downward compatible, touchable, jQuery dial",
@@ -158512,5 +158630,17 @@
     "created": "2023-07-24T13:49:58Z",
     "updated": "2026-07-05T08:01:01Z",
     "first_seen": "2026-07-05"
+  },
+  {
+    "id": 1233290067,
+    "name": "vercel-labs/native",
+    "desc": "Toolkit for building native desktop apps",
+    "stars": 5000,
+    "url": "https://github.com/vercel-labs/native",
+    "lang": "Zig",
+    "topics": [],
+    "created": "2026-05-08T19:53:41Z",
+    "updated": "2026-07-09T11:10:18Z",
+    "first_seen": "2026-07-09"
   }
 ]
