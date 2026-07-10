@@ -62408,6 +62408,39 @@
     "first_seen": "2026-01-01"
   },
   {
+    "id": 127247098,
+    "name": "AdrienTorris/awesome-blazor",
+    "desc": "Resources for Blazor, a .NET web framework using C#/Razor and HTML that runs in the browser with WebAssembly.",
+    "stars": 9353,
+    "url": "https://github.com/AdrienTorris/awesome-blazor",
+    "lang": "-",
+    "topics": [
+      "asp-net-core",
+      "aspnetcore",
+      "awesome",
+      "awesome-list",
+      "blazor",
+      "blazor-application",
+      "blazor-component",
+      "blazor-crud",
+      "blazor-interop",
+      "blazor-master",
+      "blazor-port",
+      "blazor-sample",
+      "blazor-web",
+      "csharp",
+      "dotnet-core",
+      "microsoft",
+      "microsoft-blazor",
+      "razor",
+      "razor-components",
+      "webassembly"
+    ],
+    "created": "2018-03-29T06:29:46Z",
+    "updated": "2026-07-10T06:08:49Z",
+    "first_seen": "2026-07-10"
+  },
+  {
     "id": 684355571,
     "name": "qist/tvbox",
     "desc": "OK影视、tvbox配置文件，如果喜欢，请Fork自用。使用前请仔细阅读仓库说明，一旦使用将被视为你已了解。",
@@ -89909,6 +89942,18 @@
     "first_seen": "2026-01-01"
   },
   {
+    "id": 1260901078,
+    "name": "unicity-astrid/handbook",
+    "desc": "How to work on Astrid: the polyrepo, the kernel-is-dumb law, the RFC trigger, contribution tiers, and the release process. Part of Unicity Astrid OS.",
+    "stars": 7476,
+    "url": "https://github.com/unicity-astrid/handbook",
+    "lang": "-",
+    "topics": [],
+    "created": "2026-06-06T02:16:56Z",
+    "updated": "2026-07-09T22:27:18Z",
+    "first_seen": "2026-07-10"
+  },
+  {
     "id": 75178811,
     "name": "phar-io/version",
     "desc": "Library for handling version information and constraints",
@@ -106703,6 +106748,18 @@
     "first_seen": "2026-01-01"
   },
   {
+    "id": 1229044689,
+    "name": "GoogleCloudPlatform/knowledge-catalog",
+    "desc": "Google Cloud Knowledge Catalog Tools and Samples",
+    "stars": 6596,
+    "url": "https://github.com/GoogleCloudPlatform/knowledge-catalog",
+    "lang": "HTML",
+    "topics": [],
+    "created": "2026-05-04T16:36:24Z",
+    "updated": "2026-07-10T10:15:43Z",
+    "first_seen": "2026-07-10"
+  },
+  {
     "id": 305646330,
     "name": "devlikeapro/waha",
     "desc": "WAHA - WhatsApp HTTP API (REST API) that you can configure in a click! 3 engines: WEBJS (browser based), NOWEB (websocket nodejs), GOWS (websocket go)",
@@ -113052,6 +113109,26 @@
     "first_seen": "2026-01-01"
   },
   {
+    "id": 129317474,
+    "name": "tensorflow/docs",
+    "desc": "TensorFlow documentation",
+    "stars": 6320,
+    "url": "https://github.com/tensorflow/docs",
+    "lang": "Jupyter Notebook",
+    "topics": [
+      "deep-learning",
+      "deep-neural-networks",
+      "documentation",
+      "machine-learning",
+      "tensorflow",
+      "tensorflow-examples",
+      "tensorflow-tutorials"
+    ],
+    "created": "2018-04-12T22:23:12Z",
+    "updated": "2026-07-10T00:02:34Z",
+    "first_seen": "2026-07-10"
+  },
+  {
     "id": 27015948,
     "name": "vvo/gifify",
     "desc": "😻 Convert any video file to an optimized animated GIF.",
@@ -116648,6 +116725,24 @@
     "first_seen": "2026-01-01"
   },
   {
+    "id": 97533515,
+    "name": "skorch-dev/skorch",
+    "desc": "A scikit-learn compatible neural network library that wraps PyTorch",
+    "stars": 6170,
+    "url": "https://github.com/skorch-dev/skorch",
+    "lang": "Jupyter Notebook",
+    "topics": [
+      "hacktoberfest",
+      "huggingface",
+      "machine-learning",
+      "pytorch",
+      "scikit-learn"
+    ],
+    "created": "2017-07-18T00:13:54Z",
+    "updated": "2026-07-10T05:52:36Z",
+    "first_seen": "2026-07-10"
+  },
+  {
     "id": 27522259,
     "name": "golang/mobile",
     "desc": "[mirror] Go on Mobile",
@@ -116762,6 +116857,24 @@
     "created": "2013-01-19T16:34:38Z",
     "updated": "2026-05-31T16:28:02Z",
     "first_seen": "2026-05-31"
+  },
+  {
+    "id": 3489194,
+    "name": "davidhalter/jedi",
+    "desc": "Awesome autocompletion, static analysis and refactoring library for python",
+    "stars": 6165,
+    "url": "https://github.com/davidhalter/jedi",
+    "lang": "Python",
+    "topics": [
+      "auto-complete",
+      "python",
+      "refactoring",
+      "static-analysis",
+      "type-inference"
+    ],
+    "created": "2012-02-19T23:12:30Z",
+    "updated": "2026-07-09T23:42:19Z",
+    "first_seen": "2026-07-10"
   },
   {
     "id": 8165161,
@@ -126342,6 +126455,26 @@
     "first_seen": "2026-01-01"
   },
   {
+    "id": 5482172,
+    "name": "ckeditor/ckeditor4",
+    "desc": "The best enterprise-grade WYSIWYG editor. Fully customizable with countless features and plugins.",
+    "stars": 5819,
+    "url": "https://github.com/ckeditor/ckeditor4",
+    "lang": "Rich Text Format",
+    "topics": [
+      "ckeditor",
+      "ckeditor4",
+      "contenteditable",
+      "html-editor",
+      "rich-text-editor",
+      "rte",
+      "wysiwyg"
+    ],
+    "created": "2012-08-20T14:21:13Z",
+    "updated": "2026-07-10T06:47:17Z",
+    "first_seen": "2026-07-10"
+  },
+  {
     "id": 158606045,
     "name": "remoteinterview/zero",
     "desc": "Zero is a web server to simplify web development.",
@@ -130313,6 +130446,22 @@
     "created": "2014-10-19T19:37:45Z",
     "updated": "2026-05-31T14:19:40Z",
     "first_seen": "2026-05-31"
+  },
+  {
+    "id": 36439741,
+    "name": "erikbern/ann-benchmarks",
+    "desc": "Benchmarks of approximate nearest neighbor libraries in Python",
+    "stars": 5697,
+    "url": "https://github.com/erikbern/ann-benchmarks",
+    "lang": "Python",
+    "topics": [
+      "benchmark",
+      "docker",
+      "nearest-neighbors"
+    ],
+    "created": "2015-05-28T13:21:43Z",
+    "updated": "2026-07-10T08:45:19Z",
+    "first_seen": "2026-07-10"
   },
   {
     "id": 66252037,
@@ -141063,6 +141212,18 @@
     "first_seen": "2026-01-01"
   },
   {
+    "id": 1244617222,
+    "name": "teamchong/pxpipe",
+    "desc": "cut Fable 5 token usage by rendering text context as images",
+    "stars": 5373,
+    "url": "https://github.com/teamchong/pxpipe",
+    "lang": "TypeScript",
+    "topics": [],
+    "created": "2026-05-20T12:39:42Z",
+    "updated": "2026-07-10T11:11:58Z",
+    "first_seen": "2026-07-10"
+  },
+  {
     "id": 290312103,
     "name": "dimforge/rapier",
     "desc": "2D and 3D physics engines focused on performance.",
@@ -141292,6 +141453,23 @@
     "created": "2023-08-10T05:52:15Z",
     "updated": "2026-06-20T09:28:04Z",
     "first_seen": "2026-06-20"
+  },
+  {
+    "id": 170895520,
+    "name": "jerrykuku/luci-theme-argon",
+    "desc": "Argon is a clean and tidy OpenWrt LuCI theme that allows users to customize their login interface with images or videos.   It also supports automatic and manual switching between light and dark modes.",
+    "stars": 5364,
+    "url": "https://github.com/jerrykuku/luci-theme-argon",
+    "lang": "Less",
+    "topics": [
+      "lede",
+      "luci",
+      "openwrt",
+      "theme"
+    ],
+    "created": "2019-02-15T16:32:06Z",
+    "updated": "2026-07-10T07:01:41Z",
+    "first_seen": "2026-07-10"
   },
   {
     "id": 146325535,
@@ -152678,6 +152856,24 @@
     "first_seen": "2026-06-02"
   },
   {
+    "id": 167133606,
+    "name": "nICEnnnnnnnLee/BilibiliDown",
+    "desc": "(GUI-多平台支持) B站 哔哩哔哩 视频下载器。支持稍后再看、收藏夹、UP主视频批量下载|Bilibili Video Downloader 😳",
+    "stars": 5090,
+    "url": "https://github.com/nICEnnnnnnnLee/BilibiliDown",
+    "lang": "Java",
+    "topics": [
+      "bilibili",
+      "cookie",
+      "download-videos",
+      "java",
+      "video-downloader"
+    ],
+    "created": "2019-01-23T06:56:46Z",
+    "updated": "2026-07-10T10:53:30Z",
+    "first_seen": "2026-07-10"
+  },
+  {
     "id": 40781628,
     "name": "get-alex/alex",
     "desc": "Catch insensitive, inconsiderate writing",
@@ -155166,6 +155362,32 @@
     "first_seen": "2026-07-03"
   },
   {
+    "id": 629142696,
+    "name": "h2oai/h2o-llmstudio",
+    "desc": "H2O LLM Studio - a framework and no-code GUI for fine-tuning LLMs. Documentation: https://docs.h2o.ai/h2o-llmstudio/",
+    "stars": 5039,
+    "url": "https://github.com/h2oai/h2o-llmstudio",
+    "lang": "Python",
+    "topics": [
+      "ai",
+      "chatbot",
+      "chatgpt",
+      "fedramp",
+      "fine-tuning",
+      "finetuning",
+      "generative",
+      "generative-ai",
+      "gpt",
+      "llama",
+      "llama2",
+      "llm",
+      "llm-training"
+    ],
+    "created": "2023-04-17T17:56:33Z",
+    "updated": "2026-07-10T06:45:57Z",
+    "first_seen": "2026-07-10"
+  },
+  {
     "id": 636922549,
     "name": "OpenBMB/AgentVerse",
     "desc": "🤖 AgentVerse 🪐 is designed to facilitate the deployment of multiple LLM-based agents in various applications, which primarily provides two frameworks: task-solving and simulation",
@@ -155766,6 +155988,29 @@
     "created": "2026-02-18T16:42:55Z",
     "updated": "2026-06-09T10:48:10Z",
     "first_seen": "2026-06-09"
+  },
+  {
+    "id": 1155576139,
+    "name": "rocketride-org/rocketride-server",
+    "desc": "High-performance AI pipeline engine with a C++ core and 50+ Python-extensible nodes. Build, debug, and scale LLM workflows with 13+ model providers, 8+ vector databases, and agent orchestration, all from your IDE. Includes VS Code extension, TypeScript/Python SDKs, and Docker deployment.",
+    "stars": 5027,
+    "url": "https://github.com/rocketride-org/rocketride-server",
+    "lang": "Python",
+    "topics": [
+      "ai",
+      "cpp",
+      "data-pipeline",
+      "data-processing",
+      "machine-learning",
+      "mcp",
+      "python",
+      "sdk",
+      "typescript",
+      "vscode-extension"
+    ],
+    "created": "2026-02-11T17:02:53Z",
+    "updated": "2026-07-10T11:12:07Z",
+    "first_seen": "2026-07-10"
   },
   {
     "id": 951115072,
@@ -156571,6 +156816,25 @@
     "created": "2020-08-16T04:38:09Z",
     "updated": "2026-05-18T23:22:54Z",
     "first_seen": "2026-01-01"
+  },
+  {
+    "id": 249855791,
+    "name": "P3TERX/GeoLite.mmdb",
+    "desc": "MaxMind's GeoIP2 GeoLite2 Country, City, and ASN databases",
+    "stars": 5016,
+    "url": "https://github.com/P3TERX/GeoLite.mmdb",
+    "lang": "-",
+    "topics": [
+      "geoip",
+      "geoip2",
+      "geolocation",
+      "maxmind",
+      "maxmind-db",
+      "maxmind-geoip"
+    ],
+    "created": "2020-03-25T01:10:51Z",
+    "updated": "2026-07-10T06:43:23Z",
+    "first_seen": "2026-07-10"
   },
   {
     "id": 37983912,
@@ -158642,5 +158906,38 @@
     "created": "2026-05-08T19:53:41Z",
     "updated": "2026-07-09T11:10:18Z",
     "first_seen": "2026-07-09"
+  },
+  {
+    "id": 447405415,
+    "name": "free18/v2ray",
+    "desc": "每日分享免费节点、免费机场、付费机场、电报代理、ssr节点、v2ray节点、v2ray订阅、clash节点、clash订阅、shadowrocket订阅、Quantumult X订阅、Clash .NET订阅、小火箭节点、小猫咪节点、免费翻墙、免费科学上网、免费梯子、免费trojan节点、蓝灯、谷歌商店、翻墙梯子、安卓VPN、iphone翻墙节点、iphone vpn、一键翻墙浏览器、节点分享、免费SSR、蓝灯、谷歌商店、V2ary免费节点、代理、proxy代理科学上网、TG代理、电报代理、Telegram代理、ip加速、翻墙软件、socks5、破解VPN、机场推荐、节点订阅、破解VPN",
+    "stars": 5000,
+    "url": "https://github.com/free18/v2ray",
+    "lang": "-",
+    "topics": [
+      "android-vpn",
+      "bulink",
+      "clash",
+      "fanqiang",
+      "free-ss",
+      "freefq",
+      "gfw",
+      "iphone-vpn",
+      "proxy",
+      "quantumult",
+      "quantumult-x",
+      "shadowrocket",
+      "ss",
+      "ssr",
+      "trojan",
+      "v2ray",
+      "v2rayn",
+      "vless",
+      "vmess",
+      "vpn"
+    ],
+    "created": "2022-01-12T23:49:40Z",
+    "updated": "2026-07-10T10:55:25Z",
+    "first_seen": "2026-07-10"
   }
 ]
