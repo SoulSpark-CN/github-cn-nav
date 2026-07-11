@@ -88246,6 +88246,23 @@
     "first_seen": "2026-06-02"
   },
   {
+    "id": 53416555,
+    "name": "mdn/learning-area",
+    "desc": "GitHub repo for the MDN Learning Area. ",
+    "stars": 7588,
+    "url": "https://github.com/mdn/learning-area",
+    "lang": "HTML",
+    "topics": [
+      "learning",
+      "learning-js",
+      "learning-to-code",
+      "mdn-docs"
+    ],
+    "created": "2016-03-08T14:01:49Z",
+    "updated": "2026-07-10T23:22:42Z",
+    "first_seen": "2026-07-11"
+  },
+  {
     "id": 51308720,
     "name": "Kitura/Kitura",
     "desc": "A Swift web framework and HTTP server.",
@@ -125090,6 +125107,18 @@
     "first_seen": "2026-01-01"
   },
   {
+    "id": 53108710,
+    "name": "libratbag/piper",
+    "desc": "GTK application to configure gaming devices",
+    "stars": 5872,
+    "url": "https://github.com/libratbag/piper",
+    "lang": "Python",
+    "topics": [],
+    "created": "2016-03-04T05:00:22Z",
+    "updated": "2026-07-10T17:17:46Z",
+    "first_seen": "2026-07-11"
+  },
+  {
     "id": 371564104,
     "name": "easegress-io/easegress",
     "desc": "A Cloud Native traffic orchestration system",
@@ -158355,6 +158384,26 @@
     "first_seen": "2026-07-02"
   },
   {
+    "id": 799128627,
+    "name": "nikkinikki-org/OpenWrt-nikki",
+    "desc": "Transparent Proxy with Mihomo on OpenWrt.",
+    "stars": 5002,
+    "url": "https://github.com/nikkinikki-org/OpenWrt-nikki",
+    "lang": "JavaScript",
+    "topics": [
+      "clash",
+      "luci-app",
+      "luci-app-nikki",
+      "mihomo",
+      "nikki",
+      "openwrt",
+      "transparent-proxy"
+    ],
+    "created": "2024-05-11T08:59:35Z",
+    "updated": "2026-07-11T08:53:15Z",
+    "first_seen": "2026-07-11"
+  },
+  {
     "id": 4710876,
     "name": "Trinea/android-common",
     "desc": "Android common lib, include ImageCache, HttpCache, DropDownListView, DownloadManager, Utils and so on",
@@ -158655,6 +158704,51 @@
     "created": "2011-08-16T22:30:23Z",
     "updated": "2026-07-09T10:26:41Z",
     "first_seen": "2026-07-09"
+  },
+  {
+    "id": 496768943,
+    "name": "facebook/memlab",
+    "desc": "A framework for finding JavaScript memory leaks and analyzing heap snapshots",
+    "stars": 5001,
+    "url": "https://github.com/facebook/memlab",
+    "lang": "TypeScript",
+    "topics": [
+      "detector",
+      "e2e",
+      "facebook",
+      "heap",
+      "hermes",
+      "javascript",
+      "leak",
+      "memory",
+      "nodejs",
+      "perf-tools",
+      "performance",
+      "snapshot",
+      "v8"
+    ],
+    "created": "2022-05-26T20:53:35Z",
+    "updated": "2026-07-11T02:08:33Z",
+    "first_seen": "2026-07-11"
+  },
+  {
+    "id": 254426396,
+    "name": "dbeaver/cloudbeaver",
+    "desc": "Cloud Database Manager",
+    "stars": 5001,
+    "url": "https://github.com/dbeaver/cloudbeaver",
+    "lang": "TypeScript",
+    "topics": [
+      "cloud",
+      "cloud-database-manager",
+      "database",
+      "databases",
+      "dbeaver",
+      "webapp"
+    ],
+    "created": "2020-04-09T16:39:57Z",
+    "updated": "2026-07-10T22:13:57Z",
+    "first_seen": "2026-07-11"
   },
   {
     "id": 2830198,
