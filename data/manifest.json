@@ -81698,6 +81698,33 @@
     "first_seen": "2026-01-01"
   },
   {
+    "id": 40621231,
+    "name": "lorien/awesome-web-scraping",
+    "desc": "List of libraries, tools and APIs for web scraping and data processing.",
+    "stars": 7963,
+    "url": "https://github.com/lorien/awesome-web-scraping",
+    "lang": "Makefile",
+    "topics": [
+      "captcha-bypass",
+      "captcha-recaptcha",
+      "crawler",
+      "crawling",
+      "crawling-framework",
+      "crawling-python",
+      "crawling-tool",
+      "scraping",
+      "scraping-framework",
+      "scraping-python",
+      "scraping-tool",
+      "spider",
+      "web-scraping",
+      "webscraping"
+    ],
+    "created": "2015-08-12T19:55:27Z",
+    "updated": "2026-07-12T06:45:09Z",
+    "first_seen": "2026-07-12"
+  },
+  {
     "id": 16907502,
     "name": "fatih/color",
     "desc": "Color package for Go (golang)",
@@ -112660,6 +112687,18 @@
     "first_seen": "2026-01-01"
   },
   {
+    "id": 36818673,
+    "name": "django/channels",
+    "desc": "Developer-friendly asynchrony for Django",
+    "stars": 6350,
+    "url": "https://github.com/django/channels",
+    "lang": "Python",
+    "topics": [],
+    "created": "2015-06-03T17:16:20Z",
+    "updated": "2026-07-11T17:17:50Z",
+    "first_seen": "2026-07-12"
+  },
+  {
     "id": 59029620,
     "name": "ivpusic/react-native-image-crop-picker",
     "desc": "iOS/Android image picker with support for camera, video, configurable compression, multiple images and cropping",
@@ -142485,6 +142524,18 @@
     "first_seen": "2026-06-03"
   },
   {
+    "id": 663667786,
+    "name": "Hillobar/Rope",
+    "desc": "GUI-focused roop",
+    "stars": 5337,
+    "url": "https://github.com/Hillobar/Rope",
+    "lang": "Python",
+    "topics": [],
+    "created": "2023-07-07T20:43:52Z",
+    "updated": "2026-07-12T07:29:13Z",
+    "first_seen": "2026-07-12"
+  },
+  {
     "id": 142456757,
     "name": "Docile-Alligator/Infinity-For-Reddit",
     "desc": "A Reddit client for Android",
@@ -154216,6 +154267,18 @@
     "first_seen": "2026-01-01"
   },
   {
+    "id": 1234928623,
+    "name": "erincatto/box3d",
+    "desc": "Box3D is a 3D physics engine for games",
+    "stars": 5062,
+    "url": "https://github.com/erincatto/box3d",
+    "lang": "C",
+    "topics": [],
+    "created": "2026-05-10T20:26:19Z",
+    "updated": "2026-07-12T09:43:09Z",
+    "first_seen": "2026-07-12"
+  },
+  {
     "id": 801100155,
     "name": "achristmascarl/rainfrog",
     "desc": "🐸 a database tool for the terminal",
@@ -155659,6 +155722,27 @@
     "first_seen": "2026-06-05"
   },
   {
+    "id": 1205137520,
+    "name": "google/agents-cli",
+    "desc": "The CLI and skills that turn any coding assistant into an expert at creating, evaluating, and deploying AI agents on Google Cloud.",
+    "stars": 5035,
+    "url": "https://github.com/google/agents-cli",
+    "lang": "Python",
+    "topics": [
+      "adk",
+      "agent-development-kit",
+      "agents",
+      "coding-agent",
+      "gemini",
+      "gemini-enterprise-agent-platform",
+      "generative-ai",
+      "google-cloud"
+    ],
+    "created": "2026-04-08T17:09:55Z",
+    "updated": "2026-07-12T09:58:30Z",
+    "first_seen": "2026-07-12"
+  },
+  {
     "id": 26537135,
     "name": "u-boot/u-boot",
     "desc": "\"Das U-Boot\" Source Tree",
@@ -156866,6 +156950,22 @@
     "first_seen": "2026-07-10"
   },
   {
+    "id": 140177493,
+    "name": "golang101/golang101",
+    "desc": "Go语言101 : 一个与时俱进的Go编程知识库",
+    "stars": 5016,
+    "url": "https://github.com/golang101/golang101",
+    "lang": "HTML",
+    "topics": [
+      "book",
+      "go",
+      "golang"
+    ],
+    "created": "2018-07-08T14:58:28Z",
+    "updated": "2026-07-11T16:45:47Z",
+    "first_seen": "2026-07-12"
+  },
+  {
     "id": 37983912,
     "name": "json-schema-org/json-schema-spec",
     "desc": "The JSON Schema specification",
@@ -157590,6 +157690,32 @@
     "created": "2014-04-02T18:14:59Z",
     "updated": "2026-05-18T12:38:27Z",
     "first_seen": "2026-01-01"
+  },
+  {
+    "id": 593189807,
+    "name": "GMOogway/shadowrocket-rules",
+    "desc": "小火箭规则🚀，小火箭模块，小火箭配置，shadowrocket规则，shadowrocket rules，最全面的直连（DIRECT）、代理（PROXY）、屏蔽（REJECT）规则，自动构建，每日更新",
+    "stars": 5008,
+    "url": "https://github.com/GMOogway/shadowrocket-rules",
+    "lang": "-",
+    "topics": [
+      "adblock",
+      "direct",
+      "gfw",
+      "gfwlist",
+      "ios",
+      "module",
+      "proxy",
+      "reject",
+      "rules",
+      "shadowrocket",
+      "ss",
+      "v2ray",
+      "xray"
+    ],
+    "created": "2023-01-25T12:58:06Z",
+    "updated": "2026-07-12T08:05:56Z",
+    "first_seen": "2026-07-12"
   },
   {
     "id": 150035938,
