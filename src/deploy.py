@@ -19,9 +19,9 @@ os.makedirs(DEPLOY, exist_ok=True)
 shutil.copy2(JSON_SRC, os.path.join(DEPLOY, "projects.json"))
 
 # Copy surge data for runtime fetch (index.html)
-SURGE_SRC = str(BASE / "data" / "surge_top100.json")
+SURGE_SRC = str(BASE / "data" / "surge_rising_top100.json")
 if os.path.exists(SURGE_SRC):
-    shutil.copy2(SURGE_SRC, os.path.join(DEPLOY, "surge_top100.json"))
+    shutil.copy2(SURGE_SRC, os.path.join(DEPLOY, "surge_rising_top100.json"))
 
 # 2. Create serve.sh (一键启动)
 serve_sh = r'''#!/bin/bash
@@ -75,7 +75,7 @@ python3 -m http.server 8080
 
 ### 方式4: 部署到云 (免费)
 1. 把 deploy/ 目录上传到 GitHub 仓库
-2. 在仓库 Settings → Pages → 选 main 分支 → Save
+2. 在仓库 Settings -> Pages -> 选 main 分支 -> Save
 3. 几分钟后访问 https://你的用户名.github.io/仓库名
 
 支持: GitHub Pages / Netlify / Vercel / Cloudflare Pages / 任何静态托管
@@ -103,13 +103,13 @@ with open(HTML_SRC, encoding="utf-8") as f:
 with open(JSON_SRC, encoding="utf-8") as f:
     data_json = f.read()
 
-# Inline surge data (may not exist yet — skip if missing)
-SURGE_SRC = str(BASE / "data" / "surge_top100.json")
+# Inline surge data (may not exist yet -- skip if missing)
+SURGE_SRC = str(BASE / "data" / "surge_rising_top100.json")
 if os.path.exists(SURGE_SRC):
     with open(SURGE_SRC, encoding="utf-8") as f:
         surge_json = f.read()
     surge_safe = json.dumps(surge_json).replace('</', '<\\/')
-    old_surge_fetch = "const surgeResp = await fetch('surge_top100.json');"
+    old_surge_fetch = "const surgeResp = await fetch('surge_rising_top100.json');"
     new_surge_fetch = f"const surgeResp = new Response({surge_safe});"
     html = html.replace(old_surge_fetch, new_surge_fetch)
 
@@ -121,7 +121,9 @@ new_fetch = f"const resp = new Response({js_safe});"
 standalone = html.replace(old_fetch, new_fetch)
 
 # Remove preload hint (no longer needed)
-standalone = standalone.replace('<link rel="preload" href="projects.json" as="fetch" crossorigin="anonymous">\n', '')
+standalone = standalone.replace(
+    '<link rel="preload" href="projects.json" as="fetch" crossorigin="anonymous">\n', ''
+)
 
 standalone_path = os.path.join(DEPLOY, "standalone.html")
 with open(standalone_path, "w", encoding="utf-8") as f:

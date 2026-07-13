@@ -113,15 +113,15 @@ function createProjectItem(p) {
   const starsStr = p.stars >= 1000
     ? '⭐ ' + (p.stars / 1000).toFixed(1) + 'k'
     : '⭐ ' + p.stars.toLocaleString();
-  const surgeBadge = p.surge_5d
-    ? ' <span style="color:#22c55e;font-weight:700;font-size:15px" title="近5日新增' + p.surge_5d + ' ⭐">↑' + p.surge_5d + '</span>'
+  const surgeBadge = p.surge_10d
+    ? ' <span style="color:#22c55e;font-weight:700;font-size:15px" title="近10日新增' + p.surge_10d + ' ⭐">↑' + p.surge_10d + '</span>'
     : '';
 
   div.innerHTML = `<div class="project-top">
     <span class="rank">${p.id}</span>
     ${p.rh ? '<span class="rh-badge">人话</span>' : ''}
     <a class="name" href="${escHtml(p.url)}" target="_blank">${escHtml(p.name)}</a>
-    <span class="desc">${escHtml(p.rh?.audience || p.rh?.u || p.desc)}</span>
+    <span class="desc">${escHtml(p.rh?.one_liner || p.rh?.o || p.desc)}</span>
     <span class="stars">${starsStr}${surgeBadge}</span>
     <span class="lang">${escHtml(p.lang)}</span>
   </div>`;
@@ -150,8 +150,22 @@ function toggleRhPanel(itemEl, rhText) {
 
 function parseRhText(text) {
   if (!text) return '';
-  let html = text.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
-  const parts = html.split(/(类比：|适合：|解决)/);
+  // Handle dict format (new format)
+  if (typeof text === 'object') {
+    let result = '';
+    const o = text.one_liner || text.o || '';
+    const p = text.plain || text.p || '';
+    const a = text.analogy || text.a || '';
+    const u = text.audience || text.u || '';
+    if (o) result += '<div class="rh-one">💡 ' + escHtml(o) + '</div>';
+    if (p) result += '<div class="rh-section"><span class="rh-icon">📖</span><div class="rh-plain">' + escHtml(p) + '</div></div>';
+    if (a) result += '<div class="rh-section"><span class="rh-icon">🔄</span><div><div class="rh-label">类比</div><div class="rh-ana">' + escHtml(a) + '</div></div></div>';
+    if (u) result += '<div class="rh-section"><span class="rh-icon">👤</span><div><div class="rh-label">适合谁</div><div class="rh-aud">' + escHtml(u) + '</div></div></div>';
+    return result;
+  }
+  // Handle legacy string format
+  text = text.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+  const parts = text.split(/(类比：|适合：|解决)/);
   let result = '';
   let firstLine = true;
   let label = '';
@@ -183,8 +197,8 @@ function parseRhText(text) {
 }
 
 // ============ CATEGORY GRID (结构保留，事件改为委托) ============
-const CAT_COLORS = {"_trending": "#22c55e", "_new_week": "#f59e0b", "_new_month": "#f97316", "_new_half": "#ef4444", "API-工具-命令行": "#3b82f6", "前端-UI框架": "#8b5cf6", "后端-框架-API": "#06b6d4", "操作系统-底层-内核": "#ef4444", "开发工具-编辑器-IDE": "#f59e0b", "学习资源-教程-书籍": "#10b981", "大语言模型-LLM": "#6366f1", "AI应用-Agent": "#8b5cf6", "移动开发-Android-iOS": "#22c55e", "数据科学-数据库": "#14b8a6", "AI-机器学习": "#a855f7", "自动化-DevOps-部署": "#0ea5e9", "媒体-音视频-直播": "#ec4899", "安全-网络-代理": "#dc2626", "游戏-娱乐": "#eab308", "其他": "#6b7280", "内容创作-AIGC-设计": "#f97316", "编程语言-编译器": "#84cc16", "建站-电商-CMS": "#06b6d4", "区块链-Web3": "#f59e0b", "爬虫-数据采集": "#14b8a6", "量化交易-金融": "#10b981"};
-const NEW_LABELS = {"_trending": "🔥 近5日飙升", "_new_week": "🆕 一周新上", "_new_month": "🆕 一月新上", "_new_half": "🆕 半年新上"};
+const CAT_COLORS = {"_trending": "#22c55e", "_rising": "#a855f7", "_new_week": "#f59e0b", "_new_month": "#f97316", "_new_half": "#ef4444", "API-工具-命令行": "#3b82f6", "前端-UI框架": "#8b5cf6", "后端-框架-API": "#06b6d4", "操作系统-底层-内核": "#ef4444", "开发工具-编辑器-IDE": "#f59e0b", "学习资源-教程-书籍": "#10b981", "大语言模型-LLM": "#6366f1", "AI应用-Agent": "#8b5cf6", "移动开发-Android-iOS": "#22c55e", "数据科学-数据库": "#14b8a6", "AI-机器学习": "#a855f7", "自动化-DevOps-部署": "#0ea5e9", "媒体-音视频-直播": "#ec4899", "安全-网络-代理": "#dc2626", "游戏-娱乐": "#eab308", "其他": "#6b7280", "内容创作-AIGC-设计": "#f97316", "编程语言-编译器": "#84cc16", "建站-电商-CMS": "#06b6d4", "区块链-Web3": "#f59e0b", "爬虫-数据采集": "#14b8a6", "量化交易-金融": "#10b981"};
+const NEW_LABELS = {"_trending": "🔥 近10日飙升", "_rising": "🚀 新势力崛起", "_new_week": "🆕 一周新上", "_new_month": "🆕 一月新上", "_new_half": "🆕 半年新上"};
 const EMOJI_MAP = {"大语言": "🤖", "AI应用": "⚡", "AI-机": "🧠", "内容创作": "🎨", "前端": "🖥️", "后端": "⚙️", "编程语言": "📜", "操作系统": "💻", "开发工具": "🛠️", "API": "🔧", "数据科学": "🗄️", "安全": "🔒", "区块链": "⛓️", "量化": "💰", "移动": "📱", "自动化": "🔄", "学习资源": "📚", "建站": "🌐", "游戏": "🎮", "爬虫": "🕷️", "媒体": "🎬", "其他": "📌"};
 
 function emojiFor(cat) {
@@ -203,7 +217,7 @@ function renderCatGrid() {
     if (aNew && !bNew) return 1;
     if (!aNew && bNew) return -1;
     if (aNew && bNew) {
-      const order = { '_new_half': 0, '_new_month': 1, '_new_week': 2, '_trending': 3 };
+      const order = { '_new_half': 0, '_new_month': 1, '_new_week': 2, '_trending': 3, '_rising': 4 };
       return (order[a[0]] ?? 9) - (order[b[0]] ?? 9);
     }
     return b[1].length - a[1].length;  // 同类数量多的优先（用户熟悉度）
@@ -321,7 +335,8 @@ function openCat(cat) {
 
   const items = catMap[cat] || [];
   const area = document.getElementById('projectArea');
-  area.innerHTML = `<h2>${emojiFor(cat)} ${escHtml(cat)} <span style="font-size:15px;color:#64748b">(${items.length}个)</span></h2>
+  const label = NEW_LABELS[cat] || (emojiFor(cat) + ' ' + escHtml(cat));
+  area.innerHTML = `<h2>${label} <span style="font-size:15px;color:#64748b">(${items.length}个)</span></h2>
     <div id="itemContainer"></div>`;
   renderPaginated(items, 0);
 }
@@ -420,9 +435,9 @@ async function loadData() {
       p.first_seen >= halfAgo && p.first_seen < monthAgo
     ).sort((a, b) => b.first_seen.localeCompare(a.first_seen));
 
-    // 近5日飙升（可选的 surge_top100.json）— v2 format: {data:[...], _warning?}
+    // 新势力崛起榜 (surge_rising_top100.json) — 10天窗口
     try {
-      const surgeResp = await fetch('surge_top100.json');
+      const surgeResp = await fetch('surge_rising_top100.json');
       if (surgeResp.ok) {
         const raw = await surgeResp.json();
         const surgeData = Array.isArray(raw) ? raw : (raw.data || []);
@@ -433,23 +448,50 @@ async function loadData() {
           window.__surgeWarning = null;
         }
         const surgeMap = {};
-        surgeData.forEach(s => { surgeMap[s.repo.toLowerCase()] = s.surge_5d; });
+        const surgeItems = surgeData.map(s => {
+          const repo = s.repo.toLowerCase();
+          surgeMap[repo] = s.surge_10d;
+          return {
+            id: 's' + s.rank,
+            cat: '_rising',
+            name: s.repo,
+            desc: s.one_liner || s.desc || '',
+            stars: s.stars,
+            lang: s.lang || '-',
+            url: s.url,
+            surge_10d: s.surge_10d,
+            rh: s.one_liner
+              ? { one_liner: s.one_liner, plain: s.plain, audience: s.audience }
+              : null,
+            first_seen: '',
+            heat: Math.round(s.stars * 0.5 + s.surge_10d * 0.5),
+          };
+        });
         catMap['_trending'] = [];
         allProjects.forEach(p => {
           const repo = (p.url || '').replace(/^https?:\/\/github\.com\//i, '').toLowerCase();
           const delta = surgeMap[repo];
           if (delta) {
-            p.surge_5d = delta;
-            // 热度 = 星数×0.7 + 5日飙升×0.3，让活跃项目浮上来
+            p.surge_10d = delta;
             p.heat = Math.round(p.stars * 0.7 + delta * 0.3);
             catMap['_trending'].push(p);
           }
         });
-        catMap['_trending'].sort((a, b) => b.surge_5d - a.surge_5d);
+        catMap['_trending'].sort((a, b) => b.surge_10d - a.surge_10d);
+
+        // 新势力崛起榜独立分类（不在projects.json中的新发现项目）
+        catMap['_rising'] = surgeItems.filter(s => {
+          const repo = s.name.toLowerCase();
+          return !allProjects.some(p =>
+            (p.url || '').replace(/^https?:\/\/github\.com\//i, '').toLowerCase() === repo
+          );
+        });
+        catMap['_rising'].sort((a, b) => b.surge_10d - a.surge_10d);
       }
     } catch (e) {
-      console.warn('surge_top100.json load failed, trending disabled:', e.message);
+      console.warn('surge_rising_top100.json load failed, rising disabled:', e.message);
       catMap['_trending'] = [];
+      catMap['_rising'] = [];
     }
 
     // 渲染分类网格 + 首次虚拟滚动（显示全部项目的第一批）

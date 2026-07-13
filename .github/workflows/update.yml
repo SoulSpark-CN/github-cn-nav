@@ -35,13 +35,11 @@ jobs:
       - name: 安装依赖
         run: pip install -r requirements.txt
 
-      - name: 计算近5日飙升 (GH Archive)
-        run: python3 src/compute_surge.py --days 5 --top 100 --workers 10
-
-      - name: 影子快照 (新方案引导, GitHub API)
+      - name: 新势力崛起榜 (10天涨星)
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python3 src/compute_surge_v2.py --shadow --max-calls 900 || echo "⚠️ 影子快照失败（非阻塞）"
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+        run: python3 src/surge_rising.py --days 10 --top 100 --workers 10
 
       - name: 运行更新
         env:
@@ -57,7 +55,7 @@ jobs:
 
       - name: 重新生成部署包
         run: |
-          cp data/surge_top100.json deploy/
+          cp data/surge_rising_top100.json deploy/
           python3 src/deploy.py
 
       - name: 提交变更
@@ -66,7 +64,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/manifest.json data/人话解读.json data/projects.json data/surge_top100.json data/分类统计.json data/snapshots/ src/classify_module.py deploy/
+          git add data/manifest.json data/人话解读.json data/projects.json data/surge_rising_top100.json data/分类统计.json data/snapshots/ src/classify_module.py deploy/
           git diff --staged --quiet || (
             git commit -m "🤖 auto-update: $(date +%Y-%m-%d)" &&
             git push

@@ -14,7 +14,7 @@ PROJECTS_PATH = str(BASE_DIR / "data" / "projects.json")
 RENHUA_PATH = str(BASE_DIR / "data" / "人话解读.json")
 STATE_PATH = str(BASE_DIR / "data" / ".update_state.json")
 DISCOVERY_FILE = str(BASE_DIR / "data" / "discovery_candidates.json")
-SURGE_OUTPUT_FILE = str(BASE_DIR / "data" / "surge_top100.json")
+SURGE_OUTPUT_FILE = str(BASE_DIR / "data" / "surge_rising_top100.json")
 
 
 def get_project_root() -> Path:

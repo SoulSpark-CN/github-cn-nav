@@ -113,69 +113,6 @@ def discover_new_repos() -> List[dict]:
     logger.info("发现 %d 个新项目", len(new_repos))
     return new_repos
 
-# ---------- Discovery Radar ----------
-def check_discovery_candidates(existing_names: set) -> List[dict]:
-    disc_path = str(BASE / "data" / "discovery_candidates.json")
-    if not os.path.exists(disc_path):
-        return []
-
-    try:
-        with open(disc_path, encoding="utf-8") as f:
-            candidates = json.load(f)
-    except Exception as e:
-        logger.warning("读取 discovery_candidates.json 失败: %s", e)
-        return []
-
-    if not candidates:
-        return []
-
-    logger.info("检查 %d 个雷达候选...", len(candidates))
-    new_from_radar = []
-
-    for c in candidates[:30]:  # 最多查 30 个
-        repo_full = c["repo"]
-        if repo_full.lower() in existing_names:
-            continue
-
-        try:
-            url = f"https://api.github.com/repos/{repo_full}"
-            resp = requests.get(url, headers=GH_HDR, timeout=15, verify=False)
-            if resp.status_code == 404:
-                continue
-            if resp.status_code != 200:
-                logger.warning("⚠ %s: HTTP %d", repo_full, resp.status_code)
-                continue
-
-            info = resp.json()
-            stars = info.get("stargazers_count", 0)
-            if stars >= 5000:
-                logger.info("✅ %s: ⭐%d → 收录!", repo_full, stars)
-                new_from_radar.append({
-                    "id": info["id"],
-                    "name": info["full_name"],
-                    "desc": info.get("description") or "",
-                    "stars": stars,
-                    "url": info["html_url"],
-                    "lang": info.get("language") or "-",
-                    "topics": info.get("topics", []),
-                    "created": info["created_at"],
-                    "updated": info["updated_at"],
-                    "first_seen": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
-                    "_source": "radar",
-                })
-            else:
-                logger.debug("· %s: ⭐%d (未达 5000)", repo_full, stars)
-            time.sleep(0.3)
-        except Exception as e:
-            logger.warning("✗ %s: %s", repo_full, e)
-
-    # 安全删除候选文件
-    os.unlink(disc_path) if os.path.exists(disc_path) else None
-
-    if new_from_radar:
-        logger.info("雷达贡献: %d 个新项目", len(new_from_radar))
-    return new_from_radar
-
 # ---------- 分类 ----------
 def classify_repos(repos: List[dict]) -> None:
     """给每个 repo 添加 'cat' 字段"""
@@ -454,20 +391,6 @@ def main() -> None:
         logger.info("🔁 从 checkpoint 恢复: %d 个新项目待处理", len(new_repos))
     else:
         new_repos = discover_new_repos()
-
-        # 雷达候选
-        existing_names = set()
-        if os.path.exists(MANIFEST_PATH):
-            try:
-                with open(MANIFEST_PATH, encoding="utf-8") as f:
-                    for r in json.load(f):
-                        existing_names.add(r["name"].lower())
-            except Exception:
-                pass
-
-        radar_repos = check_discovery_candidates(existing_names)
-        if radar_repos:
-            new_repos.extend(radar_repos)
 
         if not new_repos:
             logger.info("✅ 没有新项目")
