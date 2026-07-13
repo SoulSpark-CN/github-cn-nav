@@ -70148,6 +70148,35 @@
     "first_seen": "2026-06-16"
   },
   {
+    "id": 260907244,
+    "name": "yogeshojha/rengine",
+    "desc": "reNgine is an automated reconnaissance framework for web applications with a focus on highly configurable streamlined recon process via Engines, recon data correlation and organization, continuous monitoring, backed by a database, and simple yet intuitive User Interface. reNgine makes it easy for penetration testers to gather reconnaissance with minimal configuration and with the help of reNgine's correlation, it just makes recon effortless.",
+    "stars": 8736,
+    "url": "https://github.com/yogeshojha/rengine",
+    "lang": "HTML",
+    "topics": [
+      "bug-bounty",
+      "bugbounty",
+      "hacking",
+      "information-gathering",
+      "infosec",
+      "osint",
+      "penetration-testing",
+      "pentesting",
+      "recon",
+      "recon-engine",
+      "reconnaissance",
+      "rengine",
+      "scanner",
+      "scanner-web",
+      "scanning",
+      "security-tools"
+    ],
+    "created": "2020-05-03T12:13:12Z",
+    "updated": "2026-07-13T10:56:47Z",
+    "first_seen": "2026-07-13"
+  },
+  {
     "id": 1092277,
     "name": "douglascrockford/JSON-js",
     "desc": "JSON in JavaScript",
@@ -80117,6 +80146,18 @@
     "created": "2015-04-27T16:06:09Z",
     "updated": "2026-05-18T19:10:40Z",
     "first_seen": "2026-01-01"
+  },
+  {
+    "id": 1286080397,
+    "name": "JustVugg/colibri",
+    "desc": "Run GLM-5.2 (744B MoE) on a 25GB-RAM consumer machine — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦",
+    "stars": 8060,
+    "url": "https://github.com/JustVugg/colibri",
+    "lang": "C",
+    "topics": [],
+    "created": "2026-07-01T12:27:49Z",
+    "updated": "2026-07-13T11:19:48Z",
+    "first_seen": "2026-07-13"
   },
   {
     "id": 15652312,
@@ -100236,6 +100277,18 @@
     "first_seen": "2026-01-01"
   },
   {
+    "id": 168311609,
+    "name": "chillzhuang/SpringBlade",
+    "desc": "SpringBlade 是一个由商业级项目升级优化而来的微服务架构，采用Spring Boot 4 、Spring Cloud 2025、Java 21  等核心技术构建，完全遵循阿里巴巴编码规范。提供基于React和Vue的两个前端框架用于快速搭建企业级的SaaS多租户微服务平台。",
+    "stars": 6909,
+    "url": "https://github.com/chillzhuang/SpringBlade",
+    "lang": "Java",
+    "topics": [],
+    "created": "2019-01-30T09:02:04Z",
+    "updated": "2026-07-13T08:44:08Z",
+    "first_seen": "2026-07-13"
+  },
+  {
     "id": 93835782,
     "name": "veltman/flubber",
     "desc": "Tools for smoother shape animations.",
@@ -109619,6 +109672,39 @@
     "created": "2015-07-01T21:08:45Z",
     "updated": "2026-05-17T14:30:00Z",
     "first_seen": "2026-01-01"
+  },
+  {
+    "id": 261238984,
+    "name": "Abdess/retrobios",
+    "desc": "Complete BIOS and firmware packs for RetroArch, Batocera, Recalbox, Lakka, RetroPie, EmuDeck, RetroBat, RetroDECK, RomM. Verified checksums, 6700+ files, 300+ emulators profiled from source code.",
+    "stars": 6468,
+    "url": "https://github.com/Abdess/retrobios",
+    "lang": "Python",
+    "topics": [
+      "batocera",
+      "bios",
+      "emudeck",
+      "emulator",
+      "emulatorjs",
+      "firmware",
+      "lakka",
+      "libretro",
+      "mame",
+      "nintendo",
+      "playstation",
+      "preservation",
+      "recalbox",
+      "retroarch",
+      "retrobat",
+      "retrodeck",
+      "retrogaming",
+      "retropie",
+      "romm",
+      "sega"
+    ],
+    "created": "2020-05-04T16:33:06Z",
+    "updated": "2026-07-13T10:39:34Z",
+    "first_seen": "2026-07-13"
   },
   {
     "id": 75675698,
@@ -120099,6 +120185,33 @@
     "first_seen": "2026-01-01"
   },
   {
+    "id": 737561375,
+    "name": "KalyanM45/AI-Project-Gallery",
+    "desc": "This Repository Contain All the Artificial Intelligence Projects such as Machine Learning, Deep Learning and Generative AI that I have done while understanding Advanced Techniques & Concepts.",
+    "stars": 6046,
+    "url": "https://github.com/KalyanM45/AI-Project-Gallery",
+    "lang": "-",
+    "topics": [
+      "ai-projects",
+      "artificial-intelligence-projects",
+      "computer-vision-projects",
+      "data-science-projects",
+      "deep-learning-projects",
+      "generative-ai-projects",
+      "llm-project",
+      "llm-projects",
+      "machine-learning-projects",
+      "machine-learning-projects-beginners",
+      "machinelearningprojects",
+      "ml-projects",
+      "nlp-projects",
+      "power-bi-projects"
+    ],
+    "created": "2023-12-31T14:26:51Z",
+    "updated": "2026-07-13T09:54:10Z",
+    "first_seen": "2026-07-13"
+  },
+  {
     "id": 174529025,
     "name": "glacambre/firenvim",
     "desc": "Embed Neovim in Chrome, Firefox & others.",
@@ -125285,6 +125398,18 @@
     "first_seen": "2026-01-01"
   },
   {
+    "id": 66954973,
+    "name": "OWASP/Top10",
+    "desc": "Official OWASP Top 10 Document Repository",
+    "stars": 5865,
+    "url": "https://github.com/OWASP/Top10",
+    "lang": "HTML",
+    "topics": [],
+    "created": "2016-08-30T15:46:11Z",
+    "updated": "2026-07-13T07:40:38Z",
+    "first_seen": "2026-07-13"
+  },
+  {
     "id": 4473517,
     "name": "Countly/countly-server",
     "desc": "Countly is a privacy-first, AI-powered analytics and engagement platform for understanding and optimizing customer journeys across digital applications, from desktop and mobile to IoT and connected environments.",
@@ -126795,6 +126920,18 @@
     "created": "2010-05-20T17:01:56Z",
     "updated": "2026-05-07T16:26:41Z",
     "first_seen": "2026-01-01"
+  },
+  {
+    "id": 1094841344,
+    "name": "ByteDance-Seed/Depth-Anything-3",
+    "desc": "Depth Anything 3",
+    "stars": 5812,
+    "url": "https://github.com/ByteDance-Seed/Depth-Anything-3",
+    "lang": "Python",
+    "topics": [],
+    "created": "2025-11-12T08:44:03Z",
+    "updated": "2026-07-13T10:17:07Z",
+    "first_seen": "2026-07-13"
   },
   {
     "id": 489681062,
@@ -156126,6 +156263,25 @@
     "first_seen": "2026-07-10"
   },
   {
+    "id": 889784913,
+    "name": "xtool-org/xtool",
+    "desc": "Cross-platform Xcode replacement. Build and deploy iOS apps with SwiftPM on Linux, Windows, macOS.",
+    "stars": 5027,
+    "url": "https://github.com/xtool-org/xtool",
+    "lang": "Swift",
+    "topics": [
+      "ios",
+      "linux",
+      "swift",
+      "swift-package-manager",
+      "windows",
+      "xcode"
+    ],
+    "created": "2024-11-17T08:18:44Z",
+    "updated": "2026-07-13T07:49:04Z",
+    "first_seen": "2026-07-13"
+  },
+  {
     "id": 951115072,
     "name": "maximhq/bifrost",
     "desc": "Fastest enterprise AI gateway (50x faster than LiteLLM) with adaptive load balancer, cluster mode, guardrails, 1000+ models support & <100 µs overhead at 5k RPS.",
@@ -156412,6 +156568,39 @@
     "created": "2024-04-15T15:04:41Z",
     "updated": "2026-06-27T04:03:03Z",
     "first_seen": "2026-06-27"
+  },
+  {
+    "id": 1117891044,
+    "name": "TableProApp/TablePro",
+    "desc": "Free and open source database client built natively for developers",
+    "stars": 5024,
+    "url": "https://github.com/TableProApp/TablePro",
+    "lang": "Swift",
+    "topics": [
+      "appkit",
+      "database",
+      "database-client",
+      "database-gui",
+      "database-management",
+      "macos",
+      "macos-app",
+      "mongodb",
+      "mssql",
+      "mysql",
+      "mysql-client",
+      "native",
+      "postgresql",
+      "redis",
+      "sql",
+      "sql-editor",
+      "sqlite",
+      "swift",
+      "swiftui",
+      "tableplus"
+    ],
+    "created": "2025-12-17T01:01:38Z",
+    "updated": "2026-07-13T11:14:17Z",
+    "first_seen": "2026-07-13"
   },
   {
     "id": 53553027,
@@ -157119,6 +157308,18 @@
     "first_seen": "2026-07-03"
   },
   {
+    "id": 1046496211,
+    "name": "HapeLee/legado-with-MD3",
+    "desc": "使用 Material Design 3 全新设计的阅读 3.0",
+    "stars": 5013,
+    "url": "https://github.com/HapeLee/legado-with-MD3",
+    "lang": "Kotlin",
+    "topics": [],
+    "created": "2025-08-28T19:16:22Z",
+    "updated": "2026-07-13T11:10:55Z",
+    "first_seen": "2026-07-13"
+  },
+  {
     "id": 382378702,
     "name": "web-infra-dev/modern.js",
     "desc": "A progressive web framework based on React and Rsbuild.",
@@ -157351,6 +157552,26 @@
     "created": "2025-03-06T13:04:32Z",
     "updated": "2026-06-17T12:05:44Z",
     "first_seen": "2026-06-17"
+  },
+  {
+    "id": 258636766,
+    "name": "zigtools/zls",
+    "desc": "A language server for Zig supporting developers with features like autocomplete and goto definition",
+    "stars": 5011,
+    "url": "https://github.com/zigtools/zls",
+    "lang": "Zig",
+    "topics": [
+      "language-server",
+      "language-server-protocol",
+      "lsp",
+      "lsp-server",
+      "zig",
+      "ziglang",
+      "zls"
+    ],
+    "created": "2020-04-24T22:19:50Z",
+    "updated": "2026-07-13T10:16:54Z",
+    "first_seen": "2026-07-13"
   },
   {
     "id": 568797613,
