@@ -1,0 +1,19 @@
+{
+  "data": [
+    {
+      "rank": 1,
+      "repo": "example/hello-world",
+      "stars": 8500,
+      "surge_10d": 1200,
+      "lang": "TypeScript",
+      "desc": "示例项目",
+      "one_liner": "这是一个演示项目，真实数据明天自动更新",
+      "plain": "每天 UTC 8:00，GitHub Actions 会自动从 GH Archive 下载数据，统计最近10天涨星最多的项目，生成真实的排行榜。",
+      "audience": "关注技术趋势的开发者",
+      "url": "https://github.com"
+    }
+  ],
+  "updated": "2026-07-14T08:00:00Z",
+  "days": 10,
+  "_note": "真实数据由 GitHub Actions 自动生成"
+}
