@@ -1,0 +1,46 @@
+name: 站点新鲜度检查
+
+on:
+  schedule:
+    # 每天北京 9:00（UTC 01:00），原 hermes cron 5e5b68436c5a「github中文导航站-报警」迁移
+    - cron: '0 1 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  freshness-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检查线上数据新鲜度
+        run: |
+          python3 - <<'EOF'
+          import json, urllib.request, datetime, sys
+          url = 'https://soulspark-cn.github.io/github-cn-nav/surge_rising_top100.json'
+          try:
+              with urllib.request.urlopen(url, timeout=30) as r:
+                  d = json.load(r)
+          except Exception as e:
+              print(f'❌ 站点数据不可达: {e}')
+              sys.exit(1)
+          items = d if isinstance(d, list) else d.get('items', d.get('data', []))
+          n = len(items) if isinstance(items, list) else 0
+          if n <= 1:
+              print(f'❌ 数据异常: 仅 {n} 条（疑似占位数据）')
+              sys.exit(1)
+          updated = d.get('updated', '') if isinstance(d, dict) else ''
+          stale = False
+          if updated:
+              try:
+                  t = datetime.datetime.fromisoformat(updated.replace('Z', '+00:00'))
+                  age = datetime.datetime.now(datetime.timezone.utc) - t
+                  if age.days > 2:
+                      stale = True
+                      print(f'❌ 数据过旧: updated={updated}（{age.days} 天前，CI 可能挂）')
+              except Exception:
+                  print(f'⚠️ updated 字段无法解析: {updated!r}')
+          if stale:
+              sys.exit(1)
+          print(f'✅ 正常: {n} 条, updated={updated}')
+          EOF
