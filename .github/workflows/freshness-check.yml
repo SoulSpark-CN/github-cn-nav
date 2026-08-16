@@ -44,3 +44,9 @@ jobs:
               sys.exit(1)
           print(f'✅ 正常: {n} 条, updated={updated}')
           EOF
+      - name: 失败通知（PushPlus 微信推送）
+        if: failure()
+        run: |
+          curl -s -X POST http://www.pushplus.plus/send \
+            -H "Content-Type: application/json" \
+            -d '{"token":"${{ secrets.PUSHPLUS_TOKEN }}","title":"GitHub Action 失败: ${{ github.workflow }}","content":"${{ github.workflow }} 运行失败（导航站数据可能停更），详见 https://github.com/${{ github.repository }}/actions","template":"html"}'
