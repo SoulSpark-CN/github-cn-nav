@@ -2,7 +2,8 @@ name: Daily Rise
 
 on:
   schedule:
-    - cron: '0 8 * * *'
+    # 每天北京 22:00（UTC 14:00，DeepSeek 空闲半价时段；原 0 8 UTC=北京16:00 高峰，2026-08-21 挪）
+    - cron: '0 14 * * *'
   workflow_dispatch:
 
 permissions:

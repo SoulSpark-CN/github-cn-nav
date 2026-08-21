@@ -2,8 +2,8 @@ name: 站点新鲜度检查
 
 on:
   schedule:
-    # 每天北京 9:00（UTC 01:00），原 hermes cron 5e5b68436c5a「github中文导航站-报警」迁移
-    - cron: '0 1 * * *'
+    # 每天北京 22:30（UTC 14:30，DeepSeek 空闲半价时段；原北京9:00 高峰，2026-08-21 挪）
+    - cron: '30 14 * * *'
   workflow_dispatch:
 
 permissions:
