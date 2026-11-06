@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>新势力崛起 · GitHub 10日涨星榜</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#0f172a;color:#e2e8f0;padding:24px;max-width:900px;margin:0 auto;font-size:16px}
+.header{text-align:center;padding:40px 0 24px;border-bottom:1px solid #1e293b;margin-bottom:32px}
+.header h1{font-size:28px;background:linear-gradient(135deg,#a855f7,#60a5fa);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.header p{color:#64748b;margin-top:6px;font-size:14px}
+.item{display:flex;align-items:flex-start;gap:14px;padding:16px 0;border-bottom:1px solid #1e293b;transition:.15s}
+.item:hover{background:rgba(168,85,247,.05);margin:0 -12px;padding:16px 12px;border-radius:6px}
+.rank{color:#64748b;font-size:18px;min-width:36px;text-align:right;font-weight:700;line-height:1.4}
+.info{flex:1;min-width:0}
+.name{font-weight:600;color:#60a5fa;text-decoration:none;font-size:17px}
+.name:hover{text-decoration:underline}
+.desc{color:#94a3b8;font-size:14px;margin-top:3px}
+.plain{color:#cbd5e1;font-size:14px;margin-top:4px;line-height:1.5}
+.meta{display:flex;gap:16px;margin-top:6px;font-size:13px;color:#64748b;align-items:center;flex-wrap:wrap}
+.meta .stars{color:#f59e0b;font-weight:600}
+.meta .surge{color:#22c55e;font-weight:700}
+.meta .lang{color:#64748b}
+.aud{color:#8b5cf6;font-size:13px}
+.footer{text-align:center;padding:32px;color:#475569;font-size:13px}
+.loading{text-align:center;padding:60px;color:#64748b}
+.error{text-align:center;padding:60px;color:#ef4444;cursor:pointer}
+.error:hover{text-decoration:underline}
+@media(max-width:600px){.rank{font-size:15px;min-width:26px}.name{font-size:15px}.meta{gap:8px}}
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>🚀 新势力崛起</h1>
+  <p>GitHub 1000-30000 星项目 · 近10日涨星 Top 100 · 每日自动更新</p>
+</div>
+<div class="loading" id="loading">加载中...</div>
+<script>
+async function load() {
+  try {
+    const resp = await fetch('surge_rising_top100.json');
+    if (!resp.ok) throw new Error('HTTP ' + resp.status);
+    const raw = await resp.json();
+    const data = Array.isArray(raw) ? raw : (raw.data || []);
+    if (!data.length) throw new Error('无数据');
+
+    const html = data.map((r, i) => {
+      const stars = r.stars >= 1000 ? (r.stars/1000).toFixed(1)+'k' : r.stars;
+      const surge = r.surge_10d || 0;
+      const name = esc(r.repo);
+      const url = esc(r.url || 'https://github.com/'+r.repo);
+      const oneliner = esc(r.one_liner || '');
+      const plain = esc(r.plain || '');
+      const audience = esc(r.audience || '');
+      const lang = esc(r.lang || '-');
+
+      return `<div class="item">
+        <div class="rank">${i+1}</div>
+        <div class="info">
+          <a class="name" href="${url}" target="_blank">${name}</a>
+          ${oneliner ? `<div class="desc">${oneliner}</div>` : ''}
+          ${plain ? `<div class="plain">${plain}</div>` : ''}
+          ${audience ? `<div class="aud">👤 ${audience}</div>` : ''}
+          <div class="meta">
+            <span class="stars">⭐ ${stars}</span>
+            <span class="surge">↑${surge} 近10日</span>
+            ${lang !== '-' ? `<span class="lang">${lang}</span>` : ''}
+          </div>
+        </div>
+      </div>`;
+    }).join('');
+
+    const updated = raw.updated ? new Date(raw.updated).toLocaleString('zh-CN') : '';
+    document.getElementById('loading').outerHTML =
+      html + `<div class="footer">更新于 ${updated} · 数据来源 GH Archive · 每日 UTC 8:00 自动刷新</div>`;
+  } catch (e) {
+    document.getElementById('loading').outerHTML =
+      `<div class="error" onclick="location.reload()">加载失败: ${e.message}<br><small>点击重试</small></div>`;
+  }
+}
+function esc(s) {
+  if (!s) return '';
+  const d = document.createElement('div');
+  d.textContent = String(s);
+  return d.innerHTML;
+}
+load();
+</script>
+</body>
+</html>
